@@ -1,0 +1,915 @@
+on	atis_flight
+april	atis_flight
+first	atis_flight
+i	atis_flight
+need	atis_flight
+a	atis_flight
+flight	atis_flight
+going	atis_flight
+from	atis_flight
+phoenix	atis_flight
+to	atis_flight
+san	atis_flight
+diego	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+does	atis_flight
+tacoma	atis_flight
+airport	atis_flight
+offer	atis_flight
+transportation	atis_flight
+from	atis_flight
+the	atis_flight
+airport	atis_flight
+to	atis_flight
+the	atis_flight
+downtown	atis_flight
+area	atis_flight
+atis_day_name	atis_flight
+
+what	atis_flight
+day	atis_flight
+of	atis_flight
+the	atis_flight
+week	atis_flight
+do	atis_flight
+flights	atis_flight
+from	atis_flight
+nashville	atis_flight
+to	atis_flight
+tacoma	atis_flight
+fly	atis_flight
+on	atis_flight
+atis_day_name	atis_flight
+
+i	atis_flight
+need	atis_flight
+a	atis_flight
+flight	atis_flight
+from	atis_flight
+ontario	atis_flight
+to	atis_flight
+memphis	atis_flight
+atis_meal	atis_flight
+
+which	atis_flight
+flights	atis_flight
+leave	atis_flight
+detroit	atis_flight
+and	atis_flight
+arrive	atis_flight
+at	atis_flight
+st.	atis_flight
+petersburg	atis_flight
+around	atis_flight
+9	atis_flight
+am	atis_flight
+atis_meal	atis_flight
+
+please	atis_ground_service
+find	atis_ground_service
+a	atis_ground_service
+flight	atis_ground_service
+from	atis_ground_service
+kansas	atis_ground_service
+city	atis_ground_service
+to	atis_ground_service
+newark	atis_ground_service
+atis_airport	atis_ground_service
+
+what	atis_airfare
+is	atis_airfare
+the	atis_airfare
+earliest	atis_airfare
+flight	atis_airfare
+between	atis_airfare
+baltimore	atis_airfare
+and	atis_airfare
+oakland	atis_airfare
+that	atis_airfare
+serves	atis_airfare
+atis_city	atis_airfare
+
+what's	atis_ground_service
+the	atis_ground_service
+ground	atis_ground_service
+transportation	atis_ground_service
+in	atis_ground_service
+westchester	atis_ground_service
+county	atis_ground_service
+atis_ground_fare	atis_ground_service
+
+i	atis_airfare
+need	atis_airfare
+to	atis_airfare
+take	atis_airfare
+a	atis_airfare
+united	atis_airfare
+airlines	atis_airfare
+flight	atis_airfare
+atis_ground_fare	atis_airfare
+
+show	atis_aircraft
+me	atis_aircraft
+the	atis_aircraft
+cheapest	atis_aircraft
+round	atis_aircraft
+trip	atis_aircraft
+coach	atis_aircraft
+atis_airport	atis_aircraft
+
+what	atis_flight
+meals	atis_flight
+are	atis_flight
+available	atis_flight
+on	atis_flight
+dl	atis_flight
+468	atis_flight
+which	atis_flight
+al	atis_flight
+arrives	atis_flight
+in	atis_flight
+san	atis_flight
+francisco	atis_flight
+at	atis_flight
+950	atis_flight
+am	atis_flight
+atis_meal	atis_flight
+
+how	atis_flight
+far	atis_flight
+is	atis_flight
+san	atis_flight
+francisco	atis_flight
+international	atis_flight
+from	atis_flight
+downtown	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+how	atis_flight
+much	atis_flight
+is	atis_flight
+the	atis_flight
+limousine	atis_flight
+service	atis_flight
+in	atis_flight
+boston	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+what	atis_ground_service
+are	atis_ground_service
+the	atis_ground_service
+fares	atis_ground_service
+for	atis_ground_service
+all	atis_ground_service
+flights	atis_ground_service
+between	atis_ground_service
+washington	atis_ground_service
+atis_ground_fare	atis_ground_service
+
+at	atis_ground_service
+the	atis_ground_service
+charlotte	atis_ground_service
+airport	atis_ground_service
+how	atis_ground_service
+many	atis_ground_service
+different	atis_ground_service
+types	atis_ground_service
+of	atis_ground_service
+atis_ground_fare	atis_ground_service
+
+list	atis_flight
+all	atis_flight
+flights	atis_flight
+from	atis_flight
+cleveland	atis_flight
+to	atis_flight
+nashville	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+list	atis_quantity
+all	atis_quantity
+sunday	atis_quantity
+flights	atis_quantity
+from	atis_quantity
+cleveland	atis_quantity
+to	atis_quantity
+nashville	atis_quantity
+and	atis_quantity
+their	atis_quantity
+fares	atis_quantity
+atis_distance	atis_quantity
+
+what	atis_flight
+airlines	atis_flight
+are	atis_flight
+departing	atis_flight
+from	atis_flight
+baltimore	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+philadelphia	atis_ground_service
+to	atis_ground_service
+atlanta	atis_ground_service
+friday	atis_ground_service
+am	atis_ground_service
+atis_distance	atis_ground_service
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+atlanta	atis_ground_service
+to	atis_ground_service
+toronto	atis_ground_service
+friday	atis_ground_service
+afternoon	atis_ground_service
+atis_distance	atis_ground_service
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+washington	atis_ground_service
+dc	atis_ground_service
+to	atis_ground_service
+philadelphia	atis_ground_service
+saturday	atis_ground_service
+pm	atis_ground_service
+atis_distance	atis_ground_service
+
+list	atis_airfare
+direct	atis_airfare
+flights	atis_airfare
+from	atis_airfare
+new	atis_airfare
+york	atis_airfare
+city	atis_airfare
+to	atis_airfare
+los	atis_airfare
+angeles	atis_airfare
+after	atis_airfare
+10	atis_airfare
+atis_airfare#atis_flight	atis_airfare
+
+list	atis_flight
+the	atis_flight
+distance	atis_flight
+in	atis_flight
+miles	atis_flight
+from	atis_flight
+boston	atis_flight
+airport	atis_flight
+to	atis_flight
+downtown	atis_flight
+boston	atis_flight
+atis_distance	atis_flight
+
+list	atis_airport
+american	atis_airport
+airlines	atis_airport
+flights	atis_airport
+from	atis_airport
+houston	atis_airport
+to	atis_airport
+milwaukee	atis_airport
+atis_ground_fare	atis_airport
+
+list	atis_abbreviation
+us	atis_abbreviation
+air	atis_abbreviation
+flights	atis_abbreviation
+leaving	atis_abbreviation
+saturday	atis_abbreviation
+from	atis_abbreviation
+charlotte	atis_abbreviation
+atis_capacity	atis_abbreviation
+
+list	atis_aircraft
+us	atis_aircraft
+air	atis_aircraft
+flights	atis_aircraft
+leaving	atis_aircraft
+saturday	atis_aircraft
+from	atis_aircraft
+charlotte	atis_aircraft
+atis_capacity	atis_aircraft
+
+i	atis_airfare
+would	atis_airfare
+like	atis_airfare
+flights	atis_airfare
+from	atis_airfare
+san	atis_airfare
+diego	atis_airfare
+to	atis_airfare
+las	atis_airfare
+vegas	atis_airfare
+atis_flight	atis_airfare
+
+what	atis_flight
+does	atis_flight
+fare	atis_flight
+code	atis_flight
+bn	atis_flight
+mean	atis_flight
+atis_airline	atis_flight
+
+show	atis_airfare
+me	atis_airfare
+the	atis_airfare
+cheapest	atis_airfare
+round	atis_airfare
+trip	atis_airfare
+fares	atis_airfare
+from	atis_airfare
+san	atis_airfare
+francisco	atis_airfare
+to	atis_airfare
+houston	atis_airfare
+atis_flight	atis_airfare
+
+show	atis_abbreviation
+me	atis_abbreviation
+flights	atis_abbreviation
+from	atis_abbreviation
+atis_airline	atis_abbreviation
+
+i'd	atis_flight
+like	atis_flight
+a	atis_flight
+flight	atis_flight
+from	atis_flight
+new	atis_flight
+york	atis_flight
+to	atis_flight
+los	atis_flight
+angeles	atis_flight
+on	atis_flight
+saturday	atis_flight
+morning	atis_flight
+on	atis_flight
+us	atis_flight
+atis_meal	atis_flight
+
+what	atis_abbreviation
+airline	atis_abbreviation
+is	atis_abbreviation
+dl	atis_abbreviation
+atis_airline	atis_abbreviation
+
+what	atis_aircraft
+are	atis_aircraft
+the	atis_aircraft
+flights	atis_aircraft
+between	atis_aircraft
+milwaukee	atis_aircraft
+and	atis_aircraft
+pittsburgh	atis_aircraft
+atis_capacity	atis_aircraft
+
+what	atis_aircraft
+ground	atis_aircraft
+transportation	atis_aircraft
+is	atis_aircraft
+available	atis_aircraft
+between	atis_aircraft
+milwaukee	atis_aircraft
+airport	atis_aircraft
+atis_capacity	atis_aircraft
+
+determine	atis_quantity
+the	atis_quantity
+type	atis_quantity
+of	atis_quantity
+aircraft	atis_quantity
+used	atis_quantity
+on	atis_quantity
+a	atis_quantity
+atis_capacity	atis_quantity
+
+i	atis_flight
+would	atis_flight
+like	atis_flight
+to	atis_flight
+fly	atis_flight
+from	atis_flight
+san	atis_flight
+diego	atis_flight
+to	atis_flight
+seattle	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+i	atis_flight
+would	atis_flight
+like	atis_flight
+to	atis_flight
+fly	atis_flight
+from	atis_flight
+orlando	atis_flight
+to	atis_flight
+kansas	atis_flight
+city	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+i	atis_flight
+need	atis_flight
+a	atis_flight
+flight	atis_flight
+from	atis_flight
+washington	atis_flight
+dc	atis_flight
+to	atis_flight
+san	atis_flight
+diego	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+get	atis_flight
+flight	atis_flight
+from	atis_flight
+toronto	atis_flight
+to	atis_flight
+san	atis_flight
+diego	atis_flight
+stopping	atis_flight
+at	atis_flight
+dtw	atis_flight
+atis_flight#atis_airline	atis_flight
+
+i	atis_flight
+need	atis_flight
+a	atis_flight
+flight	atis_flight
+from	atis_flight
+oakland	atis_flight
+to	atis_flight
+salt	atis_flight
+lake	atis_flight
+city	atis_flight
+on	atis_flight
+wednesday	atis_flight
+departing	atis_flight
+after	atis_flight
+6	atis_flight
+pm	atis_flight
+atis_flight_no#atis_airline	atis_flight
+
+i	atis_flight
+need	atis_flight
+flight	atis_flight
+and	atis_flight
+fare	atis_flight
+information	atis_flight
+for	atis_flight
+thursday	atis_flight
+departing	atis_flight
+prior	atis_flight
+to	atis_flight
+9	atis_flight
+am	atis_flight
+from	atis_flight
+oakland	atis_flight
+going	atis_flight
+to	atis_flight
+salt	atis_flight
+lake	atis_flight
+city	atis_flight
+atis_flight_no	atis_flight
+
+i	atis_flight
+need	atis_flight
+flight	atis_flight
+and	atis_flight
+fare	atis_flight
+information	atis_flight
+departing	atis_flight
+from	atis_flight
+oakland	atis_flight
+to	atis_flight
+salt	atis_flight
+lake	atis_flight
+city	atis_flight
+on	atis_flight
+thursday	atis_flight
+before	atis_flight
+8	atis_flight
+am	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+i	atis_flight
+need	atis_flight
+flight	atis_flight
+numbers	atis_flight
+and	atis_flight
+airlines	atis_flight
+for	atis_flight
+flights	atis_flight
+departing	atis_flight
+from	atis_flight
+oakland	atis_flight
+to	atis_flight
+salt	atis_flight
+lake	atis_flight
+city	atis_flight
+on	atis_flight
+thursday	atis_flight
+departing	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+las	atis_ground_service
+vegas	atis_ground_service
+to	atis_ground_service
+phoenix	atis_ground_service
+atis_airport	atis_ground_service
+
+list	atis_abbreviation
+airports	atis_abbreviation
+atis_airport	atis_abbreviation
+
+list	atis_abbreviation
+flights	atis_abbreviation
+from	atis_abbreviation
+atis_airport	atis_abbreviation
+
+which	atis_abbreviation
+airlines	atis_abbreviation
+fly	atis_abbreviation
+atis_airport	atis_abbreviation
+
+please	atis_abbreviation
+list	atis_abbreviation
+atis_airport	atis_abbreviation
+
+show	atis_flight
+me	atis_flight
+flights	atis_flight
+from	atis_flight
+milwaukee	atis_flight
+to	atis_flight
+orlando	atis_flight
+one	atis_flight
+way	atis_flight
+atis_flight_no	atis_flight
+
+show	atis_abbreviation
+me	atis_abbreviation
+all	atis_abbreviation
+delta	atis_abbreviation
+atis_airline	atis_abbreviation
+
+show	atis_airfare
+me	atis_airfare
+one	atis_airfare
+way	atis_airfare
+flights	atis_airfare
+from	atis_airfare
+indianapolis	atis_airfare
+to	atis_airfare
+memphis	atis_airfare
+before	atis_airfare
+10	atis_airfare
+am	atis_airfare
+atis_flight#atis_airfare	atis_airfare
+
+list	atis_flight
+flights	atis_flight
+from	atis_flight
+chicago	atis_flight
+to	atis_flight
+san	atis_flight
+diego	atis_flight
+atis_distance	atis_flight
+
+list	atis_ground_service
+distance	atis_ground_service
+from	atis_ground_service
+airports	atis_ground_service
+to	atis_ground_service
+atis_airport	atis_ground_service
+
+list	atis_ground_service
+airports	atis_ground_service
+in	atis_ground_service
+new	atis_ground_service
+york	atis_ground_service
+atis_airport	atis_ground_service
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+ontario	atis_ground_service
+atis_airport	atis_ground_service
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+ontario	atis_ground_service
+atis_airport	atis_ground_service
+
+list	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+indianapolis	atis_ground_service
+atis_airport	atis_ground_service
+
+list	atis_flight
+flights	atis_flight
+atis_city	atis_flight
+
+list	atis_flight
+flights	atis_flight
+atis_city	atis_flight
+
+list	atis_abbreviation
+flights	atis_abbreviation
+atis_airport	atis_abbreviation
+
+list	atis_flight
+flights	atis_flight
+from	atis_flight
+charlotte	atis_flight
+on	atis_flight
+saturday	atis_flight
+afternoon	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+what	atis_flight
+class	atis_flight
+is	atis_flight
+fare	atis_flight
+code	atis_flight
+q	atis_flight
+atis_capacity	atis_flight
+
+list	atis_flight
+flights	atis_flight
+from	atis_flight
+orlando	atis_flight
+to	atis_flight
+tacoma	atis_flight
+on	atis_flight
+saturday	atis_flight
+of	atis_flight
+fare	atis_flight
+basis	atis_flight
+code	atis_flight
+atis_airfare	atis_flight
+
+list	atis_flight#atis_airfare
+ground	atis_flight#atis_airfare
+transportation	atis_flight#atis_airfare
+in	atis_flight#atis_airfare
+baltimore	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+saturday	atis_flight
+flight	atis_flight
+on	atis_flight
+american	atis_flight
+airlines	atis_flight
+from	atis_flight
+milwaukee	atis_flight
+to	atis_flight
+phoenix	atis_flight
+atis_flight_no	atis_flight
+
+flight	atis_flight
+numbers	atis_flight
+from	atis_flight
+chicago	atis_flight
+to	atis_flight
+seattle	atis_flight
+atis_flight_no	atis_flight
+
+flight	atis_flight
+numbers	atis_flight
+from	atis_flight
+chicago	atis_flight
+to	atis_flight
+seattle	atis_flight
+on	atis_flight
+continental	atis_flight
+atis_flight_no	atis_flight
+
+how	atis_flight
+much	atis_flight
+is	atis_flight
+coach	atis_flight
+flight	atis_flight
+from	atis_flight
+atis_flight_no	atis_flight
+
+newark	atis_flight
+to	atis_flight
+tampa	atis_flight
+on	atis_flight
+friday	atis_flight
+atis_flight_no	atis_flight
+
+tampa	atis_flight
+to	atis_flight
+charlotte	atis_flight
+sunday	atis_flight
+morning	atis_flight
+atis_flight_no	atis_flight
+
+list	atis_quantity
+the	atis_quantity
+cities	atis_quantity
+from	atis_quantity
+which	atis_quantity
+northwest	atis_quantity
+flies	atis_quantity
+atis_flight	atis_quantity
+
+i	atis_aircraft
+would	atis_aircraft
+like	atis_aircraft
+a	atis_aircraft
+connecting	atis_aircraft
+flight	atis_aircraft
+from	atis_aircraft
+atis_city	atis_aircraft
+
+tell	atis_quantity
+me	atis_quantity
+again	atis_quantity
+the	atis_quantity
+morning	atis_quantity
+flights	atis_quantity
+on	atis_quantity
+atis_flight	atis_quantity
+
+tell	atis_quantity
+me	atis_quantity
+the	atis_quantity
+flights	atis_quantity
+that	atis_quantity
+leave	atis_quantity
+philadelphia	atis_quantity
+atis_flight	atis_quantity
+
+what	atis_aircraft
+is	atis_aircraft
+a	atis_aircraft
+d9s	atis_aircraft
+atis_city	atis_aircraft
+
+what	atis_flight
+is	atis_flight
+the	atis_flight
+earliest	atis_flight
+arriving	atis_flight
+flight	atis_flight
+from	atis_flight
+atis_meal	atis_flight
+
+what	atis_flight
+is	atis_flight
+the	atis_flight
+earliest	atis_flight
+arriving	atis_flight
+flight	atis_flight
+atis_meal	atis_flight
+
+what's	atis_aircraft
+the	atis_aircraft
+earliest	atis_aircraft
+arriving	atis_aircraft
+flight	atis_aircraft
+between	atis_aircraft
+boston	atis_aircraft
+and	atis_aircraft
+washington	atis_aircraft
+dc	atis_aircraft
+atis_capacity	atis_aircraft
+
+list	atis_aircraft
+all	atis_aircraft
+flights	atis_aircraft
+leaving	atis_aircraft
+denver	atis_aircraft
+between	atis_aircraft
+8	atis_aircraft
+pm	atis_aircraft
+and	atis_aircraft
+atis_capacity	atis_aircraft
+
+what	atis_aircraft
+is	atis_aircraft
+the	atis_aircraft
+seating	atis_aircraft
+capacity	atis_aircraft
+on	atis_aircraft
+the	atis_aircraft
+aircraft	atis_aircraft
+733	atis_aircraft
+atis_capacity	atis_aircraft
+
+what	atis_aircraft
+is	atis_aircraft
+the	atis_aircraft
+seating	atis_aircraft
+capacity	atis_aircraft
+of	atis_aircraft
+a	atis_aircraft
+72s	atis_aircraft
+atis_capacity	atis_aircraft
+
+what	atis_aircraft
+is	atis_aircraft
+the	atis_aircraft
+seating	atis_aircraft
+capacity	atis_aircraft
+of	atis_aircraft
+the	atis_aircraft
+aircraft	atis_aircraft
+atis_capacity	atis_aircraft
+
+list	atis_quantity
+all	atis_quantity
+of	atis_quantity
+the	atis_quantity
+daily	atis_quantity
+flights	atis_quantity
+arriving	atis_quantity
+in	atis_quantity
+atis_capacity	atis_quantity
+
+show	atis_aircraft
+me	atis_aircraft
+all	atis_aircraft
+of	atis_aircraft
+the	atis_aircraft
+daily	atis_aircraft
+flights	atis_city
+arriving	atis_city
+atis_capacity	atis_aircraft
+
+what	atis_aircraft
+is	atis_aircraft
+the	atis_aircraft
+seating	atis_aircraft
+capacity	atis_aircraft
+of	atis_aircraft
+the	atis_aircraft
+757	atis_aircraft
+atis_capacity	atis_aircraft
+
+tell	atis_quantity
+me	atis_quantity
+about	atis_quantity
+the	atis_quantity
+m80	atis_quantity
+aircraft	atis_quantity
+atis_capacity	atis_quantity
+
+give	atis_aircraft
+me	atis_aircraft
+the	atis_aircraft
+flights	atis_aircraft
+from	atis_aircraft
+new	atis_aircraft
+york	atis_aircraft
+city	atis_aircraft
+to	atis_aircraft
+atis_capacity	atis_aircraft
+
+list	atis_quantity
+the	atis_quantity
+cheapest	atis_quantity
+fare	atis_quantity
+from	atis_quantity
+charlotte	atis_quantity
+to	atis_quantity
+las	atis_quantity
+vegas	atis_quantity
+atis_flight	atis_quantity
+
+please	atis_ground_service
+find	atis_ground_service
+all	atis_ground_service
+the	atis_ground_service
+flights	atis_ground_service
+from	atis_ground_service
+cincinnati	atis_ground_service
+to	atis_ground_service
+any	atis_ground_service
+airport	atis_ground_service
+in	atis_ground_service
+atis_airport	atis_ground_service
+
+find	atis_abbreviation
+me	atis_abbreviation
+a	atis_abbreviation
+flight	atis_abbreviation
+that	atis_abbreviation
+flies	atis_abbreviation
+from	atis_abbreviation
+memphis	atis_abbreviation
+atis_airport	atis_abbreviation
+
