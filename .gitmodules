@@ -1,6 +1,0 @@
-[submodule "StackPropagation-SLU"]
-	path = StackPropagation-SLU
-	url = https://github.com/LeePleased/StackPropagation-SLU.git
-[submodule "preprocessing/raw_data/nlu-benchmark"]
-	path = preprocessing/raw_data/nlu-benchmark
-	url = https://github.com/snipsco/nlu-benchmark.git
