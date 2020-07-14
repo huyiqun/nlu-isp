@@ -1,0 +1,12 @@
+weather/checkSunrise
+weather/checkSunset
+alarm/cancel_alarm
+weather/find
+reminder/cancel_reminder
+alarm/time_left_on_alarm
+alarm/modify_alarm
+alarm/snooze_alarm
+reminder/show_reminders
+alarm/set_alarm
+reminder/set_reminder
+alarm/show_alarms

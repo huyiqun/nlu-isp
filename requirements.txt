@@ -1,0 +1,12 @@
+numpy
+scipy
+torch
+pandas
+scikit-learn
+matplotlib
+coloredlog
+tabulate
+tqdm
+torchviz
+wandb
+
