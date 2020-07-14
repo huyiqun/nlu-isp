@@ -99,6 +99,8 @@ if __name__ == "__main__":
         os.path.join(args.save_dir, "model/dataset.pkl"),
         args.batch_size)) + " at test dataset;\n")
     torch.save(dataset, os.path.join(args.save_dir, "model/dataset.pkl"))
+    model = torch.load("./StackPropagation-SLU/data/atis/save/model/model.pkl")
+    dataset = torch.load("./StackPropagation-SLU/data/atis/save/model/dataset.pkl")
 
     class IncTestOutcome(object):
     
