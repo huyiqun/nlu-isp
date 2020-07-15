@@ -1,35 +1,9 @@
-<BOS>	atis_flight
-explain	atis_flight
-meal	atis_flight
-codes	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-explain	atis_flight
-meal	atis_flight
-codes	atis_flight
-sd	atis_flight
-d	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-show	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-show	atis_flight
-me	atis_flight
-all	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-show	atis_flight
-me	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-show	atis_flight
-atis_abbreviation	atis_flight
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+coach	atis_airfare
+atis_flight	atis_airfare
 
 <BOS>	atis_flight
 show	atis_flight
@@ -39,21 +13,11 @@ atis_ground_service	atis_flight
 <BOS>	atis_flight
 show	atis_flight
 atis_ground_service	atis_flight
-
-<BOS>	atis_distance
-what	atis_distance
-atis_airport	atis_distance
 
 <BOS>	atis_abbreviation
 what	atis_abbreviation
 is	atis_abbreviation
 atis_restriction	atis_abbreviation
-
-<BOS>	atis_distance
-what	atis_distance
-is	atis_distance
-restriction	atis_distance
-atis_airport	atis_distance
 
 <BOS>	atis_abbreviation
 what	atis_abbreviation
@@ -95,13 +59,6 @@ what	atis_flight
 atis_flight_time	atis_flight
 
 <BOS>	atis_flight
-what	atis_flight
-does	atis_flight
-the	atis_flight
-meal	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
 is	atis_flight
 there	atis_flight
 atis_ground_service	atis_flight
@@ -114,19 +71,51 @@ atis_ground_service	atis_flight
 is	atis_flight
 atis_abbreviation	atis_flight
 
-<BOS>	atis_flight
-what	atis_flight
-atis_ground_service	atis_flight
+<BOS>	atis_aircraft
+what	atis_aircraft
+atis_ground_service	atis_aircraft
 
 <BOS>	atis_flight
 what	atis_flight
 atis_ground_service	atis_flight
 
-<BOS>	atis_ground_service
-in	atis_ground_service
-economy	atis_ground_service
-class	atis_ground_service
-atis_airfare	atis_ground_service
+<BOS>	atis_flight
+what	atis_flight
+kind	atis_flight
+of	atis_flight
+ground	atis_flight
+transportation	atis_flight
+is	atis_flight
+there	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+kind	atis_flight
+of	atis_flight
+ground	atis_flight
+transportation	atis_flight
+is	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+kind	atis_flight
+of	atis_flight
+ground	atis_flight
+transportation	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+atis_airfare	atis_flight
 
 <BOS>	atis_aircraft
 in	atis_aircraft
@@ -139,162 +128,192 @@ in	atis_flight
 economy	atis_flight
 atis_airfare	atis_flight
 
+<BOS>	atis_ground_service
+in	atis_ground_service
+atis_airfare	atis_ground_service
+
 <BOS>	atis_flight
 in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+like	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+like	atis_flight
+to	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+like	atis_flight
+to	atis_flight
+know	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+like	atis_flight
+to	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+like	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+i'd	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+seventh	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
+july	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+in	atis_flight
+economy	atis_flight
+class	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+baltimore	atis_flight
+arriving	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
 atis_meal	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-meals	atis_flight
-atis_meal	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-atis_meal	atis_flight
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-dl	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-dl	atis_aircraft
-468	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-dl	atis_aircraft
-468	atis_aircraft
-which	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-dl	atis_aircraft
-468	atis_aircraft
-which	atis_aircraft
-al	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-dl	atis_aircraft
-468	atis_aircraft
-which	atis_aircraft
-al	atis_aircraft
-arrives	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-dl	atis_aircraft
-468	atis_aircraft
-which	atis_aircraft
-al	atis_aircraft
-arrives	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_flight
-what	atis_flight
-meals	atis_flight
-are	atis_flight
-available	atis_flight
-on	atis_flight
-dl	atis_flight
-468	atis_flight
-which	atis_flight
-al	atis_flight
-atis_meal	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-meals	atis_flight
-are	atis_flight
-available	atis_flight
-on	atis_flight
-dl	atis_flight
-468	atis_flight
-which	atis_flight
-atis_meal	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-meals	atis_flight
-are	atis_flight
-available	atis_flight
-on	atis_flight
-dl	atis_flight
-468	atis_flight
-atis_meal	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-meals	atis_flight
-are	atis_flight
-available	atis_flight
-on	atis_flight
-dl	atis_flight
-atis_meal	atis_flight
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-on	atis_aircraft
-atis_meal	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-meals	atis_aircraft
-are	atis_aircraft
-available	atis_aircraft
-atis_meal	atis_aircraft
 
 <BOS>	atis_flight
 what	atis_flight
@@ -330,150 +349,6 @@ what	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
-what	atis_flight
-is	atis_flight
-the	atis_flight
-lowest	atis_flight
-fare	atis_flight
-from	atis_flight
-bwi	atis_flight
-to	atis_flight
-salt	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-is	atis_flight
-the	atis_flight
-lowest	atis_flight
-fare	atis_flight
-from	atis_flight
-bwi	atis_flight
-to	atis_flight
-salt	atis_flight
-lake	atis_flight
-city	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-minneapolis	atis_flight
-to	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-minneapolis	atis_flight
-to	atis_flight
-long	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-minneapolis	atis_flight
-to	atis_flight
-long	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-minneapolis	atis_flight
-to	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-minneapolis	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-from	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-numbers	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-flight	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
 flight	atis_flight
 atis_flight_no	atis_flight
 
@@ -491,146 +366,6 @@ atis_flight_no	atis_flight
 <BOS>	atis_flight
 which	atis_flight
 atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-us	atis_flight
-air	atis_flight
-flight	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-to	atis_flight
-boston	atis_flight
-is	atis_flight
-it	atis_flight
-279	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-us	atis_flight
-air	atis_flight
-flight	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-to	atis_flight
-boston	atis_flight
-is	atis_flight
-it	atis_flight
-279	atis_flight
-or	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-us	atis_flight
-air	atis_flight
-flight	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-to	atis_flight
-boston	atis_flight
-is	atis_flight
-it	atis_flight
-279	atis_flight
-or	atis_flight
-is	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-us	atis_flight
-air	atis_flight
-flight	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-to	atis_flight
-boston	atis_flight
-is	atis_flight
-it	atis_flight
-279	atis_flight
-or	atis_flight
-is	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-us	atis_flight
-air	atis_flight
-flight	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-to	atis_flight
-boston	atis_flight
-is	atis_flight
-it	atis_flight
-279	atis_flight
-or	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-is	atis_flight
-the	atis_flight
-flight	atis_flight
-number	atis_flight
-for	atis_flight
-the	atis_flight
-us	atis_flight
-air	atis_flight
-flight	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-to	atis_flight
-boston	atis_flight
-is	atis_flight
-it	atis_flight
-279	atis_flight
-atis_flight_no	atis_flight
-
-<BOS>	atis_airfare
-how	atis_airfare
-much	atis_airfare
-would	atis_airfare
-car	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-how	atis_airfare
-much	atis_airfare
-would	atis_airfare
-car	atis_airfare
-atis_ground_fare	atis_airfare
 
 <BOS>	atis_airfare
 how	atis_airfare
@@ -654,41 +389,6 @@ atis_ground_fare	atis_quantity
 <BOS>	atis_airfare
 please	atis_airfare
 list	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-please	atis_airfare
-list	atis_airfare
-the	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_ground_service
-please	atis_ground_service
-list	atis_ground_service
-the	atis_ground_service
-prices	atis_ground_service
-atis_ground_fare	atis_ground_service
-
-<BOS>	atis_airfare
-please	atis_airfare
-list	atis_airfare
-the	atis_airfare
-prices	atis_airfare
-for	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-please	atis_airfare
-list	atis_airfare
-the	atis_airfare
-prices	atis_airfare
-for	atis_airfare
-a	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-please	atis_airfare
-list	atis_airfare
 the	atis_airfare
 prices	atis_airfare
 for	atis_airfare
@@ -722,147 +422,38 @@ atis_ground_fare	atis_flight
 what	atis_flight
 atis_abbreviation	atis_flight
 
-<BOS>	atis_flight
-is	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-is	atis_flight
-bwi	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_capacity
-is	atis_capacity
-bwi	atis_capacity
-washington	atis_capacity
-atis_city	atis_capacity
-
-<BOS>	atis_abbreviation
-is	atis_abbreviation
-bwi	atis_abbreviation
-washington	atis_abbreviation
-<EOS>	atis_abbreviation
-atis_city	atis_abbreviation
-
-<BOS>	atis_flight
-what	atis_flight
-atis_city	atis_flight
+<BOS>	atis_ground_service
+what	atis_ground_service
+atis_city	atis_ground_service
 
 <BOS>	atis_flight
 what	atis_flight
 are	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-the	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-the	atis_flight
-cities	atis_flight
-that	atis_flight
-american	atis_flight
-airlines	atis_flight
-serves	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-the	atis_flight
-cities	atis_flight
-that	atis_flight
-american	atis_flight
-airlines	atis_flight
-serves	atis_flight
-<EOS>	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-cities	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-cities	atis_flight
-are	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-cities	atis_flight
-are	atis_flight
-serviced	atis_flight
-atis_city	atis_flight
-
-<BOS>	atis_flight
-which	atis_flight
-cities	atis_flight
-are	atis_flight
-serviced	atis_flight
-by	atis_flight
 atis_city	atis_flight
 
 <BOS>	atis_ground_service
-which	atis_ground_service
-cities	atis_ground_service
+what	atis_ground_service
 are	atis_ground_service
-serviced	atis_ground_service
-by	atis_ground_service
-both	atis_ground_service
+the	atis_ground_service
 atis_city	atis_ground_service
 
-<BOS>	atis_airline
-which	atis_airline
-cities	atis_airline
-are	atis_airline
-serviced	atis_airline
-by	atis_airline
-atis_city	atis_airline
+<BOS>	atis_flight
+what	atis_flight
+are	atis_flight
+atis_city	atis_flight
 
-<BOS>	atis_airline
-which	atis_airline
-cities	atis_airline
-are	atis_airline
-serviced	atis_airline
-atis_city	atis_airline
+<BOS>	atis_ground_service
+what	atis_ground_service
+are	atis_ground_service
+atis_city	atis_ground_service
 
-<BOS>	atis_airline
-which	atis_airline
-cities	atis_airline
-are	atis_airline
-atis_city	atis_airline
+<BOS>	atis_flight
+what	atis_flight
+atis_city	atis_flight
 
-<BOS>	atis_airline
-show	atis_airline
-atis_city	atis_airline
+<BOS>	atis_flight
+what	atis_flight
+atis_city	atis_flight
 
 <BOS>	atis_flight
 show	atis_flight
@@ -875,69 +466,6 @@ atis_ground_fare	atis_flight
 <BOS>	atis_flight
 what	atis_flight
 atis_ground_fare	atis_flight
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cost	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cost	atis_airfare
-of	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cost	atis_airfare
-of	atis_airfare
-limousine	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cost	atis_airfare
-of	atis_airfare
-limousine	atis_airfare
-service	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cost	atis_airfare
-of	atis_airfare
-limousine	atis_airfare
-service	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cost	atis_airfare
-of	atis_airfare
-limousine	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-how	atis_airfare
-atis_ground_fare	atis_airfare
 
 <BOS>	atis_airfare
 how	atis_airfare
@@ -978,30 +506,6 @@ atis_ground_fare	atis_airfare
 how	atis_quantity
 atis_ground_fare	atis_quantity
 
-<BOS>	atis_airfare
-on	atis_airfare
-november	atis_airfare
-twenty	atis_airfare
-third	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_airfare
-on	atis_airfare
-november	atis_airfare
-twenty	atis_airfare
-third	atis_airfare
-of	atis_airfare
-this	atis_airfare
-atis_ground_fare	atis_airfare
-
-<BOS>	atis_flight
-please	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flight	atis_flight
-atis_flight_time	atis_flight
-
 <BOS>	atis_flight
 please	atis_flight
 give	atis_flight
@@ -1026,10 +530,6 @@ atis_flight_time	atis_flight
 
 <BOS>	atis_flight
 please	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-please	atis_flight
 list	atis_flight
 atis_flight_time	atis_flight
 
@@ -1041,6 +541,28 @@ atis_flight_time	atis_flight
 <BOS>	atis_flight
 please	atis_flight
 atis_flight_time	atis_flight
+
+<BOS>	atis_flight
+show	atis_flight
+me	atis_flight
+all	atis_flight
+flights	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+show	atis_flight
+me	atis_flight
+all	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+show	atis_flight
+me	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+show	atis_flight
+atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
 show	atis_flight
@@ -1048,6 +570,12 @@ me	atis_flight
 all	atis_flight
 flights	atis_flight
 and	atis_flight
+fares	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -1055,27 +583,51 @@ show	atis_flight
 me	atis_flight
 all	atis_flight
 flights	atis_flight
+and	atis_flight
+fares	atis_flight
+from	atis_flight
+dallas	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+<EOS>	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
-show	atis_flight
-me	atis_flight
-all	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-show	atis_flight
-me	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-show	atis_flight
+please	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
 please	atis_flight
 list	atis_flight
 me	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+please	atis_flight
+list	atis_flight
+me	atis_flight
+the	atis_flight
+flights	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+please	atis_flight
+list	atis_flight
+me	atis_flight
+the	atis_flight
+flights	atis_flight
+and	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+please	atis_flight
+list	atis_flight
+me	atis_flight
+the	atis_flight
+flights	atis_flight
+and	atis_flight
+their	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -1128,99 +680,58 @@ please	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
-give	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flights	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
+please	atis_flight
+list	atis_flight
 me	atis_flight
 the	atis_flight
 flights	atis_flight
 and	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flights	atis_flight
-and	atis_flight
-fares	atis_flight
-on	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flights	atis_flight
-and	atis_flight
-fares	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flights	atis_flight
-and	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flights	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-atis_flight#atis_airfare	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-the	atis_flight
-flights	atis_flight
-and	atis_flight
-fares	atis_flight
-on	atis_flight
-december	atis_flight
-twenty	atis_flight
-seventh	atis_flight
+their	atis_flight
+cost	atis_flight
+of	atis_flight
+all	atis_flight
+airlines	atis_flight
+flying	atis_flight
 from	atis_flight
-indianapolis	atis_flight
+denver	atis_flight
 to	atis_flight
-orlando	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+please	atis_flight
+list	atis_flight
+me	atis_flight
+the	atis_flight
+flights	atis_flight
+and	atis_flight
+their	atis_flight
+cost	atis_flight
+of	atis_flight
+all	atis_flight
+airlines	atis_flight
+flying	atis_flight
+from	atis_flight
+denver	atis_flight
+to	atis_flight
+baltimore	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+please	atis_flight
+list	atis_flight
+me	atis_flight
+the	atis_flight
+flights	atis_flight
+and	atis_flight
+their	atis_flight
+cost	atis_flight
+of	atis_flight
+all	atis_flight
+airlines	atis_flight
+flying	atis_flight
+from	atis_flight
+denver	atis_flight
+to	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -1229,22 +740,29 @@ me	atis_flight
 the	atis_flight
 flights	atis_flight
 and	atis_flight
-fares	atis_flight
-on	atis_flight
-december	atis_flight
-twenty	atis_flight
-seventh	atis_flight
-from	atis_flight
-indianapolis	atis_flight
-to	atis_flight
-orlando	atis_flight
 atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
-is	atis_flight
-there	atis_flight
-ground	atis_flight
-atis_abbreviation	atis_flight
+give	atis_flight
+me	atis_flight
+the	atis_flight
+flights	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+give	atis_flight
+me	atis_flight
+the	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+give	atis_flight
+me	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	atis_flight
+give	atis_flight
+atis_flight#atis_airfare	atis_flight
 
 <BOS>	atis_flight
 is	atis_flight
@@ -1267,22 +785,6 @@ atis_abbreviation	atis_flight
 <BOS>	atis_flight
 how	atis_flight
 far	atis_flight
-is	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_quantity
-how	atis_quantity
-far	atis_quantity
-atis_distance	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-far	atis_quantity
-atis_distance	atis_quantity
-
-<BOS>	atis_flight
-how	atis_flight
-far	atis_flight
 atis_abbreviation	atis_flight
 
 <BOS>	atis_quantity
@@ -1297,150 +799,9 @@ atis_distance	atis_quantity
 how	atis_flight
 atis_abbreviation	atis_flight
 
-<BOS>	atis_flight
-how	atis_flight
-far	atis_flight
-is	atis_flight
-los	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_flight
-how	atis_flight
-far	atis_flight
-is	atis_flight
-los	atis_flight
-angeles	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_flight
-how	atis_flight
-far	atis_flight
-is	atis_flight
-los	atis_flight
-angeles	atis_flight
-international	atis_flight
-from	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_flight
-how	atis_flight
-far	atis_flight
-is	atis_flight
-los	atis_flight
-angeles	atis_flight
-international	atis_flight
-from	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_flight
-how	atis_flight
-long	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_flight
-how	atis_flight
-long	atis_flight
-does	atis_flight
-a	atis_flight
-atis_distance	atis_flight
-
 <BOS>	atis_quantity
 how	atis_quantity
 atis_distance	atis_quantity
-
-<BOS>	atis_flight
-how	atis_flight
-long	atis_flight
-does	atis_flight
-a	atis_flight
-flight	atis_flight
-from	atis_flight
-baltimore	atis_flight
-to	atis_flight
-san	atis_flight
-francisco	atis_flight
-take	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_flight
-how	atis_flight
-long	atis_flight
-does	atis_flight
-a	atis_flight
-flight	atis_flight
-from	atis_flight
-baltimore	atis_flight
-to	atis_flight
-san	atis_flight
-francisco	atis_flight
-take	atis_flight
-atis_distance	atis_flight
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-atis_airport	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-airport	atis_aircraft
-atis_airport	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-airport	atis_aircraft
-in	atis_aircraft
-atis_airport	atis_aircraft
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-airport	atis_aircraft
-in	atis_aircraft
-new	atis_aircraft
-atis_airport	atis_aircraft
-
-<BOS>	atis_ground_service
-what	atis_ground_service
-airport	atis_ground_service
-in	atis_ground_service
-new	atis_ground_service
-york	atis_ground_service
-atis_airport	atis_ground_service
-
-<BOS>	atis_ground_service
-what	atis_ground_service
-airport	atis_ground_service
-in	atis_ground_service
-new	atis_ground_service
-york	atis_ground_service
-atis_airport	atis_ground_service
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-airport	atis_aircraft
-in	atis_aircraft
-new	atis_aircraft
-atis_airport	atis_aircraft
-
-<BOS>	atis_flight
-what	atis_flight
-airport	atis_flight
-in	atis_flight
-atis_airport	atis_flight
-
-<BOS>	atis_aircraft
-what	atis_aircraft
-airport	atis_aircraft
-in	atis_aircraft
-atis_airport	atis_aircraft
-
-<BOS>	atis_flight
-what	atis_flight
-airport	atis_flight
-atis_airport	atis_flight
-
-<BOS>	atis_aircraft
-houston	atis_aircraft
-atis_airport	atis_aircraft
 
 <BOS>	atis_flight
 houston	atis_flight
@@ -1452,36 +813,6 @@ atis_airport	atis_flight
 
 <BOS>	atis_flight
 give	atis_flight
-atis_airport	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-atis_airport	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-a	atis_flight
-list	atis_flight
-atis_airport	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-a	atis_flight
-list	atis_flight
-of	atis_flight
-airports	atis_flight
-atis_airport	atis_flight
-
-<BOS>	atis_flight
-give	atis_flight
-me	atis_flight
-a	atis_flight
-list	atis_flight
-of	atis_flight
-airports	atis_flight
 atis_airport	atis_flight
 
 <BOS>	atis_flight
@@ -1504,55 +835,20 @@ atis_airport	atis_flight
 where	atis_flight
 does	atis_flight
 atis_airport	atis_flight
+
+<BOS>	atis_city
+where	atis_city
+atis_flight	atis_city
 
 <BOS>	atis_flight
 which	atis_flight
 atis_airline	atis_flight
-
-<BOS>	atis_airfare
-list	atis_airfare
-atis_flight	atis_airfare
 
 <BOS>	atis_quantity
 how	atis_quantity
 atis_airfare	atis_quantity
 
 <BOS>	atis_quantity
-all	atis_quantity
-flights	atis_quantity
-from	atis_quantity
-baltimore	atis_quantity
-to	atis_quantity
-philadelphia	atis_quantity
-less	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-all	atis_quantity
-flights	atis_quantity
-from	atis_quantity
-baltimore	atis_quantity
-to	atis_quantity
-philadelphia	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-seats	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-seats	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
 how	atis_quantity
 many	atis_quantity
 atis_capacity	atis_quantity
@@ -1563,46 +859,6 @@ atis_capacity	atis_quantity
 
 <BOS>	atis_quantity
 how	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-passengers	atis_quantity
-can	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-passengers	atis_quantity
-can	atis_quantity
-a	atis_quantity
-boeing	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-passengers	atis_quantity
-can	atis_quantity
-a	atis_quantity
-boeing	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-what	atis_quantity
-atis_capacity	atis_quantity
-
-<BOS>	atis_quantity
-what	atis_quantity
-is	atis_quantity
-the	atis_quantity
 atis_capacity	atis_quantity
 
 <BOS>	atis_flight
@@ -1611,12 +867,6 @@ is	atis_flight
 the	atis_flight
 atis_capacity	atis_flight
 
-<BOS>	atis_quantity
-what	atis_quantity
-is	atis_quantity
-the	atis_quantity
-atis_capacity	atis_quantity
-
 <BOS>	atis_flight
 what	atis_flight
 is	atis_flight
@@ -1644,10 +894,6 @@ atis_capacity	atis_flight
 <BOS>	atis_flight
 show	atis_flight
 atis_capacity	atis_flight
-
-<BOS>	atis_flight
-economy	atis_flight
-atis_airfare	atis_flight
 
 <BOS>	atis_airfare
 economy	atis_airfare
@@ -1663,12 +909,10 @@ find	atis_airfare
 me	atis_airfare
 atis_flight	atis_airfare
 
-<BOS>	atis_airfare
-show	atis_airfare
-me	atis_airfare
-the	atis_airfare
-cheapest	atis_airfare
-atis_flight	atis_airfare
+<BOS>	atis_airline
+can	atis_airline
+you	atis_airline
+atis_flight	atis_airline
 
 <BOS>	atis_flight
 what	atis_flight
@@ -1750,24 +994,6 @@ continental	atis_flight
 fly	atis_flight
 from	atis_flight
 philadelphia	atis_flight
-to	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-when	atis_flight
-does	atis_flight
-continental	atis_flight
-fly	atis_flight
-from	atis_flight
-philadelphia	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-when	atis_flight
-does	atis_flight
-continental	atis_flight
-fly	atis_flight
-from	atis_flight
 atis_flight_time	atis_flight
 
 <BOS>	atis_flight
@@ -1805,139 +1031,6 @@ atis_flight_time	atis_flight
 <BOS>	atis_flight
 i	atis_flight
 atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-san	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-san	atis_flight
-francisco	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-san	atis_flight
-francisco	atis_flight
-to	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-san	atis_flight
-francisco	atis_flight
-to	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-san	atis_flight
-francisco	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-i	atis_flight
-would	atis_flight
-like	atis_flight
-a	atis_flight
-schedule	atis_flight
-of	atis_flight
-flights	atis_flight
-from	atis_flight
-san	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-atis_flight_time	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-pittsburgh	atis_flight
-atis_ground_service	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-pittsburgh	atis_flight
-i'd	atis_flight
-atis_ground_service	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-pittsburgh	atis_flight
-i'd	atis_flight
-like	atis_flight
-atis_ground_service	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-pittsburgh	atis_flight
-i'd	atis_flight
-like	atis_flight
-atis_ground_service	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-pittsburgh	atis_flight
-i'd	atis_flight
-atis_ground_service	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-pittsburgh	atis_flight
-atis_ground_service	atis_flight
-
-<BOS>	atis_flight
-in	atis_flight
-atis_ground_service	atis_flight
 
 <BOS>	atis_flight
 may	atis_flight
@@ -1962,6 +1055,14 @@ atis_airfare	atis_flight
 <BOS>	atis_flight
 i	atis_flight
 atis_airfare	atis_flight
+
+<BOS>	atis_airline
+can	atis_airline
+you	atis_airline
+tell	atis_airline
+me	atis_airline
+which	atis_airline
+atis_flight	atis_airline
 
 <BOS>	atis_flight
 what	atis_flight
@@ -1975,13 +1076,6 @@ atis_airfare	atis_flight
 what	atis_flight
 are	atis_flight
 the	atis_flight
-most	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-the	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -1992,14 +1086,6 @@ atis_airfare	atis_flight
 <BOS>	atis_flight
 what	atis_flight
 atis_airfare	atis_flight
-
-<BOS>	atis_airfare
-what	atis_airfare
-are	atis_airfare
-the	atis_airfare
-least	atis_airfare
-expensive	atis_airfare
-atis_flight	atis_airfare
 
 <BOS>	atis_flight
 what's	atis_flight
@@ -2036,13 +1122,6 @@ atis_ground_service	atis_flight
 now	atis_flight
 atis_ground_service	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-does	atis_airfare
-the	atis_airfare
-fare	atis_airfare
-atis_abbreviation	atis_airfare
-
 <BOS>	atis_flight
 what	atis_flight
 atis_abbreviation	atis_flight
@@ -2050,12 +1129,6 @@ atis_abbreviation	atis_flight
 <BOS>	atis_flight
 what	atis_flight
 atis_abbreviation	atis_flight
-
-<BOS>	atis_airfare
-what	atis_airfare
-does	atis_airfare
-fare	atis_airfare
-atis_abbreviation	atis_airfare
 
 <BOS>	atis_flight
 what	atis_flight
@@ -2072,19 +1145,6 @@ atis_abbreviation	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_airfare
-list	atis_airfare
-all	atis_airfare
-flights	atis_airfare
-on	atis_airfare
-atis_abbreviation	atis_airfare
-
-<BOS>	atis_flight
-what	atis_flight
-is	atis_flight
-the	atis_flight
 atis_abbreviation	atis_flight
 
 <BOS>	atis_flight
@@ -2110,20 +1170,61 @@ what	atis_flight
 atis_abbreviation	atis_flight
 
 <BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-first	atis_airfare
+i	atis_airfare
+would	atis_airfare
+like	atis_airfare
+one	atis_airfare
 atis_flight	atis_airfare
 
 <BOS>	atis_flight
 what	atis_flight
 atis_airline	atis_flight
 
-<BOS>	atis_flight
-what	atis_flight
-kind	atis_flight
-atis_aircraft	atis_flight
+<BOS>	atis_airfare
+list	atis_airfare
+flights	atis_airfare
+from	atis_airfare
+washington	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+could	atis_airfare
+you	atis_airfare
+please	atis_airfare
+give	atis_airfare
+me	atis_airfare
+information	atis_airfare
+concerning	atis_airfare
+american	atis_airfare
+airlines	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+could	atis_airfare
+you	atis_airfare
+please	atis_airfare
+give	atis_airfare
+me	atis_airfare
+information	atis_airfare
+concerning	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+could	atis_airfare
+you	atis_airfare
+please	atis_airfare
+give	atis_airfare
+me	atis_airfare
+information	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+could	atis_airfare
+you	atis_airfare
+please	atis_airfare
+give	atis_airfare
+me	atis_airfare
+atis_flight	atis_airfare
 
 <BOS>	atis_flight
 what	atis_flight
@@ -2142,6 +1243,13 @@ atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
+first	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -2167,71 +1275,71 @@ atis_airfare	atis_quantity
 what	atis_flight
 atis_airline	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-airline	atis_airfare
-is	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+airline	atis_flight
+is	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-airline	atis_airfare
-is	atis_airfare
-dl	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+airline	atis_flight
+is	atis_flight
+dl	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-airline	atis_airfare
-is	atis_airfare
-dl	atis_airfare
-98	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+airline	atis_flight
+is	atis_flight
+dl	atis_flight
+98	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-airline	atis_airfare
-is	atis_airfare
-dl	atis_airfare
-98	atis_airfare
-<EOS>	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+airline	atis_flight
+is	atis_flight
+dl	atis_flight
+98	atis_flight
+<EOS>	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-atis_aircraft	atis_airfare
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+atis_aircraft	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
@@ -2242,165 +1350,154 @@ atis_aircraft	atis_flight
 what	atis_flight
 atis_aircraft	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-dallas	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-dallas	atis_airfare
-in	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-dallas	atis_airfare
-in	atis_airfare
-the	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-dallas	atis_airfare
-in	atis_airfare
-the	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-dallas	atis_airfare
-in	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-dallas	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-first	atis_airfare
-class	atis_airfare
-airplane	atis_airfare
-goes	atis_airfare
-from	atis_airfare
-philadelphia	atis_airfare
-to	atis_airfare
-san	atis_airfare
-francisco	atis_airfare
-and	atis_airfare
-stops	atis_airfare
-in	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_abbreviation
-what	atis_abbreviation
-atis_aircraft	atis_abbreviation
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+atis_aircraft	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
-planes	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+dallas	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+dallas	atis_flight
+in	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+dallas	atis_flight
+in	atis_flight
+the	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+dallas	atis_flight
+in	atis_flight
+the	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+dallas	atis_flight
+in	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+dallas	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+first	atis_flight
+class	atis_flight
+airplane	atis_flight
+goes	atis_flight
+from	atis_flight
+philadelphia	atis_flight
+to	atis_flight
+san	atis_flight
+francisco	atis_flight
+and	atis_flight
+stops	atis_flight
+in	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
 atis_aircraft	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
 planes	atis_flight
-are	atis_flight
 atis_aircraft	atis_flight
-
-<BOS>	atis_abbreviation
-what	atis_abbreviation
-planes	atis_abbreviation
-atis_aircraft	atis_abbreviation
 
 <BOS>	atis_flight
 what	atis_flight
@@ -2526,35 +1623,6 @@ atis_aircraft	atis_flight
 <BOS>	atis_flight
 repeating	atis_flight
 leaving	atis_flight
-denver	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-repeating	atis_flight
-leaving	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-kinds	atis_flight
-of	atis_flight
-planes	atis_flight
-are	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-type	atis_flight
-of	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-type	atis_flight
 atis_aircraft	atis_flight
 
 <BOS>	atis_flight
@@ -2567,63 +1635,6 @@ atis_aircraft	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
-type	atis_flight
-of	atis_flight
-aircraft	atis_flight
-are	atis_flight
-flying	atis_flight
-from	atis_flight
-cleveland	atis_flight
-to	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-type	atis_flight
-of	atis_flight
-aircraft	atis_flight
-are	atis_flight
-flying	atis_flight
-from	atis_flight
-cleveland	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-airplane	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-airplane	atis_flight
-types	atis_flight
-fly	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-airplane	atis_flight
-types	atis_flight
-fly	atis_flight
-from	atis_flight
-atis_aircraft	atis_flight
-
-<BOS>	atis_airfare
-what	atis_airfare
-airplane	atis_airfare
-types	atis_airfare
-fly	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_airfare
-what	atis_airfare
-airplane	atis_airfare
-types	atis_airfare
-atis_aircraft	atis_airfare
-
-<BOS>	atis_flight
-what	atis_flight
-airplane	atis_flight
 atis_aircraft	atis_flight
 
 <BOS>	atis_flight
@@ -2672,36 +1683,10 @@ atis_ground_service	atis_flight
 could	atis_flight
 atis_ground_service	atis_flight
 
-<BOS>	atis_quantity
-how	atis_quantity
-atis_flight	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-atis_flight	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-flights	atis_quantity
-atis_flight	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-flights	atis_quantity
-does	atis_quantity
-northwest	atis_quantity
-atis_flight	atis_quantity
-
-<BOS>	atis_quantity
-how	atis_quantity
-many	atis_quantity
-flights	atis_quantity
-does	atis_quantity
-northwest	atis_quantity
-atis_flight	atis_quantity
+<BOS>	atis_ground_service
+and	atis_ground_service
+what	atis_ground_service
+atis_flight	atis_ground_service
 
 <BOS>	atis_quantity
 how	atis_quantity
@@ -2758,18 +1743,14 @@ atis_airfare	atis_flight
 what	atis_flight
 is	atis_flight
 the	atis_flight
+cheapest	atis_flight
+first	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
 is	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
+the	atis_flight
 cheapest	atis_flight
 atis_airfare	atis_flight
 
@@ -2788,21 +1769,40 @@ atis_airfare	atis_flight
 what	atis_flight
 atis_airfare	atis_flight
 
-<BOS>	atis_airline
-what	atis_airline
-atis_abbreviation	atis_airline
-
-<BOS>	atis_airline
-what	atis_airline
-is	atis_airline
-hp	atis_airline
-atis_abbreviation	atis_airline
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
 is	atis_flight
-hp	atis_flight
-atis_abbreviation	atis_flight
+the	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_airfare
+list	atis_airfare
+all	atis_airfare
+round	atis_airfare
+trip	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+list	atis_airfare
+all	atis_airfare
+round	atis_airfare
+atis_flight	atis_airfare
 
 <BOS>	atis_airline
 define	atis_airline
@@ -2817,29 +1817,15 @@ atis_abbreviation	atis_flight
 define	atis_flight
 atis_abbreviation	atis_flight
 
-<BOS>	atis_flight
-define	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-from	atis_flight
-las	atis_flight
-vegas	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-from	atis_flight
-las	atis_flight
-atis_abbreviation	atis_flight
-
-<BOS>	atis_flight
-airline	atis_flight
-atis_abbreviation	atis_flight
-
 <BOS>	atis_airfare
 list	atis_airfare
 round	atis_airfare
 trip	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+list	atis_airfare
+round	atis_airfare
 atis_flight	atis_airfare
 
 <BOS>	atis_flight
@@ -2915,11 +1901,6 @@ atis_airline	atis_flight
 
 <BOS>	atis_flight
 does	atis_flight
-any	atis_flight
-atis_airline	atis_flight
-
-<BOS>	atis_flight
-does	atis_flight
 atis_airline	atis_flight
 
 <BOS>	atis_flight
@@ -2975,13 +1956,6 @@ class	atis_airfare
 round	atis_airfare
 atis_flight	atis_airfare
 
-<BOS>	atis_airfare
-show	atis_airfare
-me	atis_airfare
-first	atis_airfare
-class	atis_airfare
-atis_flight	atis_airfare
-
 <BOS>	atis_flight
 first	atis_flight
 class	atis_flight
@@ -3006,10 +1980,6 @@ atis_airfare	atis_quantity
 
 <BOS>	atis_flight
 what	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
 are	atis_flight
 the	atis_flight
 atis_airfare	atis_flight
@@ -3021,20 +1991,6 @@ atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_airfare
-show	atis_airfare
-me	atis_airfare
-one	atis_airfare
-way	atis_airfare
-atis_flight	atis_airfare
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-the	atis_flight
-coach	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3054,13 +2010,6 @@ atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
-are	atis_flight
-the	atis_flight
-coach	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3111,10 +2060,10 @@ kind	atis_flight
 of	atis_flight
 atis_ground_service	atis_flight
 
-<BOS>	atis_flight
-what	atis_flight
-kind	atis_flight
-atis_ground_service	atis_flight
+<BOS>	atis_aircraft
+what	atis_aircraft
+kind	atis_aircraft
+atis_ground_service	atis_aircraft
 
 <BOS>	atis_flight
 what	atis_flight
@@ -3170,6 +2119,11 @@ atis_ground_service	atis_flight
 show	atis_flight
 atis_ground_service	atis_flight
 
+<BOS>	atis_ground_service
+can	atis_ground_service
+i	atis_ground_service
+atis_flight	atis_ground_service
+
 <BOS>	atis_flight
 list	atis_flight
 atis_ground_service	atis_flight
@@ -3195,19 +2149,47 @@ atis_ground_service	atis_flight
 what	atis_flight
 atis_ground_service	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-shortest	atis_airfare
-atis_flight	atis_airfare
+<BOS>	atis_ground_service
+can	atis_ground_service
+you	atis_ground_service
+find	atis_ground_service
+me	atis_ground_service
+another	atis_ground_service
+atis_flight	atis_ground_service
 
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-first	atis_airfare
-atis_flight	atis_airfare
+<BOS>	atis_flight
+what's	atis_flight
+the	atis_flight
+cheapest	atis_flight
+one	atis_flight
+way	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what's	atis_flight
+the	atis_flight
+cheapest	atis_flight
+one	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what's	atis_flight
+the	atis_flight
+cheapest	atis_flight
+one	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what's	atis_flight
+the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what's	atis_flight
+the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what's	atis_flight
@@ -3230,15 +2212,15 @@ atis_airfare	atis_flight
 what	atis_flight
 is	atis_flight
 the	atis_flight
+cheapest	atis_flight
+round	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
 is	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-what	atis_flight
+the	atis_flight
+cheapest	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3260,6 +2242,35 @@ atis_airfare	atis_flight
 what	atis_flight
 is	atis_flight
 the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3283,6 +2294,25 @@ atis_airfare	atis_flight
 
 <BOS>	atis_flight
 what	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
+cheapest	atis_flight
+one	atis_flight
+way	atis_flight
+fare	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
+cheapest	atis_flight
+one	atis_flight
+way	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3299,6 +2329,13 @@ atis_airfare	atis_flight
 i'm	atis_flight
 interested	atis_flight
 in	atis_flight
+the	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+i'm	atis_flight
+interested	atis_flight
+in	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3308,6 +2345,59 @@ atis_airfare	atis_flight
 
 <BOS>	atis_flight
 i'm	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+i'm	atis_flight
+interested	atis_flight
+in	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+from	atis_flight
+washington	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+i'm	atis_flight
+interested	atis_flight
+in	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+from	atis_flight
+washington	atis_flight
+to	atis_flight
+fort	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+i'm	atis_flight
+interested	atis_flight
+in	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+from	atis_flight
+washington	atis_flight
+to	atis_flight
+fort	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+i	atis_flight
+would	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+i	atis_flight
+would	atis_flight
+like	atis_flight
+to	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3373,13 +2463,6 @@ the	atis_flight
 cheapest	atis_flight
 atis_airfare	atis_flight
 
-<BOS>	atis_airfare
-what	atis_airfare
-is	atis_airfare
-the	atis_airfare
-cheapest	atis_airfare
-atis_flight	atis_airfare
-
 <BOS>	atis_flight
 what	atis_flight
 is	atis_flight
@@ -3393,13 +2476,6 @@ atis_airfare	atis_flight
 
 <BOS>	atis_flight
 i'd	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-lowest	atis_flight
-fare	atis_flight
-from	atis_flight
-san	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3460,6 +2536,77 @@ want	atis_flight
 to	atis_flight
 know	atis_flight
 the	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+okay	atis_flight
+i	atis_flight
+just	atis_flight
+want	atis_flight
+to	atis_flight
+know	atis_flight
+the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+okay	atis_flight
+i	atis_flight
+just	atis_flight
+want	atis_flight
+to	atis_flight
+know	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+okay	atis_flight
+i	atis_flight
+just	atis_flight
+want	atis_flight
+to	atis_flight
+know	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+from	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+okay	atis_flight
+i	atis_flight
+just	atis_flight
+want	atis_flight
+to	atis_flight
+know	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+from	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+okay	atis_flight
+i	atis_flight
+just	atis_flight
+want	atis_flight
+to	atis_flight
+know	atis_flight
+the	atis_flight
+cheapest	atis_flight
+fare	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+okay	atis_flight
+i	atis_flight
+just	atis_flight
+want	atis_flight
+to	atis_flight
+know	atis_flight
+the	atis_flight
 cheapest	atis_flight
 atis_airfare	atis_flight
 
@@ -3487,6 +2634,13 @@ atis_airfare	atis_flight
 what	atis_flight
 is	atis_flight
 the	atis_flight
+cheapest	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	atis_flight
+what	atis_flight
+is	atis_flight
+the	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3528,19 +2682,9 @@ show	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
-hi	atis_flight
-i	atis_flight
-want	atis_flight
-a	atis_flight
-round	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_flight
-hi	atis_flight
-i	atis_flight
-want	atis_flight
-a	atis_flight
-round	atis_flight
+what	atis_flight
+flights	atis_flight
+leave	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_flight
@@ -3637,6 +2781,41 @@ atis_airfare	atis_flight
 what	atis_flight
 atis_airfare	atis_flight
 
+<BOS>	atis_ground_service
+i	atis_ground_service
+would	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	atis_ground_service
+i	atis_ground_service
+would	atis_ground_service
+like	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+flights	atis_airfare
+between	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+flights	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+on	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+show	atis_airfare
+me	atis_airfare
+atis_flight	atis_airfare
+
 <BOS>	atis_flight
 i	atis_flight
 need	atis_flight
@@ -3693,33 +2872,6 @@ what	atis_flight
 atis_airfare	atis_flight
 
 <BOS>	atis_abbreviation
-what	atis_abbreviation
-does	atis_abbreviation
-it	atis_abbreviation
-cost	atis_abbreviation
-to	atis_abbreviation
-fly	atis_abbreviation
-atis_airfare	atis_abbreviation
-
-<BOS>	atis_abbreviation
-what	atis_abbreviation
-does	atis_abbreviation
-it	atis_abbreviation
-cost	atis_abbreviation
-to	atis_abbreviation
-atis_airfare	atis_abbreviation
-
-<BOS>	atis_abbreviation
-what	atis_abbreviation
-does	atis_abbreviation
-it	atis_abbreviation
-atis_airfare	atis_abbreviation
-
-<BOS>	atis_flight
-get	atis_flight
-atis_airfare	atis_flight
-
-<BOS>	atis_abbreviation
 get	atis_abbreviation
 saturday	atis_abbreviation
 atis_airfare	atis_abbreviation
@@ -3744,26 +2896,173 @@ southwest	atis_airline
 airlines	atis_airline
 atis_flight	atis_airline
 
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+prices	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+prices	atis_flight#atis_airfare
+from	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+prices	atis_flight#atis_airfare
+from	atis_flight#atis_airfare
+la	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+prices	atis_flight#atis_airfare
+from	atis_flight#atis_airfare
+la	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+prices	atis_flight#atis_airfare
+from	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+prices	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
+<BOS>	atis_flight#atis_airfare
+what	atis_flight#atis_airfare
+are	atis_flight#atis_airfare
+the	atis_flight#atis_airfare
+flights	atis_flight#atis_airfare
+and	atis_flight#atis_airfare
+atis_flight	atis_flight#atis_airfare
+
 <BOS>	atis_quantity
 how	atis_quantity
 atis_flight	atis_quantity
 
-<BOS>	atis_airline
-get	atis_airline
-flights	atis_airline
-from	atis_airline
-toronto	atis_airline
-to	atis_airline
-milwaukee	atis_airline
-<EOS>	atis_airline
-atis_flight	atis_airline
+<BOS>	atis_airfare
+i	atis_airfare
+am	atis_airfare
+atis_flight	atis_airfare
 
-<BOS>	atis_airline
-what	atis_airline
-atis_flight	atis_airline
+<BOS>	atis_flight_no
+flight	atis_flight_no
+information	atis_flight_no
+atis_flight	atis_flight_no
 
-<BOS>	atis_airline
-what	atis_airline
-are	atis_airline
-atis_flight	atis_airline
+<BOS>	atis_flight_no
+what	atis_flight_no
+are	atis_flight_no
+the	atis_flight_no
+atis_flight	atis_flight_no
+
+<BOS>	atis_flight_no
+what	atis_flight_no
+are	atis_flight_no
+the	atis_flight_no
+flights	atis_flight_no
+atis_flight	atis_flight_no
+
+<BOS>	atis_flight_no
+what	atis_flight_no
+are	atis_flight_no
+the	atis_flight_no
+atis_flight	atis_flight_no
+
+<BOS>	atis_abbreviation
+get	atis_abbreviation
+flights	atis_abbreviation
+from	atis_abbreviation
+toronto	atis_abbreviation
+to	atis_abbreviation
+milwaukee	atis_abbreviation
+<EOS>	atis_abbreviation
+atis_flight	atis_abbreviation
+
+<BOS>	atis_abbreviation
+what	atis_abbreviation
+atis_flight	atis_abbreviation
+
+<BOS>	atis_abbreviation
+what	atis_abbreviation
+are	atis_abbreviation
+atis_flight	atis_abbreviation
+
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+different	atis_airfare
+classes	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+different	atis_airfare
+classes	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	atis_airfare
+what	atis_airfare
+are	atis_airfare
+the	atis_airfare
+different	atis_airfare
+atis_flight	atis_airfare
 
