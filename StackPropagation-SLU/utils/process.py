@@ -171,9 +171,22 @@ class Processor(object):
         # Get the sentence list in test dataset.
         sent_list = dataset.test_sentence
 
-        pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, _, _ = Processor.prediction(
+        pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids = Processor.prediction(
             model, dataset, "test", batch_size
         )
+
+        pred = {}
+        pred["pred_slot"] = pred_slot
+        pred["golden_slot"] = real_slot
+        pred["golden"] = real_intent
+        pred["pred"] = exp_pred_intent
+        pred["text"] = text
+        pred["sorted_ids"] = sorted_ids
+
+        pred_res_dir = os.path.join(dataset.save_dir, "results")
+        if not os.path.exists(pred_res_dir):
+            os.mkdir(pred_res_dir)
+        torch.save(pred, os.path.join(pred_res_dir, "test.pkl"))
 
         # To make sure the directory for save error prediction.
         mistake_dir = os.path.join(dataset.save_dir, "error")
@@ -214,7 +227,7 @@ class Processor(object):
         intent_acc = Evaluator.accuracy(exp_pred_intent, real_intent)
         sent_acc = Evaluator.semantic_acc(pred_slot, real_slot, exp_pred_intent, real_intent)
 
-        return slot_f1, intent_acc, sent_acc
+        return (slot_f1, intent_acc, sent_acc), (pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids)
 
     @staticmethod
     def prediction(model, dataset, mode, batch_size):

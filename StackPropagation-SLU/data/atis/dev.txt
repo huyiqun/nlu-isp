@@ -1,4 +1,4 @@
-dev-00001-full
+dev-00001-18
 <BOS> O
 i O
 would O
@@ -21,7 +21,7 @@ sixth B-return_date.day_number
 <EOS> O
 atis_flight
 
-dev-00002-full
+dev-00002-15
 <BOS> O
 i O
 want O
@@ -41,7 +41,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00003-full
+dev-00003-17
 <BOS> O
 show O
 me O
@@ -63,7 +63,7 @@ after I-return_date.date_relative
 <EOS> O
 atis_flight
 
-dev-00004-full
+dev-00004-8
 <BOS> O
 what O
 does O
@@ -76,7 +76,7 @@ meals B-meal
 <EOS> O
 atis_abbreviation
 
-dev-00005-full
+dev-00005-18
 <BOS> O
 show O
 me O
@@ -99,7 +99,7 @@ tomorrow I-depart_date.today_relative
 <EOS> O
 atis_flight
 
-dev-00006-full
+dev-00006-11
 <BOS> O
 what O
 flight O
@@ -115,7 +115,7 @@ morning B-arrive_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00007-full
+dev-00007-15
 <BOS> O
 could O
 i O
@@ -135,7 +135,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00008-full
+dev-00008-7
 <BOS> O
 list O
 the O
@@ -147,7 +147,7 @@ mondays B-day_name
 <EOS> O
 atis_flight
 
-dev-00009-full
+dev-00009-17
 <BOS> O
 display O
 all O
@@ -169,7 +169,7 @@ dc B-stoploc.state_code
 <EOS> O
 atis_flight
 
-dev-00010-full
+dev-00010-4
 <BOS> O
 what O
 is O
@@ -178,7 +178,7 @@ ap57 B-restriction_code
 <EOS> O
 atis_restriction
 
-dev-00011-full
+dev-00011-8
 <BOS> O
 i O
 need O
@@ -191,7 +191,7 @@ colorado B-state_name
 <EOS> O
 atis_ground_service
 
-dev-00012-full
+dev-00012-16
 <BOS> O
 what O
 are O
@@ -212,7 +212,7 @@ two I-arrive_date.day_number
 <EOS> O
 atis_flight
 
-dev-00013-full
+dev-00013-19
 <BOS> O
 i O
 would O
@@ -236,7 +236,7 @@ afternoon I-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00014-full
+dev-00014-5
 <BOS> O
 what O
 is O
@@ -246,7 +246,7 @@ sb B-meal_code
 <EOS> O
 atis_abbreviation
 
-dev-00015-full
+dev-00015-14
 <BOS> O
 and O
 now O
@@ -265,7 +265,7 @@ night B-period_of_day
 <EOS> O
 atis_ground_service
 
-dev-00016-full
+dev-00016-22
 <BOS> O
 show O
 me O
@@ -292,7 +292,7 @@ pm I-arrive_time.end_time
 <EOS> O
 atis_flight
 
-dev-00017-full
+dev-00017-24
 <BOS> O
 on O
 monday B-depart_date.day_name
@@ -321,7 +321,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00018-full
+dev-00018-8
 <BOS> O
 show O
 me O
@@ -334,7 +334,7 @@ dc B-state_code
 <EOS> O
 atis_ground_service
 
-dev-00019-full
+dev-00019-13
 <BOS> O
 can O
 you O
@@ -352,7 +352,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00020-full
+dev-00020-11
 <BOS> O
 flights O
 from O
@@ -368,7 +368,7 @@ pm I-depart_time.end_time
 <EOS> O
 atis_flight
 
-dev-00021-full
+dev-00021-12
 <BOS> O
 what O
 meals B-meal
@@ -385,7 +385,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_meal
 
-dev-00022-full
+dev-00022-21
 <BOS> O
 i O
 need O
@@ -411,7 +411,7 @@ boston B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00023-full
+dev-00023-10
 <BOS> O
 what O
 is O
@@ -426,7 +426,7 @@ orlando B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00024-full
+dev-00024-21
 <BOS> O
 what O
 are O
@@ -452,7 +452,7 @@ thursday B-arrive_date.day_name
 <EOS> O
 atis_airfare
 
-dev-00025-full
+dev-00025-5
 <BOS> O
 what O
 does O
@@ -462,7 +462,7 @@ mean O
 <EOS> O
 atis_abbreviation
 
-dev-00026-full
+dev-00026-4
 <BOS> O
 explain O
 restriction O
@@ -471,7 +471,7 @@ ap B-restriction_code
 <EOS> O
 atis_abbreviation
 
-dev-00027-full
+dev-00027-14
 <BOS> O
 i O
 want O
@@ -490,7 +490,7 @@ stop I-flight_stop
 <EOS> O
 atis_flight
 
-dev-00028-full
+dev-00028-13
 <BOS> O
 please O
 list O
@@ -508,7 +508,7 @@ florida B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00029-full
+dev-00029-30
 <BOS> O
 tell O
 me O
@@ -543,7 +543,7 @@ pm I-arrive_time.end_time
 <EOS> O
 atis_flight
 
-dev-00030-full
+dev-00030-14
 <BOS> O
 list O
 all O
@@ -562,7 +562,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00031-full
+dev-00031-22
 <BOS> O
 show O
 me O
@@ -589,7 +589,7 @@ pm I-depart_time.end_time
 <EOS> O
 atis_flight
 
-dev-00032-full
+dev-00032-8
 <BOS> O
 show O
 delta B-airline_name
@@ -602,7 +602,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00033-full
+dev-00033-7
 <BOS> O
 all O
 flights O
@@ -614,7 +614,7 @@ beach I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00034-full
+dev-00034-11
 <BOS> O
 what O
 is O
@@ -630,7 +630,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight_no
 
-dev-00035-full
+dev-00035-23
 <BOS> O
 i'm O
 trying O
@@ -658,7 +658,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight_no
 
-dev-00036-full
+dev-00036-4
 <BOS> O
 rental B-transport_type
 cars I-transport_type
@@ -667,7 +667,7 @@ boston B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00037-full
+dev-00037-8
 <BOS> O
 please O
 list O
@@ -680,7 +680,7 @@ pittsburgh B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00038-full
+dev-00038-5
 <BOS> O
 what O
 is O
@@ -690,7 +690,7 @@ restriction O
 <EOS> O
 atis_abbreviation
 
-dev-00039-full
+dev-00039-13
 <BOS> O
 list O
 the O
@@ -708,7 +708,7 @@ pm I-arrive_time.end_time
 <EOS> O
 atis_flight
 
-dev-00040-full
+dev-00040-16
 <BOS> O
 list O
 all O
@@ -729,7 +729,7 @@ pm I-arrive_time.end_time
 <EOS> O
 atis_flight
 
-dev-00041-full
+dev-00041-14
 <BOS> O
 what O
 are O
@@ -748,7 +748,7 @@ airlines I-airline_name
 <EOS> O
 atis_airfare
 
-dev-00042-full
+dev-00042-11
 <BOS> O
 what's O
 the O
@@ -764,7 +764,7 @@ lunch B-meal_description
 <EOS> O
 atis_flight
 
-dev-00043-full
+dev-00043-11
 <BOS> O
 to O
 what O
@@ -780,7 +780,7 @@ class I-class_type
 <EOS> O
 atis_city
 
-dev-00044-full
+dev-00044-7
 <BOS> O
 what O
 cities O
@@ -792,7 +792,7 @@ of O
 <EOS> O
 atis_city
 
-dev-00045-full
+dev-00045-16
 <BOS> O
 show O
 me O
@@ -813,7 +813,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00046-full
+dev-00046-8
 <BOS> O
 list O
 limousine B-transport_type
@@ -826,7 +826,7 @@ boston I-city_name
 <EOS> O
 atis_ground_fare
 
-dev-00047-full
+dev-00047-14
 <BOS> O
 how O
 much O
@@ -845,7 +845,7 @@ limousine B-transport_type
 <EOS> O
 atis_ground_fare
 
-dev-00048-full
+dev-00048-12
 <BOS> O
 please O
 list O
@@ -862,7 +862,7 @@ fourth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00049-full
+dev-00049-10
 <BOS> O
 from O
 denver B-fromloc.city_name
@@ -877,7 +877,7 @@ eleventh B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00050-full
+dev-00050-15
 <BOS> O
 show O
 me O
@@ -897,7 +897,7 @@ first B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00051-full
+dev-00051-16
 <BOS> O
 what O
 is O
@@ -918,7 +918,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight_time
 
-dev-00052-full
+dev-00052-18
 <BOS> O
 list O
 departure B-flight_time
@@ -941,7 +941,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight_time
 
-dev-00053-full
+dev-00053-9
 <BOS> O
 please O
 list O
@@ -955,7 +955,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight_time
 
-dev-00054-full
+dev-00054-17
 <BOS> O
 i O
 need O
@@ -977,7 +977,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight#atis_airfare
 
-dev-00055-full
+dev-00055-17
 <BOS> O
 all O
 flights O
@@ -999,7 +999,7 @@ dollars I-fare_amount
 <EOS> O
 atis_flight#atis_airfare
 
-dev-00056-full
+dev-00056-10
 <BOS> O
 show O
 all O
@@ -1014,7 +1014,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight#atis_airfare
 
-dev-00057-full
+dev-00057-3
 <BOS> O
 what O
 is O
@@ -1022,7 +1022,7 @@ mia B-airport_code
 <EOS> O
 atis_abbreviation
 
-dev-00058-full
+dev-00058-5
 <BOS> O
 what O
 does O
@@ -1032,7 +1032,7 @@ for O
 <EOS> O
 atis_abbreviation
 
-dev-00059-full
+dev-00059-5
 <BOS> O
 ground O
 transportation O
@@ -1042,7 +1042,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_ground_service
 
-dev-00060-full
+dev-00060-11
 <BOS> O
 how O
 long O
@@ -1058,7 +1058,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_distance
 
-dev-00061-full
+dev-00061-12
 <BOS> O
 list O
 the O
@@ -1075,7 +1075,7 @@ toronto B-city_name
 <EOS> O
 atis_distance
 
-dev-00062-full
+dev-00062-9
 <BOS> O
 tell O
 me O
@@ -1089,7 +1089,7 @@ city O
 <EOS> O
 atis_distance
 
-dev-00063-full
+dev-00063-9
 <BOS> O
 what O
 is O
@@ -1103,13 +1103,13 @@ denver B-city_name
 <EOS> O
 atis_airport
 
-dev-00064-full
+dev-00064-1
 <BOS> O
 airports O
 <EOS> O
 atis_airport
 
-dev-00065-full
+dev-00065-9
 <BOS> O
 where O
 do O
@@ -1123,7 +1123,7 @@ stop B-flight_stop
 <EOS> O
 atis_airport
 
-dev-00066-full
+dev-00066-9
 <BOS> O
 is O
 fare O
@@ -1137,7 +1137,7 @@ class I-class_type
 <EOS> O
 atis_abbreviation
 
-dev-00067-full
+dev-00067-17
 <BOS> O
 what O
 are O
@@ -1159,7 +1159,7 @@ evening B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00068-full
+dev-00068-19
 <BOS> O
 between O
 boston B-fromloc.city_name
@@ -1183,7 +1183,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00069-full
+dev-00069-8
 <BOS> O
 list O
 all O
@@ -1196,7 +1196,7 @@ international I-toloc.airport_name
 <EOS> O
 atis_flight
 
-dev-00070-full
+dev-00070-7
 <BOS> O
 show O
 me O
@@ -1208,7 +1208,7 @@ field I-toloc.airport_name
 <EOS> O
 atis_flight
 
-dev-00071-full
+dev-00071-10
 <BOS> O
 what O
 flights O
@@ -1223,7 +1223,7 @@ international I-toloc.airport_name
 <EOS> O
 atis_flight
 
-dev-00072-full
+dev-00072-20
 <BOS> O
 show O
 me O
@@ -1248,7 +1248,7 @@ dollars I-fare_amount
 <EOS> O
 atis_flight
 
-dev-00073-full
+dev-00073-20
 <BOS> O
 i O
 would O
@@ -1273,7 +1273,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00074-full
+dev-00074-14
 <BOS> O
 show O
 me O
@@ -1292,7 +1292,7 @@ dollars I-fare_amount
 <EOS> O
 atis_flight
 
-dev-00075-full
+dev-00075-9
 <BOS> O
 what O
 is O
@@ -1306,7 +1306,7 @@ m80 B-aircraft_code
 <EOS> O
 atis_capacity
 
-dev-00076-full
+dev-00076-9
 <BOS> O
 what O
 is O
@@ -1320,7 +1320,7 @@ aircraft O
 <EOS> O
 atis_capacity
 
-dev-00077-full
+dev-00077-8
 <BOS> O
 what O
 is O
@@ -1333,7 +1333,7 @@ a O
 <EOS> O
 atis_capacity
 
-dev-00078-full
+dev-00078-9
 <BOS> O
 what O
 is O
@@ -1347,7 +1347,7 @@ m80 B-aircraft_code
 <EOS> O
 atis_capacity
 
-dev-00079-full
+dev-00079-6
 <BOS> O
 kansas B-fromloc.city_name
 city I-fromloc.city_name
@@ -1358,7 +1358,7 @@ economy B-economy
 <EOS> O
 atis_flight
 
-dev-00080-full
+dev-00080-12
 <BOS> O
 i O
 would O
@@ -1375,7 +1375,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00081-full
+dev-00081-12
 <BOS> O
 can O
 you O
@@ -1392,7 +1392,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00082-full
+dev-00082-24
 <BOS> O
 i'm O
 sorry O
@@ -1421,7 +1421,7 @@ twa B-airline_code
 <EOS> O
 atis_flight
 
-dev-00083-full
+dev-00083-25
 <BOS> O
 i O
 would O
@@ -1451,7 +1451,7 @@ lunch B-meal_description
 <EOS> O
 atis_flight
 
-dev-00084-full
+dev-00084-17
 <BOS> O
 do O
 you O
@@ -1473,7 +1473,7 @@ dallas B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00085-full
+dev-00085-26
 <BOS> O
 find O
 a O
@@ -1504,7 +1504,7 @@ flight O
 <EOS> O
 atis_flight
 
-dev-00086-full
+dev-00086-10
 <BOS> O
 do O
 you O
@@ -1519,7 +1519,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00087-full
+dev-00087-16
 <BOS> O
 let's O
 see O
@@ -1540,7 +1540,7 @@ seventh B-depart_date.day_number
 <EOS> O
 atis_airfare
 
-dev-00088-full
+dev-00088-15
 <BOS> O
 i O
 would O
@@ -1560,7 +1560,7 @@ o'clock I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00089-full
+dev-00089-18
 <BOS> O
 show O
 me O
@@ -1583,7 +1583,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00090-full
+dev-00090-11
 <BOS> O
 what O
 are O
@@ -1599,7 +1599,7 @@ fifth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00091-full
+dev-00091-11
 <BOS> O
 show O
 me O
@@ -1615,7 +1615,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00092-full
+dev-00092-14
 <BOS> O
 i O
 need O
@@ -1634,7 +1634,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00093-full
+dev-00093-9
 <BOS> O
 i O
 would O
@@ -1648,7 +1648,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00094-full
+dev-00094-10
 <BOS> O
 i'd O
 like O
@@ -1663,7 +1663,7 @@ minneapolis B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00095-full
+dev-00095-16
 <BOS> O
 do O
 you O
@@ -1684,7 +1684,7 @@ denver B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00096-full
+dev-00096-14
 <BOS> O
 list O
 daily B-flight_days
@@ -1703,7 +1703,7 @@ service O
 <EOS> O
 atis_flight
 
-dev-00097-full
+dev-00097-10
 <BOS> O
 i O
 need O
@@ -1718,7 +1718,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00098-full
+dev-00098-12
 <BOS> O
 how O
 many O
@@ -1735,7 +1735,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_quantity
 
-dev-00099-full
+dev-00099-12
 <BOS> O
 what O
 is O
@@ -1752,7 +1752,7 @@ city I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00100-full
+dev-00100-15
 <BOS> O
 i O
 would O
@@ -1772,7 +1772,7 @@ second B-arrive_date.day_number
 <EOS> O
 atis_flight
 
-dev-00101-full
+dev-00101-19
 <BOS> O
 what O
 is O
@@ -1796,7 +1796,7 @@ fourth B-arrive_date.day_number
 <EOS> O
 atis_flight
 
-dev-00102-full
+dev-00102-14
 <BOS> O
 show O
 me O
@@ -1815,7 +1815,7 @@ fourteenth B-arrive_date.day_number
 <EOS> O
 atis_flight
 
-dev-00103-full
+dev-00103-24
 <BOS> O
 i O
 would O
@@ -1844,7 +1844,7 @@ first B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00104-full
+dev-00104-12
 <BOS> O
 how O
 many O
@@ -1861,7 +1861,7 @@ flights O
 <EOS> O
 atis_quantity
 
-dev-00105-full
+dev-00105-9
 <BOS> O
 how O
 many O
@@ -1875,7 +1875,7 @@ class I-class_type
 <EOS> O
 atis_quantity
 
-dev-00106-full
+dev-00106-10
 <BOS> O
 how O
 many O
@@ -1890,7 +1890,7 @@ atlanta B-fromloc.city_name
 <EOS> O
 atis_quantity
 
-dev-00107-full
+dev-00107-11
 <BOS> O
 how O
 many O
@@ -1906,7 +1906,7 @@ service O
 <EOS> O
 atis_quantity
 
-dev-00108-full
+dev-00108-17
 <BOS> O
 list O
 the O
@@ -1928,7 +1928,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_quantity
 
-dev-00109-full
+dev-00109-12
 <BOS> O
 what's O
 the O
@@ -1945,7 +1945,7 @@ first B-depart_date.day_number
 <EOS> O
 atis_flight_time
 
-dev-00110-full
+dev-00110-14
 <BOS> O
 i O
 would O
@@ -1964,7 +1964,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight_time
 
-dev-00111-full
+dev-00111-18
 <BOS> O
 what O
 are O
@@ -1987,7 +1987,7 @@ seventh B-depart_date.day_number
 <EOS> O
 atis_flight_time
 
-dev-00112-full
+dev-00112-12
 <BOS> O
 what O
 time B-flight_time
@@ -2004,7 +2004,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight_time
 
-dev-00113-full
+dev-00113-8
 <BOS> O
 i O
 will O
@@ -2017,7 +2017,7 @@ york I-city_name
 <EOS> O
 atis_ground_service
 
-dev-00114-full
+dev-00114-7
 <BOS> O
 is O
 there O
@@ -2029,7 +2029,7 @@ airport I-airport_name
 <EOS> O
 atis_ground_service
 
-dev-00115-full
+dev-00115-9
 <BOS> O
 list O
 flights O
@@ -2043,7 +2043,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00116-full
+dev-00116-17
 <BOS> O
 on O
 sunday B-depart_date.day_name
@@ -2065,7 +2065,7 @@ california B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00117-full
+dev-00117-10
 <BOS> O
 please O
 list O
@@ -2080,7 +2080,7 @@ florida B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00118-full
+dev-00118-16
 <BOS> O
 please O
 find O
@@ -2101,7 +2101,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00119-full
+dev-00119-10
 <BOS> O
 what O
 is O
@@ -2116,7 +2116,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00120-full
+dev-00120-12
 <BOS> O
 what O
 is O
@@ -2133,7 +2133,7 @@ trip I-round_trip
 <EOS> O
 atis_flight
 
-dev-00121-full
+dev-00121-16
 <BOS> O
 what O
 is O
@@ -2154,7 +2154,7 @@ twelfth B-depart_date.day_number
 <EOS> O
 atis_airfare
 
-dev-00122-full
+dev-00122-10
 <BOS> O
 what O
 is O
@@ -2169,7 +2169,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00123-full
+dev-00123-8
 <BOS> O
 list O
 lowest B-cost_relative
@@ -2182,7 +2182,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00124-full
+dev-00124-13
 <BOS> O
 what O
 is O
@@ -2200,7 +2200,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00125-full
+dev-00125-9
 <BOS> O
 tell O
 me O
@@ -2214,7 +2214,7 @@ airport I-airport_name
 <EOS> O
 atis_ground_service
 
-dev-00126-full
+dev-00126-14
 <BOS> O
 what O
 is O
@@ -2233,7 +2233,7 @@ charlotte B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00127-full
+dev-00127-9
 <BOS> O
 what O
 ground O
@@ -2247,7 +2247,7 @@ airport I-airport_name
 <EOS> O
 atis_ground_service
 
-dev-00128-full
+dev-00128-9
 <BOS> O
 is O
 there O
@@ -2261,7 +2261,7 @@ airport I-airport_name
 <EOS> O
 atis_ground_service
 
-dev-00129-full
+dev-00129-4
 <BOS> O
 ground O
 transportation O
@@ -2270,7 +2270,7 @@ francisco I-city_name
 <EOS> O
 atis_ground_service
 
-dev-00130-full
+dev-00130-11
 <BOS> O
 what O
 kinds O
@@ -2286,7 +2286,7 @@ worth I-city_name
 <EOS> O
 atis_ground_service
 
-dev-00131-full
+dev-00131-16
 <BOS> O
 i O
 would O
@@ -2307,7 +2307,7 @@ vegas I-city_name
 <EOS> O
 atis_ground_service
 
-dev-00132-full
+dev-00132-10
 <BOS> O
 find O
 me O
@@ -2322,7 +2322,7 @@ louis I-city_name
 <EOS> O
 atis_flight
 
-dev-00133-full
+dev-00133-12
 <BOS> O
 list O
 united B-airline_name
@@ -2339,7 +2339,7 @@ wednesdays B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00134-full
+dev-00134-12
 <BOS> O
 show O
 me O
@@ -2356,7 +2356,7 @@ atlanta B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00135-full
+dev-00135-20
 <BOS> O
 give O
 me O
@@ -2381,7 +2381,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00136-full
+dev-00136-12
 <BOS> O
 show O
 me O
@@ -2398,7 +2398,7 @@ phoenix B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00137-full
+dev-00137-6
 <BOS> O
 what O
 does O
@@ -2409,7 +2409,7 @@ mean O
 <EOS> O
 atis_abbreviation
 
-dev-00138-full
+dev-00138-5
 <BOS> O
 what O
 is O
@@ -2419,7 +2419,7 @@ c B-fare_basis_code
 <EOS> O
 atis_abbreviation
 
-dev-00139-full
+dev-00139-5
 <BOS> O
 what O
 is O
@@ -2429,7 +2429,7 @@ c B-fare_basis_code
 <EOS> O
 atis_abbreviation
 
-dev-00140-full
+dev-00140-5
 <BOS> O
 what O
 is O
@@ -2439,7 +2439,7 @@ m B-fare_basis_code
 <EOS> O
 atis_abbreviation
 
-dev-00141-full
+dev-00141-9
 <BOS> O
 i'd O
 like O
@@ -2453,7 +2453,7 @@ qx B-fare_basis_code
 <EOS> O
 atis_abbreviation
 
-dev-00142-full
+dev-00142-5
 <BOS> O
 what O
 does O
@@ -2463,7 +2463,7 @@ mean O
 <EOS> O
 atis_abbreviation
 
-dev-00143-full
+dev-00143-22
 <BOS> O
 show O
 me O
@@ -2490,7 +2490,7 @@ meal B-meal
 <EOS> O
 atis_flight
 
-dev-00144-full
+dev-00144-14
 <BOS> O
 i'd O
 like O
@@ -2509,7 +2509,7 @@ meal B-meal
 <EOS> O
 atis_flight
 
-dev-00145-full
+dev-00145-15
 <BOS> O
 on O
 continental B-airline_name
@@ -2529,7 +2529,7 @@ served O
 <EOS> O
 atis_flight
 
-dev-00146-full
+dev-00146-14
 <BOS> O
 show O
 me O
@@ -2548,7 +2548,7 @@ meal B-meal
 <EOS> O
 atis_flight
 
-dev-00147-full
+dev-00147-20
 <BOS> O
 could O
 you O
@@ -2573,7 +2573,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00148-full
+dev-00148-7
 <BOS> O
 what O
 type O
@@ -2585,7 +2585,7 @@ m80 B-aircraft_code
 <EOS> O
 atis_aircraft
 
-dev-00149-full
+dev-00149-10
 <BOS> O
 do O
 you O
@@ -2600,7 +2600,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00150-full
+dev-00150-7
 <BOS> O
 oakland B-fromloc.city_name
 to O
@@ -2612,7 +2612,7 @@ flight O
 <EOS> O
 atis_flight
 
-dev-00151-full
+dev-00151-12
 <BOS> O
 show O
 me O
@@ -2629,7 +2629,7 @@ lunch B-meal_description
 <EOS> O
 atis_flight
 
-dev-00152-full
+dev-00152-13
 <BOS> O
 what O
 flights O
@@ -2647,7 +2647,7 @@ served O
 <EOS> O
 atis_flight
 
-dev-00153-full
+dev-00153-12
 <BOS> O
 find O
 me O
@@ -2664,7 +2664,7 @@ breakfast B-meal_description
 <EOS> O
 atis_flight
 
-dev-00154-full
+dev-00154-26
 <BOS> O
 i'd O
 like O
@@ -2695,7 +2695,7 @@ flight O
 <EOS> O
 atis_flight
 
-dev-00155-full
+dev-00155-15
 <BOS> O
 i O
 want O
@@ -2715,7 +2715,7 @@ afternoon B-arrive_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00156-full
+dev-00156-11
 <BOS> O
 what O
 airlines O
@@ -2731,7 +2731,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00157-full
+dev-00157-22
 <BOS> O
 can O
 you O
@@ -2758,7 +2758,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00158-full
+dev-00158-16
 <BOS> O
 which O
 flights O
@@ -2779,7 +2779,7 @@ morning B-arrive_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00159-full
+dev-00159-20
 <BOS> O
 i O
 would O
@@ -2804,7 +2804,7 @@ morning B-arrive_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00160-full
+dev-00160-22
 <BOS> O
 i O
 want O
@@ -2831,7 +2831,7 @@ afternoon B-arrive_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00161-full
+dev-00161-9
 <BOS> O
 what O
 are O
@@ -2845,7 +2845,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00162-full
+dev-00162-9
 <BOS> O
 please O
 list O
@@ -2859,7 +2859,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00163-full
+dev-00163-12
 <BOS> O
 give O
 me O
@@ -2876,7 +2876,7 @@ second B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00164-full
+dev-00164-12
 <BOS> O
 all O
 flights O
@@ -2893,7 +2893,7 @@ class I-class_type
 <EOS> O
 atis_flight
 
-dev-00165-full
+dev-00165-11
 <BOS> O
 is O
 there O
@@ -2909,7 +2909,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00166-full
+dev-00166-10
 <BOS> O
 i'd O
 like O
@@ -2924,7 +2924,7 @@ dc B-fromloc.state_code
 <EOS> O
 atis_flight
 
-dev-00167-full
+dev-00167-21
 <BOS> O
 on O
 flight O
@@ -2950,7 +2950,7 @@ between O
 <EOS> O
 atis_flight
 
-dev-00168-full
+dev-00168-10
 <BOS> O
 what O
 is O
@@ -2965,7 +2965,7 @@ flight O
 <EOS> O
 atis_aircraft
 
-dev-00169-full
+dev-00169-16
 <BOS> O
 what O
 is O
@@ -2986,7 +2986,7 @@ night B-depart_time.period_of_day
 <EOS> O
 atis_airfare
 
-dev-00170-full
+dev-00170-14
 <BOS> O
 i O
 would O
@@ -3005,7 +3005,7 @@ twentieth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00171-full
+dev-00171-11
 <BOS> O
 how O
 much O
@@ -3021,7 +3021,7 @@ cost O
 <EOS> O
 atis_airfare
 
-dev-00172-full
+dev-00172-25
 <BOS> O
 i O
 would O
@@ -3051,7 +3051,7 @@ city O
 <EOS> O
 atis_flight
 
-dev-00173-full
+dev-00173-15
 <BOS> O
 what O
 is O
@@ -3071,7 +3071,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00174-full
+dev-00174-20
 <BOS> O
 i O
 would O
@@ -3096,7 +3096,7 @@ week O
 <EOS> O
 atis_aircraft
 
-dev-00175-full
+dev-00175-9
 <BOS> O
 show O
 me O
@@ -3110,7 +3110,7 @@ uses O
 <EOS> O
 atis_aircraft
 
-dev-00176-full
+dev-00176-16
 <BOS> O
 on O
 the O
@@ -3131,7 +3131,7 @@ used O
 <EOS> O
 atis_aircraft
 
-dev-00177-full
+dev-00177-9
 <BOS> O
 list O
 type O
@@ -3145,7 +3145,7 @@ charlotte B-fromloc.city_name
 <EOS> O
 atis_aircraft
 
-dev-00178-full
+dev-00178-17
 <BOS> O
 what O
 kind O
@@ -3167,7 +3167,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_aircraft
 
-dev-00179-full
+dev-00179-41
 <BOS> O
 i'm O
 going O
@@ -3213,7 +3213,7 @@ flying O
 <EOS> O
 atis_aircraft
 
-dev-00180-full
+dev-00180-11
 <BOS> O
 is O
 there O
@@ -3229,7 +3229,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_ground_service
 
-dev-00181-full
+dev-00181-34
 <BOS> O
 i O
 would O
@@ -3268,7 +3268,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00182-full
+dev-00182-12
 <BOS> O
 please O
 list O
@@ -3285,7 +3285,7 @@ international I-fromloc.airport_name
 <EOS> O
 atis_flight
 
-dev-00183-full
+dev-00183-7
 <BOS> O
 list O
 all O
@@ -3297,7 +3297,7 @@ international I-fromloc.airport_name
 <EOS> O
 atis_flight
 
-dev-00184-full
+dev-00184-12
 <BOS> O
 list O
 us B-airline_name
@@ -3314,7 +3314,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00185-full
+dev-00185-7
 <BOS> O
 show O
 me O
@@ -3326,7 +3326,7 @@ field I-fromloc.airport_name
 <EOS> O
 atis_airline
 
-dev-00186-full
+dev-00186-11
 <BOS> O
 what O
 are O
@@ -3342,7 +3342,7 @@ tomorrow B-depart_date.today_relative
 <EOS> O
 atis_flight
 
-dev-00187-full
+dev-00187-9
 <BOS> O
 what O
 flights O
@@ -3356,7 +3356,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00188-full
+dev-00188-13
 <BOS> O
 i O
 would O
@@ -3374,7 +3374,7 @@ charlotte B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00189-full
+dev-00189-16
 <BOS> O
 show O
 me O
@@ -3395,7 +3395,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00190-full
+dev-00190-15
 <BOS> O
 are O
 there O
@@ -3415,7 +3415,7 @@ evening B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00191-full
+dev-00191-14
 <BOS> O
 give O
 me O
@@ -3434,7 +3434,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00192-full
+dev-00192-15
 <BOS> O
 i O
 would O
@@ -3454,7 +3454,7 @@ burbank B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00193-full
+dev-00193-13
 <BOS> O
 list O
 all O
@@ -3472,7 +3472,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00194-full
+dev-00194-9
 <BOS> O
 cleveland B-fromloc.city_name
 to O
@@ -3486,7 +3486,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00195-full
+dev-00195-11
 <BOS> O
 list O
 nonstop B-flight_stop
@@ -3502,7 +3502,7 @@ noon B-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00196-full
+dev-00196-10
 <BOS> O
 kansas B-fromloc.city_name
 city I-fromloc.city_name
@@ -3517,7 +3517,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00197-full
+dev-00197-15
 <BOS> O
 list O
 nonstop B-flight_stop
@@ -3537,7 +3537,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00198-full
+dev-00198-16
 <BOS> O
 are O
 there O
@@ -3558,7 +3558,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00199-full
+dev-00199-13
 <BOS> O
 show O
 me O
@@ -3576,7 +3576,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00200-full
+dev-00200-9
 <BOS> O
 what O
 flights O
@@ -3590,7 +3590,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00201-full
+dev-00201-19
 <BOS> O
 i O
 need O
@@ -3614,7 +3614,7 @@ boston B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00202-full
+dev-00202-15
 <BOS> O
 show O
 me O
@@ -3634,7 +3634,7 @@ noon B-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00203-full
+dev-00203-9
 <BOS> O
 list O
 flights O
@@ -3648,7 +3648,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00204-full
+dev-00204-10
 <BOS> O
 give O
 me O
@@ -3663,7 +3663,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_airfare
 
-dev-00205-full
+dev-00205-9
 <BOS> O
 show O
 me O
@@ -3677,7 +3677,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00206-full
+dev-00206-12
 <BOS> O
 what O
 is O
@@ -3694,7 +3694,7 @@ dc B-toloc.state_code
 <EOS> O
 atis_flight
 
-dev-00207-full
+dev-00207-10
 <BOS> O
 show O
 me O
@@ -3709,7 +3709,7 @@ dc B-toloc.state_code
 <EOS> O
 atis_flight
 
-dev-00208-full
+dev-00208-10
 <BOS> O
 what O
 are O
@@ -3724,7 +3724,7 @@ dc B-toloc.state_code
 <EOS> O
 atis_flight
 
-dev-00209-full
+dev-00209-11
 <BOS> O
 show O
 me O
@@ -3740,7 +3740,7 @@ dc B-toloc.state_code
 <EOS> O
 atis_flight
 
-dev-00210-full
+dev-00210-15
 <BOS> O
 please O
 list O
@@ -3760,7 +3760,7 @@ third I-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00211-full
+dev-00211-9
 <BOS> O
 show O
 me O
@@ -3774,7 +3774,7 @@ thursday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00212-full
+dev-00212-11
 <BOS> O
 what's O
 the O
@@ -3790,7 +3790,7 @@ dc B-toloc.state_code
 <EOS> O
 atis_flight
 
-dev-00213-full
+dev-00213-9
 <BOS> O
 list O
 the O
@@ -3804,7 +3804,7 @@ dc B-toloc.state_code
 <EOS> O
 atis_flight
 
-dev-00214-full
+dev-00214-9
 <BOS> O
 i'd O
 like O
@@ -3818,7 +3818,7 @@ washington B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00215-full
+dev-00215-12
 <BOS> O
 i O
 need O
@@ -3835,7 +3835,7 @@ california B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00216-full
+dev-00216-9
 <BOS> O
 show O
 me O
@@ -3849,7 +3849,7 @@ georgia B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00217-full
+dev-00217-9
 <BOS> O
 please O
 find O
@@ -3863,7 +3863,7 @@ michigan B-toloc.state_name
 <EOS> O
 atis_flight
 
-dev-00218-full
+dev-00218-11
 <BOS> O
 flight O
 information O
@@ -3879,7 +3879,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00219-full
+dev-00219-14
 <BOS> O
 what O
 are O
@@ -3898,7 +3898,7 @@ two I-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00220-full
+dev-00220-15
 <BOS> O
 on O
 november B-depart_date.month_name
@@ -3918,7 +3918,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight
 
-dev-00221-full
+dev-00221-17
 <BOS> O
 what O
 is O
@@ -3940,7 +3940,7 @@ seventh I-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00222-full
+dev-00222-14
 <BOS> O
 on O
 july B-depart_date.month_name
@@ -3959,7 +3959,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00223-full
+dev-00223-16
 <BOS> O
 what O
 flight O
@@ -3980,7 +3980,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00224-full
+dev-00224-23
 <BOS> O
 okay O
 just O
@@ -4008,7 +4008,7 @@ available O
 <EOS> O
 atis_flight
 
-dev-00225-full
+dev-00225-15
 <BOS> O
 which O
 airline O
@@ -4028,7 +4028,7 @@ fourth I-depart_date.day_number
 <EOS> O
 atis_airline
 
-dev-00226-full
+dev-00226-13
 <BOS> O
 show O
 me O
@@ -4046,7 +4046,7 @@ first I-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00227-full
+dev-00227-8
 <BOS> O
 what O
 is O
@@ -4059,7 +4059,7 @@ international I-airline_name
 <EOS> O
 atis_abbreviation
 
-dev-00228-full
+dev-00228-10
 <BOS> O
 what O
 fare O
@@ -4074,7 +4074,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_abbreviation
 
-dev-00229-full
+dev-00229-3
 <BOS> O
 what O
 is O
@@ -4082,7 +4082,7 @@ dl B-airline_code
 <EOS> O
 atis_abbreviation
 
-dev-00230-full
+dev-00230-4
 <BOS> O
 what O
 is O
@@ -4091,7 +4091,7 @@ nw B-airline_code
 <EOS> O
 atis_airline
 
-dev-00231-full
+dev-00231-8
 <BOS> O
 what O
 are O
@@ -4104,7 +4104,7 @@ twa B-airline_code
 <EOS> O
 atis_flight
 
-dev-00232-full
+dev-00232-16
 <BOS> O
 how O
 much O
@@ -4125,7 +4125,7 @@ twa B-airline_code
 <EOS> O
 atis_airfare
 
-dev-00233-full
+dev-00233-11
 <BOS> O
 okay O
 does O
@@ -4141,7 +4141,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00234-full
+dev-00234-13
 <BOS> O
 what's O
 the O
@@ -4159,7 +4159,7 @@ twa B-airline_code
 <EOS> O
 atis_flight
 
-dev-00235-full
+dev-00235-13
 <BOS> O
 how O
 much O
@@ -4177,7 +4177,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00236-full
+dev-00236-16
 <BOS> O
 what O
 are O
@@ -4198,7 +4198,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00237-full
+dev-00237-11
 <BOS> O
 what O
 flights O
@@ -4214,7 +4214,7 @@ am I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00238-full
+dev-00238-17
 <BOS> O
 show O
 me O
@@ -4236,7 +4236,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00239-full
+dev-00239-13
 <BOS> O
 which O
 flights O
@@ -4254,7 +4254,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00240-full
+dev-00240-13
 <BOS> O
 i O
 want O
@@ -4272,7 +4272,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00241-full
+dev-00241-15
 <BOS> O
 list O
 all O
@@ -4292,7 +4292,7 @@ am I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00242-full
+dev-00242-14
 <BOS> O
 show O
 me O
@@ -4311,7 +4311,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00243-full
+dev-00243-15
 <BOS> O
 i'd O
 like O
@@ -4331,7 +4331,7 @@ pm I-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00244-full
+dev-00244-17
 <BOS> O
 i O
 need O
@@ -4353,7 +4353,7 @@ please O
 <EOS> O
 atis_flight
 
-dev-00245-full
+dev-00245-4
 <BOS> O
 what O
 airlines O
@@ -4362,7 +4362,7 @@ denver B-city_name
 <EOS> O
 atis_airline
 
-dev-00246-full
+dev-00246-18
 <BOS> O
 do O
 you O
@@ -4385,7 +4385,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00247-full
+dev-00247-7
 <BOS> O
 which O
 airline O
@@ -4397,7 +4397,7 @@ atlanta B-fromloc.city_name
 <EOS> O
 atis_airline
 
-dev-00248-full
+dev-00248-6
 <BOS> O
 what O
 airlines O
@@ -4408,7 +4408,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00249-full
+dev-00249-9
 <BOS> O
 list O
 the O
@@ -4422,7 +4422,7 @@ denver B-city_name
 <EOS> O
 atis_airline
 
-dev-00250-full
+dev-00250-8
 <BOS> O
 what O
 airlines O
@@ -4435,7 +4435,7 @@ county I-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00251-full
+dev-00251-9
 <BOS> O
 show O
 all O
@@ -4449,7 +4449,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00252-full
+dev-00252-8
 <BOS> O
 what O
 airlines O
@@ -4462,7 +4462,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00253-full
+dev-00253-12
 <BOS> O
 does O
 any O
@@ -4479,7 +4479,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00254-full
+dev-00254-10
 <BOS> O
 which O
 airlines O
@@ -4494,7 +4494,7 @@ chicago B-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00255-full
+dev-00255-8
 <BOS> O
 what O
 airlines O
@@ -4507,7 +4507,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airline
 
-dev-00256-full
+dev-00256-6
 <BOS> O
 which O
 airline O
@@ -4518,7 +4518,7 @@ flights O
 <EOS> O
 atis_airline
 
-dev-00257-full
+dev-00257-6
 <BOS> O
 nonstop B-flight_stop
 flights O
@@ -4529,7 +4529,7 @@ city I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00258-full
+dev-00258-11
 <BOS> O
 list O
 all O
@@ -4545,7 +4545,7 @@ nonstop B-flight_stop
 <EOS> O
 atis_flight
 
-dev-00259-full
+dev-00259-11
 <BOS> O
 are O
 they O
@@ -4561,7 +4561,7 @@ paul I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00260-full
+dev-00260-10
 <BOS> O
 show O
 me O
@@ -4576,7 +4576,7 @@ petersburg I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00261-full
+dev-00261-13
 <BOS> O
 on O
 thursday B-depart_date.day_name
@@ -4594,7 +4594,7 @@ toronto B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00262-full
+dev-00262-10
 <BOS> O
 i O
 need O
@@ -4609,7 +4609,7 @@ louis I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00263-full
+dev-00263-13
 <BOS> O
 round B-round_trip
 trip I-round_trip
@@ -4627,7 +4627,7 @@ possible O
 <EOS> O
 atis_flight
 
-dev-00264-full
+dev-00264-15
 <BOS> O
 i'd O
 like O
@@ -4647,7 +4647,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00265-full
+dev-00265-13
 <BOS> O
 what O
 is O
@@ -4665,7 +4665,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00266-full
+dev-00266-21
 <BOS> O
 show O
 me O
@@ -4691,7 +4691,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_airfare
 
-dev-00267-full
+dev-00267-14
 <BOS> O
 show O
 me O
@@ -4710,7 +4710,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00268-full
+dev-00268-16
 <BOS> O
 what O
 is O
@@ -4731,7 +4731,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00269-full
+dev-00269-11
 <BOS> O
 what's O
 the O
@@ -4747,7 +4747,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00270-full
+dev-00270-12
 <BOS> O
 show O
 me O
@@ -4764,7 +4764,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00271-full
+dev-00271-11
 <BOS> O
 show O
 business B-class_type
@@ -4780,7 +4780,7 @@ toronto B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00272-full
+dev-00272-10
 <BOS> O
 show O
 me O
@@ -4795,7 +4795,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00273-full
+dev-00273-12
 <BOS> O
 list O
 airfares O
@@ -4812,7 +4812,7 @@ petersburg I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00274-full
+dev-00274-19
 <BOS> O
 i O
 need O
@@ -4836,7 +4836,7 @@ airlines I-airline_name
 <EOS> O
 atis_airfare
 
-dev-00275-full
+dev-00275-23
 <BOS> O
 july B-depart_date.month_name
 seventh B-depart_date.day_number
@@ -4864,7 +4864,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00276-full
+dev-00276-9
 <BOS> O
 show O
 me O
@@ -4878,7 +4878,7 @@ before B-arrive_time.time_relative
 <EOS> O
 atis_flight
 
-dev-00277-full
+dev-00277-13
 <BOS> O
 show O
 me O
@@ -4896,7 +4896,7 @@ noon B-arrive_time.time
 <EOS> O
 atis_flight
 
-dev-00278-full
+dev-00278-13
 <BOS> O
 show O
 me O
@@ -4914,7 +4914,7 @@ noon I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00279-full
+dev-00279-13
 <BOS> O
 show O
 me O
@@ -4932,7 +4932,7 @@ detroit B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00280-full
+dev-00280-11
 <BOS> O
 give O
 me O
@@ -4948,7 +4948,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00281-full
+dev-00281-7
 <BOS> O
 what O
 ground O
@@ -4960,7 +4960,7 @@ charlotte B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00282-full
+dev-00282-7
 <BOS> O
 please O
 list O
@@ -4972,7 +4972,7 @@ pittsburgh B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00283-full
+dev-00283-3
 <BOS> O
 ground O
 transportation O
@@ -4980,7 +4980,7 @@ dallas B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00284-full
+dev-00284-9
 <BOS> O
 show O
 departures O
@@ -4994,7 +4994,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight
 
-dev-00285-full
+dev-00285-7
 <BOS> O
 what O
 ground O
@@ -5006,7 +5006,7 @@ oakland B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00286-full
+dev-00286-12
 <BOS> O
 what O
 kind O
@@ -5023,7 +5023,7 @@ dallas B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00287-full
+dev-00287-5
 <BOS> O
 does O
 midwest B-airline_name
@@ -5033,7 +5033,7 @@ baltimore B-city_name
 <EOS> O
 atis_flight
 
-dev-00288-full
+dev-00288-7
 <BOS> O
 what O
 ground O
@@ -5045,7 +5045,7 @@ atlanta B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00289-full
+dev-00289-8
 <BOS> O
 what O
 ground O
@@ -5058,7 +5058,7 @@ boston B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00290-full
+dev-00290-7
 <BOS> O
 tell O
 me O
@@ -5070,7 +5070,7 @@ toronto B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00291-full
+dev-00291-4
 <BOS> O
 ground O
 transportation O
@@ -5079,7 +5079,7 @@ denver B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00292-full
+dev-00292-7
 <BOS> O
 show O
 me O
@@ -5091,7 +5091,7 @@ denver B-city_name
 <EOS> O
 atis_ground_service
 
-dev-00293-full
+dev-00293-10
 <BOS> O
 i'd O
 like O
@@ -5106,7 +5106,7 @@ denver B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00294-full
+dev-00294-13
 <BOS> O
 what O
 flights O
@@ -5124,7 +5124,7 @@ dallas B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00295-full
+dev-00295-13
 <BOS> O
 what O
 are O
@@ -5142,7 +5142,7 @@ atlanta B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00296-full
+dev-00296-14
 <BOS> O
 i O
 want O
@@ -5161,7 +5161,7 @@ dallas B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00297-full
+dev-00297-13
 <BOS> O
 does O
 continental B-airline_name
@@ -5179,7 +5179,7 @@ denver B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00298-full
+dev-00298-12
 <BOS> O
 are O
 there O
@@ -5196,7 +5196,7 @@ denver B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00299-full
+dev-00299-12
 <BOS> O
 i'm O
 trying O
@@ -5213,7 +5213,7 @@ cincinnati B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00300-full
+dev-00300-14
 <BOS> O
 i'd O
 like O
@@ -5232,7 +5232,7 @@ dallas B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00301-full
+dev-00301-11
 <BOS> O
 i O
 actually O
@@ -5248,7 +5248,7 @@ chicago B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00302-full
+dev-00302-10
 <BOS> O
 what O
 flights O
@@ -5263,7 +5263,7 @@ indianapolis B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00303-full
+dev-00303-9
 <BOS> O
 what O
 flights O
@@ -5277,7 +5277,7 @@ minneapolis B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00304-full
+dev-00304-9
 <BOS> O
 list O
 flights O
@@ -5291,7 +5291,7 @@ dallas B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00305-full
+dev-00305-15
 <BOS> O
 i O
 would O
@@ -5311,7 +5311,7 @@ atlanta B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00306-full
+dev-00306-16
 <BOS> O
 i'd O
 like O
@@ -5332,7 +5332,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00307-full
+dev-00307-13
 <BOS> O
 find O
 the O
@@ -5350,7 +5350,7 @@ pittsburgh B-stoploc.city_name
 <EOS> O
 atis_flight
 
-dev-00308-full
+dev-00308-11
 <BOS> O
 do O
 you O
@@ -5366,7 +5366,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_ground_service
 
-dev-00309-full
+dev-00309-11
 <BOS> O
 i O
 need O
@@ -5382,7 +5382,7 @@ atlanta B-fromloc.city_name
 <EOS> O
 atis_ground_service
 
-dev-00310-full
+dev-00310-24
 <BOS> O
 i'd O
 like O
@@ -5411,7 +5411,7 @@ me O
 <EOS> O
 atis_flight
 
-dev-00311-full
+dev-00311-10
 <BOS> O
 what O
 flights O
@@ -5426,7 +5426,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00312-full
+dev-00312-13
 <BOS> O
 i'd O
 like O
@@ -5444,7 +5444,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00313-full
+dev-00313-18
 <BOS> O
 show O
 me O
@@ -5467,7 +5467,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00314-full
+dev-00314-13
 <BOS> O
 list O
 all O
@@ -5485,7 +5485,7 @@ thursday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00315-full
+dev-00315-16
 <BOS> O
 list O
 all O
@@ -5506,7 +5506,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00316-full
+dev-00316-10
 <BOS> O
 list O
 the O
@@ -5521,7 +5521,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00317-full
+dev-00317-12
 <BOS> O
 find O
 the O
@@ -5538,7 +5538,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00318-full
+dev-00318-16
 <BOS> O
 hello O
 i'm O
@@ -5559,7 +5559,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00319-full
+dev-00319-15
 <BOS> O
 okay O
 i'd O
@@ -5579,7 +5579,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00320-full
+dev-00320-15
 <BOS> O
 show O
 me O
@@ -5599,7 +5599,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00321-full
+dev-00321-12
 <BOS> O
 show O
 me O
@@ -5616,7 +5616,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00322-full
+dev-00322-13
 <BOS> O
 i O
 need O
@@ -5634,7 +5634,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00323-full
+dev-00323-16
 <BOS> O
 show O
 me O
@@ -5655,7 +5655,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00324-full
+dev-00324-11
 <BOS> O
 what's O
 the O
@@ -5671,7 +5671,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00325-full
+dev-00325-13
 <BOS> O
 what O
 flights O
@@ -5689,7 +5689,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00326-full
+dev-00326-17
 <BOS> O
 i'd O
 like O
@@ -5711,7 +5711,7 @@ am I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00327-full
+dev-00327-9
 <BOS> O
 us B-airline_name
 air I-airline_name
@@ -5725,7 +5725,7 @@ pm I-depart_time.time
 <EOS> O
 atis_flight
 
-dev-00328-full
+dev-00328-13
 <BOS> O
 i O
 would O
@@ -5743,7 +5743,7 @@ city I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00329-full
+dev-00329-15
 <BOS> O
 show O
 me O
@@ -5763,7 +5763,7 @@ day O
 <EOS> O
 atis_flight
 
-dev-00330-full
+dev-00330-10
 <BOS> O
 can O
 i O
@@ -5778,7 +5778,7 @@ orlando B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00331-full
+dev-00331-11
 <BOS> O
 i O
 need O
@@ -5794,7 +5794,7 @@ city I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00332-full
+dev-00332-11
 <BOS> O
 show O
 me O
@@ -5810,7 +5810,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00333-full
+dev-00333-10
 <BOS> O
 what's O
 the O
@@ -5825,7 +5825,7 @@ city I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00334-full
+dev-00334-11
 <BOS> O
 what O
 is O
@@ -5841,7 +5841,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00335-full
+dev-00335-11
 <BOS> O
 what O
 is O
@@ -5857,7 +5857,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00336-full
+dev-00336-7
 <BOS> O
 show O
 first B-flight_mod
@@ -5869,7 +5869,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00337-full
+dev-00337-9
 <BOS> O
 give O
 me O
@@ -5883,7 +5883,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00338-full
+dev-00338-10
 <BOS> O
 what O
 is O
@@ -5898,7 +5898,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00339-full
+dev-00339-14
 <BOS> O
 what O
 is O
@@ -5917,7 +5917,7 @@ july B-depart_date.month_name
 <EOS> O
 atis_flight
 
-dev-00340-full
+dev-00340-15
 <BOS> O
 what O
 is O
@@ -5937,7 +5937,7 @@ tuesdays B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00341-full
+dev-00341-14
 <BOS> O
 okay O
 tell O
@@ -5956,7 +5956,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00342-full
+dev-00342-12
 <BOS> O
 what O
 is O
@@ -5973,7 +5973,7 @@ petersburg I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00343-full
+dev-00343-14
 <BOS> O
 what O
 is O
@@ -5992,7 +5992,7 @@ toronto B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00344-full
+dev-00344-15
 <BOS> O
 what O
 are O
@@ -6012,7 +6012,7 @@ seventh B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00345-full
+dev-00345-9
 <BOS> O
 what O
 is O
@@ -6026,7 +6026,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00346-full
+dev-00346-12
 <BOS> O
 what O
 is O
@@ -6043,7 +6043,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00347-full
+dev-00347-14
 <BOS> O
 what O
 is O
@@ -6062,7 +6062,7 @@ fourth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00348-full
+dev-00348-9
 <BOS> O
 list O
 the O
@@ -6076,7 +6076,7 @@ houston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00349-full
+dev-00349-11
 <BOS> O
 what O
 is O
@@ -6092,7 +6092,7 @@ phoenix B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00350-full
+dev-00350-14
 <BOS> O
 can O
 you O
@@ -6111,7 +6111,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00351-full
+dev-00351-11
 <BOS> O
 what O
 is O
@@ -6127,7 +6127,7 @@ oakland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00352-full
+dev-00352-14
 <BOS> O
 what O
 is O
@@ -6146,7 +6146,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00353-full
+dev-00353-11
 <BOS> O
 what O
 is O
@@ -6162,7 +6162,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00354-full
+dev-00354-12
 <BOS> O
 can O
 you O
@@ -6179,7 +6179,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00355-full
+dev-00355-9
 <BOS> O
 what O
 is O
@@ -6193,7 +6193,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00356-full
+dev-00356-6
 <BOS> O
 cheapest B-cost_relative
 airfare O
@@ -6204,7 +6204,7 @@ tacoma B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00357-full
+dev-00357-10
 <BOS> O
 show O
 me O
@@ -6219,7 +6219,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00358-full
+dev-00358-14
 <BOS> O
 what O
 is O
@@ -6238,7 +6238,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00359-full
+dev-00359-9
 <BOS> O
 what O
 is O
@@ -6252,7 +6252,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00360-full
+dev-00360-14
 <BOS> O
 i O
 want O
@@ -6271,7 +6271,7 @@ fare O
 <EOS> O
 atis_flight
 
-dev-00361-full
+dev-00361-14
 <BOS> O
 show O
 me O
@@ -6290,7 +6290,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_airfare
 
-dev-00362-full
+dev-00362-11
 <BOS> O
 what O
 is O
@@ -6306,7 +6306,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00363-full
+dev-00363-14
 <BOS> O
 what O
 is O
@@ -6325,7 +6325,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00364-full
+dev-00364-12
 <BOS> O
 now O
 show O
@@ -6342,7 +6342,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00365-full
+dev-00365-8
 <BOS> O
 what's O
 the O
@@ -6355,7 +6355,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00366-full
+dev-00366-16
 <BOS> O
 i O
 want O
@@ -6376,7 +6376,7 @@ trip I-round_trip
 <EOS> O
 atis_flight
 
-dev-00367-full
+dev-00367-10
 <BOS> O
 give O
 me O
@@ -6391,7 +6391,7 @@ beach I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00368-full
+dev-00368-12
 <BOS> O
 i O
 would O
@@ -6408,7 +6408,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00369-full
+dev-00369-9
 <BOS> O
 what're O
 the O
@@ -6422,7 +6422,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00370-full
+dev-00370-20
 <BOS> O
 show O
 me O
@@ -6447,7 +6447,7 @@ thursday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00371-full
+dev-00371-6
 <BOS> O
 nashville B-fromloc.city_name
 to O
@@ -6458,7 +6458,7 @@ before B-depart_time.time_relative
 <EOS> O
 atis_flight
 
-dev-00372-full
+dev-00372-10
 <BOS> O
 all O
 flights O
@@ -6473,7 +6473,7 @@ after B-depart_time.time_relative
 <EOS> O
 atis_flight
 
-dev-00373-full
+dev-00373-12
 <BOS> O
 what O
 flights O
@@ -6490,7 +6490,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00374-full
+dev-00374-12
 <BOS> O
 list O
 flights O
@@ -6507,7 +6507,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00375-full
+dev-00375-12
 <BOS> O
 please O
 show O
@@ -6524,7 +6524,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00376-full
+dev-00376-9
 <BOS> O
 show O
 me O
@@ -6538,7 +6538,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00377-full
+dev-00377-12
 <BOS> O
 i O
 want O
@@ -6555,7 +6555,7 @@ jose I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00378-full
+dev-00378-12
 <BOS> O
 find O
 travel O
@@ -6572,7 +6572,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00379-full
+dev-00379-14
 <BOS> O
 i O
 would O
@@ -6591,7 +6591,7 @@ chicago B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00380-full
+dev-00380-13
 <BOS> O
 what O
 is O
@@ -6609,7 +6609,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00381-full
+dev-00381-13
 <BOS> O
 show O
 me O
@@ -6627,7 +6627,7 @@ oakland B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00382-full
+dev-00382-11
 <BOS> O
 now O
 i O
@@ -6643,7 +6643,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00383-full
+dev-00383-11
 <BOS> O
 what O
 are O
@@ -6659,7 +6659,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00384-full
+dev-00384-12
 <BOS> O
 find O
 travel O
@@ -6676,7 +6676,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00385-full
+dev-00385-12
 <BOS> O
 give O
 me O
@@ -6693,7 +6693,7 @@ third B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00386-full
+dev-00386-17
 <BOS> O
 i O
 would O
@@ -6715,7 +6715,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00387-full
+dev-00387-13
 <BOS> O
 i O
 would O
@@ -6733,7 +6733,7 @@ twentieth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00388-full
+dev-00388-12
 <BOS> O
 list O
 flights O
@@ -6750,7 +6750,7 @@ sixth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00389-full
+dev-00389-16
 <BOS> O
 i'd O
 like O
@@ -6771,7 +6771,7 @@ third B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00390-full
+dev-00390-13
 <BOS> O
 what O
 united B-airline_name
@@ -6789,7 +6789,7 @@ cincinnati B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00391-full
+dev-00391-13
 <BOS> O
 what O
 are O
@@ -6807,7 +6807,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00392-full
+dev-00392-12
 <BOS> O
 do O
 you O
@@ -6824,7 +6824,7 @@ first B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00393-full
+dev-00393-12
 <BOS> O
 are O
 there O
@@ -6841,7 +6841,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00394-full
+dev-00394-13
 <BOS> O
 what O
 are O
@@ -6859,7 +6859,7 @@ first B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00395-full
+dev-00395-14
 <BOS> O
 i O
 need O
@@ -6878,7 +6878,7 @@ july B-depart_date.month_name
 <EOS> O
 atis_flight
 
-dev-00396-full
+dev-00396-13
 <BOS> O
 please O
 give O
@@ -6896,7 +6896,7 @@ sixteenth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00397-full
+dev-00397-10
 <BOS> O
 show O
 flights O
@@ -6911,7 +6911,7 @@ seventeenth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00398-full
+dev-00398-11
 <BOS> O
 list O
 the O
@@ -6927,7 +6927,7 @@ eighth B-depart_date.day_number
 <EOS> O
 atis_flight
 
-dev-00399-full
+dev-00399-13
 <BOS> O
 and O
 what O
@@ -6945,7 +6945,7 @@ again O
 <EOS> O
 atis_flight
 
-dev-00400-full
+dev-00400-12
 <BOS> O
 list O
 the O
@@ -6962,7 +6962,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00401-full
+dev-00401-9
 <BOS> O
 show O
 me O
@@ -6976,7 +6976,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00402-full
+dev-00402-10
 <BOS> O
 what O
 is O
@@ -6991,7 +6991,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00403-full
+dev-00403-11
 <BOS> O
 what O
 is O
@@ -7007,7 +7007,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00404-full
+dev-00404-15
 <BOS> O
 i'd O
 like O
@@ -7027,7 +7027,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00405-full
+dev-00405-8
 <BOS> O
 please O
 give O
@@ -7040,7 +7040,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00406-full
+dev-00406-14
 <BOS> O
 what O
 are O
@@ -7059,7 +7059,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_airfare
 
-dev-00407-full
+dev-00407-11
 <BOS> O
 show O
 me O
@@ -7075,7 +7075,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_airfare
 
-dev-00408-full
+dev-00408-13
 <BOS> O
 tell O
 me O
@@ -7093,7 +7093,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00409-full
+dev-00409-11
 <BOS> O
 list O
 the O
@@ -7109,7 +7109,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight
 
-dev-00410-full
+dev-00410-13
 <BOS> O
 show O
 me O
@@ -7127,7 +7127,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00411-full
+dev-00411-13
 <BOS> O
 what O
 flights O
@@ -7145,7 +7145,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00412-full
+dev-00412-11
 <BOS> O
 give O
 me O
@@ -7161,7 +7161,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00413-full
+dev-00413-15
 <BOS> O
 please O
 list O
@@ -7181,7 +7181,7 @@ evening B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00414-full
+dev-00414-11
 <BOS> O
 list O
 the O
@@ -7197,7 +7197,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight
 
-dev-00415-full
+dev-00415-9
 <BOS> O
 list O
 the O
@@ -7211,7 +7211,7 @@ anywhere O
 <EOS> O
 atis_flight
 
-dev-00416-full
+dev-00416-11
 <BOS> O
 is O
 there O
@@ -7227,7 +7227,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00417-full
+dev-00417-10
 <BOS> O
 list O
 all O
@@ -7242,7 +7242,7 @@ saturday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00418-full
+dev-00418-9
 <BOS> O
 do O
 any O
@@ -7256,7 +7256,7 @@ francisco I-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00419-full
+dev-00419-7
 <BOS> O
 where O
 does O
@@ -7268,7 +7268,7 @@ to O
 <EOS> O
 atis_flight
 
-dev-00420-full
+dev-00420-18
 <BOS> O
 i'd O
 like O
@@ -7291,7 +7291,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight
 
-dev-00421-full
+dev-00421-14
 <BOS> O
 i'd O
 like O
@@ -7310,7 +7310,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00422-full
+dev-00422-16
 <BOS> O
 i O
 want O
@@ -7331,7 +7331,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00423-full
+dev-00423-14
 <BOS> O
 show O
 me O
@@ -7350,7 +7350,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00424-full
+dev-00424-7
 <BOS> O
 what O
 flights O
@@ -7362,7 +7362,7 @@ airlines I-airline_name
 <EOS> O
 atis_flight
 
-dev-00425-full
+dev-00425-11
 <BOS> O
 list O
 american B-airline_name
@@ -7378,7 +7378,7 @@ pm B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00426-full
+dev-00426-15
 <BOS> O
 i O
 would O
@@ -7398,7 +7398,7 @@ evening B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00427-full
+dev-00427-12
 <BOS> O
 what O
 flights O
@@ -7415,7 +7415,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00428-full
+dev-00428-14
 <BOS> O
 can O
 you O
@@ -7434,7 +7434,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00429-full
+dev-00429-12
 <BOS> O
 give O
 me O
@@ -7451,7 +7451,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00430-full
+dev-00430-9
 <BOS> O
 show O
 me O
@@ -7465,7 +7465,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00431-full
+dev-00431-7
 <BOS> O
 list O
 flights O
@@ -7477,7 +7477,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00432-full
+dev-00432-11
 <BOS> O
 are O
 there O
@@ -7493,7 +7493,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00433-full
+dev-00433-9
 <BOS> O
 list O
 all O
@@ -7507,7 +7507,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00434-full
+dev-00434-13
 <BOS> O
 afternoon B-depart_time.period_of_day
 flights O
@@ -7525,7 +7525,7 @@ afternoon B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00435-full
+dev-00435-11
 <BOS> O
 can O
 i O
@@ -7541,7 +7541,7 @@ please O
 <EOS> O
 atis_flight
 
-dev-00436-full
+dev-00436-13
 <BOS> O
 what O
 flights O
@@ -7559,7 +7559,7 @@ afternoons B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00437-full
+dev-00437-9
 <BOS> O
 i O
 want O
@@ -7573,7 +7573,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00438-full
+dev-00438-16
 <BOS> O
 i O
 would O
@@ -7594,7 +7594,7 @@ there O
 <EOS> O
 atis_flight
 
-dev-00439-full
+dev-00439-11
 <BOS> O
 what O
 afternoon B-depart_time.period_of_day
@@ -7610,7 +7610,7 @@ worth I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00440-full
+dev-00440-11
 <BOS> O
 what O
 flights O
@@ -7626,7 +7626,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00441-full
+dev-00441-9
 <BOS> O
 show O
 me O
@@ -7640,7 +7640,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00442-full
+dev-00442-12
 <BOS> O
 please O
 show O
@@ -7657,7 +7657,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00443-full
+dev-00443-7
 <BOS> O
 early B-depart_time.period_of_day
 morning B-depart_time.period_of_day
@@ -7669,7 +7669,7 @@ tampa B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00444-full
+dev-00444-9
 <BOS> O
 what O
 flights O
@@ -7683,7 +7683,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00445-full
+dev-00445-8
 <BOS> O
 list O
 flights O
@@ -7696,7 +7696,7 @@ pm B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00446-full
+dev-00446-10
 <BOS> O
 find O
 flight O
@@ -7711,7 +7711,7 @@ am B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00447-full
+dev-00447-11
 <BOS> O
 how O
 can O
@@ -7727,7 +7727,7 @@ evening B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00448-full
+dev-00448-14
 <BOS> O
 show O
 me O
@@ -7746,7 +7746,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00449-full
+dev-00449-9
 <BOS> O
 what O
 are O
@@ -7760,7 +7760,7 @@ boston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00450-full
+dev-00450-29
 <BOS> O
 i O
 am O
@@ -7794,7 +7794,7 @@ number O
 <EOS> O
 atis_flight
 
-dev-00451-full
+dev-00451-6
 <BOS> O
 evening B-depart_time.period_of_day
 flights O
@@ -7805,7 +7805,7 @@ oakland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00452-full
+dev-00452-5
 <BOS> O
 baltimore B-fromloc.city_name
 to O
@@ -7815,7 +7815,7 @@ morning B-depart_time.period_of_day
 <EOS> O
 atis_flight
 
-dev-00453-full
+dev-00453-9
 <BOS> O
 information O
 on O
@@ -7829,7 +7829,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00454-full
+dev-00454-16
 <BOS> O
 show O
 me O
@@ -7850,7 +7850,7 @@ price O
 <EOS> O
 atis_flight
 
-dev-00455-full
+dev-00455-8
 <BOS> O
 show O
 me O
@@ -7863,7 +7863,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00456-full
+dev-00456-15
 <BOS> O
 i O
 would O
@@ -7883,7 +7883,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00457-full
+dev-00457-5
 <BOS> O
 san B-fromloc.city_name
 francisco I-fromloc.city_name
@@ -7893,7 +7893,7 @@ friday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00458-full
+dev-00458-4
 <BOS> O
 san B-fromloc.city_name
 francisco I-fromloc.city_name
@@ -7902,7 +7902,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00459-full
+dev-00459-10
 <BOS> O
 find O
 a O
@@ -7917,7 +7917,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00460-full
+dev-00460-8
 <BOS> O
 flights O
 from O
@@ -7930,7 +7930,7 @@ price O
 <EOS> O
 atis_flight
 
-dev-00461-full
+dev-00461-7
 <BOS> O
 what O
 flights O
@@ -7942,7 +7942,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00462-full
+dev-00462-6
 <BOS> O
 flight O
 between O
@@ -7953,7 +7953,7 @@ charlotte B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00463-full
+dev-00463-13
 <BOS> O
 show O
 me O
@@ -7971,7 +7971,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00464-full
+dev-00464-8
 <BOS> O
 show O
 me O
@@ -7984,7 +7984,7 @@ seattle B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00465-full
+dev-00465-12
 <BOS> O
 please O
 list O
@@ -8001,7 +8001,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00466-full
+dev-00466-5
 <BOS> O
 from O
 san B-fromloc.city_name
@@ -8011,7 +8011,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00467-full
+dev-00467-23
 <BOS> O
 give O
 me O
@@ -8039,7 +8039,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00468-full
+dev-00468-9
 <BOS> O
 i O
 need O
@@ -8053,7 +8053,7 @@ charlotte B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00469-full
+dev-00469-6
 <BOS> O
 flights O
 from O
@@ -8064,7 +8064,7 @@ phoenix B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00470-full
+dev-00470-26
 <BOS> O
 show O
 me O
@@ -8095,7 +8095,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00471-full
+dev-00471-9
 <BOS> O
 show O
 me O
@@ -8109,7 +8109,7 @@ please O
 <EOS> O
 atis_flight
 
-dev-00472-full
+dev-00472-5
 <BOS> O
 san B-fromloc.city_name
 francisco I-fromloc.city_name
@@ -8119,7 +8119,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00473-full
+dev-00473-9
 <BOS> O
 show O
 me O
@@ -8133,7 +8133,7 @@ newark B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00474-full
+dev-00474-9
 <BOS> O
 what O
 flights O
@@ -8147,7 +8147,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00475-full
+dev-00475-6
 <BOS> O
 are O
 there O
@@ -8158,7 +8158,7 @@ atlanta B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00476-full
+dev-00476-6
 <BOS> O
 what O
 delta B-airline_name
@@ -8169,7 +8169,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00477-full
+dev-00477-11
 <BOS> O
 i O
 would O
@@ -8185,7 +8185,7 @@ american B-airline_name
 <EOS> O
 atis_flight
 
-dev-00478-full
+dev-00478-7
 <BOS> O
 does O
 lufthansa B-airline_name
@@ -8197,7 +8197,7 @@ oakland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00479-full
+dev-00479-9
 <BOS> O
 what O
 are O
@@ -8211,7 +8211,7 @@ nashville B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00480-full
+dev-00480-12
 <BOS> O
 list O
 delta B-airline_name
@@ -8228,7 +8228,7 @@ type O
 <EOS> O
 atis_flight
 
-dev-00481-full
+dev-00481-6
 <BOS> O
 american B-airline_name
 flights O
@@ -8239,7 +8239,7 @@ houston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00482-full
+dev-00482-9
 <BOS> O
 flights O
 from O
@@ -8253,7 +8253,7 @@ continental B-airline_name
 <EOS> O
 atis_flight
 
-dev-00483-full
+dev-00483-4
 <BOS> O
 pittsburgh B-fromloc.city_name
 to O
@@ -8262,7 +8262,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00484-full
+dev-00484-15
 <BOS> O
 what O
 flights O
@@ -8282,7 +8282,7 @@ friday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00485-full
+dev-00485-7
 <BOS> O
 from O
 phoenix B-fromloc.city_name
@@ -8294,7 +8294,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00486-full
+dev-00486-5
 <BOS> O
 denver B-fromloc.city_name
 to O
@@ -8304,7 +8304,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00487-full
+dev-00487-11
 <BOS> O
 show O
 me O
@@ -8320,7 +8320,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00488-full
+dev-00488-9
 <BOS> O
 show O
 me O
@@ -8334,7 +8334,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00489-full
+dev-00489-11
 <BOS> O
 show O
 the O
@@ -8350,7 +8350,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00490-full
+dev-00490-8
 <BOS> O
 find O
 flight O
@@ -8363,7 +8363,7 @@ friday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00491-full
+dev-00491-4
 <BOS> O
 boston B-fromloc.city_name
 to O
@@ -8372,7 +8372,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00492-full
+dev-00492-8
 <BOS> O
 what O
 flights O
@@ -8385,7 +8385,7 @@ friday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00493-full
+dev-00493-12
 <BOS> O
 all O
 right O
@@ -8402,7 +8402,7 @@ wednesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00494-full
+dev-00494-9
 <BOS> O
 what O
 flights O
@@ -8416,7 +8416,7 @@ saturday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00495-full
+dev-00495-10
 <BOS> O
 list O
 all O
@@ -8431,7 +8431,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00496-full
+dev-00496-8
 <BOS> O
 flights O
 from O
@@ -8444,7 +8444,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00497-full
+dev-00497-10
 <BOS> O
 i O
 want O
@@ -8459,7 +8459,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00498-full
+dev-00498-10
 <BOS> O
 show O
 me O
@@ -8474,7 +8474,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00499-full
+dev-00499-9
 <BOS> O
 show O
 me O
@@ -8488,7 +8488,7 @@ sunday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00500-full
+dev-00500-7
 <BOS> O
 please O
 list O
@@ -8500,7 +8500,7 @@ atlanta B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00501-full
+dev-00501-4
 <BOS> O
 denver B-fromloc.city_name
 to O
@@ -8509,7 +8509,7 @@ monday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00502-full
+dev-00502-9
 <BOS> O
 find O
 flight O
@@ -8523,7 +8523,7 @@ tuesday B-depart_date.day_name
 <EOS> O
 atis_flight
 
-dev-00503-full
+dev-00503-10
 <BOS> O
 show O
 me O
@@ -8538,7 +8538,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00504-full
+dev-00504-8
 <BOS> O
 list O
 a O
@@ -8551,7 +8551,7 @@ diego I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00505-full
+dev-00505-4
 <BOS> O
 philadelphia B-fromloc.city_name
 to O
@@ -8560,7 +8560,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00506-full
+dev-00506-8
 <BOS> O
 show O
 me O
@@ -8573,7 +8573,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00507-full
+dev-00507-9
 <BOS> O
 show O
 me O
@@ -8587,7 +8587,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00508-full
+dev-00508-8
 <BOS> O
 which O
 flights O
@@ -8600,7 +8600,7 @@ jose I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00509-full
+dev-00509-9
 <BOS> O
 show O
 me O
@@ -8614,7 +8614,7 @@ vegas I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00510-full
+dev-00510-12
 <BOS> O
 all O
 right O
@@ -8631,7 +8631,7 @@ diego I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00511-full
+dev-00511-6
 <BOS> O
 flights O
 between O
@@ -8642,7 +8642,7 @@ louis I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00512-full
+dev-00512-9
 <BOS> O
 what O
 flights O
@@ -8656,7 +8656,7 @@ vegas I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00513-full
+dev-00513-15
 <BOS> O
 find O
 me O
@@ -8676,7 +8676,7 @@ area O
 <EOS> O
 atis_flight
 
-dev-00514-full
+dev-00514-9
 <BOS> O
 what O
 flights O
@@ -8690,7 +8690,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00515-full
+dev-00515-9
 <BOS> O
 i'd O
 like O
@@ -8704,7 +8704,7 @@ worth I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00516-full
+dev-00516-17
 <BOS> O
 i O
 need O
@@ -8726,7 +8726,7 @@ boston B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00517-full
+dev-00517-9
 <BOS> O
 i'd O
 like O
@@ -8740,7 +8740,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00518-full
+dev-00518-9
 <BOS> O
 show O
 me O
@@ -8754,7 +8754,7 @@ francisco I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00519-full
+dev-00519-8
 <BOS> O
 what O
 flights O
@@ -8767,7 +8767,7 @@ city I-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00520-full
+dev-00520-8
 <BOS> O
 what O
 are O
@@ -8780,7 +8780,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00521-full
+dev-00521-8
 <BOS> O
 show O
 me O
@@ -8793,7 +8793,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00522-full
+dev-00522-8
 <BOS> O
 give O
 me O
@@ -8806,7 +8806,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00523-full
+dev-00523-6
 <BOS> O
 flights O
 from O
@@ -8817,7 +8817,7 @@ please O
 <EOS> O
 atis_flight
 
-dev-00524-full
+dev-00524-11
 <BOS> O
 i'd O
 like O
@@ -8833,7 +8833,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00525-full
+dev-00525-7
 <BOS> O
 give O
 me O
@@ -8845,7 +8845,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00526-full
+dev-00526-8
 <BOS> O
 show O
 me O
@@ -8858,7 +8858,7 @@ washington B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00527-full
+dev-00527-8
 <BOS> O
 i O
 need O
@@ -8871,7 +8871,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00528-full
+dev-00528-4
 <BOS> O
 from O
 pittsburgh B-fromloc.city_name
@@ -8880,7 +8880,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00529-full
+dev-00529-8
 <BOS> O
 please O
 show O
@@ -8893,7 +8893,7 @@ denver B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00530-full
+dev-00530-8
 <BOS> O
 show O
 me O
@@ -8906,7 +8906,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00531-full
+dev-00531-9
 <BOS> O
 i'd O
 like O
@@ -8920,7 +8920,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00532-full
+dev-00532-6
 <BOS> O
 list O
 flights O
@@ -8931,7 +8931,7 @@ milwaukee B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00533-full
+dev-00533-8
 <BOS> O
 show O
 me O
@@ -8944,7 +8944,7 @@ seattle B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00534-full
+dev-00534-5
 <BOS> O
 flight O
 from O
@@ -8954,7 +8954,7 @@ cleveland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00535-full
+dev-00535-9
 <BOS> O
 now O
 show O
@@ -8968,7 +8968,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00536-full
+dev-00536-5
 <BOS> O
 flights O
 from O
@@ -8978,7 +8978,7 @@ newark B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00537-full
+dev-00537-3
 <BOS> O
 newark B-fromloc.city_name
 to O
@@ -8986,7 +8986,7 @@ cleveland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00538-full
+dev-00538-7
 <BOS> O
 what O
 flights O
@@ -8998,7 +8998,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00539-full
+dev-00539-5
 <BOS> O
 flight O
 will O
@@ -9008,7 +9008,7 @@ boston B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00540-full
+dev-00540-13
 <BOS> O
 i O
 live O
@@ -9026,7 +9026,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00541-full
+dev-00541-8
 <BOS> O
 what O
 are O
@@ -9039,7 +9039,7 @@ baltimore B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00542-full
+dev-00542-10
 <BOS> O
 could O
 you O
@@ -9054,7 +9054,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00543-full
+dev-00543-6
 <BOS> O
 show O
 me O
@@ -9065,7 +9065,7 @@ charlotte B-fromloc.city_name
 <EOS> O
 atis_flight
 
-dev-00544-full
+dev-00544-11
 <BOS> O
 i O
 would O
@@ -9081,7 +9081,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00545-full
+dev-00545-7
 <BOS> O
 list O
 the O
@@ -9093,7 +9093,7 @@ houston B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00546-full
+dev-00546-11
 <BOS> O
 how O
 do O
@@ -9109,7 +9109,7 @@ tacoma B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00547-full
+dev-00547-8
 <BOS> O
 show O
 me O
@@ -9122,7 +9122,7 @@ cincinnati B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00548-full
+dev-00548-9
 <BOS> O
 okay O
 i'd O
@@ -9136,7 +9136,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00549-full
+dev-00549-9
 <BOS> O
 can O
 you O
@@ -9150,7 +9150,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00550-full
+dev-00550-8
 <BOS> O
 i O
 need O
@@ -9163,7 +9163,7 @@ seattle B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00551-full
+dev-00551-9
 <BOS> O
 is O
 there O
@@ -9177,7 +9177,7 @@ atlanta B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00552-full
+dev-00552-8
 <BOS> O
 what O
 flights O
@@ -9190,7 +9190,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00553-full
+dev-00553-8
 <BOS> O
 show O
 me O
@@ -9203,7 +9203,7 @@ dallas B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00554-full
+dev-00554-5
 <BOS> O
 flights O
 from O
@@ -9213,7 +9213,7 @@ seattle B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00555-full
+dev-00555-8
 <BOS> O
 i O
 need O
@@ -9226,7 +9226,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00556-full
+dev-00556-8
 <BOS> O
 show O
 me O
@@ -9239,7 +9239,7 @@ charlotte B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00557-full
+dev-00557-9
 <BOS> O
 i'd O
 like O
@@ -9253,7 +9253,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00558-full
+dev-00558-8
 <BOS> O
 i O
 want O
@@ -9266,7 +9266,7 @@ oakland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00559-full
+dev-00559-10
 <BOS> O
 what O
 are O
@@ -9281,7 +9281,7 @@ back O
 <EOS> O
 atis_flight
 
-dev-00560-full
+dev-00560-10
 <BOS> O
 i O
 need O
@@ -9296,7 +9296,7 @@ orlando B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00561-full
+dev-00561-10
 <BOS> O
 i'd O
 like O
@@ -9311,7 +9311,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00562-full
+dev-00562-8
 <BOS> O
 please O
 show O
@@ -9324,7 +9324,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00563-full
+dev-00563-8
 <BOS> O
 show O
 me O
@@ -9337,7 +9337,7 @@ oakland B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00564-full
+dev-00564-8
 <BOS> O
 show O
 me O
@@ -9350,7 +9350,7 @@ montreal B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00565-full
+dev-00565-9
 <BOS> O
 also O
 show O
@@ -9364,7 +9364,7 @@ denver B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00566-full
+dev-00566-8
 <BOS> O
 what O
 are O
@@ -9377,7 +9377,7 @@ washington B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00567-full
+dev-00567-5
 <BOS> O
 flights O
 from O
@@ -9387,7 +9387,7 @@ pittsburgh B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00568-full
+dev-00568-8
 <BOS> O
 show O
 me O
@@ -9400,7 +9400,7 @@ orlando B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00569-full
+dev-00569-10
 <BOS> O
 i'd O
 like O
@@ -9415,7 +9415,7 @@ philadelphia B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00570-full
+dev-00570-5
 <BOS> O
 flights O
 from O
@@ -9425,7 +9425,7 @@ miami B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00571-full
+dev-00571-7
 <BOS> O
 what O
 flights O
@@ -9437,7 +9437,7 @@ phoenix B-toloc.city_name
 <EOS> O
 atis_flight
 
-dev-00572-full
+dev-00572-11
 <BOS> O
 do O
 all O

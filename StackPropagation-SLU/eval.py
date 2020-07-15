@@ -7,22 +7,21 @@
 @LastModify	:           2019/05/07
 """
 
+import sys
+import os
+import json
+import random
+import argparse
+from collections import defaultdict, Counter
+sys.path.append("./StackPropagation-SLU")
+
 from utils.module import ModelManager
 from utils.loader import DatasetManager
 from utils.process import Processor
 from utils.fscore import FScore
 from utils.logging_utils import ColoredLog
-import sys
-import os
-from collections import defaultdict, Counter
-sys.path.append("./StackPropagation-SLU")
 
 import torch
-
-import os
-import json
-import random
-import argparse
 import numpy as np
 #  from sklearn.metrics import f1_score, accuracy_score, precisirn_recall_fscore_support
 
@@ -34,7 +33,7 @@ parser.add_argument('--save_dir', '-sd', type=str, default='./StackPropagation-S
 #  parser.add_argument('--data_dir', '-dd', type=str, default='./data/atis')
 #  parser.add_argument('--save_dir', '-sd', type=str, default='./data/atis/save')
 parser.add_argument("--random_state", '-rs', type=int, default=0)
-parser.add_argument('--num_epoch', '-ne', type=int, default=100)
+parser.add_argument('--num_epoch', '-ne', type=int, default=1)
 parser.add_argument('--batch_size', '-bs', type=int, default=16)
 parser.add_argument('--l2_penalty', '-lp', type=float, default=1e-6)
 parser.add_argument("--learning_rate", '-lr', type=float, default=0.001)
@@ -94,71 +93,14 @@ if __name__ == "__main__":
     process = Processor(dataset, model, args.batch_size)
     process.train()
 
-    print('\nAccepted performance: ' + str(Processor.validate(
-        os.path.join(args.save_dir, "model/model.pkl"),
-        os.path.join(args.save_dir, "model/dataset.pkl"),
-        args.batch_size)) + " at test dataset;\n")
-    torch.save(dataset, os.path.join(args.save_dir, "model/dataset.pkl"))
-    model = torch.load("./StackPropagation-SLU/data/atis/save/model/model.pkl")
-    dataset = torch.load("./StackPropagation-SLU/data/atis/save/model/dataset.pkl")
+    res, _ = Processor.validate(os.path.join(args.save_dir, "model/model.pkl"), os.path.join(args.save_dir, "model/dataset.pkl"), args.batch_size)
 
-    class IncTestOutcome(object):
-    
-        """Incremental Test Outcome Object."""
-    
-        def __init__(self, sent_id):
-            """Initialization.
-            """
-            self._sent_id = sent_id
-            self.items = defaultdict(dict)
-            self.max_len = -1
-            self.logger = ColoredLog(__name__)
+    print('\nAccepted performance: ' + str(res) + " at test dataset;\n")
+    #  pred_res_dir = os.path.join(args.save_dir, "results")
+    #  if not os.path.exists(pred_res_dir):
+        #  os.mkdir(pred_res_dir)
+    #  torch.save(pred, os.path.join(pred_res_dir, "test.pkl"))
 
-        def update(self, golden, pred, golden_slot, pred_slot, text, length):
-            if length != "full":
-                length = int(length)
-                self.items[length]["golden"] = golden
-                self.items[length]["pred"] = pred
-                self.items[length]["golden_slot"] = golden_slot
-                self.items[length]["pred_slot"] = pred_slot
-                self.items[length]["text"] = text[:length+1]
-                self.max_len = max(self.max_len, length + 1)
-
-        def pprint(self):
-            out = []
-
-            for i in range(1, self.max_len):
-                #  j = str(i)
-                j = i
-                out.append([i, "-", self.items[j]["golden"], self.items[j]["pred"], "-", "-"])
-                for k in range(1, i+1):
-                    out.append(["-", self.items[j]["text"][k], "-", "-", self.items[j]["golden_slot"][k], self.items[j]["pred_slot"][k]])
-                out.append(["==="] * 6)
-            self.logger.critical(out, header=["len", "text", "golden", "pred", "golden_slot", "pred_slot"])
-
-
-    pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids = process.prediction(model, dataset, "test", 200)
-
-    test_set = {}
-    #  test_set["test-00011"].pprint()
-
-    for i in range(len(dataset.ids["test"])):
-    #  for i in range(20):
-        sent_id = sorted_ids[i][:10]
-        sub_id = sorted_ids[i][11:]
-        if sent_id not in test_set:
-            test_set[sent_id] = IncTestOutcome(sent_id)
-        
-        #  if sub_id != "full":
-            #  print(text[i][:int(sub_id)+1])
-            #  print(golden_slot)
-        test_set[sent_id].update(real_intent[i], exp_pred_intent[i], real_slot[i], pred_slot[i], text[i], sub_id)
-
-    res = {s:test_set[s].items for s in test_set}
-    res_dir = os.path.join(args.save_dir, "results")
-    if not os.path.exists(res_dir):
-        os.mkdir(res_dir)
-    torch.save(res, os.path.join(res_dir, "test.pkl"))
 
         #  if not sorted_ids[i].endswith("full"):
             #  length = int(sorted_ids[10:])
