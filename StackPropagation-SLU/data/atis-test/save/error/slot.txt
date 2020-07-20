@@ -1,0 +1,16 @@
+<BOS>	O	O
+list	O	O
+flights	B-flight_stop	B-flight_stop
+from	O	O
+dallas	O	O
+to	B-fromloc.city_name	B-fromloc.city_name
+
+<BOS>	O	O
+what	O	O
+is	O	O
+the	O	O
+first	B-class_type	B-flight_mod
+
+<BOS>	O	O
+please	O	B-flight_time
+

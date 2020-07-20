@@ -1,0 +1,1362 @@
+<BOS>	O	O	atis_airfare
+what	O	O	atis_airfare
+are	O	O	atis_airfare
+the	O	O	atis_airfare
+coach	B-class_type	B-class_type	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_abbreviation
+list	O	O	atis_abbreviation
+atis_restriction	atis_abbreviation
+
+<BOS>	O	O	atis_flight
+list	O	O	atis_flight
+the	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+list	O	O	atis_flight
+the	O	O	atis_flight
+atis_restriction	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_restriction	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+is	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_ground_service
+in	O	O	atis_ground_service
+atis_airfare	atis_ground_service
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_meal	atis_flight
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+there	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+flight	O	O	atis_flight
+atis_flight_no	atis_flight
+
+<BOS>	O	O	atis_flight
+which	O	O	atis_flight
+atis_flight_no	atis_flight
+
+<BOS>	O	O	atis_airfare
+how	O	O	atis_airfare
+much	O	O	atis_airfare
+atis_ground_fare	atis_airfare
+
+<BOS>	O	O	atis_flight
+how	O	O	atis_flight
+atis_ground_fare	atis_flight
+
+<BOS>	O	O	atis_quantity
+please	O	O	atis_quantity
+atis_ground_fare	atis_quantity
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+does	O	O	atis_flight
+the	O	O	atis_flight
+atis_ground_fare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+does	O	O	atis_flight
+atis_ground_fare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+atis_city	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+atis_city	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_city	atis_flight
+
+<BOS>	O	O	atis_ground_service
+what	O	O	atis_ground_service
+atis_city	atis_ground_service
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_city	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_fare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_fare	atis_flight
+
+<BOS>	O	O	atis_airfare
+how	O	O	atis_airfare
+much	O	O	atis_airfare
+does	O	O	atis_airfare
+atis_ground_fare	atis_airfare
+
+<BOS>	O	O	atis_flight
+how	O	O	atis_flight
+much	O	O	atis_flight
+does	O	O	atis_flight
+atis_ground_fare	atis_flight
+
+<BOS>	O	O	atis_airfare
+how	O	O	atis_airfare
+much	O	O	atis_airfare
+atis_ground_fare	atis_airfare
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_ground_fare	atis_quantity
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+the	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+give	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+list	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+list	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+all	O	O	atis_flight
+flights	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+all	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+list	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+the	O	O	atis_flight
+flights	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+the	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+atis_flight#atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+is	O	O	atis_flight
+there	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+is	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+how	O	O	atis_flight
+far	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_distance	atis_quantity
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_distance	atis_quantity
+
+<BOS>	O	O	atis_flight
+how	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_distance	atis_quantity
+
+<BOS>	O	O	atis_flight
+houston	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+where	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+where	O	O	atis_flight
+does	O	O	atis_flight
+delta	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+where	O	O	atis_flight
+does	O	O	atis_flight
+delta	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+where	O	O	atis_flight
+does	O	O	atis_flight
+atis_airport	atis_flight
+
+<BOS>	O	O	atis_flight
+which	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_airfare	atis_quantity
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+many	O	O	atis_quantity
+atis_capacity	atis_quantity
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_capacity	atis_quantity
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_capacity	atis_quantity
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_capacity	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_capacity	atis_flight
+
+<BOS>	O	O	atis_quantity
+what	O	O	atis_quantity
+is	O	O	atis_quantity
+atis_capacity	atis_quantity
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_capacity	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_capacity	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_capacity	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_capacity	atis_flight
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+there	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+would	O	O	atis_flight
+like	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+would	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+would	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+would	O	O	atis_flight
+like	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+would	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+atis_flight_time	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+need	O	O	atis_flight
+a	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+need	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+tell	O	O	atis_flight
+me	O	O	atis_flight
+about	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+now	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+now	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+does	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_ground_service
+could	O	O	atis_ground_service
+you	O	O	atis_ground_service
+tell	O	O	atis_ground_service
+me	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+could	O	O	atis_ground_service
+you	O	O	atis_ground_service
+tell	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+list	O	O	atis_flight
+flights	B-flight_stop	B-flight_stop	atis_flight
+from	O	O	atis_flight
+dallas	O	O	atis_flight
+to	B-fromloc.city_name	B-fromloc.city_name	atis_flight
+atis_flight	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_ground_service
+what	O	O	atis_ground_service
+kind	O	O	atis_ground_service
+of	O	O	atis_ground_service
+atis_aircraft	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+what	O	O	atis_ground_service
+kind	O	O	atis_ground_service
+atis_aircraft	atis_ground_service
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+first	B-class_type	B-flight_mod	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_airfare	atis_quantity
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+repeating	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_aircraft	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+could	O	O	atis_flight
+you	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+could	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+many	O	O	atis_quantity
+flights	O	O	atis_quantity
+does	O	O	atis_quantity
+atis_flight	atis_quantity
+
+<BOS>	O	O	atis_quantity
+nonstop	O	O	atis_quantity
+flights	O	O	atis_quantity
+atis_flight	atis_quantity
+
+<BOS>	O	O	atis_quantity
+nonstop	O	O	atis_quantity
+flights	O	O	atis_quantity
+atis_flight	atis_quantity
+
+<BOS>	O	O	atis_quantity
+nonstop	O	O	atis_quantity
+atis_flight	atis_quantity
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+me	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+give	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+define	O	O	atis_flight
+airline	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+define	O	O	atis_flight
+atis_abbreviation	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+find	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+airlines	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+are	O	O	atis_flight
+there	O	O	atis_flight
+any	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+are	O	O	atis_flight
+there	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+are	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+which	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+does	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+show	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+please	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+which	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+which	O	O	atis_flight
+atis_airline	atis_flight
+
+<BOS>	O	O	atis_flight
+first	B-class_type	B-class_type	atis_flight
+class	I-class_type	I-class_type	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+first	B-class_type	B-class_type	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	B-class_type	B-class_type	atis_flight
+me	I-class_type	I-class_type	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+first	B-class_type	B-class_type	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_airfare	atis_quantity
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+ground	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+kind	O	O	atis_flight
+of	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+kind	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+the	O	O	atis_airfare
+atis_ground_service	atis_airfare
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+atis_ground_service	atis_airfare
+
+<BOS>	O	O	atis_flight
+what's	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+list	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+ground	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+ground	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_ground_service	atis_flight
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+there	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+dallas	O	O	atis_ground_service
+to	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_ground_service
+is	O	O	atis_ground_service
+atis_flight	atis_ground_service
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+the	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+the	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_airfare
+what's	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_airfare
+i'd	O	O	atis_airfare
+like	O	O	atis_airfare
+to	O	O	atis_airfare
+find	O	O	atis_airfare
+the	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i'm	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+cheapest	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_airfare
+what	O	O	atis_airfare
+is	O	O	atis_airfare
+the	O	O	atis_airfare
+cheapest	B-cost_relative	B-cost_relative	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i'd	O	O	atis_flight
+like	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i'd	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+okay	O	O	atis_flight
+i	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+okay	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+are	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i'd	O	O	atis_flight
+like	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i'd	O	O	atis_flight
+like	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+flights	O	O	atis_flight
+leave	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+hi	O	O	atis_flight
+i	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+me	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_airfare	atis_quantity
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_airfare
+okay	O	O	atis_airfare
+atis_flight	atis_airfare
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+need	O	O	atis_flight
+a	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+need	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+i	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+how	O	O	atis_flight
+much	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_quantity
+what	O	O	atis_quantity
+atis_airfare	atis_quantity
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+show	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+the	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+is	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+what	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_abbreviation
+get	O	O	atis_abbreviation
+saturday	O	O	atis_abbreviation
+atis_airfare	atis_abbreviation
+
+<BOS>	O	O	atis_flight
+get	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+continental	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_flight
+continental	O	O	atis_flight
+atis_airfare	atis_flight
+
+<BOS>	O	O	atis_quantity
+how	O	O	atis_quantity
+atis_flight	atis_quantity
+
+<BOS>	O	O	atis_flight_time
+please	O	B-flight_time	atis_flight_time
+atis_flight	atis_flight_time
+
