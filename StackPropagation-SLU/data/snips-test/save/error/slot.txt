@@ -1,0 +1,43 @@
+<BOS>	O	O
+Is	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+
+<BOS>	O	O
+Is	O	O
+it	O	O
+cloudy	O	O
+in	B-condition_temperature	B-condition_temperature
+Tingley	O	B-timeRange
+
+<BOS>	O	O
+in	B-timeRange	B-spatial_relation
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+rate	O	O
+this	O	B-object_select
+book	B-object_type	B-object_type
+
+<BOS>	O	O
+rate	O	O
+this	O	B-object_select
+
+<BOS>	O	O
+Give	O	O
+
+<BOS>	O	O
+The	B-object_name	O
+
+<BOS>	O	O
+find	O	O
+the	B-movie_name	B-object_name
+
+<BOS>	O	O
+What	O	O
+movie	B-object_location_type	B-object_type
+

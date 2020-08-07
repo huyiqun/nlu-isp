@@ -1,0 +1,1286 @@
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+it	O	O	GetWeather
+cloudy	O	O	GetWeather
+in	B-condition_temperature	B-condition_temperature	GetWeather
+Tingley	O	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Tell	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+She	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+check	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+show	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Will	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Weather	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+GetWeather	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+GetWeather	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Is	O	O	BookRestaurant
+there	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+Will	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Will	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+What	O	O	BookRestaurant
+is	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Will	O	O	BookRestaurant
+it	O	O	BookRestaurant
+be	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+is	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+BookRestaurant	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+BookRestaurant	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Restaurant	O	O	PlayMusic
+BookRestaurant	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+BookRestaurant	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+in	B-timeRange	B-spatial_relation	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+BookRestaurant	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+BookRestaurant	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Book	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+music	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+play	O	O	BookRestaurant
+playlist	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Can	O	O	BookRestaurant
+you	O	O	BookRestaurant
+play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Can	O	O	BookRestaurant
+you	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+play	O	O	BookRestaurant
+the	O	O	BookRestaurant
+It	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+some	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+music	O	O	BookRestaurant
+from	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Add	O	O	BookRestaurant
+ross	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	PlayMusic
+add	O	O	PlayMusic
+the	O	O	PlayMusic
+AddToPlaylist	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+AddToPlaylist	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+AddToPlaylist	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Add	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Add	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+AddToPlaylist	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+AddToPlaylist	PlayMusic
+
+<BOS>	O	O	RateBook
+rate	O	O	RateBook
+this	O	B-object_select	RateBook
+book	B-object_type	B-object_type	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+rate	O	O	RateBook
+this	O	B-object_select	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+RateBook	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+The	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Rate	O	O	BookRestaurant
+People	O	O	BookRestaurant
+of	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+RateBook	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Give	O	O	BookRestaurant
+The	O	O	BookRestaurant
+Abstinence	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	RateBook
+Give	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	RateBook
+The	B-object_name	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Look	O	O	PlayMusic
+for	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Find	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Find	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Find	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Find	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+search	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+I'd	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+a	O	O	GetWeather
+SearchCreativeWork	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Where	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+show	O	O	PlayMusic
+creativity	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+show	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Go	O	O	SearchScreeningEvent
+to	O	O	SearchScreeningEvent
+After	O	O	SearchScreeningEvent
+Dusk	B-object_type	B-object_type	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+a	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+Late	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+The	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Lets	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	AddToPlaylist
+please	O	O	AddToPlaylist
+SearchScreeningEvent	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+please	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+time	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+what	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	BookRestaurant
+what	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	RateBook
+I	O	O	RateBook
+would	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+time	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Provide	O	O	PlayMusic
+me	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+for	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+find	O	O	GetWeather
+a	O	O	GetWeather
+Cineplex	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+find	O	O	GetWeather
+a	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+the	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	RateBook
+Give	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	SearchCreativeWork
+Give	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+list	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	RateBook
+Give	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	GetWeather
+Give	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	PlayMusic
+whats	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+I'd	O	O	SearchCreativeWork
+like	O	O	SearchCreativeWork
+to	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+movie	B-object_location_type	B-object_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+what	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+find	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+want	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+show	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+movies	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Is	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Which	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
