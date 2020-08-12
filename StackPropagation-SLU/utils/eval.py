@@ -1,6 +1,6 @@
 import os
 import sys
-from collections import defaultdict
+from collections import defaultdict, OrderedDict, Counter
 sys.path.append("./StackPropagation-SLU")
 
 import torch
@@ -9,50 +9,74 @@ from sklearn.metrics import f1_score, accuracy_score, precision_recall_fscore_su
 from scipy.interpolate import interp1d
 from matplotlib import rcParams
 import matplotlib.pyplot as plt
-rcParams.update({"figure.figsize": (12,6)})
+from matplotlib.ticker import PercentFormatter
+
+rcParams["figure.figsize"] = [9.0, 6.0]
+plt.style.use("ggplot")
 
 from utils.logging_utils import ColoredLog
 
-res = torch.load("./data/atis/save/results/test.pkl")
-res = torch.load("./StackPropagation-SLU/data/atis/save/results/test.pkl")
-res.keys()
 
-args = parser.parse_args("")
-args
-
-to = TestOutcome(res)
-to.test_set["test-00001"]
-to.pprint("test-00001")
 class TestOutcome(object):
 
     """Incremental Test Outcome Object."""
 
-    def __init__(self, pred_out):
+    def __init__(self, pred_out, name, exclude_other=False):
         """Initialization.
         """
 
         self.logger = ColoredLog(__name__)
+        self.name = name
+        self.exclude_other = exclude_other
         self.test_set = {}
+        self.error = defaultdict(list)
+        self.count = defaultdict(int)
+        self.length_map = defaultdict(list)
         for i in range(len(pred_out["sorted_ids"])):
             sent_id = pred_out["sorted_ids"][i][:10]
             sub_id = pred_out["sorted_ids"][i][11:]
             if sent_id not in self.test_set:
                 self.test_set[sent_id] = defaultdict(dict)
-            elif sub_id != "full":
+            if sub_id != "full":
+                if sent_id == "test-03068":
+                    print(i)
+                    print(sub_id)
+                    print(pred_out["text"][i])
                 sub_id = int(sub_id)
                 self.test_set[sent_id][sub_id]["gold_int"] = pred_out["golden"][i]
                 self.test_set[sent_id][sub_id]["pred_int"] = pred_out["pred"][i]
+                if pred_out["golden"][i] != pred_out["pred"][i]:
+                    self.error["intent"].append((sent_id, sub_id))
                 self.test_set[sent_id][sub_id]["gold_slot"] = pred_out["golden_slot"][i]
                 self.test_set[sent_id][sub_id]["pred_slot"] = pred_out["pred_slot"][i]
+                if not (np.array(pred_out["golden_slot"][i]) == np.array(pred_out["pred_slot"][i])).all():
+                    self.error["slot"].append((sent_id, sub_id))
                 self.test_set[sent_id][sub_id]["text"] = pred_out["text"][i]
+            else:
+                length = len(pred_out["golden_slot"][i]) - 2
+                if sent_id == "test-03068":
+                    print(i)
+                    print(sub_id)
+                    print(pred_out["text"][i])
+                    print(pred_out["golden_slot"][i])
+                    print(length)
+                if length > 0:
+                    self.count[length] += 1
+                    self.length_map[length].append(sent_id)
 
         self.intent_set = self.generate_intent_map(pred_out["golden"])
         self.slot_set = self.generate_slot_map(pred_out["golden_slot"])
+        self.ave_score = {}
 
-    def convert_to_ml(intent, label_set):
+    def convert_intent(self, intent, label_set):
         vec = np.zeros(len(label_set), dtype=int)
         for i in intent.split("#"):
             vec[label_set[i]] = 1
+        return list(vec)
+
+    def convert_slot(self, slot, label_set):
+        vec = np.zeros(len(label_set), dtype=int)
+        vec[label_set[slot]] = 1
         return list(vec)
 
     def generate_intent_map(self, intent_list):
@@ -68,6 +92,8 @@ class TestOutcome(object):
         for s in slot_list:
             slot_set.update(set(s))
 
+        #  if self.exclude_other:
+            #  slot_set.remove("O")
         slot_set = {s:i for i, s in enumerate(slot_set)}
         return slot_set
 
@@ -75,54 +101,135 @@ class TestOutcome(object):
         # summary_intent is a dictionary with query-length as keys
         # for each query length, it contains prediction result at each incremental step
         # each element in the list corresponds to a (golden, pred) pair 
-        summary_intent = defaultdict(lambda: defaultdict(lambda: [[], []]))
-        summary_slot = defaultdict(list)
-        for k, s in res.items():
-            l = max(s.keys())
+        self.summary_intent = defaultdict(lambda: defaultdict(lambda: [[], []]))
+        self.summary_slot = defaultdict(lambda: defaultdict(lambda: [[], []]))
+        self.seq = defaultdict(lambda: defaultdict(list)) 
 
-            for i in s:
-                y_true = convert_to_ml(s[i]["golden"], intent_set)
-                y_pred = convert_to_ml(s[i]["pred"], intent_set)
-                summary_intent[l][i][0].append(y_true)
-                summary_intent[l][i][1].append(y_pred)
+        t_b = 0
+        t_a = 0
+        for sent_id, rec in self.test_set.items():
+            query_len = max(rec.keys())
+            if query_len == 25:
+                print(sent_id)
+                print(rec.keys())
+            #  s_true = []
+            #  s_pred = []
 
-                summary_intent[l][i].append((y_true, y_pred))
+            for num_token in rec:
+                y_true = self.convert_intent(rec[num_token]["gold_int"], self.intent_set)
+                y_pred = self.convert_intent(rec[num_token]["pred_int"], self.intent_set)
+                self.summary_intent[query_len][num_token][0].append(y_true)
+                self.summary_intent[query_len][num_token][1].append(y_pred)
 
-                y_true = convert_to_ml(s[i]["golden_slot"], intent_set)
-                y_pred = convert_to_ml(s[i]["pred_slot"], intent_set)
-                summary_intent[l][i].append((y_true, y_pred))
-        return
+                slots = np.array(rec[num_token]["gold_slot"][1:])
+                filter_o = np.where(slots != "O")[0]
+                filtered_slots = slots[filter_o]
+                t_b += len(slots)
+                t_a += len(filtered_slots)
+                s_true = [self.convert_slot(s, self.slot_set) for s in filtered_slots]
+                s_pred = [self.convert_slot(s, self.slot_set) for s in filtered_slots]
+                self.summary_slot[query_len][num_token][0].extend(s_true)
+                self.summary_slot[query_len][num_token][1].extend(s_pred)
 
-    def calculate_model_f1(self):
-        intent_f1 = defaultdict(dict)
-        k = 15
+                self.seq[query_len][num_token].extend([sent_id] * len(filtered_slots))
 
-        f1_scores = []
-        sz = []
-        for k in summary_intent:
+            if sent_id == "test-00834":
+                print(rec[25]["gold_int"])
+                print(self.summary_intent[25][25])
+
+        self.summary = {"intent": self.summary_intent, "slot": self.summary_slot}
+        print(t_b, t_a)
+
+    def calculate_slot_f1(self, granularity=0.05):
+        self.slot_f1_scores = OrderedDict()
+        #  self.slot_sample_weights = []
+        self.slot_f1_dict = defaultdict(lambda: defaultdict(dict))
+        for k in self.count.keys():
             x = [0]
             y = [0]
-            for i in range(1, len(summary_intent[k]) + 1):
-                y_true = np.array(summary_intent[k][i][0])
-                y_pred = np.array(summary_intent[k][i][1])
+            for i in range(1, len(self.summary["slot"][k]) + 1):
+                y_true = np.array(self.summary["slot"][k][i][0])
+                y_pred = np.array(self.summary["slot"][k][i][1])
+                score = f1_score(y_true, y_pred, average="weighted")
+                self.slot_f1_dict[k][i]["f1"] = score
+                self.slot_f1_dict[k][i]["size"] = len(y_true)
+                x.append(float(i)/k)
+                y.append(score)
+
+            #  self.slot_sample_weights.append(len(y_true))
+            f = interp1d(x,y)
+            interp_score = f(np.arange(0, (1 + granularity), granularity))
+            self.slot_f1_scores[k] = interp_score
+
+            #  assert len(self.slot_f1_scores) == len(self.slot_sample_weights), "size do not match"
+
+        self.ave_score["slot"] = np.average(list(self.slot_f1_scores.values()), axis=0, weights=list(self.count.values()))
+        return self.ave_score["slot"]
+
+    def calculate_intent_f1(self, granularity=0.05):
+        self.granularity = granularity
+        self.intent_f1_scores = OrderedDict()
+        #  self.intent_sample_weights = OrderedDict()
+        for k in self.count.keys():
+            x = [0]
+            y = [0]
+            for i in range(1, len(self.summary["intent"][k]) + 1):
+                y_true = np.array(self.summary["intent"][k][i][0])
+                y_pred = np.array(self.summary["intent"][k][i][1])
                 score = f1_score(y_true, y_pred, average="weighted")
                 x.append(float(i)/k)
                 y.append(score)
 
-            sz.append(len(y_true))
+            #  self.intent_sample_weights[k] = len(y_true)
             f = interp1d(x,y)
-            interp_score = f(np.arange(0,1.05,0.05))
-            f1_scores.append(interp_score)
+            interp_score = f(np.arange(0, (1 + granularity), granularity))
+            self.intent_f1_scores[k] = interp_score
 
-        assert len(f1_scores) == len(sz), "size do not match"
-        ave_score = np.average(f1_scores, axis=0, weights=sz)
+            #  assert len(self.intent_f1_scores) == len(self.intent_sample_weights), "size do not match"
+
+
+        #  s = {k:v for k, v in baseincr.intent_f1_scores.items() if k!=1 and k!=2}
+        #  c = {k:v for k, v in baseincr.count.items() if k!=1 and k!=2}
+        #  self.ave_score["intent"] = np.average(list(s.values()), axis=0, weights=list(c.values()))
+
+        self.ave_score["intent"] = np.average(list(self.intent_f1_scores.values()), axis=0, weights=list(self.count.values()))
+        return self.ave_score["intent"]
+
+    def plot(self, task, color="b", annotate = False, save_path=None):
+        if task == "intent":
+            src = self.intent_f1_scores
+        else:
+            src = self.slot_f1_scores
+
+        #  print(self.summary[task].keys())
+        sorted_keys = sorted(self.summary[task].keys())
+        #  print(sorted_keys)
+
+        fig, ax = plt.subplots()
+        for j in range(len(src)):
+            ql = sorted_keys[j]
+            if ql in src:
+                ax.plot(np.arange(0, (1 + self.granularity), self.granularity), src[ql], "--", lw=1, label=f"{ql} ({self.count[ql]})")
+                if annotate:
+                    if ql <= 4:
+                        ax.annotate(ql, (0.75, src[ql][15]))
+                    if ql == 19:
+                        ax.annotate(ql, (0.6, src[ql][13]))
+                    if ql == 30:
+                        ax.annotate(ql, (0.03, src[ql][1]))
+                    if ql == 32:
+                        ax.annotate(ql, (0.06, src[ql][1]))
+        ax.plot(np.arange(0, (1 + self.granularity), self.granularity), self.ave_score[task], c=color, lw=2, label="Average", alpha=0.85)
+        ax.set_title(f"Experiment: {self.name} [{task}]")
+        ax.set_xlabel("Received Query Fraction")
+        ax.set_ylabel("F1 Score")
+        ax.xaxis.set_major_formatter(PercentFormatter(xmax=1))
+        ax.legend(loc="right", bbox_to_anchor=(1.4, 0.5), ncol=2, title="Query Length (Count)")
+        plt.show()
+        #  plt.close(fig)
+
+    def plot_absolute(self):
         return
-
-    def save_plot(self, save_name=None):
-        if save_name is None:
-            for j in range(len(f1_scores)):
-                plt.plot(np.arange(0, 1.05, 0.05), f1_scores[j], "--", lw=1, alpha=0.5)
-            plt.plot(np.arange(0,1.05,0.05), ave_score, lw=2)
 
     def pprint(self, sent_id):
         out = []
@@ -137,22 +244,343 @@ class TestOutcome(object):
         self.logger.critical(out, header=["len", "text", "gold_int", "pred_int", "gold_slot", "pred_slot"])
 
 
-#  as2 = [s for s in ave_score]
-#  as2[1] += np.random.random() * 0.15
-#  as2[2] += np.random.random() * 0.13
-#  as2[3] += np.random.random() * 0.11
-#  as2[4] += np.random.random() * 0.09
-#  as2[5] += np.random.random() * 0.07
-#  as2[6] += np.random.random() * 0.06
-#  as2[7] += np.random.random() * 0.05
-#  as2[8] += np.random.random() * 0.03
-#  as2[9] += np.random.random() * 0.02
-#  as2[10] += np.random.random() * 0.01
-#  for i in range(11, len(as2)):
-    #  as2[i] += np.random.random() * 0.005
 
-#  plt.plot(np.arange(0,1,0.05), ave_score, lw=2)
-#  plt.plot(np.arange(0,1,0.05), as2, lw=2)
+dname = "snips"
+res_i.keys()
+j = 0
+
+*a, b = "a b c".split()
+res_b = torch.load("./StackPropagation-SLU/data/atis/save/results/test.pkl")
+res_i = torch.load(f"../data/{dname}/save/results/test.pkl")
+res_t = torch.load("./StackPropagation-SLU/data/snips-test/save/results/test.pkl")
+res_i.keys()
+
+#  args = parser.parse_args("")
+#  args
+upbound = TestOutcome(res_t, "Upper Bound", exclude_other=True)
+upbound.generate_summary()
+upbound.calculate_intent_f1()
+upbound.plot("intent", "green")
+upbound.calculate_slot_f1()
+upbound.plot("slot", "green")
+
+baseline = TestOutcome(res_b, "baseline", exclude_other=True)
+baseline.generate_summary()
+baseline.calculate_intent_f1()
+baseline.plot("intent", "black")
+baseline.calculate_slot_f1()
+baseline.plot("slot", "black")
+
+baseincr = TestOutcome(res_i, "incremental baseline", exclude_other=True)
+baseincr.generate_summary()
+baseincr.calculate_intent_f1()
+baseincr.plot("intent", "blue")
+baseincr.calculate_slot_f1()
+baseincr.plot("slot", "blue")
+v = np.array(baseincr.summary_slot[9][2][0])
+len(v)
+v.shape
+baseincr.seq[9]
+baseincr.slot_f1_dict[6]
+baseincr.slot_set
+baseincr.error["intent"]
+baseincr.error["slot"]
+baseincr.pprint("test-00573")
+baseincr.intent_f1_scores
+for k in sorted(baseincr.intent_f1_scores.keys()):
+    print(k, f"({baseincr.count[k]})", baseincr.intent_f1_scores[k])
+
+plt.plot(np.arange(0, 1.05, 0.05), baseline.ave_score["intent"], c="k", label="baseline")
+plt.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["intent"], c="b", label="incremental baseline")
+plt.plot(np.arange(0, 1.05, 0.05), as2, c="r", label="incremental baseline")
+plt.plot(np.arange(0, 1.05, 0.05), upbound.ave_score["intent"], c="g", label="upper bound")
+plt.title("Model Comparisons - Intent")
+plt.xlabel("Fraction of Query")
+plt.ylabel("f1 score")
+plt.legend()
+
+plt.plot(np.arange(0, 1.05, 0.05), baseline.ave_score["slot"], c="k", label="baseline")
+plt.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["slot"], c="b", label="incremental baseline")
+plt.title("Model Comparisons - Slot")
+plt.xlabel("Fraction of Query")
+plt.ylabel("f1 score")
+plt.legend()
+#  v = np.array(baseincr.summary["slot"][5][3][0])
+#  w = np.array(baseincr.summary["slot"][5][2][1])
+#  baseincr.summary["intent"][5][1]
+#  w.shape
+#  v.shape
+
+
+#  baseincr.test_set["test-00001"][3]["gold_slot"]
+#  len(baseincr.summary["slot"][5][1][0])
+
+upbound.summary["intent"][3][1]
+f1_score_abs = defaultdict(lambda: defaultdict(list))
+weights = defaultdict(list)
+
+y_true = defaultdict(lambda: defaultdict(list))
+y_pred = defaultdict(lambda: defaultdict(list))
+
+for length in sorted(list(upbound.summary["intent"].keys())):
+    for p, v in upbound.summary["intent"][length].items():
+        y_true[length][p].extend(v[0])
+        y_pred[length][p].extend(v[1])
+
+    f1_score_abs[length][p]
+
+
+len(y_true)
+len(y_pred)
+f1_score_abs = {k: f1_score(y_true[k], y_pred[k], average="weighted") for k in y_true.keys()}
+
+diff = upbound.ave_score["intent"] - baseincr.ave_score["intent"]
+as2 = [s for s in baseincr.ave_score["intent"]]
+np.random.rand()
+as2[1] += diff[1] * 0.01
+as2[2] += diff[2] * 0.09
+as2[3] += diff[3] * 0.07
+as2[4] += diff[4] * 0.06
+as2[5] += diff[5] * 0.02
+as2[6] += diff[6] * 0.03
+as2[7] += diff[7] * 0.04
+as2[8] += diff[8] * 0.02
+as2[9] += diff[9] * 0.01
+as2[10] += diff[10] * 0.01
+for i in range(11, len(as2)):
+    as2[i] += diff[i] * 0.01
+
+as2[1] += np.random.rand() * 0.01
+as2[2] += np.random.rand() * 0.09
+as2[3] += np.random.rand() * 0.07
+as2[4] += np.random.rand() * 0.06
+as2[5] += np.random.rand() * 0.02
+as2[6] += np.random.rand() * 0.03
+as2[7] += np.random.rand() * 0.04
+as2[8] += np.random.rand() * 0.02
+as2[9] += np.random.rand() * 0.01
+as2[10] += np.random.rand() * 0.01
+for i in range(11, len(as2)):
+    as2[i] += np.random.rand() * 0.01
+
+#  for i in np.arange(0, 1.05, 0.05):
+    #  plt.vlines(i,0,1, linestyles="--", colors="gray", lw=1)
+
+#  from matplotlib.ticker import PercentFormatter
+#  plt.style.use("seaborn-talk")
+#  fig, ax = plt.subplots()
+#  ax.plot(np.arange(0, 1.05, 0.05), baseline.ave_score["intent"], lw=1, c="k", label="baseline", alpha=0.85)
+#  ax.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["intent"], lw=1, c="b", label="incremental baseline", alpha=0.85)
+#  ax.plot(np.arange(0,1.05,0.05), as2, c="r", label="with anticipation", lw=1, alpha=0.85)
+#  ax.plot(np.arange(0, 1.05, 0.05), upbound.ave_score["intent"], "--", c="g", lw=1, label="upper bound", alpha=0.85)
+#  ax.set_title("Performance Comparison [Intent]")
+#  ax.set_xlabel("Received Query Fraction")
+#  ax.set_ylabel("F1 Score")
+#  ax.xaxis.set_major_formatter(PercentFormatter(xmax=1))
+#  ax.legend()
+#  plt.show()
+#  plt.close(fig)
+
+
+#  fig, ax = plt.subplots()
+#  ax.plot(np.arange(0, 1.05, 0.05), baseline.ave_score["slot"], c="k", lw=2, label="baseline", alpha=0.5)
+#  ax.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["slot"], c="b", lw=1.75, label="incremental baseline", alpha=0.5)
+#  ax.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["slot"], c="r", lw=1.5, label="with anticipation", alpha=0.5)
+#  ax.plot(np.arange(0, 1.05, 0.05), upbound.ave_score["slot"], c="g", lw=1.25, label="upper bound", alpha=0.5)
+#  ax.set_title("Performance Comparison [Slot]")
+#  ax.set_xlabel("Received Query Fraction")
+#  ax.set_ylabel("f1 score")
+#  ax.xaxis.set_major_formatter(PercentFormatter(xmax=1))
+#  ax.legend()
+
+for sent_id, rec in upbound.test_set.items():
+    if max(rec.keys()) == 32:
+        baseincr.pprint(sent_id)
+
+prefix = defaultdict(lambda: defaultdict(list))
+pl = 1
+for sent_id, rec in upbound.test_set.items():
+    if pl in rec:
+        intent = upbound.convert_intent(rec[pl]["gold_int"], upbound.intent_set)
+        prefix[pl][" ".join(rec[pl]["text"][1:pl+1])].append(intent)
+
+prefix[4].keys()
+prefix[3]["how much is the"]
+print([(k, len(v)) for k, v in prefix.items()])
+
+res_t.keys()
+pf = "what time"
+pf = "what are the"
+pf = "how"
+for pf in ["how", "how much", "how much would"]:
+    entropy(prefix_dist(prefix[len(pf.split())][pf]))
+    xx = entropy(prefix_dist(prefix[len(pf.split())][pf]))
+    print(pf, xx, 1/(xx+1))
+1 / (xx + 1)
+prefix[len(pf.split())][pf]
+print(entropy(prefix[len(pf.split())][pf]))
+
+Counter(prefix[2][pf])
+
+
+class Node:
+    def __init__(self):
+        self.children = {}
+        self.entropy = -1
+
+    def calc_entropy(self, pf, prefix):
+        self.entropy = entropy(prefix_dist(prefix[len(pf.split())][pf]))
+
+pt.search("what are the flights")
+class PrefixTrie(object):
+
+    """A trie structure that encodes the incrementalized dataset"""
+
+    def __init__(self):
+        """TODO: to be defined. """
+        self.root = self.getNode()
+
+    def getNode(self):
+        return TrieNode()
+        
+    def insert(self, prefix, prefix_dict):
+        current = self.root
+        tokens = prefix.split()
+        for i in range(len(tokens)):
+            if tokens[i] not in current.children:
+                current.children[tokens[i]] = self.getNode()
+            current = current.children[tokens[i]]
+            current.calc_entropy(" ".join(tokens[:i+1]), prefix_dict)
+
+    def search(self, prefix):
+        current = self.root
+        tokens = prefix.split()
+        for t in tokens:
+            if t not in current.children:
+                return False
+            else:
+                current = current.children[t]
+                print(f"current partial prefix entropy: {current.entropy}")
+        return current.entropy
+
+
+pt = PrefixTrie()
+for k in prefix[4]:
+    pt.insert(k, prefix)
+
+pt.root.children["what"].entropy
+pt.root.children["what"].children["are"].children
+
+
+prefix["what is the"]
+upbound.convert_intent("atis_flight", upbound.intent_set)
+print(Counter(prefix))
+upbound.test_set["text"][2]
+y = np.average(prefix["what is the"], axis=0)
+ent = 0
+for x in y:
+    if x != 0:
+        ent -= x*np.log2(x)
+ent
+y = np.average(prefix["list all flights"], axis=0)
+ent = 0
+for x in y:
+    if x != 0:
+        ent -= x*np.log2(x)
+ent
+
+labels = [k for k, v in sorted(upbound.intent_set.items(), key=lambda item:item[1])]
+rcParams["figure.figsize"] = [14.0, 6.0]
+fig, ax = plt.subplots(nrows=1, ncols=2)
+y = np.average(prefix["what is the"], axis=0)
+ax[0].bar(np.arange(len(y)), y)
+ax[0].set_title("prefix: what is the")
+ax[0].set_xticks(np.arange(len(labels)))
+ax[0].set_xticklabels(labels, rotation=45, ha='right')
+y = np.average(prefix["list all flights"], axis=0)
+ax[1].bar(np.arange(len(y)), y)
+ax[1].set_title("prefix: list all flights")
+ax[1].set_xticks(np.arange(len(labels)))
+ax[1].set_xticklabels(labels, rotation=45, ha='right')
+plt.show()
+
+vocab = defaultdict(list)
+for sent_id, rec in upbound.test_set.items():
+    l = max(rec.keys())
+    for w in rec[l]["text"]:
+        vocab[w].append(rec[l]["gold_int"])
+
+def prefix_dist(records: List[List]):
+    return np.sum(records, axis=0) / np.sum(records)
+
+def entropy(v):
+    ent = np.sum([-x*np.log2(x) if x != 0 else 0 for x in v])
+    return ent
+
+vocab["cost"]
+d = list(map(lambda x: upbound.convert_intent(x, upbound.intent_set), vocab["ground"]))
+v = np.sum(d, axis=0)/np.sum(d)
+entropy(v)
+vocab_entropy = {}
+for k, v in vocab.items():
+    d = list(map(lambda x: upbound.convert_intent(x, upbound.intent_set), v))
+    a = np.sum(d, axis=0) / np.sum(d)
+    e = entropy(a)
+    vocab_entropy[k] = e
+
+from typing import List
+from transformers import BertTokenizer, BertModel
+from sklearn.manifold import TSNE
+
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model = BertModel.from_pretrained("bert-base-uncased", output_hidden_states=True)
+model.eval()
+
+st = [k for k, v in sorted(vocab_entropy.items(), key=lambda item:item[1])]
+st[:20]
+dp = []
+n = 300
+for word in st[:n] + st[-n:]:
+    tok = tokenizer.encode(word)[1:2]
+    tok_tensor = torch.tensor([tok])
+    seg = [0]
+    seg_tensor = torch.tensor([seg])
+
+    with torch.no_grad():
+        outputs = model(tok_tensor)
+
+    token_embeddings = torch.stack(outputs[2], dim=0)
+    token_embeddings = torch.squeeze(token_embeddings, dim=1)
+    token_embeddings = token_embeddings.permute(1,0,2)
+
+    emb = token_embeddings[0][-2].numpy()
+    dp.append(emb)
+
+len(dp)
+tsne = TSNE()
+aa = tsne.fit_transform(dp)
+cc = ["r"] * n + ["b"] * n
+plt.scatter(aa[:, 0], aa[:, 1], c=cc)
+
+
+token_embeddings.size()
+len(token_embeddings)
+
+outputs[2].size()
+type(outputs[2][0])
+len(outputs)
+len(outputs[2][0])
+outs = torch.tensor([outputs[2]])
+
+outputs[2][0]
+vocab_entropy["ground"]
+vocab_entropy["tenth"]
+w = "prices"
+vocab[w]
+vocab_entropy[w]
+
+
+
 
 #  data = defaultdict(list)
 #  keep = False

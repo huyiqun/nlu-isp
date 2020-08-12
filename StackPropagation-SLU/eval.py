@@ -9,11 +9,13 @@
 
 import sys
 import os
+import pathlib
 import json
 import random
 import argparse
 from collections import defaultdict, Counter
-sys.path.append("./StackPropagation-SLU")
+project_root = pathlib.Path(__file__).parents[1]
+sys.path.append(os.path.join(project_root, "StackPropagation-SLU"))
 
 from utils.module import ModelManager
 from utils.loader import DatasetManager
@@ -28,10 +30,13 @@ import numpy as np
 parser = argparse.ArgumentParser()
 
 # Training parameters.
-parser.add_argument('--data_dir', '-dd', type=str, default='./StackPropagation-SLU/data/atis')
-parser.add_argument('--save_dir', '-sd', type=str, default='./StackPropagation-SLU/data/atis/save')
-#  parser.add_argument('--data_dir', '-dd', type=str, default='./data/atis')
-#  parser.add_argument('--save_dir', '-sd', type=str, default='./data/atis/save')
+#  parser.add_argument('--data_dir', '-dd', type=str, default='./StackPropagation-SLU/data/atis')
+#  parser.add_argument('--save_dir', '-sd', type=str, default='./StackPropagation-SLU/data/atis/save')
+parser.add_argument('--continue_training', default=True)
+parser.add_argument('--data_dir', '-dd', type=str, default='./data/atis')
+parser.add_argument('--save_base', '-sd', type=str, default='save')
+parser.add_argument('--mtype', type=str, default="base")
+#  type = ["base", "reg", "ub"]
 parser.add_argument("--random_state", '-rs', type=int, default=0)
 parser.add_argument('--num_epoch', '-ne', type=int, default=1)
 parser.add_argument('--batch_size', '-bs', type=int, default=16)
@@ -53,7 +58,8 @@ parser.add_argument('--attention_hidden_dim', '-ahd', type=int, default=1024)
 parser.add_argument('--attention_output_dim', '-aod', type=int, default=128)
 
 if __name__ == "__main__":
-    args = parser.parse_args()
+    args = parser.parse_args("")
+    args.save_dir = os.path.join(args.data_dir, f"{args.save_base}-{args.mtype}")
 
     # Save training and model parameters.
     if not os.path.exists(args.save_dir):
@@ -81,21 +87,33 @@ if __name__ == "__main__":
     dataset.quick_build()
     dataset.show_summary()
     #  dataset.ids["test"]
+    #  torch.save(dataset, os.path.join(args.save_dir, "model/dataset.pkl"))
+    #  dataset = torch.load(os.path.join(args.save_dir, "model/dataset.pkl"))
 
     # Instantiate a network model object.
-    model = ModelManager(
-        args, len(dataset.word_alphabet),
-        len(dataset.slot_alphabet),
-        len(dataset.intent_alphabet))
+    if args.continue_training and os.path.exists(os.path.join(args.save_dir, "model/model.pkl")):
+        model = torch.load(os.path.join(args.save_dir, "model/model.pkl"))
+    else:
+        model = ModelManager(
+            args, len(dataset.word_alphabet),
+            len(dataset.slot_alphabet),
+            len(dataset.intent_alphabet))
+
     model.show_summary()
 
     # To train and evaluate the models.
     process = Processor(dataset, model, args.batch_size)
     process.train()
 
-    res, _ = Processor.validate(os.path.join(args.save_dir, "model/model.pkl"), os.path.join(args.save_dir, "model/dataset.pkl"), args.batch_size)
+    res, pred = Processor.validate(os.path.join(args.save_dir, "model/model.pkl"), os.path.join(args.save_dir, "model/dataset.pkl"), args.batch_size)
 
     print('\nAccepted performance: ' + str(res) + " at test dataset;\n")
+    torch.save(process, os.path.join(args.save_dir, "model/process.pkl"))
+
+
+    #  pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids = Processor.prediction(model, dataset, "test", 16)
+    #  for i in range(40):
+        #  print(sorted_ids[i], text[i], real_slot[i])
     #  pred_res_dir = os.path.join(args.save_dir, "results")
     #  if not os.path.exists(pred_res_dir):
         #  os.mkdir(pred_res_dir)

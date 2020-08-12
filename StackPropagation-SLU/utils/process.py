@@ -59,6 +59,7 @@ class Processor(object):
             self.__model.train()
 
             for text_batch, slot_batch, intent_batch, _ in tqdm(dataloader, ncols=50):
+                #  print(text_batch, slot_batch, intent_batch)
                 padded_text, [sorted_slot, sorted_intent], seq_lens, _ = self.__dataset.add_padding(
                     text_batch, [(slot_batch, False), (intent_batch, False)]
                 )
@@ -180,6 +181,7 @@ class Processor(object):
         pred["golden_slot"] = real_slot
         pred["golden"] = real_intent
         pred["pred"] = exp_pred_intent
+        pred["token_level"] = pred_intent
         pred["text"] = text
         pred["sorted_ids"] = sorted_ids
 
@@ -246,20 +248,22 @@ class Processor(object):
         sorted_ids = []
         text = []
 
+        j = 0
         for text_batch, slot_batch, intent_batch, ids_batch in tqdm(dataloader, ncols=50):
+
             padded_text, [sorted_slot, sorted_intent], seq_lens, sorted_index = dataset.add_padding(
                 text_batch, [(slot_batch, False), (intent_batch, False)], digital=False
             )
             #  assert len(intent_batch) == len(sorted_intent)
-            #  for i, j in zip(intent_batch, sorted_intent):
-                #  assert i == j
             #  sorted_intents[0].extend(intent_batch)
             sorted_intents.extend(sorted_intent)
-            text.extend(padded_text)
+            sorted_text = list(np.array(text_batch, dtype=object)[sorted_index])
+            text.extend(sorted_text)
             sorted_ids.extend(list(np.array(ids_batch)[sorted_index]))
 
             real_slot.extend(sorted_slot)
             real_intent.extend(list(Evaluator.expand_list(sorted_intent)))
+
 
             digit_text = dataset.word_alphabet.get_index(padded_text)
             var_text = Variable(torch.LongTensor(digit_text))
@@ -274,6 +278,7 @@ class Processor(object):
             pred_intent.extend(dataset.intent_alphabet.get_instance(nested_intent))
 
         exp_pred_intent = Evaluator.max_freq_predict(pred_intent)
+        j += 1
         return pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids
 
 

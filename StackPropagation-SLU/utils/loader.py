@@ -183,7 +183,7 @@ class DatasetManager(object):
         self.__intent_alphabet = Alphabet('intent', if_use_pad=False, if_use_unk=False)
 
         # Record the raw text of dataset.
-        self.__text_word_data = {}
+        self.text_word_data = {}
         self.__text_slot_data = {}
         self.__text_intent_data = {}
         self.ids = {}
@@ -197,7 +197,7 @@ class DatasetManager(object):
 
     @property
     def test_sentence(self):
-        return deepcopy(self.__text_word_data['test'])
+        return deepcopy(self.text_word_data['test'])
 
     @property
     def word_alphabet(self):
@@ -246,9 +246,9 @@ class DatasetManager(object):
 
         print("Training parameters are listed as follows:\n")
 
-        print('\tnumber of train sample:                    {};'.format(len(self.__text_word_data['train'])))
-        print('\tnumber of dev sample:                      {};'.format(len(self.__text_word_data['dev'])))
-        print('\tnumber of test sample:                     {};'.format(len(self.__text_word_data['test'])))
+        print('\tnumber of train sample:                    {};'.format(len(self.text_word_data['train'])))
+        print('\tnumber of dev sample:                      {};'.format(len(self.text_word_data['dev'])))
+        print('\tnumber of test sample:                     {};'.format(len(self.text_word_data['test'])))
         print('\tnumber of epoch:						    {};'.format(self.num_epoch))
         print('\tbatch size:							    {};'.format(self.batch_size))
         print('\tlearning rate:							    {};'.format(self.learning_rate))
@@ -265,8 +265,12 @@ class DatasetManager(object):
         Convenient function to instantiate a dataset object.
         """
 
-        train_path = os.path.join(self.__args.data_dir, 'train.txt')
-        dev_path = os.path.join(self.__args.data_dir, 'dev.txt')
+        if self.__args.mtype != "ub":
+            train_path = os.path.join(self.__args.data_dir, 'train.txt')
+            dev_path = os.path.join(self.__args.data_dir, 'dev.txt')
+        else:
+            train_path = os.path.join(self.__args.data_dir, 'test.txt')
+            dev_path = os.path.join(self.__args.data_dir, 'test.txt')
         test_path = os.path.join(self.__args.data_dir, 'test.txt')
 
         self.add_file(train_path, 'train', if_train_file=True)
@@ -295,12 +299,13 @@ class DatasetManager(object):
                    self.__digit_slot_data[data_name], \
                    self.__digit_intent_data[data_name]
         else:
-            return self.__text_word_data[data_name], \
+            return self.text_word_data[data_name], \
                    self.__text_slot_data[data_name], \
                    self.__text_intent_data[data_name]
 
     def add_file(self, file_path, data_name, if_train_file):
-        text, slot, intent, ids = self.__read_file(file_path)
+        full_only = True if self.__args.mtype == "base" else False
+        text, slot, intent, ids = self.__read_file(file_path, full_only)
 
         if if_train_file:
             self.__word_alphabet.add_instance(text)
@@ -308,7 +313,7 @@ class DatasetManager(object):
             self.__intent_alphabet.add_instance(intent)
 
         # Record the raw text of dataset.
-        self.__text_word_data[data_name] = text
+        self.text_word_data[data_name] = text
         self.__text_slot_data[data_name] = slot
         self.__text_intent_data[data_name] = intent
         self.ids[data_name] = ids
@@ -320,7 +325,7 @@ class DatasetManager(object):
             self.__digit_intent_data[data_name] = self.__intent_alphabet.get_index(intent)
 
     @staticmethod
-    def __read_file(file_path):
+    def __read_file(file_path, full_only):
         """ Read data file of given path.
 
         :param file_path: path of data file.
@@ -340,12 +345,25 @@ class DatasetManager(object):
                     get_id = True
 
                 elif len(items) == 1 and get_id:
-                    ids.append(items[0])
+                    *sent, sub_id = items[0].split("-")
+                    sent_id = "-".join(sent)
+                    if full_only:
+                        if sub_id == "full":
+                            ids.append(items[0])
+                    else:
+                        ids.append(items[0])
                     get_id = False
                 elif len(items) == 1 and not get_id:
-                    texts.append(text)
-                    slots.append(slot)
-                    intents.append(items)
+                    if full_only:
+                        if sub_id =="full":
+                            texts.append(text)
+                            slots.append(slot)
+                            intents.append(items)
+                    else:
+                        texts.append(text)
+                        slots.append(slot)
+                        intents.append(items)
+
 
                 elif len(items) == 2:
                     text.append(items[0].strip())
@@ -363,7 +381,7 @@ class DatasetManager(object):
             intent = self.__digit_intent_data[data_name]
             ids = self.ids[data_name]
         else:
-            text = self.__text_word_data[data_name]
+            text = self.text_word_data[data_name]
             slot = self.__text_slot_data[data_name]
             intent = self.__text_intent_data[data_name]
             ids = self.ids[data_name]

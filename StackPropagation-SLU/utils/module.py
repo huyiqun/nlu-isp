@@ -47,6 +47,13 @@ class ModelManager(nn.Module):
             self.__args.dropout_rate
         )
 
+        #  self.__anticipation = Anticipation(
+                #  self.__args.encoder_hidden_dim + self.__Args.attention_output_dim,
+                #  self.__args.intent_decoder_hidden_dim,
+                #  self.__vocab_size, self.__args.dropout_rate,
+                #  embedding_dim = self.__args.intent_embedding_dim
+        #  )
+
         # Initialize an Decoder object for intent.
         self.__intent_decoder = LSTMDecoder(
             self.__args.encoder_hidden_dim + self.__args.attention_output_dim,
@@ -70,24 +77,6 @@ class ModelManager(nn.Module):
         self.__intent_embedding.weight.data = torch.eye(self.__num_intent)
         self.__intent_embedding.weight.requires_grad = False
 
-    def show_summary(self):
-        """
-        print the abstract of the defined model.
-        """
-
-        print('Model parameters are listed as follows:\n')
-        print('\tnumber of word: {};'.format(self.__num_word))
-        print('\tnumber of slot: {};'.format(self.__num_slot))
-        print('\tnumber of intent: {};'.format(self.__num_intent))
-        print('\tword embedding dimension: {};'.format(self.__args.word_embedding_dim))
-        print('\tencoder hidden dimension: {};'.format(self.__args.encoder_hidden_dim))
-        print('\tdimension of intent embedding: {};'.format(self.__args.intent_embedding_dim))
-        print('\tdimension of slot embedding: {};'.format(self.__args.slot_embedding_dim))
-        print('\tdimension of slot decoder hidden: {};'.format(self.__args.slot_decoder_hidden_dim))
-        print('\tdimension of intent decoder hidden: {};'.format(self.__args.intent_decoder_hidden_dim))
-        print('\thidden dimension of self-attention: {};'.format(self.__args.attention_hidden_dim))
-        print('\toutput dimension of self-attention: {};'.format(self.__args.attention_output_dim))
-        print('\nEnd of parameters show. Now training begins.\n\n')
 
     def forward(self, text, seq_lens, n_predicts=None, forced_slot=None, forced_intent=None):
         word_tensor, _ = self.__embedding(text)
@@ -137,6 +126,25 @@ class ModelManager(nn.Module):
 
         # Just predict single slot value.
         return slot_index.cpu().data.numpy().tolist()
+
+    def show_summary(self):
+        """
+        print the abstract of the defined model.
+        """
+
+        print('Model parameters are listed as follows:\n')
+        print('\tnumber of word: {};'.format(self.__num_word))
+        print('\tnumber of slot: {};'.format(self.__num_slot))
+        print('\tnumber of intent: {};'.format(self.__num_intent))
+        print('\tword embedding dimension: {};'.format(self.__args.word_embedding_dim))
+        print('\tencoder hidden dimension: {};'.format(self.__args.encoder_hidden_dim))
+        print('\tdimension of intent embedding: {};'.format(self.__args.intent_embedding_dim))
+        print('\tdimension of slot embedding: {};'.format(self.__args.slot_embedding_dim))
+        print('\tdimension of slot decoder hidden: {};'.format(self.__args.slot_decoder_hidden_dim))
+        print('\tdimension of intent decoder hidden: {};'.format(self.__args.intent_decoder_hidden_dim))
+        print('\thidden dimension of self-attention: {};'.format(self.__args.attention_hidden_dim))
+        print('\toutput dimension of self-attention: {};'.format(self.__args.attention_output_dim))
+        print('\nEnd of parameters show. Now training begins.\n\n')
 
 
 class EmbeddingCollection(nn.Module):
