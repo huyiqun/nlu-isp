@@ -1,0 +1,17 @@
+atis_flight	0
+atis_abbreviation	1
+atis_ground_service	2
+atis_restriction	3
+atis_airport	4
+atis_flight_time	5
+atis_airfare	6
+atis_meal	7
+atis_flight_no	8
+atis_ground_fare	9
+atis_city	10
+atis_flight#atis_airfare	11
+atis_distance	12
+atis_airline	13
+atis_capacity	14
+atis_quantity	15
+atis_aircraft	16
