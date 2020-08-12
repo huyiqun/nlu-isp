@@ -305,7 +305,7 @@ class DatasetManager(object):
 
     def add_file(self, file_path, data_name, if_train_file):
         full_only = True if self.__args.mtype == "base" else False
-        text, slot, intent, ids = self.__read_file(file_path, full_only)
+        text, slot, intent, ids = self.__read_file(file_path, full_only, if_train_file)
 
         if if_train_file:
             self.__word_alphabet.add_instance(text)
@@ -325,7 +325,7 @@ class DatasetManager(object):
             self.__digit_intent_data[data_name] = self.__intent_alphabet.get_index(intent)
 
     @staticmethod
-    def __read_file(file_path, full_only):
+    def __read_file(file_path, full_only, train_file):
         """ Read data file of given path.
 
         :param file_path: path of data file.
@@ -345,25 +345,29 @@ class DatasetManager(object):
                     get_id = True
 
                 elif len(items) == 1 and get_id:
-                    *sent, sub_id = items[0].split("-")
-                    sent_id = "-".join(sent)
-                    if full_only:
-                        if sub_id == "full":
-                            ids.append(items[0])
-                    else:
+                    *sent_id, sub_id = items[0].split("-")
+                    if not train_file:
                         ids.append(items[0])
+                    else:
+                        if full_only and sub_id == "full":
+                            ids.append(items[0])
+                        elif not full_only:
+                            ids.append(items[0])
                     get_id = False
                 elif len(items) == 1 and not get_id:
-                    if full_only:
-                        if sub_id =="full":
-                            texts.append(text)
-                            slots.append(slot)
-                            intents.append(items)
-                    else:
+                    if not train_file:
                         texts.append(text)
                         slots.append(slot)
                         intents.append(items)
-
+                    else:
+                        if full_only and sub_id =="full":
+                            texts.append(text)
+                            slots.append(slot)
+                            intents.append(items)
+                        elif not full_only:
+                            texts.append(text)
+                            slots.append(slot)
+                            intents.append(items)
 
                 elif len(items) == 2:
                     text.append(items[0].strip())
