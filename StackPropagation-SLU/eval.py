@@ -92,6 +92,7 @@ if __name__ == "__main__":
 
     # Instantiate a network model object.
     if args.continue_training and os.path.exists(os.path.join(args.save_dir, "model/model.pkl")):
+        print(f"continue from existing model at {os.path.join(args.save_dir, 'model/model.pkl')}")
         model = torch.load(os.path.join(args.save_dir, "model/model.pkl"))
     else:
         model = ModelManager(
