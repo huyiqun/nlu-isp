@@ -1,0 +1,7307 @@
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+it	O	O	GetWeather
+get	O	O	GetWeather
+warmer	B-condition_temperature	B-condition_temperature	GetWeather
+in	B-spatial_relation	O	GetWeather
+the	I-spatial_relation	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Tell	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+be	O	O	GetWeather
+it	O	O	GetWeather
+cloudy	B-condition_description	B-condition_description	GetWeather
+close	B-spatial_relation	B-spatial_relation	GetWeather
+by	I-spatial_relation	I-spatial_relation	GetWeather
+Azerbaijan	B-country	B-country	GetWeather
+in	B-timeRange	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+She	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+She	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+She	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+weather	O	O	GetWeather
+1	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+weather	O	O	GetWeather
+1	B-timeRange	B-timeRange	GetWeather
+minute	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+weather	O	O	GetWeather
+1	B-timeRange	B-timeRange	GetWeather
+minute	I-timeRange	I-timeRange	GetWeather
+from	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+rainfall	B-condition_description	B-condition_description	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+show	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	O	O	GetWeather
+at	O	O	GetWeather
+three	B-timeRange	B-timeRange	GetWeather
+am	I-timeRange	I-timeRange	GetWeather
+.in	O	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+show	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	O	O	GetWeather
+at	O	O	GetWeather
+three	B-timeRange	B-timeRange	GetWeather
+am	I-timeRange	I-timeRange	GetWeather
+.in	O	I-timeRange	GetWeather
+Wauregan	B-city	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What's	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+nine	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+nine	B-timeRange	B-timeRange	GetWeather
+in	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+nine	B-timeRange	B-timeRange	GetWeather
+in	O	O	GetWeather
+South	B-country	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+nine	B-timeRange	B-timeRange	GetWeather
+in	O	O	GetWeather
+South	B-country	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+nine	B-timeRange	B-timeRange	GetWeather
+in	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+check	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+for	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+check	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+prediction	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+prediction	O	O	GetWeather
+for	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+prediction	O	O	GetWeather
+for	O	O	GetWeather
+Camdeboo-Nationalpark	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+prediction	O	O	GetWeather
+for	O	O	GetWeather
+Camdeboo-Nationalpark	B-geographic_poi	B-city	GetWeather
+for	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+prediction	O	O	GetWeather
+for	O	O	GetWeather
+Camdeboo-Nationalpark	B-geographic_poi	B-city	GetWeather
+for	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+prediction	O	O	GetWeather
+for	O	O	GetWeather
+Camdeboo-Nationalpark	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+me	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	O	O	GetWeather
+in	B-timeRange	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Check	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+Natchaug	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+it	O	O	GetWeather
+be	O	O	GetWeather
+freezing	B-condition_temperature	B-condition_temperature	GetWeather
+in	B-timeRange	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+it	O	O	GetWeather
+cold	O	O	GetWeather
+in	B-geographic_poi	B-city	GetWeather
+PW	I-geographic_poi	I-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+is	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+be	O	O	GetWeather
+in	O	O	GetWeather
+Corcovado	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+alot	O	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+alot	O	O	GetWeather
+of	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+on	O	O	GetWeather
+March	B-timeRange	B-timeRange	GetWeather
+13th	I-timeRange	I-timeRange	GetWeather
+in	O	O	GetWeather
+Lost	B-city	B-geographic_poi	GetWeather
+Creek	I-city	I-geographic_poi	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+show	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+show	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Will	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+blizzard	B-condition_description	B-condition_description	GetWeather
+in	O	O	GetWeather
+Saudi	B-country	B-country	GetWeather
+Arabia	I-country	I-country	GetWeather
+around	B-spatial_relation	O	GetWeather
+2	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+blizzard	B-condition_description	B-condition_description	GetWeather
+in	O	O	GetWeather
+Saudi	B-country	B-country	GetWeather
+Arabia	I-country	I-country	GetWeather
+around	B-spatial_relation	O	GetWeather
+2	B-timeRange	B-timeRange	GetWeather
+o'clock	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+blizzard	B-condition_description	B-condition_description	GetWeather
+in	O	O	GetWeather
+Saudi	B-country	B-country	GetWeather
+Arabia	I-country	I-country	GetWeather
+around	B-spatial_relation	O	GetWeather
+2	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+when	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+when	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+sunrise	B-timeRange	B-timeRange	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+when	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+sunrise	B-timeRange	B-timeRange	SearchScreeningEvent
+in	O	O	SearchScreeningEvent
+AMerican	B-country	B-location_name	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+when	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+sunrise	B-timeRange	B-movie_name	SearchScreeningEvent
+in	O	I-movie_name	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+How	O	O	SearchScreeningEvent
+cold	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+How	O	O	SearchScreeningEvent
+cold	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+How	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+cold	B-condition_temperature	B-condition_temperature	GetWeather
+will	O	O	GetWeather
+it	O	O	GetWeather
+be	O	O	GetWeather
+in	O	O	GetWeather
+Palau	B-state	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+cold	B-condition_temperature	B-condition_temperature	GetWeather
+will	O	O	GetWeather
+it	O	O	GetWeather
+be	O	O	GetWeather
+in	O	O	GetWeather
+Palau	B-state	B-state	GetWeather
+around	B-spatial_relation	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+cold	B-condition_temperature	B-condition_temperature	GetWeather
+will	O	O	GetWeather
+it	O	O	GetWeather
+be	O	O	GetWeather
+in	O	O	GetWeather
+Palau	B-state	B-state	GetWeather
+around	B-spatial_relation	O	GetWeather
+fourteen	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+cold	B-condition_temperature	B-condition_temperature	GetWeather
+will	O	O	GetWeather
+it	O	O	GetWeather
+be	O	O	GetWeather
+in	O	O	GetWeather
+Palau	B-state	B-state	GetWeather
+around	B-spatial_relation	O	GetWeather
+fourteen	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+cold	B-condition_temperature	B-condition_temperature	GetWeather
+will	O	O	GetWeather
+it	O	O	GetWeather
+be	O	O	GetWeather
+in	O	O	GetWeather
+Palau	B-state	B-state	GetWeather
+around	B-spatial_relation	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+speed	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+speed	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+speed	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+Pembina	B-geographic_poi	B-geographic_poi	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+speed	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+Pembina	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+speed	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+be	O	O	GetWeather
+the	O	O	GetWeather
+wind	B-condition_description	B-condition_description	GetWeather
+speed	O	O	GetWeather
+around	O	B-spatial_relation	GetWeather
+Pembina	B-geographic_poi	B-geographic_poi	GetWeather
+Gorge	I-geographic_poi	I-geographic_poi	GetWeather
+State	I-geographic_poi	I-geographic_poi	GetWeather
+Recreation	I-geographic_poi	I-geographic_poi	GetWeather
+Area	I-geographic_poi	I-geographic_poi	GetWeather
+October	B-timeRange	B-timeRange	GetWeather
+the	I-timeRange	I-timeRange	GetWeather
+27th	I-timeRange	I-timeRange	GetWeather
+?	O	O	GetWeather
+<EOS>	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Need	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Need	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	B-city	B-city	GetWeather
+for	B-state	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	BookRestaurant
+Weather	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+for	O	O	GetWeather
+Knierim	B-city	B-city	GetWeather
+Kansas	B-state	B-state	GetWeather
+in	O	B-timeRange	GetWeather
+twelve	B-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+for	O	O	GetWeather
+Knierim	B-city	B-city	GetWeather
+Kansas	B-state	B-state	GetWeather
+in	O	B-timeRange	GetWeather
+twelve	B-timeRange	I-timeRange	GetWeather
+weeks	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+for	O	O	GetWeather
+Knierim	B-city	B-city	GetWeather
+Kansas	B-state	B-state	GetWeather
+in	O	B-timeRange	GetWeather
+twelve	B-timeRange	I-timeRange	GetWeather
+weeks	I-timeRange	I-timeRange	GetWeather
+and	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+for	O	O	GetWeather
+Knierim	B-city	B-city	GetWeather
+Kansas	B-state	B-state	GetWeather
+in	O	B-timeRange	GetWeather
+twelve	B-timeRange	I-timeRange	GetWeather
+weeks	I-timeRange	I-timeRange	GetWeather
+and	I-timeRange	I-timeRange	GetWeather
+a	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+for	O	O	GetWeather
+Knierim	B-city	B-city	GetWeather
+Kansas	B-state	B-state	GetWeather
+in	O	B-timeRange	GetWeather
+twelve	B-timeRange	I-timeRange	GetWeather
+weeks	I-timeRange	I-timeRange	GetWeather
+and	I-timeRange	I-timeRange	GetWeather
+a	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+for	O	O	GetWeather
+Knierim	B-city	B-city	GetWeather
+Kansas	B-state	B-state	GetWeather
+in	O	B-timeRange	GetWeather
+twelve	B-timeRange	I-timeRange	GetWeather
+weeks	I-timeRange	I-timeRange	GetWeather
+and	I-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Can	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Can	O	O	SearchScreeningEvent
+you	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Can	O	O	GetWeather
+you	O	O	GetWeather
+tell	B-city	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Can	O	O	SearchScreeningEvent
+you	O	O	SearchScreeningEvent
+tell	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Can	O	O	SearchScreeningEvent
+you	O	O	SearchScreeningEvent
+tell	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Can	O	O	SearchScreeningEvent
+you	O	O	SearchScreeningEvent
+tell	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Can	O	O	GetWeather
+you	O	O	GetWeather
+tell	O	O	GetWeather
+me	O	O	GetWeather
+what	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+is	O	O	GetWeather
+doing	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Can	O	O	GetWeather
+you	O	O	GetWeather
+tell	O	O	GetWeather
+me	O	O	GetWeather
+what	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+is	O	O	GetWeather
+doing	O	O	GetWeather
+in	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Can	O	O	GetWeather
+you	O	O	GetWeather
+tell	O	O	GetWeather
+me	O	O	GetWeather
+what	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+is	O	O	GetWeather
+doing	O	O	GetWeather
+in	O	O	GetWeather
+North	B-city	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	BookRestaurant
+Is	O	O	BookRestaurant
+there	O	O	BookRestaurant
+rain	O	B-restaurant_type	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Is	O	O	BookRestaurant
+there	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Will	O	O	BookRestaurant
+it	O	O	BookRestaurant
+be	O	B-restaurant_type	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Will	O	O	BookRestaurant
+it	O	O	BookRestaurant
+be	O	B-restaurant_type	BookRestaurant
+chilly	O	O	BookRestaurant
+in	B-city	B-city	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Will	O	O	BookRestaurant
+it	O	O	BookRestaurant
+be	O	B-restaurant_type	BookRestaurant
+chilly	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+it	O	O	GetWeather
+hail	O	O	GetWeather
+in	O	O	GetWeather
+1	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+is	O	O	GetWeather
+the	B-condition_description	B-condition_description	GetWeather
+weather	B-timeRange	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+Bad	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Will	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+windy	B-condition_description	B-condition_description	GetWeather
+is	O	O	GetWeather
+it	O	O	GetWeather
+in	O	O	GetWeather
+Anderson	B-geographic_poi	B-city	GetWeather
+Lake	I-geographic_poi	I-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+How	O	O	GetWeather
+windy	B-condition_description	B-condition_description	GetWeather
+is	O	O	GetWeather
+it	O	O	GetWeather
+in	O	O	GetWeather
+Anderson	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Show	O	O	GetWeather
+me	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	O	O	GetWeather
+in	O	O	GetWeather
+Clontarf	B-city	B-city	GetWeather
+,	O	O	GetWeather
+KY	B-state	B-state	GetWeather
+from	O	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Show	O	O	GetWeather
+me	O	O	GetWeather
+weather	O	O	GetWeather
+forecast	O	O	GetWeather
+in	O	O	GetWeather
+Clontarf	B-city	B-city	GetWeather
+,	O	O	GetWeather
+KY	B-state	B-state	GetWeather
+from	O	B-timeRange	GetWeather
+4	B-timeRange	I-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+in	O	O	GetWeather
+New	B-city	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+will	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+snowstorm	B-condition_description	B-condition_description	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+snowstorm	B-condition_description	B-condition_description	GetWeather
+around	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+snowstorm	B-condition_description	B-condition_description	GetWeather
+around	O	B-spatial_relation	GetWeather
+eight	B-timeRange	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+there	O	O	GetWeather
+be	O	O	GetWeather
+a	O	O	GetWeather
+snowstorm	B-condition_description	B-condition_description	GetWeather
+around	O	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Will	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Weather	O	O	GetWeather
+in	O	O	GetWeather
+Cairngorms-Nationalpark	B-geographic_poi	B-city	GetWeather
+close	B-spatial_relation	B-spatial_relation	GetWeather
+from	I-spatial_relation	O	GetWeather
+freezing	B-condition_temperature	B-condition_temperature	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+weather	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+weather	B-geographic_poi	B-city	GetWeather
+at	B-spatial_relation	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+weather	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+in	B-spatial_relation	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	BookRestaurant
+What	O	O	BookRestaurant
+is	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+I	O	O	GetWeather
+need	O	O	GetWeather
+a	O	O	GetWeather
+weather	O	O	GetWeather
+update	O	O	GetWeather
+now	B-timeRange	B-timeRange	GetWeather
+for	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+I	O	O	GetWeather
+need	O	O	GetWeather
+a	O	O	GetWeather
+weather	O	O	GetWeather
+update	O	O	GetWeather
+now	B-timeRange	B-timeRange	GetWeather
+for	O	O	GetWeather
+Manhattan	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	BookRestaurant
+Will	O	O	BookRestaurant
+it	O	O	BookRestaurant
+be	O	O	BookRestaurant
+GetWeather	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+be	O	O	GetWeather
+like	O	O	GetWeather
+here	B-geographic_poi	B-geographic_poi	GetWeather
+on	I-geographic_poi	I-geographic_poi	GetWeather
+September	O	B-timeRange	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+will	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+be	O	O	GetWeather
+like	O	O	GetWeather
+here	B-geographic_poi	B-city	GetWeather
+on	I-geographic_poi	I-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-timeRange	GetWeather
+Ithala	I-geographic_poi	I-timeRange	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-timeRange	GetWeather
+Ithala	I-geographic_poi	I-timeRange	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+distant	B-spatial_relation	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-city	GetWeather
+Ithala	I-geographic_poi	I-city	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+distant	B-spatial_relation	B-spatial_relation	GetWeather
+future	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-city	GetWeather
+Ithala	I-geographic_poi	I-city	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+distant	B-spatial_relation	B-spatial_relation	GetWeather
+future	O	O	GetWeather
+will	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-city	GetWeather
+Ithala	I-geographic_poi	I-city	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+distant	B-spatial_relation	B-spatial_relation	GetWeather
+future	O	O	GetWeather
+will	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-city	GetWeather
+Ithala	I-geographic_poi	I-city	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+distant	B-spatial_relation	B-spatial_relation	GetWeather
+future	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+the	O	O	GetWeather
+Wildreservaat	B-geographic_poi	B-city	GetWeather
+Ithala	I-geographic_poi	I-city	GetWeather
+in	O	O	GetWeather
+the	O	O	GetWeather
+distant	B-spatial_relation	B-spatial_relation	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+me	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+going	O	O	GetWeather
+to	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	B-condition_temperature	B-condition_temperature	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	B-condition_temperature	B-condition_temperature	GetWeather
+Walker	O	O	GetWeather
+Bay	B-country	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+Walker	B-geographic_poi	B-city	GetWeather
+Bay	I-geographic_poi	I-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	B-condition_temperature	B-condition_temperature	GetWeather
+Walker	O	O	GetWeather
+Bay	B-country	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What's	O	O	GetWeather
+the	O	O	GetWeather
+forecast	O	O	GetWeather
+for	O	O	GetWeather
+Walker	B-geographic_poi	B-city	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+weather	O	O	GetWeather
+like	O	O	GetWeather
+in	O	O	GetWeather
+North	B-city	B-state	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+is	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+is	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+GetWeather	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Will	O	O	GetWeather
+rainfall	B-condition_description	B-condition_description	GetWeather
+continue	O	I-geographic_poi	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+GetWeather	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+GetWeather	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	O	BookRestaurant
+need	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	O	BookRestaurant
+need	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	I-city	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	O	BookRestaurant
+need	O	O	BookRestaurant
+a	O	O	BookRestaurant
+reservation	O	O	BookRestaurant
+at	O	O	BookRestaurant
+Rimsky-Korsakoffee	B-restaurant_name	B-restaurant_name	BookRestaurant
+House	I-restaurant_name	I-restaurant_name	BookRestaurant
+on	O	O	BookRestaurant
+Aug.	B-timeRange	B-timeRange	BookRestaurant
+the	I-timeRange	I-timeRange	BookRestaurant
+3rd	I-timeRange	I-timeRange	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	O	BookRestaurant
+need	O	O	BookRestaurant
+a	O	O	BookRestaurant
+reservation	O	O	BookRestaurant
+at	O	O	BookRestaurant
+Rimsky-Korsakoffee	B-restaurant_name	B-restaurant_name	BookRestaurant
+House	I-restaurant_name	I-restaurant_name	BookRestaurant
+on	O	O	BookRestaurant
+Aug.	B-timeRange	B-timeRange	BookRestaurant
+the	I-timeRange	I-timeRange	BookRestaurant
+3rd	I-timeRange	I-timeRange	BookRestaurant
+.	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+have	O	O	BookRestaurant
+a	O	O	BookRestaurant
+party	O	O	BookRestaurant
+of	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+in	O	O	BookRestaurant
+Japan	B-country	B-city	BookRestaurant
+and	O	O	BookRestaurant
+need	O	O	BookRestaurant
+a	O	O	BookRestaurant
+reservation	O	O	BookRestaurant
+at	O	O	BookRestaurant
+Rimsky-Korsakoffee	B-restaurant_name	B-restaurant_name	BookRestaurant
+House	I-restaurant_name	I-restaurant_name	BookRestaurant
+on	O	O	BookRestaurant
+Aug.	B-timeRange	B-timeRange	BookRestaurant
+the	I-timeRange	I-timeRange	BookRestaurant
+3rd	I-timeRange	I-timeRange	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+near	B-spatial_relation	B-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+near	B-spatial_relation	B-spatial_relation	BookRestaurant
+in	B-poi	B-poi	BookRestaurant
+town	I-poi	I-poi	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Restaurant	O	O	BookRestaurant
+near	O	O	BookRestaurant
+in	O	O	BookRestaurant
+town	O	O	BookRestaurant
+uses	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+near	B-spatial_relation	B-spatial_relation	BookRestaurant
+in	B-poi	B-poi	BookRestaurant
+town	I-poi	I-poi	BookRestaurant
+uses	O	I-poi	BookRestaurant
+in	B-timeRange	B-timeRange	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Restaurant	O	O	BookRestaurant
+near	O	O	BookRestaurant
+in	O	O	BookRestaurant
+town	O	O	BookRestaurant
+uses	O	O	BookRestaurant
+in	B-restaurant_name	B-party_size_description	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	B-restaurant_type	B-restaurant_type	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	B-restaurant_type	B-restaurant_type	BookRestaurant
+me	B-spatial_relation	B-spatial_relation	BookRestaurant
+a	B-poi	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+me	O	O	BookRestaurant
+and	O	O	BookRestaurant
+imelda	O	O	BookRestaurant
+want	B-spatial_relation	B-spatial_relation	BookRestaurant
+a	I-spatial_relation	I-spatial_relation	BookRestaurant
+reservation	I-spatial_relation	I-spatial_relation	BookRestaurant
+in	I-spatial_relation	I-spatial_relation	BookRestaurant
+Missouri	O	O	BookRestaurant
+at	B-restaurant_name	B-poi	BookRestaurant
+seven	I-restaurant_name	I-poi	BookRestaurant
+am	I-restaurant_name	I-poi	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+me	O	O	BookRestaurant
+and	O	O	BookRestaurant
+imelda	O	O	BookRestaurant
+want	B-spatial_relation	B-spatial_relation	BookRestaurant
+a	I-spatial_relation	I-spatial_relation	BookRestaurant
+reservation	I-spatial_relation	I-spatial_relation	BookRestaurant
+in	I-spatial_relation	I-spatial_relation	BookRestaurant
+Missouri	O	O	BookRestaurant
+at	B-restaurant_name	B-poi	BookRestaurant
+seven	I-restaurant_name	I-poi	BookRestaurant
+am	I-restaurant_name	I-poi	BookRestaurant
+<EOS>	I-restaurant_name	I-poi	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+spot	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+spot	O	O	BookRestaurant
+in	B-spatial_relation	B-spatial_relation	BookRestaurant
+the	I-spatial_relation	I-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+spot	O	O	BookRestaurant
+in	B-spatial_relation	B-spatial_relation	BookRestaurant
+the	I-spatial_relation	I-spatial_relation	BookRestaurant
+same	I-spatial_relation	I-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+spot	O	O	BookRestaurant
+in	B-spatial_relation	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+spot	O	O	BookRestaurant
+in	B-spatial_relation	B-spatial_relation	BookRestaurant
+the	I-spatial_relation	I-spatial_relation	BookRestaurant
+same	I-spatial_relation	I-spatial_relation	BookRestaurant
+area	I-spatial_relation	I-spatial_relation	BookRestaurant
+as	O	O	BookRestaurant
+Yankee	B-restaurant_name	B-poi	BookRestaurant
+Doodle	I-restaurant_name	I-poi	BookRestaurant
+Coffee	I-restaurant_name	I-poi	BookRestaurant
+Shop	I-restaurant_name	I-poi	BookRestaurant
+in	O	O	BookRestaurant
+Madagascar	B-country	B-country	BookRestaurant
+<EOS>	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Schedule	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Schedule	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Schedule	O	B-party_size_description	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Schedule	O	O	BookRestaurant
+the	O	O	BookRestaurant
+food	B-restaurant_type	B-restaurant_type	BookRestaurant
+truck	I-restaurant_type	I-restaurant_type	BookRestaurant
+to	O	O	BookRestaurant
+be	O	O	BookRestaurant
+at	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Schedule	O	O	BookRestaurant
+the	O	O	BookRestaurant
+food	B-restaurant_type	B-restaurant_type	BookRestaurant
+truck	I-restaurant_type	I-restaurant_type	BookRestaurant
+to	O	O	BookRestaurant
+be	O	O	BookRestaurant
+at	O	O	BookRestaurant
+your	B-poi	B-poi	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Schedule	O	O	BookRestaurant
+the	O	O	BookRestaurant
+food	B-restaurant_type	B-restaurant_type	BookRestaurant
+truck	I-restaurant_type	I-restaurant_type	BookRestaurant
+to	O	O	BookRestaurant
+be	O	O	BookRestaurant
+at	O	O	BookRestaurant
+your	B-poi	B-poi	BookRestaurant
+place	I-poi	I-poi	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Schedule	O	O	BookRestaurant
+the	O	O	BookRestaurant
+food	B-restaurant_type	B-restaurant_type	BookRestaurant
+truck	I-restaurant_type	I-restaurant_type	BookRestaurant
+to	O	O	BookRestaurant
+be	O	O	BookRestaurant
+at	O	O	BookRestaurant
+your	B-poi	B-poi	BookRestaurant
+place	I-poi	I-poi	BookRestaurant
+in	O	B-timeRange	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+i	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+tea	B-timeRange	B-restaurant_type	BookRestaurant
+place	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+tea	B-timeRange	B-restaurant_type	BookRestaurant
+place	O	O	BookRestaurant
+at	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	B-timeRange	B-restaurant_type	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+for	O	O	BookRestaurant
+august	B-timeRange	B-timeRange	BookRestaurant
+fourth	I-timeRange	I-timeRange	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+far	I-spatial_relation	I-spatial_relation	BookRestaurant
+from	O	O	BookRestaurant
+the	O	O	BookRestaurant
+Marshall	B-country	B-state	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+for	O	O	BookRestaurant
+august	B-timeRange	B-timeRange	BookRestaurant
+fourth	I-timeRange	I-timeRange	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+far	I-spatial_relation	I-spatial_relation	BookRestaurant
+from	O	O	BookRestaurant
+the	O	O	BookRestaurant
+Marshall	B-country	B-state	BookRestaurant
+Islands	I-country	I-state	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+for	O	O	BookRestaurant
+august	B-timeRange	B-timeRange	BookRestaurant
+fourth	I-timeRange	I-timeRange	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+far	I-spatial_relation	I-spatial_relation	BookRestaurant
+from	O	O	BookRestaurant
+the	O	O	BookRestaurant
+Marshall	B-country	B-state	BookRestaurant
+Islands	I-country	I-state	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+book	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Please	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+room	O	O	BookRestaurant
+to	O	O	BookRestaurant
+accommodate	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Please	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+room	O	O	BookRestaurant
+to	O	O	BookRestaurant
+accommodate	O	O	BookRestaurant
+one	B-party_size_number	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	AddToPlaylist
+Can	O	O	AddToPlaylist
+you	O	O	AddToPlaylist
+make	O	O	AddToPlaylist
+BookRestaurant	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+Restaurant	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	B-restaurant_type	B-restaurant_type	BookRestaurant
+need	O	O	BookRestaurant
+to	B-city	B-city	BookRestaurant
+book	O	O	BookRestaurant
+a	B-timeRange	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+want	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+a	O	O	BookRestaurant
+reservation	O	O	BookRestaurant
+for	O	O	BookRestaurant
+3	B-timeRange	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+reservations	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+reservations	O	O	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+reservations	O	O	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+far	I-spatial_relation	I-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+reservations	O	O	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+far	I-spatial_relation	I-spatial_relation	BookRestaurant
+from	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+reservations	O	O	BookRestaurant
+not	B-spatial_relation	B-spatial_relation	BookRestaurant
+far	I-spatial_relation	I-spatial_relation	BookRestaurant
+from	O	O	BookRestaurant
+our	O	B-poi	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+in	B-timeRange	B-spatial_relation	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+in	B-timeRange	B-timeRange	SearchScreeningEvent
+eight	I-timeRange	I-timeRange	SearchScreeningEvent
+seconds	I-timeRange	I-timeRange	SearchScreeningEvent
+,	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+in	B-timeRange	B-timeRange	SearchScreeningEvent
+eight	I-timeRange	I-timeRange	SearchScreeningEvent
+seconds	I-timeRange	I-timeRange	SearchScreeningEvent
+,	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+in	B-timeRange	B-timeRange	SearchScreeningEvent
+eight	I-timeRange	I-timeRange	SearchScreeningEvent
+seconds	I-timeRange	I-timeRange	SearchScreeningEvent
+,	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+in	B-timeRange	B-timeRange	SearchScreeningEvent
+eight	I-timeRange	I-timeRange	SearchScreeningEvent
+seconds	I-timeRange	I-timeRange	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+mamie	B-party_size_description	B-party_size_description	BookRestaurant
+and	I-party_size_description	I-party_size_description	BookRestaurant
+maria	I-party_size_description	I-party_size_description	BookRestaurant
+at	O	O	BookRestaurant
+a	O	O	BookRestaurant
+south	B-cuisine	B-cuisine	BookRestaurant
+tyrolean	I-cuisine	I-cuisine	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+within	B-spatial_relation	B-spatial_relation	BookRestaurant
+walking	I-spatial_relation	I-spatial_relation	BookRestaurant
+distance	I-spatial_relation	I-spatial_relation	BookRestaurant
+from	O	O	BookRestaurant
+Fisk	B-poi	B-city	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+to	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+book	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	AddToPlaylist
+Can	O	O	AddToPlaylist
+you	O	O	AddToPlaylist
+BookRestaurant	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+near	B-spatial_relation	B-spatial_relation	BookRestaurant
+the	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+tavern	O	O	BookRestaurant
+in	O	O	BookRestaurant
+Rhode	O	O	BookRestaurant
+Island	B-timeRange	B-timeRange	BookRestaurant
+that	I-timeRange	I-timeRange	BookRestaurant
+serves	I-timeRange	I-timeRange	BookRestaurant
+saucisse	I-timeRange	I-timeRange	BookRestaurant
+.	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+a	O	O	BookRestaurant
+reservation	O	O	BookRestaurant
+for	O	O	BookRestaurant
+four	B-timeRange	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+around	O	B-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+around	O	B-spatial_relation	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+around	O	B-spatial_relation	BookRestaurant
+midnight	B-timeRange	B-timeRange	BookRestaurant
+in	O	O	BookRestaurant
+Saint	B-country	B-country	BookRestaurant
+Pierre	I-country	I-country	BookRestaurant
+and	I-country	I-country	BookRestaurant
+Miquelon	I-country	I-country	BookRestaurant
+.	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+four	B-party_size_number	B-party_size_number	BookRestaurant
+around	O	B-spatial_relation	BookRestaurant
+midnight	B-timeRange	B-timeRange	BookRestaurant
+in	O	O	BookRestaurant
+Saint	B-country	B-country	BookRestaurant
+Pierre	I-country	I-country	BookRestaurant
+and	I-country	I-country	BookRestaurant
+Miquelon	I-country	I-country	BookRestaurant
+.	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+eat	O	O	BookRestaurant
+a	O	O	BookRestaurant
+a	O	O	BookRestaurant
+brasserie	B-restaurant_type	B-restaurant_type	BookRestaurant
+that	O	O	BookRestaurant
+serves	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+eat	O	O	BookRestaurant
+a	O	O	BookRestaurant
+a	O	O	BookRestaurant
+brasserie	B-restaurant_type	B-restaurant_type	BookRestaurant
+that	O	O	BookRestaurant
+serves	O	O	BookRestaurant
+muffuletta	B-served_dish	B-served_dish	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+get	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+get	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+pizza	B-served_dish	B-served_dish	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+close	B-spatial_relation	B-spatial_relation	BookRestaurant
+to	O	O	BookRestaurant
+Astor	B-poi	B-city	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+pizza	B-served_dish	B-served_dish	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+close	B-spatial_relation	B-spatial_relation	BookRestaurant
+to	O	O	BookRestaurant
+Astor	B-poi	B-city	BookRestaurant
+Place	I-poi	I-city	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+pizza	B-served_dish	B-served_dish	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+close	B-spatial_relation	B-spatial_relation	BookRestaurant
+to	O	O	BookRestaurant
+Astor	B-poi	B-city	BookRestaurant
+Place	I-poi	I-city	BookRestaurant
+for	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+pizza	B-served_dish	B-served_dish	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+close	B-spatial_relation	B-spatial_relation	BookRestaurant
+to	O	O	BookRestaurant
+Astor	B-poi	B-city	BookRestaurant
+Place	I-poi	I-city	BookRestaurant
+for	O	O	BookRestaurant
+nine	B-party_size_number	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+me	O	O	BookRestaurant
+seats	O	O	BookRestaurant
+for	O	O	BookRestaurant
+6	B-party_size_number	B-party_size_number	BookRestaurant
+at	O	O	BookRestaurant
+the	O	O	BookRestaurant
+best	B-sort	B-sort	BookRestaurant
+brasserie	B-restaurant_type	B-restaurant_type	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+me	O	O	BookRestaurant
+seats	O	O	BookRestaurant
+for	O	O	BookRestaurant
+6	B-party_size_number	B-party_size_number	BookRestaurant
+at	O	O	BookRestaurant
+the	O	O	BookRestaurant
+best	B-sort	B-sort	BookRestaurant
+brasserie	B-restaurant_type	B-restaurant_type	BookRestaurant
+that	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+me	O	O	BookRestaurant
+seats	O	O	BookRestaurant
+for	O	O	BookRestaurant
+6	B-party_size_number	B-party_size_number	BookRestaurant
+at	O	O	BookRestaurant
+the	O	O	BookRestaurant
+best	B-sort	B-sort	BookRestaurant
+brasserie	B-restaurant_type	B-restaurant_type	BookRestaurant
+that	O	O	BookRestaurant
+serves	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+me	O	O	BookRestaurant
+seats	O	O	BookRestaurant
+for	O	O	BookRestaurant
+6	B-party_size_number	B-party_size_number	BookRestaurant
+at	O	O	BookRestaurant
+the	O	O	BookRestaurant
+best	B-sort	B-sort	BookRestaurant
+brasserie	B-restaurant_type	B-restaurant_type	BookRestaurant
+that	O	O	BookRestaurant
+serves	O	O	BookRestaurant
+marche	B-cuisine	B-served_dish	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+in	O	O	BookRestaurant
+Southern	B-city	B-country	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+BookRestaurant	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+BookRestaurant	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+PM	O	O	BookRestaurant
+Park,	O	O	BookRestaurant
+Clear	O	O	BookRestaurant
+Lake,	O	O	BookRestaurant
+Iowa	B-timeRange	B-party_size_description	BookRestaurant
+at	O	O	BookRestaurant
+5	B-restaurant_name	B-restaurant_name	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+PM	O	O	BookRestaurant
+Park,	O	O	BookRestaurant
+Clear	O	O	BookRestaurant
+Lake,	O	O	BookRestaurant
+Iowa	B-timeRange	B-party_size_description	BookRestaurant
+at	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+restaurant	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+Bullfeathers	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+book	O	O	BookRestaurant
+Bullfeathers	O	O	BookRestaurant
+<EOS>	B-restaurant_name	B-restaurant_name	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+table	O	O	BookRestaurant
+at	B-restaurant_name	B-cuisine	BookRestaurant
+Nankin	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+an	O	O	BookRestaurant
+indoor	B-facility	B-facility	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+near	B-spatial_relation	B-spatial_relation	BookRestaurant
+Wallington	B-poi	B-city	BookRestaurant
+for	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+an	O	O	BookRestaurant
+indoor	B-facility	B-facility	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+near	B-spatial_relation	B-spatial_relation	BookRestaurant
+Wallington	B-poi	B-city	BookRestaurant
+for	O	O	BookRestaurant
+2	B-party_size_number	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+churrascaria	B-facility	B-facility	BookRestaurant
+restaurant	B-restaurant_type	B-restaurant_type	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+nine	B-party_size_number	B-party_size_number	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+for	O	O	BookRestaurant
+nine	B-party_size_number	B-party_size_number	BookRestaurant
+at	O	O	BookRestaurant
+Canteen	B-restaurant_name	B-restaurant_name	BookRestaurant
+Lunch	I-restaurant_name	I-restaurant_name	BookRestaurant
+in	I-restaurant_name	O	BookRestaurant
+the	I-restaurant_name	O	BookRestaurant
+Alley	I-restaurant_name	B-city	BookRestaurant
+at	O	O	BookRestaurant
+Midnight	B-timeRange	B-timeRange	BookRestaurant
+<EOS>	O	O	BookRestaurant
+BookRestaurant	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Book	O	O	BookRestaurant
+a	O	O	BookRestaurant
+table	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+PlayMusic	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+Rachel	B-artist	B-genre	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Play	O	O	SearchCreativeWork
+some	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+a	B-service	B-service	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+a	B-service	B-service	PlayMusic
+chant	I-service	I-service	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	B-service	B-service	PlayMusic
+newest	B-genre	I-service	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Portsmouth	B-service	B-service	PlayMusic
+by	B-genre	B-artist	PlayMusic
+Paul	I-genre	I-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Portsmouth	B-service	B-service	PlayMusic
+by	B-genre	B-artist	PlayMusic
+Paul	I-genre	I-artist	PlayMusic
+Smith	I-genre	B-album	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+movement	B-playlist	B-genre	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+music	O	O	PlayMusic
+from	B-playlist	B-genre	PlayMusic
+2011	O	O	PlayMusic
+.	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+need	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Play	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	O	O	PlayMusic
+track	O	O	PlayMusic
+R	B-genre	B-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Open	O	O	SearchCreativeWork
+Last	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Open	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	O	O	PlayMusic
+Mike	B-music_item	B-music_item	PlayMusic
+Osborne	O	B-track	PlayMusic
+song	B-year	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	O	O	PlayMusic
+Mike	B-music_item	B-music_item	PlayMusic
+Osborne	O	B-track	PlayMusic
+song	B-year	B-year	PlayMusic
+<EOS>	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Wait	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Wait	B-track	B-album	PlayMusic
+Until	I-track	I-album	PlayMusic
+Tomorrow	I-track	I-album	PlayMusic
+<EOS>	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	B-track	B-artist	PlayMusic
+movement	I-track	I-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	O	O	PlayMusic
+movement	B-music_item	B-music_item	PlayMusic
+fromthe	O	B-track	PlayMusic
+eighties	B-year	B-year	PlayMusic
+by	O	O	PlayMusic
+Nobuo	B-artist	B-artist	PlayMusic
+Uematsu	I-artist	I-artist	PlayMusic
+.	O	O	PlayMusic
+<EOS>	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Brotherhood	B-album	B-track	PlayMusic
+by	O	O	PlayMusic
+Ock	B-artist	B-artist	PlayMusic
+Joo-hyun	I-artist	I-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Masashi	B-album	B-track	PlayMusic
+Hamauzu	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Masashi	B-artist	B-track	PlayMusic
+Hamauzu	I-artist	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Masashi	B-album	B-track	PlayMusic
+Hamauzu	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Masashi	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Masashi	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+me	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+me	O	O	PlayMusic
+a	B-sort	B-sort	PlayMusic
+song	B-music_item	B-music_item	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+me	O	O	PlayMusic
+a	B-sort	B-sort	PlayMusic
+song	B-music_item	B-music_item	PlayMusic
+by	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	O	O	PlayMusic
+top-ten	B-sort	B-sort	PlayMusic
+chant	B-music_item	B-music_item	PlayMusic
+Doda	B-artist	O	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+the	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	O	O	PlayMusic
+top-ten	B-sort	B-sort	PlayMusic
+chant	B-music_item	B-music_item	PlayMusic
+Doda	B-artist	O	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+the	O	O	PlayMusic
+twenties	B-year	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	O	O	PlayMusic
+top-ten	B-sort	B-sort	PlayMusic
+chant	B-music_item	B-music_item	PlayMusic
+Doda	B-artist	O	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+the	O	O	PlayMusic
+twenties	B-year	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	O	O	PlayMusic
+top-ten	B-sort	B-sort	PlayMusic
+chant	B-music_item	B-music_item	PlayMusic
+Doda	B-artist	O	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+the	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Seaside	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Seaside	B-album	B-track	PlayMusic
+by	O	O	PlayMusic
+Don	B-artist	B-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Seaside	B-album	B-track	PlayMusic
+by	O	O	PlayMusic
+Don	B-artist	B-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Seaside	B-artist	B-track	PlayMusic
+by	I-artist	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Victoria	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Victoria	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+Play	O	O	SearchScreeningEvent
+music	O	O	SearchScreeningEvent
+PlayMusic	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+play	O	O	BookRestaurant
+playlist	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+Maynard	B-artist	B-artist	PlayMusic
+James	I-artist	I-artist	PlayMusic
+Keenan	I-artist	I-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+Maynard	B-artist	B-artist	PlayMusic
+James	I-artist	I-artist	PlayMusic
+Keenan	I-artist	I-artist	PlayMusic
+songs	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+Maynard	B-artist	B-artist	PlayMusic
+James	I-artist	I-artist	PlayMusic
+Keenan	I-artist	I-artist	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+Scenes	B-album	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+Maynard	B-artist	B-artist	PlayMusic
+James	I-artist	I-artist	PlayMusic
+Keenan	I-artist	I-artist	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+Scenes	B-album	B-artist	PlayMusic
+From	I-album	I-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	O	O	PlayMusic
+Maynard	B-artist	B-artist	PlayMusic
+James	I-artist	I-artist	PlayMusic
+Keenan	I-artist	I-artist	PlayMusic
+songs	O	O	PlayMusic
+from	O	O	PlayMusic
+Scenes	B-album	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+PlayMusic	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Play	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Can	O	O	BookRestaurant
+you	O	O	BookRestaurant
+play	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+Can	O	O	BookRestaurant
+you	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Neutrons	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Neutrons	B-album	B-track	PlayMusic
+by	O	O	PlayMusic
+Seun	B-artist	B-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Neutrons	B-album	B-track	PlayMusic
+by	O	O	PlayMusic
+Seun	B-artist	B-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+a	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+a	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Asia	O	O	PlayMusic
+Nitollano	B-track	B-playlist	PlayMusic
+using	I-track	I-playlist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Asia	B-artist	B-track	PlayMusic
+Nitollano	I-artist	I-track	PlayMusic
+using	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+the	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	B-artist	B-artist	PlayMusic
+track	I-artist	I-artist	PlayMusic
+by	O	B-music_item	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+a	B-artist	B-artist	PlayMusic
+track	I-artist	I-artist	PlayMusic
+by	O	I-artist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Play	O	B-party_size_description	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+the	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+Could	I-album	I-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+Could	I-album	I-object_name	SearchCreativeWork
+Only	I-album	I-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+Could	I-album	I-object_name	SearchCreativeWork
+Only	I-album	I-object_name	SearchCreativeWork
+Happen	I-album	I-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+Could	I-album	I-object_name	SearchCreativeWork
+Only	I-album	I-object_name	SearchCreativeWork
+Happen	I-album	I-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+Could	I-album	I-object_name	SearchCreativeWork
+Only	I-album	I-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+Could	I-album	I-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+play	O	O	BookRestaurant
+the	O	O	BookRestaurant
+It	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+play	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+It	B-album	B-object_name	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+want	O	O	PlayMusic
+to	O	O	PlayMusic
+hear	O	O	PlayMusic
+This	B-track	B-album	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+want	O	O	PlayMusic
+to	O	O	PlayMusic
+hear	O	O	PlayMusic
+This	B-track	B-album	PlayMusic
+Is	I-track	I-album	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+want	O	O	PlayMusic
+to	O	O	PlayMusic
+hear	O	O	PlayMusic
+This	B-track	B-album	PlayMusic
+Is	I-track	I-album	PlayMusic
+The	I-track	I-album	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+want	O	O	PlayMusic
+to	O	O	PlayMusic
+hear	O	O	PlayMusic
+This	B-track	B-album	PlayMusic
+Is	I-track	I-album	PlayMusic
+The	I-track	I-album	PlayMusic
+Night	I-track	I-album	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+want	O	O	PlayMusic
+to	O	O	PlayMusic
+hear	O	O	PlayMusic
+This	B-track	B-album	PlayMusic
+Is	I-track	I-album	PlayMusic
+The	I-track	I-album	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+some	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+want	O	O	PlayMusic
+to	O	O	PlayMusic
+hear	O	O	PlayMusic
+the	O	O	PlayMusic
+new	B-sort	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Play	O	O	BookRestaurant
+music	O	O	BookRestaurant
+from	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Please	O	O	PlayMusic
+play	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Play	O	O	SearchCreativeWork
+PlayMusic	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+some	B-service	B-service	PlayMusic
+popular	O	O	PlayMusic
+bryan	O	O	PlayMusic
+gregory	B-artist	B-playlist	PlayMusic
+songs	I-artist	I-playlist	PlayMusic
+<EOS>	I-artist	I-playlist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Fereydoun	B-service	B-service	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Fereydoun	B-service	B-service	PlayMusic
+Farrokhzad	O	O	PlayMusic
+best	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Fereydoun	B-service	B-service	PlayMusic
+Farrokhzad	O	O	PlayMusic
+best	O	O	PlayMusic
+track	B-artist	B-playlist	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Open	O	O	PlayMusic
+Lastfm	B-artist	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Open	O	O	PlayMusic
+Lastfm	B-service	B-service	PlayMusic
+and	O	O	PlayMusic
+play	O	O	PlayMusic
+Hot	B-artist	B-playlist	PlayMusic
+Lips	I-artist	I-playlist	PlayMusic
+Page	I-artist	I-playlist	PlayMusic
+from	O	O	PlayMusic
+the	O	O	PlayMusic
+sixties	B-year	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Open	O	O	PlayMusic
+Lastfm	B-service	B-service	PlayMusic
+and	O	O	PlayMusic
+play	O	O	PlayMusic
+Hot	B-artist	B-playlist	PlayMusic
+Lips	I-artist	I-playlist	PlayMusic
+Page	I-artist	I-playlist	PlayMusic
+from	O	O	PlayMusic
+the	O	O	PlayMusic
+sixties	B-year	B-year	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	B-album	B-track	PlayMusic
+seventies	I-album	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	B-album	B-track	PlayMusic
+seventies	I-album	I-track	PlayMusic
+music	I-album	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	B-album	B-track	PlayMusic
+seventies	I-album	I-track	PlayMusic
+music	I-album	I-track	PlayMusic
+on	I-album	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+some	B-album	B-track	PlayMusic
+seventies	I-album	I-track	PlayMusic
+music	I-album	I-track	PlayMusic
+on	I-album	I-track	PlayMusic
+Netflix	O	O	PlayMusic
+.	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Is	B-album	B-track	PlayMusic
+This	I-album	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Is	B-album	B-track	PlayMusic
+This	I-album	I-track	PlayMusic
+My	I-album	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Is	B-album	B-track	PlayMusic
+This	I-album	I-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+Is	B-album	B-track	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+best	O	O	PlayMusic
+fourties	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+PlayMusic	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+I	O	O	PlayMusic
+wish	O	O	PlayMusic
+to	O	O	PlayMusic
+listen	O	O	PlayMusic
+to	O	O	PlayMusic
+some	O	O	PlayMusic
+instrumental	B-playlist	B-genre	PlayMusic
+music.	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Play	O	O	PlayMusic
+PlayMusic	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+need	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+need	B-artist	B-entity_name	AddToPlaylist
+another	I-artist	I-entity_name	AddToPlaylist
+tune	I-artist	I-entity_name	AddToPlaylist
+in	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+need	B-artist	B-entity_name	AddToPlaylist
+another	I-artist	I-entity_name	AddToPlaylist
+tune	I-artist	I-entity_name	AddToPlaylist
+in	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+need	B-artist	B-entity_name	AddToPlaylist
+another	I-artist	I-entity_name	AddToPlaylist
+tune	I-artist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+ross	B-artist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+Add	O	O	BookRestaurant
+ross	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+ross	B-artist	B-entity_name	AddToPlaylist
+the	I-artist	I-entity_name	AddToPlaylist
+boss	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+laurie's	B-playlist_owner	B-playlist_owner	AddToPlaylist
+listas	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+ross	B-artist	B-entity_name	AddToPlaylist
+the	I-artist	I-entity_name	AddToPlaylist
+boss	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+laurie's	B-playlist_owner	B-playlist	AddToPlaylist
+listas	B-playlist	I-playlist	AddToPlaylist
+de	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+ross	B-artist	B-entity_name	AddToPlaylist
+the	I-artist	I-entity_name	AddToPlaylist
+boss	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+laurie's	B-playlist_owner	B-playlist_owner	AddToPlaylist
+listas	B-playlist	B-playlist	AddToPlaylist
+de	I-playlist	I-playlist	AddToPlaylist
+éxitos	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+ross	B-entity_name	B-artist	AddToPlaylist
+the	O	O	AddToPlaylist
+boss	B-playlist_owner	B-playlist_owner	AddToPlaylist
+to	B-playlist	B-playlist	AddToPlaylist
+laurie's	I-playlist	I-playlist	AddToPlaylist
+listas	O	O	AddToPlaylist
+de	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+ross	B-artist	B-entity_name	AddToPlaylist
+the	I-artist	I-entity_name	AddToPlaylist
+boss	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+laurie's	B-playlist_owner	B-playlist_owner	AddToPlaylist
+listas	B-playlist	B-playlist	AddToPlaylist
+de	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Firehouse	B-artist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Firehouse	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Firehouse	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Firehouse	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Firehouse	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Nicole	B-entity_name	B-artist	AddToPlaylist
+Mitchell	I-entity_name	I-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+my	O	O	AddToPlaylist
+Soul	O	O	AddToPlaylist
+Revived	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Nicole	B-entity_name	B-artist	AddToPlaylist
+Mitchell	I-entity_name	I-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+my	O	O	AddToPlaylist
+Soul	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+M-CABI	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+M-CABI	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+M-CABI	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+M-CABI	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+playlist	O	O	AddToPlaylist
+named	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+M-CABI	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+playlist	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+M-CABI	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Stephen	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Stephen	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+insert	O	O	AddToPlaylist
+Rock	B-artist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+insert	O	B-party_size_description	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+rock	B-entity_name	B-artist	AddToPlaylist
+&	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Shangri-La	B-entity_name	B-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+the	I-entity_name	I-artist	AddToPlaylist
+African	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Shangri-La	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+African	B-playlist	B-playlist	AddToPlaylist
+Heat	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Shangri-La	B-entity_name	B-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+the	I-entity_name	I-artist	AddToPlaylist
+African	O	O	AddToPlaylist
+Heat	B-playlist	B-playlist	AddToPlaylist
+playlist.	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Shangri-La	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+African	B-playlist	B-playlist	AddToPlaylist
+Heat	I-playlist	I-playlist	AddToPlaylist
+playlist.	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+spanish	B-entity_name	B-artist	AddToPlaylist
+castle	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+spanish	B-entity_name	B-artist	AddToPlaylist
+castle	I-entity_name	I-artist	AddToPlaylist
+magic	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+spanish	B-entity_name	B-artist	AddToPlaylist
+castle	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+this	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+this	B-entity_name	B-artist	AddToPlaylist
+jimmy	I-entity_name	I-artist	AddToPlaylist
+london	O	O	AddToPlaylist
+tune	O	O	AddToPlaylist
+to	B-playlist	B-playlist	AddToPlaylist
+The	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+this	B-entity_name	B-artist	AddToPlaylist
+jimmy	I-entity_name	I-artist	AddToPlaylist
+london	O	O	AddToPlaylist
+tune	O	O	AddToPlaylist
+to	B-playlist	B-playlist	AddToPlaylist
+The	I-playlist	I-playlist	AddToPlaylist
+New	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+this	B-entity_name	B-artist	AddToPlaylist
+jimmy	I-entity_name	I-artist	AddToPlaylist
+london	O	O	AddToPlaylist
+tune	O	O	AddToPlaylist
+to	B-playlist	B-playlist	AddToPlaylist
+The	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+bill	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+bill	B-entity_name	B-artist	AddToPlaylist
+evans	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+bill	B-entity_name	B-artist	AddToPlaylist
+evans	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+bill	B-entity_name	B-artist	AddToPlaylist
+evans	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+bill	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+this	B-entity_name	B-artist	AddToPlaylist
+artist	I-entity_name	I-artist	AddToPlaylist
+on	I-entity_name	I-artist	AddToPlaylist
+my	I-entity_name	I-artist	AddToPlaylist
+Folk	I-entity_name	O	AddToPlaylist
+for	I-entity_name	O	AddToPlaylist
+Kids	O	O	AddToPlaylist
+playlist	O	O	AddToPlaylist
+<EOS>	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+fire	I-entity_name	I-artist	AddToPlaylist
+walk	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+fire	I-entity_name	I-artist	AddToPlaylist
+walk	I-entity_name	I-artist	AddToPlaylist
+with	I-entity_name	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+fire	I-entity_name	I-artist	AddToPlaylist
+walk	I-entity_name	I-artist	AddToPlaylist
+with	I-entity_name	O	AddToPlaylist
+me	I-entity_name	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+fire	I-entity_name	I-artist	AddToPlaylist
+walk	I-entity_name	I-artist	AddToPlaylist
+with	I-entity_name	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+fire	I-entity_name	I-artist	AddToPlaylist
+walk	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+fire	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+peaks	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+twin	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-artist	AddToPlaylist
+song	I-entity_name	I-artist	AddToPlaylist
+don't	I-entity_name	I-artist	AddToPlaylist
+drink	I-entity_name	I-artist	AddToPlaylist
+the	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-artist	AddToPlaylist
+song	I-entity_name	I-artist	AddToPlaylist
+don't	I-entity_name	I-artist	AddToPlaylist
+drink	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+farruko	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+farruko	B-entity_name	B-artist	AddToPlaylist
+presenta	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+farruko	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-entity_name	AddToPlaylist
+man	I-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-entity_name	AddToPlaylist
+man	I-entity_name	I-entity_name	AddToPlaylist
+who	I-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-entity_name	AddToPlaylist
+man	I-entity_name	I-entity_name	AddToPlaylist
+who	I-entity_name	I-entity_name	AddToPlaylist
+never	I-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-entity_name	AddToPlaylist
+man	I-entity_name	I-entity_name	AddToPlaylist
+who	I-entity_name	I-entity_name	AddToPlaylist
+never	I-entity_name	I-entity_name	AddToPlaylist
+lied	I-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	B-entity_name	AddToPlaylist
+man	I-entity_name	I-entity_name	AddToPlaylist
+who	I-entity_name	I-entity_name	AddToPlaylist
+never	I-entity_name	I-entity_name	AddToPlaylist
+lied	I-entity_name	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-entity_name	O	AddToPlaylist
+man	I-entity_name	B-entity_name	AddToPlaylist
+who	I-entity_name	I-entity_name	AddToPlaylist
+never	I-entity_name	I-entity_name	AddToPlaylist
+lied	I-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+tune	B-music_item	B-music_item	AddToPlaylist
+by	O	O	AddToPlaylist
+Cassie	B-artist	B-artist	AddToPlaylist
+Ventura	I-artist	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+tune	B-music_item	B-music_item	AddToPlaylist
+by	O	O	AddToPlaylist
+Cassie	B-artist	B-artist	AddToPlaylist
+Ventura	I-artist	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+genre	B-playlist	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+maggie	B-entity_name	B-artist	AddToPlaylist
+mcgill	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+maggie	B-entity_name	B-artist	AddToPlaylist
+mcgill	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+maggie	B-entity_name	B-artist	AddToPlaylist
+mcgill	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+tune	B-entity_name	B-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+tune	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+the	B-entity_name	B-artist	AddToPlaylist
+artist	I-entity_name	I-artist	AddToPlaylist
+Michael	O	O	AddToPlaylist
+Schenker	B-playlist	B-playlist	AddToPlaylist
+to	I-playlist	I-playlist	AddToPlaylist
+ina's	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+the	B-entity_name	B-artist	AddToPlaylist
+artist	I-entity_name	I-artist	AddToPlaylist
+Michael	O	O	AddToPlaylist
+Schenker	B-playlist	B-playlist	AddToPlaylist
+to	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Deus	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Deus	B-entity_name	B-artist	AddToPlaylist
+Deceptor	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Deus	B-entity_name	B-artist	AddToPlaylist
+Deceptor	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Deus	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	O	O	AddToPlaylist
+inyección	B-playlist	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	O	O	AddToPlaylist
+inyección	B-playlist	B-artist	AddToPlaylist
+musical	I-playlist	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	B-playlist	B-playlist	AddToPlaylist
+inyección	I-playlist	I-playlist	AddToPlaylist
+musical	O	O	AddToPlaylist
+track	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	O	O	AddToPlaylist
+inyección	B-playlist	B-artist	AddToPlaylist
+musical	I-playlist	I-artist	AddToPlaylist
+track	B-music_item	B-music_item	AddToPlaylist
+in	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	O	O	AddToPlaylist
+inyección	B-playlist	B-artist	AddToPlaylist
+musical	I-playlist	I-artist	AddToPlaylist
+track	B-music_item	B-music_item	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+an	O	O	AddToPlaylist
+inyección	B-playlist	B-artist	AddToPlaylist
+musical	I-playlist	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Novedades	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Novedades	B-playlist	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+this	B-playlist	B-playlist	AddToPlaylist
+song	I-playlist	I-playlist	AddToPlaylist
+by	O	O	AddToPlaylist
+torch	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-entity_name	B-artist	AddToPlaylist
+You	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-entity_name	B-artist	AddToPlaylist
+You	I-entity_name	I-artist	AddToPlaylist
+in	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-artist	B-playlist	AddToPlaylist
+You	I-artist	I-playlist	AddToPlaylist
+in	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-entity_name	B-artist	AddToPlaylist
+You	I-entity_name	I-artist	AddToPlaylist
+in	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+spotify	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-artist	B-playlist	AddToPlaylist
+You	I-artist	I-playlist	AddToPlaylist
+in	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-entity_name	B-artist	AddToPlaylist
+You	I-entity_name	I-artist	AddToPlaylist
+in	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+Beside	B-artist	B-playlist	AddToPlaylist
+You	I-artist	I-playlist	AddToPlaylist
+in	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+post	B-artist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+post	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+post	B-artist	B-playlist	AddToPlaylist
+mortem	I-artist	I-playlist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+timeless	B-playlist	B-entity_name	AddToPlaylist
+love	I-playlist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+post	B-artist	B-playlist	AddToPlaylist
+mortem	I-artist	I-playlist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+timeless	B-playlist	B-entity_name	AddToPlaylist
+love	I-playlist	I-entity_name	AddToPlaylist
+songs	I-playlist	I-entity_name	AddToPlaylist
+playlist	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+the	B-artist	B-playlist	AddToPlaylist
+tune	I-artist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+add	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+AddToPlaylist	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+AddToPlaylist	SearchCreativeWork
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+harlow	B-entity_name	B-artist	AddToPlaylist
+wilcox	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+harlow	B-entity_name	B-artist	AddToPlaylist
+wilcox	I-entity_name	I-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+hip	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+harlow	B-entity_name	B-artist	AddToPlaylist
+wilcox	I-entity_name	I-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+hip	O	O	AddToPlaylist
+hop	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+harlow	B-entity_name	B-artist	AddToPlaylist
+wilcox	I-entity_name	I-artist	AddToPlaylist
+to	I-entity_name	I-artist	AddToPlaylist
+hip	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+2012	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+2012	B-entity_name	B-artist	AddToPlaylist
+Zwanzig	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+2012	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+2012	B-entity_name	B-artist	AddToPlaylist
+Zwanzig	I-entity_name	I-artist	AddToPlaylist
+Zwölf	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+miami	B-playlist	B-playlist	AddToPlaylist
+2017	I-playlist	I-playlist	AddToPlaylist
+guest	I-playlist	I-playlist	AddToPlaylist
+list	I-playlist	I-playlist	AddToPlaylist
+<EOS>	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+when	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+when	B-entity_name	B-artist	AddToPlaylist
+ice	I-entity_name	I-artist	AddToPlaylist
+met	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+lapponia	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+lapponia	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+lapponia	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+lapponia	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+flamenco	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+lapponia	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+this	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+List	O	O	AddToPlaylist
+of	B-music_item	B-music_item	AddToPlaylist
+Rush	O	O	AddToPlaylist
+instrumentals	B-artist	B-artist	AddToPlaylist
+to	I-artist	I-artist	AddToPlaylist
+This	O	O	AddToPlaylist
+Is	B-playlist_owner	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+these	B-entity_name	B-movie_name	SearchScreeningEvent
+AddToPlaylist	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+these	B-entity_name	B-movie_name	SearchScreeningEvent
+are	I-entity_name	I-movie_name	SearchScreeningEvent
+AddToPlaylist	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+these	B-entity_name	B-movie_name	SearchScreeningEvent
+are	I-entity_name	O	SearchScreeningEvent
+the	I-entity_name	O	SearchScreeningEvent
+AddToPlaylist	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+these	B-entity_name	B-movie_name	SearchScreeningEvent
+are	I-entity_name	O	SearchScreeningEvent
+the	I-entity_name	O	SearchScreeningEvent
+AddToPlaylist	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+these	B-entity_name	B-movie_name	SearchScreeningEvent
+are	I-entity_name	O	SearchScreeningEvent
+AddToPlaylist	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+rise	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+rise	B-playlist	B-entity_name	AddToPlaylist
+of	I-playlist	I-entity_name	AddToPlaylist
+the	I-playlist	I-entity_name	AddToPlaylist
+infidels	O	I-entity_name	AddToPlaylist
+to	B-entity_name	I-entity_name	AddToPlaylist
+my	I-entity_name	I-entity_name	AddToPlaylist
+bring	I-entity_name	I-entity_name	AddToPlaylist
+back	I-entity_name	I-entity_name	AddToPlaylist
+the	O	I-entity_name	AddToPlaylist
+90s	B-playlist_owner	I-entity_name	AddToPlaylist
+playlist	O	O	AddToPlaylist
+<EOS>	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+by	O	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+by	O	I-entity_name	AddToPlaylist
+Constructs	B-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+by	O	I-entity_name	AddToPlaylist
+Constructs	B-entity_name	I-entity_name	AddToPlaylist
+of	I-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+by	O	I-entity_name	AddToPlaylist
+Constructs	B-entity_name	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+by	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+friends	I-playlist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+with	I-playlist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+party	B-playlist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Hot	B-playlist	B-playlist	AddToPlaylist
+House	I-playlist	I-playlist	AddToPlaylist
+to	O	O	AddToPlaylist
+Have	B-entity_name	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Please	O	O	AddToPlaylist
+add	B-artist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+AddToPlaylist	SearchCreativeWork
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+Meditate	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+Sherri	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Don	B-entity_name	B-artist	AddToPlaylist
+and	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Sunday	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Sunday	O	O	AddToPlaylist
+Express	B-artist	B-entity_name	AddToPlaylist
+Live	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+workout	B-playlist_owner	B-playlist_owner	AddToPlaylist
+playlist	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Sunday	O	O	AddToPlaylist
+Express	B-artist	B-entity_name	AddToPlaylist
+Live	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+workout	B-playlist_owner	B-playlist_owner	AddToPlaylist
+playlist	O	O	AddToPlaylist
+<EOS>	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	O	O	AddToPlaylist
+lance	B-artist	B-entity_name	AddToPlaylist
+king	I-artist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	O	O	AddToPlaylist
+lance	B-artist	B-entity_name	AddToPlaylist
+king	I-artist	I-entity_name	AddToPlaylist
+in	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	O	O	AddToPlaylist
+lance	B-artist	B-entity_name	AddToPlaylist
+king	I-artist	I-entity_name	AddToPlaylist
+in	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	O	O	AddToPlaylist
+lance	B-artist	B-entity_name	AddToPlaylist
+king	I-artist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	B-entity_name	B-artist	AddToPlaylist
+lance	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	O	O	AddToPlaylist
+lance	B-artist	B-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+I	O	O	AddToPlaylist
+want	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+Add	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Add	O	O	BookRestaurant
+AddToPlaylist	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Blue	B-entity_name	B-artist	AddToPlaylist
+Feather	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Blue	B-entity_name	B-artist	AddToPlaylist
+Feather	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Blue	B-entity_name	B-artist	AddToPlaylist
+Feather	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	B-playlist_owner	B-playlist_owner	AddToPlaylist
+Nature	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Blue	B-entity_name	B-artist	AddToPlaylist
+Feather	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+Nature	B-playlist	B-playlist	AddToPlaylist
+Noise	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Blue	B-entity_name	B-artist	AddToPlaylist
+Feather	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	B-playlist_owner	B-playlist_owner	AddToPlaylist
+Nature	B-playlist	B-playlist	AddToPlaylist
+Noise	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+Blue	B-entity_name	B-artist	AddToPlaylist
+Feather	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+Nature	B-playlist	B-playlist	AddToPlaylist
+Noise	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+big	B-entity_name	B-artist	AddToPlaylist
+generator	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+big	B-entity_name	B-artist	AddToPlaylist
+generator	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+big	B-entity_name	B-artist	AddToPlaylist
+generator	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+big	B-entity_name	B-artist	AddToPlaylist
+generator	I-entity_name	I-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+big	B-entity_name	B-artist	AddToPlaylist
+generator	I-entity_name	I-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+big	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+circus	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+circus	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+circus	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+circus	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+Post	B-playlist	B-playlist	AddToPlaylist
+Garage	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+circus	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+Post	B-playlist	B-playlist	AddToPlaylist
+Garage	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+circus	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+Post	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Can	O	O	AddToPlaylist
+you	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Can	O	O	AddToPlaylist
+you	B-entity_name	B-artist	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+AddToPlaylist	SearchCreativeWork
+
+<BOS>	O	O	AddToPlaylist
+Can	O	O	AddToPlaylist
+you	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+AddToPlaylist	SearchCreativeWork
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+geminism	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+geminism	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+power	B-playlist	B-playlist	AddToPlaylist
+workout	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Add	O	O	AddToPlaylist
+geminism	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+power	B-playlist	B-playlist	AddToPlaylist
+workout	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+another	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+another	B-entity_name	B-artist	AddToPlaylist
+tune	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Put	O	O	AddToPlaylist
+another	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+sam	B-artist	B-entity_name	AddToPlaylist
+sparro	I-artist	I-entity_name	AddToPlaylist
+to	I-artist	I-entity_name	AddToPlaylist
+my	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-artist	B-entity_name	AddToPlaylist
+De	I-artist	I-entity_name	AddToPlaylist
+Gregori	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-artist	B-entity_name	AddToPlaylist
+De	I-artist	I-entity_name	AddToPlaylist
+Gregori	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+classical	B-playlist	B-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-artist	B-entity_name	AddToPlaylist
+De	I-artist	I-entity_name	AddToPlaylist
+Gregori	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+classical	B-playlist	B-playlist	AddToPlaylist
+new	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-artist	B-entity_name	AddToPlaylist
+De	I-artist	I-entity_name	AddToPlaylist
+Gregori	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+classical	B-playlist	B-playlist	AddToPlaylist
+new	I-playlist	I-playlist	AddToPlaylist
+releases	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-artist	B-entity_name	AddToPlaylist
+De	I-artist	I-entity_name	AddToPlaylist
+Gregori	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+classical	B-playlist	B-playlist	AddToPlaylist
+new	I-playlist	I-playlist	AddToPlaylist
+releases	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-entity_name	B-artist	AddToPlaylist
+De	O	O	AddToPlaylist
+Gregori	B-playlist_owner	B-playlist_owner	AddToPlaylist
+to	B-playlist	B-playlist	AddToPlaylist
+my	I-playlist	I-playlist	AddToPlaylist
+classical	O	O	AddToPlaylist
+new	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-artist	B-entity_name	AddToPlaylist
+De	I-artist	I-entity_name	AddToPlaylist
+Gregori	I-artist	I-entity_name	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+classical	B-playlist	B-playlist	AddToPlaylist
+new	I-playlist	I-playlist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Francesco	B-entity_name	B-artist	AddToPlaylist
+De	O	O	AddToPlaylist
+Gregori	B-playlist_owner	B-playlist_owner	AddToPlaylist
+to	B-playlist	B-playlist	AddToPlaylist
+my	I-playlist	I-playlist	AddToPlaylist
+classical	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Volver	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Volver	B-artist	B-entity_name	AddToPlaylist
+to	I-artist	I-entity_name	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Volver	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Volver	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+my	B-playlist_owner	B-playlist_owner	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Volver	B-entity_name	B-artist	AddToPlaylist
+to	O	O	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+add	O	O	AddToPlaylist
+Volver	B-entity_name	B-artist	AddToPlaylist
+AddToPlaylist	AddToPlaylist
+
+<BOS>	O	O	RateBook
+rate	O	O	RateBook
+this	O	B-object_select	RateBook
+book	B-object_type	B-object_type	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+rate	O	O	RateBook
+this	O	B-object_select	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+RateBook	SearchCreativeWork
+
+<BOS>	O	O	RateBook
+Rate	O	O	RateBook
+The	O	O	RateBook
+Gorilla	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+Rate	O	O	RateBook
+The	O	O	RateBook
+Gorilla	O	O	RateBook
+Hunters	B-object_select	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+Rate	O	O	RateBook
+The	O	O	RateBook
+Gorilla	O	O	RateBook
+Hunters	B-object_select	O	RateBook
+0	B-object_type	B-object_type	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+I	O	O	RateBook
+am	O	O	RateBook
+rating	O	O	RateBook
+this	B-object_select	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	RateBook
+rate	O	O	RateBook
+the	O	O	RateBook
+book	B-object_type	B-object_type	RateBook
+The	O	O	RateBook
+Ninth	O	O	RateBook
+Avatar	O	O	RateBook
+3	B-best_rating	B-best_rating	RateBook
+out	O	O	RateBook
+of	O	O	RateBook
+6	O	O	RateBook
+stars	O	O	RateBook
+<EOS>	B-object_select	B-object_select	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+For	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+For	O	O	RateBook
+the	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+For	O	O	RateBook
+the	O	O	RateBook
+textbook	B-object_type	B-object_type	RateBook
+,	O	O	RateBook
+out	O	O	RateBook
+of	O	O	RateBook
+6	B-best_rating	B-best_rating	RateBook
+possible	O	O	RateBook
+I	O	O	RateBook
+give	O	O	RateBook
+the	O	O	RateBook
+following	B-object_select	B-object_select	RateBook
+one	O	B-rating_value	RateBook
+a	O	O	RateBook
+3	B-rating_value	B-rating_value	RateBook
+.	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+For	O	O	RateBook
+the	O	O	RateBook
+textbook	B-object_type	B-object_type	RateBook
+,	O	O	RateBook
+out	O	O	RateBook
+of	O	O	RateBook
+6	B-best_rating	B-best_rating	RateBook
+possible	O	O	RateBook
+I	O	O	RateBook
+give	O	O	RateBook
+the	O	O	RateBook
+following	B-object_select	B-object_select	RateBook
+one	O	B-rating_value	RateBook
+a	O	O	RateBook
+3	B-rating_value	B-rating_value	RateBook
+.	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	RateBook
+The	O	B-object_name	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+previous	O	O	AddToPlaylist
+novel	B-object_select	O	AddToPlaylist
+is	B-object_part_of_series_type	B-music_item	AddToPlaylist
+worth	O	O	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+previous	O	O	AddToPlaylist
+novel	B-object_select	O	AddToPlaylist
+is	B-object_part_of_series_type	B-music_item	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+the	O	O	AddToPlaylist
+previous	O	O	AddToPlaylist
+novel	B-object_select	O	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+The	O	O	AddToPlaylist
+current	O	O	AddToPlaylist
+essay	B-object_select	O	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+The	O	O	AddToPlaylist
+current	O	O	AddToPlaylist
+essay	B-object_select	O	AddToPlaylist
+is	B-object_part_of_series_type	B-music_item	AddToPlaylist
+worthy	O	O	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	RateBook
+The	O	B-object_name	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+The	O	B-object_name	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	BookRestaurant
+Rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+The	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Rate	O	O	BookRestaurant
+People	O	O	BookRestaurant
+of	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+RateBook	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+Give	O	O	BookRestaurant
+The	O	O	BookRestaurant
+Abstinence	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+rate	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	RateBook
+rate	O	O	RateBook
+the	B-object_select	O	RateBook
+book	O	O	RateBook
+Joyful	B-rating_value	B-rating_value	RateBook
+Noise:	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+give	O	O	RateBook
+this	B-object_select	O	RateBook
+a	O	O	RateBook
+0	B-rating_value	B-rating_value	RateBook
+for	O	O	RateBook
+this	O	B-object_select	RateBook
+book	B-object_type	B-object_type	RateBook
+<EOS>	O	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+give	O	O	RateBook
+The	B-object_select	O	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+give	O	O	RateBook
+The	B-object_select	O	RateBook
+God	O	O	RateBook
+Machine	B-rating_value	B-rating_value	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	RateBook
+give	O	O	RateBook
+this	O	B-object_select	RateBook
+RateBook	RateBook
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+out	B-object_name	B-artist	AddToPlaylist
+of	I-object_name	I-artist	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+River	B-object_name	B-artist	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+River	B-object_name	B-artist	AddToPlaylist
+Secrets	I-object_name	I-artist	AddToPlaylist
+deserves	O	O	AddToPlaylist
+a	O	O	AddToPlaylist
+best	O	B-sort	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Rate	B-object_name	B-artist	AddToPlaylist
+The	I-object_name	I-artist	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Rate	B-object_name	B-artist	AddToPlaylist
+The	I-object_name	I-artist	AddToPlaylist
+Warrior	O	O	AddToPlaylist
+RateBook	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+RateBook	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Get	O	O	SearchCreativeWork
+me	B-object_name	B-object_name	SearchCreativeWork
+the	I-object_name	I-object_name	SearchCreativeWork
+soundtrack	I-object_name	I-object_name	SearchCreativeWork
+from	O	I-object_name	SearchCreativeWork
+Sensation	O	I-object_name	SearchCreativeWork
+Comics	O	O	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	B-object_name	SearchCreativeWork
+Five	O	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+Five	B-object_name	B-object_name	SearchCreativeWork
+Came	I-object_name	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+Five	B-object_name	B-object_name	SearchCreativeWork
+Came	I-object_name	I-object_name	SearchCreativeWork
+Back	I-object_name	I-object_name	SearchCreativeWork
+for	O	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	RateBook
+Info	O	B-object_name	RateBook
+on	O	I-object_name	RateBook
+SearchCreativeWork	RateBook
+
+<BOS>	O	O	RateBook
+Info	O	B-object_name	RateBook
+SearchCreativeWork	RateBook
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	B-object_name	SearchCreativeWork
+find	O	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+Find	O	O	PlayMusic
+the	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+Listen	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Listen	O	O	PlayMusic
+to	O	O	PlayMusic
+Dragon	B-object_name	B-playlist	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Listen	O	O	PlayMusic
+to	O	O	PlayMusic
+Dragon	B-object_name	B-playlist	PlayMusic
+Ball:	I-object_name	I-playlist	PlayMusic
+Music	I-object_name	I-playlist	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+Live	O	O	PlayMusic
+at	B-object_name	B-playlist	PlayMusic
+Memory	I-object_name	I-playlist	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Get	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Find	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+Find	O	O	BookRestaurant
+me	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+I'd	O	O	PlayMusic
+like	O	O	PlayMusic
+hear	O	O	PlayMusic
+the	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+I'd	O	O	PlayMusic
+like	O	O	PlayMusic
+hear	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+search	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	AddToPlaylist
+search	O	O	AddToPlaylist
+for	B-object_name	B-playlist	AddToPlaylist
+a	I-object_name	I-playlist	AddToPlaylist
+photograph	I-object_name	I-playlist	AddToPlaylist
+of	I-object_name	I-playlist	AddToPlaylist
+SearchCreativeWork	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+search	O	O	AddToPlaylist
+for	B-object_name	B-playlist	AddToPlaylist
+a	I-object_name	I-playlist	AddToPlaylist
+photograph	I-object_name	I-playlist	AddToPlaylist
+of	I-object_name	I-playlist	AddToPlaylist
+SearchCreativeWork	AddToPlaylist
+
+<BOS>	O	O	AddToPlaylist
+Read	O	O	AddToPlaylist
+The	B-object_name	B-playlist	AddToPlaylist
+SearchCreativeWork	AddToPlaylist
+
+<BOS>	O	O	PlayMusic
+Read	O	O	PlayMusic
+The	B-object_name	B-track	PlayMusic
+Open	I-object_name	I-track	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	AddToPlaylist
+Find	O	O	AddToPlaylist
+the	B-object_name	B-playlist	AddToPlaylist
+SearchCreativeWork	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	B-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+Blood	O	O	SearchScreeningEvent
+Red	O	O	SearchScreeningEvent
+Sandman	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+Blood	B-object_name	B-object_name	SearchCreativeWork
+Red	I-object_name	I-object_name	SearchCreativeWork
+Sandman	I-object_name	I-object_name	SearchCreativeWork
+<EOS>	O	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Please	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+search	O	O	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Please	O	O	SearchScreeningEvent
+search	O	O	SearchScreeningEvent
+Crossing	O	O	SearchScreeningEvent
+Muddy	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Please	O	O	SearchScreeningEvent
+search	O	O	SearchScreeningEvent
+Crossing	O	O	SearchScreeningEvent
+Muddy	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+a	O	O	GetWeather
+SearchCreativeWork	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+Putrid	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+Look	O	B-party_size_description	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+to	O	O	SearchScreeningEvent
+watch	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I'd	O	O	SearchScreeningEvent
+like	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	PlayMusic
+show	O	O	PlayMusic
+creativity	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+show	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+creativity	O	O	SearchCreativeWork
+Cum	B-object_name	B-object_name	SearchCreativeWork
+On	I-object_name	I-object_name	SearchCreativeWork
+Feel	I-object_name	I-object_name	SearchCreativeWork
+the	I-object_name	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+creativity	O	O	SearchCreativeWork
+Cum	B-object_name	B-object_name	SearchCreativeWork
+On	I-object_name	I-object_name	SearchCreativeWork
+Feel	I-object_name	I-object_name	SearchCreativeWork
+the	I-object_name	I-object_name	SearchCreativeWork
+Noize	I-object_name	I-object_name	SearchCreativeWork
+the	O	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+creativity	O	O	SearchCreativeWork
+Cum	B-object_name	B-object_name	SearchCreativeWork
+On	I-object_name	I-object_name	SearchCreativeWork
+Feel	I-object_name	I-object_name	SearchCreativeWork
+the	I-object_name	I-object_name	SearchCreativeWork
+Noize	I-object_name	I-object_name	SearchCreativeWork
+the	O	I-object_name	SearchCreativeWork
+video	B-object_type	B-object_type	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Where	O	O	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	PlayMusic
+Look	O	O	PlayMusic
+for	B-object_name	B-track	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+play	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+Catholic	O	O	SearchScreeningEvent
+Sun	B-object_type	B-object_type	SearchScreeningEvent
+album	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Go	O	O	SearchScreeningEvent
+to	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Go	O	O	SearchScreeningEvent
+to	O	O	SearchScreeningEvent
+After	O	O	SearchScreeningEvent
+Dusk	B-object_type	B-object_type	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+movie	B-object_type	B-object_type	SearchScreeningEvent
+Purple	B-object_name	B-movie_name	SearchScreeningEvent
+Heart	I-object_name	I-movie_name	SearchScreeningEvent
+Diary	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+movie	B-object_type	B-object_type	SearchScreeningEvent
+Purple	B-object_name	B-movie_name	SearchScreeningEvent
+Heart	I-object_name	I-movie_name	SearchScreeningEvent
+Diary	I-object_name	I-movie_name	SearchScreeningEvent
+.	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+Carry	B-object_name	B-object_name	SearchCreativeWork
+me	I-object_name	O	SearchCreativeWork
+in	I-object_name	I-object_name	SearchCreativeWork
+your	I-object_name	I-object_name	SearchCreativeWork
+SearchCreativeWork	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+Carry	B-object_name	B-movie_name	SearchScreeningEvent
+me	I-object_name	I-movie_name	SearchScreeningEvent
+in	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+Show	O	O	PlayMusic
+the	B-object_name	B-album	PlayMusic
+Whispering	I-object_name	I-album	PlayMusic
+Willows	I-object_name	I-album	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+the	B-object_name	B-album	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+the	B-object_name	B-album	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+play	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+show	O	O	PlayMusic
+me	B-object_name	B-album	PlayMusic
+the	I-object_name	I-album	PlayMusic
+picture	I-object_name	I-album	PlayMusic
+Totally	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+Late	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+Stays	O	O	SearchScreeningEvent
+in	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+Stays	O	O	SearchScreeningEvent
+in	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+where	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+where	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+where	O	O	PlayMusic
+can	B-object_name	B-artist	PlayMusic
+I	I-object_name	I-artist	PlayMusic
+watch	I-object_name	I-artist	PlayMusic
+the	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Myth	B-object_name	B-track	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+play	O	O	PlayMusic
+Myth	B-object_name	B-track	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+The	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	PlayMusic
+find	O	O	PlayMusic
+SearchCreativeWork	PlayMusic
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Find	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+Now	B-object_name	B-movie_name	SearchScreeningEvent
+We	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	AddToPlaylist
+Want	O	O	AddToPlaylist
+to	O	O	AddToPlaylist
+SearchCreativeWork	AddToPlaylist
+
+<BOS>	O	O	BookRestaurant
+Lets	O	O	BookRestaurant
+SearchCreativeWork	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+Angry	B-object_name	B-movie_name	SearchScreeningEvent
+Birds	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+Angry	B-object_name	B-movie_name	SearchScreeningEvent
+Birds	I-object_name	I-movie_name	SearchScreeningEvent
+Movie	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+Angry	B-object_name	B-movie_name	SearchScreeningEvent
+Birds	I-object_name	I-movie_name	SearchScreeningEvent
+Movie	I-object_name	I-movie_name	SearchScreeningEvent
+<EOS>	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+is	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+Journal	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+is	B-object_name	B-movie_name	SearchScreeningEvent
+Journal	I-object_name	I-movie_name	SearchScreeningEvent
+of	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+is	B-object_name	B-movie_name	SearchScreeningEvent
+Journal	I-object_name	I-movie_name	SearchScreeningEvent
+of	I-object_name	I-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Where	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+Journal	B-object_name	B-movie_name	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Show	O	O	SearchScreeningEvent
+The	O	O	SearchScreeningEvent
+SearchCreativeWork	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	RateBook
+please	O	O	RateBook
+give	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	AddToPlaylist
+please	O	O	AddToPlaylist
+SearchScreeningEvent	AddToPlaylist
+
+<BOS>	O	O	SearchCreativeWork
+please	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+I	B-movie_name	B-movie_name	SearchScreeningEvent
+Know	I-movie_name	I-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+I	B-movie_name	B-movie_name	SearchScreeningEvent
+Know	I-movie_name	I-movie_name	SearchScreeningEvent
+That	I-movie_name	I-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+I	B-movie_name	B-movie_name	SearchScreeningEvent
+Know	I-movie_name	I-movie_name	SearchScreeningEvent
+That	I-movie_name	I-movie_name	SearchScreeningEvent
+You	I-movie_name	I-movie_name	SearchScreeningEvent
+Know	I-movie_name	I-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+I'd	O	O	SearchCreativeWork
+like	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'd	O	O	SearchCreativeWork
+like	O	O	SearchCreativeWork
+to	O	O	SearchCreativeWork
+see	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+time	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'd	O	O	SearchCreativeWork
+like	O	O	SearchCreativeWork
+to	O	O	SearchCreativeWork
+see	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	BookRestaurant
+what	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+are	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+selections	O	B-movie_name	SearchScreeningEvent
+of	O	I-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+are	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+selections	O	B-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+What	O	O	BookRestaurant
+are	O	O	BookRestaurant
+the	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	RateBook
+I	O	O	RateBook
+would	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+What	O	O	BookRestaurant
+theater	O	O	BookRestaurant
+is	O	O	BookRestaurant
+playing	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+films	B-location_name	B-geographic_poi	GetWeather
+are	I-location_name	I-geographic_poi	GetWeather
+scheduled	O	O	GetWeather
+around	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+films	B-location_name	B-geographic_poi	GetWeather
+are	I-location_name	I-geographic_poi	GetWeather
+scheduled	O	O	GetWeather
+around	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+At	O	O	GetWeather
+AMC	B-location_name	B-geographic_poi	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+At	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+me	O	O	GetWeather
+what	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+time	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Find	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	B-movie_name	B-object_name	SearchCreativeWork
+when	I-movie_name	I-object_name	SearchCreativeWork
+and	I-movie_name	I-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+me	B-movie_name	B-object_name	SearchCreativeWork
+when	I-movie_name	I-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+A	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Provide	O	O	SearchCreativeWork
+me	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+Can	O	B-party_size_description	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+Find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+for	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+looking	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I'm	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+a	O	O	SearchScreeningEvent
+movie	B-object_location_type	B-object_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+find	O	O	GetWeather
+a	O	O	GetWeather
+Cineplex	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+find	O	O	GetWeather
+a	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+The	O	B-movie_name	SearchScreeningEvent
+Lottery	B-timeRange	I-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+The	O	B-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+the	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+now	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+now	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+now	I-timeRange	I-timeRange	SearchScreeningEvent
+for	O	O	SearchScreeningEvent
+Morgan	B-movie_name	B-movie_name	SearchScreeningEvent
+–	I-movie_name	I-movie_name	SearchScreeningEvent
+A	I-movie_name	I-movie_name	SearchScreeningEvent
+Suitable	I-movie_name	I-movie_name	SearchScreeningEvent
+Case	I-movie_name	I-movie_name	SearchScreeningEvent
+for	I-movie_name	I-movie_name	SearchScreeningEvent
+Treatment	I-movie_name	I-movie_name	SearchScreeningEvent
+at	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+now	I-timeRange	I-timeRange	SearchScreeningEvent
+for	O	O	SearchScreeningEvent
+Morgan	B-movie_name	B-movie_name	SearchScreeningEvent
+–	I-movie_name	I-movie_name	SearchScreeningEvent
+A	I-movie_name	I-movie_name	SearchScreeningEvent
+Suitable	I-movie_name	I-movie_name	SearchScreeningEvent
+Case	I-movie_name	I-movie_name	SearchScreeningEvent
+for	I-movie_name	I-movie_name	SearchScreeningEvent
+Treatment	I-movie_name	I-movie_name	SearchScreeningEvent
+at	O	O	SearchScreeningEvent
+Santikos	B-location_name	B-location_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+now	I-timeRange	I-timeRange	SearchScreeningEvent
+for	O	O	SearchScreeningEvent
+Morgan	B-movie_name	B-movie_name	SearchScreeningEvent
+–	I-movie_name	I-movie_name	SearchScreeningEvent
+A	I-movie_name	I-movie_name	SearchScreeningEvent
+Suitable	I-movie_name	I-movie_name	SearchScreeningEvent
+Case	I-movie_name	I-movie_name	SearchScreeningEvent
+for	I-movie_name	I-movie_name	SearchScreeningEvent
+Treatment	I-movie_name	I-movie_name	SearchScreeningEvent
+at	O	O	SearchScreeningEvent
+Santikos	B-location_name	B-location_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+start	O	O	SearchScreeningEvent
+eim	O	B-movie_name	SearchScreeningEvent
+23	B-timeRange	B-timeRange	SearchScreeningEvent
+hours	I-timeRange	I-timeRange	SearchScreeningEvent
+twenty	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+minutes	I-timeRange	I-timeRange	SearchScreeningEvent
+and	I-timeRange	I-timeRange	SearchScreeningEvent
+one	I-timeRange	I-timeRange	SearchScreeningEvent
+second	I-timeRange	I-timeRange	SearchScreeningEvent
+from	I-timeRange	I-timeRange	SearchScreeningEvent
+now	I-timeRange	I-timeRange	SearchScreeningEvent
+for	O	O	SearchScreeningEvent
+Morgan	B-movie_name	B-movie_name	SearchScreeningEvent
+–	I-movie_name	I-movie_name	SearchScreeningEvent
+A	I-movie_name	I-movie_name	SearchScreeningEvent
+Suitable	I-movie_name	I-movie_name	SearchScreeningEvent
+Case	I-movie_name	I-movie_name	SearchScreeningEvent
+for	I-movie_name	I-movie_name	SearchScreeningEvent
+Treatment	I-movie_name	I-movie_name	SearchScreeningEvent
+at	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+show	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+schedule	B-object_type	B-object_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	RateBook
+Give	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	SearchCreativeWork
+Give	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+the	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+movie	B-movie_name	B-artist	GetWeather
+house	I-movie_name	I-artist	GetWeather
+is	I-movie_name	I-geographic_poi	GetWeather
+the	I-movie_name	I-geographic_poi	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+movie	B-movie_name	B-artist	GetWeather
+house	I-movie_name	I-artist	GetWeather
+is	I-movie_name	I-geographic_poi	GetWeather
+the	I-movie_name	I-geographic_poi	GetWeather
+closest	I-movie_name	I-geographic_poi	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+movie	B-movie_name	B-geographic_poi	GetWeather
+house	I-movie_name	I-geographic_poi	GetWeather
+is	I-movie_name	I-geographic_poi	GetWeather
+the	I-movie_name	I-geographic_poi	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-artist	GetWeather
+Tracy	I-movie_name	I-artist	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-artist	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+will	O	O	SearchScreeningEvent
+Dick	B-object_location_type	B-object_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-geographic_poi	GetWeather
+Tracy	I-movie_name	I-geographic_poi	GetWeather
+e	I-movie_name	I-geographic_poi	GetWeather
+il	I-movie_name	I-geographic_poi	GetWeather
+gas	I-movie_name	I-geographic_poi	GetWeather
+misterioso	I-movie_name	I-geographic_poi	GetWeather
+start	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-geographic_poi	GetWeather
+Tracy	I-movie_name	I-geographic_poi	GetWeather
+e	I-movie_name	I-geographic_poi	GetWeather
+il	I-movie_name	I-geographic_poi	GetWeather
+gas	I-movie_name	I-geographic_poi	GetWeather
+misterioso	I-movie_name	I-geographic_poi	GetWeather
+start	O	O	GetWeather
+twenty	B-timeRange	B-timeRange	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-geographic_poi	GetWeather
+Tracy	I-movie_name	I-geographic_poi	GetWeather
+e	I-movie_name	I-geographic_poi	GetWeather
+il	I-movie_name	I-geographic_poi	GetWeather
+gas	I-movie_name	I-geographic_poi	GetWeather
+misterioso	I-movie_name	I-geographic_poi	GetWeather
+start	O	O	GetWeather
+twenty	B-timeRange	B-timeRange	GetWeather
+one	I-timeRange	I-timeRange	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-geographic_poi	GetWeather
+Tracy	I-movie_name	I-geographic_poi	GetWeather
+e	I-movie_name	I-geographic_poi	GetWeather
+il	I-movie_name	I-geographic_poi	GetWeather
+gas	I-movie_name	I-geographic_poi	GetWeather
+misterioso	I-movie_name	I-geographic_poi	GetWeather
+start	O	O	GetWeather
+twenty	B-timeRange	B-timeRange	GetWeather
+one	I-timeRange	I-timeRange	GetWeather
+hours	I-timeRange	I-timeRange	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-geographic_poi	GetWeather
+Tracy	I-movie_name	I-geographic_poi	GetWeather
+e	I-movie_name	I-geographic_poi	GetWeather
+il	I-movie_name	I-geographic_poi	GetWeather
+gas	I-movie_name	I-geographic_poi	GetWeather
+misterioso	I-movie_name	I-geographic_poi	GetWeather
+start	O	O	GetWeather
+twenty	B-timeRange	B-timeRange	GetWeather
+one	I-timeRange	I-timeRange	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+will	O	O	GetWeather
+Dick	B-movie_name	B-geographic_poi	GetWeather
+Tracy	I-movie_name	I-geographic_poi	GetWeather
+e	I-movie_name	I-geographic_poi	GetWeather
+il	I-movie_name	I-geographic_poi	GetWeather
+gas	I-movie_name	I-geographic_poi	GetWeather
+misterioso	I-movie_name	I-geographic_poi	GetWeather
+start	O	O	GetWeather
+twenty	B-timeRange	B-timeRange	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+in	O	O	SearchCreativeWork
+the	B-movie_name	B-object_name	SearchCreativeWork
+neighbourhood	I-movie_name	I-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+in	O	O	SearchCreativeWork
+the	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Is	O	O	SearchCreativeWork
+Tomorrow	B-movie_name	B-object_name	SearchCreativeWork
+at	I-movie_name	I-object_name	SearchCreativeWork
+Seven	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+Tomorrow	B-movie_name	B-movie_name	SearchScreeningEvent
+at	I-movie_name	I-movie_name	SearchScreeningEvent
+Seven	O	O	SearchScreeningEvent
+being	B-timeRange	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+Is	O	O	SearchCreativeWork
+Tomorrow	B-movie_name	B-object_name	SearchCreativeWork
+at	I-movie_name	I-object_name	SearchCreativeWork
+Seven	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+list	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+The	B-movie_name	B-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+The	B-movie_name	B-movie_name	SearchScreeningEvent
+Matinee	I-movie_name	I-movie_name	SearchScreeningEvent
+Idol	I-movie_name	I-movie_name	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+The	B-movie_name	B-movie_name	SearchScreeningEvent
+Matinee	I-movie_name	I-movie_name	SearchScreeningEvent
+Idol	I-movie_name	I-movie_name	SearchScreeningEvent
+06:30	B-timeRange	I-movie_name	SearchScreeningEvent
+cinema	B-object_location_type	B-object_location_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+The	B-movie_name	B-movie_name	SearchScreeningEvent
+Matinee	I-movie_name	I-movie_name	SearchScreeningEvent
+Idol	I-movie_name	I-movie_name	SearchScreeningEvent
+06:30	B-timeRange	I-movie_name	SearchScreeningEvent
+cinema	B-object_location_type	B-object_location_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Is	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+what	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	RateBook
+Give	O	O	RateBook
+SearchScreeningEvent	RateBook
+
+<BOS>	O	O	GetWeather
+Give	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+is	O	O	GetWeather
+Tarzan	B-movie_name	B-city	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	B-movie_name	B-object_name	SearchCreativeWork
+closest	I-movie_name	I-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+the	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+Please	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+Please	O	O	SearchScreeningEvent
+give	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+information	O	O	SearchScreeningEvent
+on	O	O	SearchScreeningEvent
+when	O	O	SearchScreeningEvent
+Prisoner	B-movie_name	B-movie_name	SearchScreeningEvent
+of	I-movie_name	I-movie_name	SearchScreeningEvent
+Zenda	I-movie_name	I-movie_name	SearchScreeningEvent
+will	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Please	O	O	SearchScreeningEvent
+give	O	O	SearchScreeningEvent
+me	O	O	SearchScreeningEvent
+information	O	O	SearchScreeningEvent
+on	O	O	SearchScreeningEvent
+when	O	O	SearchScreeningEvent
+Prisoner	B-movie_name	B-movie_name	SearchScreeningEvent
+of	I-movie_name	I-movie_name	SearchScreeningEvent
+Zenda	I-movie_name	I-movie_name	SearchScreeningEvent
+will	O	O	SearchScreeningEvent
+be	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+Mysterious	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+find	O	O	SearchScreeningEvent
+Mysterious	O	O	SearchScreeningEvent
+Castles	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+Mysterious	B-movie_name	B-object_name	SearchCreativeWork
+Castles	I-movie_name	I-object_name	SearchCreativeWork
+of	I-movie_name	I-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+Mysterious	B-movie_name	B-object_name	SearchCreativeWork
+Castles	I-movie_name	I-object_name	SearchCreativeWork
+of	I-movie_name	I-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+time	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+time	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+closet	O	B-movie_name	SearchScreeningEvent
+cinema	B-object_location_type	B-object_location_type	SearchScreeningEvent
+playing	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+closet	O	B-movie_name	SearchScreeningEvent
+cinema	B-object_location_type	B-object_location_type	SearchScreeningEvent
+playing	O	O	SearchScreeningEvent
+movies	B-movie_type	B-movie_type	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+time	O	O	SearchScreeningEvent
+is	O	O	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+closet	O	B-movie_name	SearchScreeningEvent
+cinema	B-object_location_type	B-object_location_type	SearchScreeningEvent
+playing	O	O	SearchScreeningEvent
+movies	B-movie_type	B-movie_type	SearchScreeningEvent
+the	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Can	O	O	SearchScreeningEvent
+you	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	SearchScreeningEvent
+Can	O	O	SearchScreeningEvent
+you	O	O	SearchScreeningEvent
+pull	O	O	SearchScreeningEvent
+up	O	O	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+pull	O	O	PlayMusic
+up	O	O	PlayMusic
+a	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+pull	O	O	PlayMusic
+up	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	PlayMusic
+Can	O	O	PlayMusic
+you	O	O	PlayMusic
+pull	O	O	PlayMusic
+SearchScreeningEvent	PlayMusic
+
+<BOS>	O	O	SearchCreativeWork
+Can	O	O	SearchCreativeWork
+you	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+whats	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+like	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	BookRestaurant
+I'd	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	GetWeather
+is	O	O	GetWeather
+The	O	O	GetWeather
+Slut	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	GetWeather
+Tell	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchScreeningEvent
+What	O	O	SearchScreeningEvent
+movie	B-object_location_type	B-object_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	GetWeather
+What	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+what	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+find	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+a	O	O	SearchCreativeWork
+movie	O	O	SearchCreativeWork
+house	O	O	SearchCreativeWork
+closest	B-movie_name	B-object_name	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+to	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchScreeningEvent
+I	O	O	SearchScreeningEvent
+want	O	O	SearchScreeningEvent
+to	B-object_location_type	B-object_type	SearchScreeningEvent
+SearchScreeningEvent	SearchScreeningEvent
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+want	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+I	O	O	SearchCreativeWork
+want	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	BookRestaurant
+I	O	O	BookRestaurant
+SearchScreeningEvent	BookRestaurant
+
+<BOS>	O	O	SearchCreativeWork
+show	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+show	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+What	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	GetWeather
+Is	O	O	GetWeather
+SearchScreeningEvent	GetWeather
+
+<BOS>	O	O	SearchCreativeWork
+Is	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+
+<BOS>	O	O	SearchCreativeWork
+find	O	O	SearchCreativeWork
+SearchScreeningEvent	SearchCreativeWork
+

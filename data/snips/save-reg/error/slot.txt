@@ -1,0 +1,5002 @@
+<BOS>	O	O
+Will	O	O
+it	O	O
+get	O	O
+warmer	B-condition_temperature	B-condition_temperature
+in	B-spatial_relation	O
+the	I-spatial_relation	O
+
+<BOS>	O	O
+Is	O	O
+
+<BOS>	O	O
+Will	O	O
+be	O	O
+it	O	O
+cloudy	B-condition_description	B-condition_description
+close	B-spatial_relation	B-spatial_relation
+by	I-spatial_relation	I-spatial_relation
+Azerbaijan	B-country	B-country
+in	B-timeRange	O
+
+<BOS>	O	O
+weather	O	O
+1	B-timeRange	B-timeRange
+
+<BOS>	O	O
+weather	O	O
+1	B-timeRange	B-timeRange
+minute	I-timeRange	I-timeRange
+
+<BOS>	O	O
+weather	O	O
+1	B-timeRange	B-timeRange
+minute	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+rainfall	B-condition_description	B-condition_description
+
+<BOS>	O	O
+Is	O	O
+
+<BOS>	O	O
+show	O	O
+weather	O	O
+forecast	O	O
+at	O	O
+three	B-timeRange	B-timeRange
+am	I-timeRange	I-timeRange
+.in	O	I-timeRange
+
+<BOS>	O	O
+show	O	O
+weather	O	O
+forecast	O	O
+at	O	O
+three	B-timeRange	B-timeRange
+am	I-timeRange	I-timeRange
+.in	O	I-timeRange
+Wauregan	B-city	I-timeRange
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+
+<BOS>	O	O
+check	O	O
+the	O	O
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+nine	B-timeRange	B-timeRange
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+nine	B-timeRange	B-timeRange
+in	O	O
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+nine	B-timeRange	B-timeRange
+in	O	O
+South	B-country	B-state
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+nine	B-timeRange	B-timeRange
+in	O	O
+South	B-country	B-state
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+nine	B-timeRange	B-timeRange
+in	O	O
+
+<BOS>	O	O
+check	O	O
+the	O	O
+weather	O	O
+for	O	O
+around	O	B-spatial_relation
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+prediction	O	O
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+prediction	O	O
+for	O	O
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+prediction	O	O
+for	O	O
+Camdeboo-Nationalpark	B-geographic_poi	B-city
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+prediction	O	O
+for	O	O
+Camdeboo-Nationalpark	B-geographic_poi	B-city
+for	O	O
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+prediction	O	O
+for	O	O
+Camdeboo-Nationalpark	B-geographic_poi	B-city
+for	O	O
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+weather	O	O
+prediction	O	O
+for	O	O
+Camdeboo-Nationalpark	B-geographic_poi	B-city
+
+<BOS>	O	O
+Tell	O	O
+me	O	O
+the	O	O
+weather	O	O
+forecast	O	O
+in	B-timeRange	O
+
+<BOS>	O	O
+Check	O	O
+the	O	O
+forecast	O	O
+for	O	O
+Natchaug	B-geographic_poi	B-city
+
+<BOS>	O	O
+Will	O	O
+it	O	O
+be	O	O
+freezing	B-condition_temperature	B-condition_temperature
+in	B-timeRange	O
+
+<BOS>	O	O
+Is	O	O
+it	O	O
+cold	O	O
+in	B-geographic_poi	B-city
+PW	I-geographic_poi	I-city
+
+<BOS>	O	O
+what	O	O
+is	O	O
+
+<BOS>	O	O
+What	O	O
+will	O	O
+the	O	O
+weather	O	O
+be	O	O
+in	O	O
+Corcovado	B-geographic_poi	B-city
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+alot	O	B-timeRange
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+alot	O	O
+of	O	O
+wind	B-condition_description	B-condition_description
+on	O	O
+March	B-timeRange	B-timeRange
+13th	I-timeRange	I-timeRange
+in	O	O
+Lost	B-city	B-geographic_poi
+Creek	I-city	I-geographic_poi
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+weather	O	O
+
+<BOS>	O	O
+What	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+
+<BOS>	O	O
+show	O	O
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+blizzard	B-condition_description	B-condition_description
+in	O	O
+Saudi	B-country	B-country
+Arabia	I-country	I-country
+around	B-spatial_relation	O
+2	B-timeRange	B-timeRange
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+blizzard	B-condition_description	B-condition_description
+in	O	O
+Saudi	B-country	B-country
+Arabia	I-country	I-country
+around	B-spatial_relation	O
+2	B-timeRange	B-timeRange
+o'clock	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+blizzard	B-condition_description	B-condition_description
+in	O	O
+Saudi	B-country	B-country
+Arabia	I-country	I-country
+around	B-spatial_relation	O
+2	B-timeRange	B-timeRange
+
+<BOS>	O	O
+when	O	O
+
+<BOS>	O	O
+when	O	O
+is	O	O
+sunrise	B-timeRange	B-timeRange
+
+<BOS>	O	O
+when	O	O
+is	O	O
+sunrise	B-timeRange	B-timeRange
+in	O	O
+AMerican	B-country	B-location_name
+
+<BOS>	O	O
+when	O	O
+is	O	O
+sunrise	B-timeRange	B-movie_name
+in	O	I-movie_name
+
+<BOS>	O	O
+How	O	O
+cold	O	O
+
+<BOS>	O	O
+How	O	O
+cold	B-condition_temperature	B-condition_temperature
+will	O	O
+it	O	O
+be	O	O
+in	O	O
+Palau	B-state	B-state
+
+<BOS>	O	O
+How	O	O
+cold	B-condition_temperature	B-condition_temperature
+will	O	O
+it	O	O
+be	O	O
+in	O	O
+Palau	B-state	B-state
+around	B-spatial_relation	O
+
+<BOS>	O	O
+How	O	O
+cold	B-condition_temperature	B-condition_temperature
+will	O	O
+it	O	O
+be	O	O
+in	O	O
+Palau	B-state	B-state
+around	B-spatial_relation	O
+fourteen	B-timeRange	B-timeRange
+
+<BOS>	O	O
+How	O	O
+cold	B-condition_temperature	B-condition_temperature
+will	O	O
+it	O	O
+be	O	O
+in	O	O
+Palau	B-state	B-state
+around	B-spatial_relation	O
+fourteen	B-timeRange	B-timeRange
+
+<BOS>	O	O
+How	O	O
+cold	B-condition_temperature	B-condition_temperature
+will	O	O
+it	O	O
+be	O	O
+in	O	O
+Palau	B-state	B-state
+around	B-spatial_relation	O
+
+<BOS>	O	O
+What	O	O
+
+<BOS>	O	O
+What	O	O
+will	O	O
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+speed	O	O
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+speed	O	O
+around	O	B-spatial_relation
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+speed	O	O
+around	O	B-spatial_relation
+Pembina	B-geographic_poi	B-geographic_poi
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+speed	O	O
+around	O	B-spatial_relation
+Pembina	B-geographic_poi	B-city
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+speed	O	O
+around	O	B-spatial_relation
+
+<BOS>	O	O
+What	O	O
+will	O	O
+be	O	O
+the	O	O
+wind	B-condition_description	B-condition_description
+speed	O	O
+around	O	B-spatial_relation
+Pembina	B-geographic_poi	B-geographic_poi
+Gorge	I-geographic_poi	I-geographic_poi
+State	I-geographic_poi	I-geographic_poi
+Recreation	I-geographic_poi	I-geographic_poi
+Area	I-geographic_poi	I-geographic_poi
+October	B-timeRange	B-timeRange
+the	I-timeRange	I-timeRange
+27th	I-timeRange	I-timeRange
+?	O	O
+<EOS>	O	O
+
+<BOS>	O	O
+Need	O	O
+weather	O	O
+forecast	O	O
+
+<BOS>	O	O
+Need	O	O
+weather	O	O
+forecast	B-city	B-city
+for	B-state	B-state
+
+<BOS>	O	O
+Weather	O	O
+for	O	O
+Knierim	B-city	B-city
+Kansas	B-state	B-state
+in	O	B-timeRange
+twelve	B-timeRange	I-timeRange
+
+<BOS>	O	O
+Weather	O	O
+for	O	O
+Knierim	B-city	B-city
+Kansas	B-state	B-state
+in	O	B-timeRange
+twelve	B-timeRange	I-timeRange
+weeks	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Weather	O	O
+for	O	O
+Knierim	B-city	B-city
+Kansas	B-state	B-state
+in	O	B-timeRange
+twelve	B-timeRange	I-timeRange
+weeks	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Weather	O	O
+for	O	O
+Knierim	B-city	B-city
+Kansas	B-state	B-state
+in	O	B-timeRange
+twelve	B-timeRange	I-timeRange
+weeks	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+a	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Weather	O	O
+for	O	O
+Knierim	B-city	B-city
+Kansas	B-state	B-state
+in	O	B-timeRange
+twelve	B-timeRange	I-timeRange
+weeks	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+a	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Weather	O	O
+for	O	O
+Knierim	B-city	B-city
+Kansas	B-state	B-state
+in	O	B-timeRange
+twelve	B-timeRange	I-timeRange
+weeks	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Can	O	O
+
+<BOS>	O	O
+Can	O	O
+you	O	O
+tell	B-city	B-city
+
+<BOS>	O	O
+Can	O	O
+you	O	O
+tell	O	O
+me	O	O
+what	O	O
+the	O	O
+weather	O	O
+is	O	O
+doing	O	O
+
+<BOS>	O	O
+Can	O	O
+you	O	O
+tell	O	O
+me	O	O
+what	O	O
+the	O	O
+weather	O	O
+is	O	O
+doing	O	O
+in	O	O
+
+<BOS>	O	O
+Can	O	O
+you	O	O
+tell	O	O
+me	O	O
+what	O	O
+the	O	O
+weather	O	O
+is	O	O
+doing	O	O
+in	O	O
+North	B-city	B-state
+
+<BOS>	O	O
+Is	O	O
+there	O	O
+rain	O	B-restaurant_type
+
+<BOS>	O	O
+Will	O	O
+it	O	O
+be	O	B-restaurant_type
+
+<BOS>	O	O
+Will	O	O
+it	O	O
+be	O	B-restaurant_type
+chilly	O	O
+in	B-city	B-city
+
+<BOS>	O	O
+Will	O	O
+it	O	O
+be	O	B-restaurant_type
+chilly	O	O
+
+<BOS>	O	O
+Will	O	O
+it	O	O
+hail	O	O
+in	O	O
+1	O	O
+
+<BOS>	O	O
+what	O	O
+is	O	O
+the	B-condition_description	B-condition_description
+weather	B-timeRange	O
+
+<BOS>	O	O
+what	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+Bad	B-geographic_poi	B-city
+
+<BOS>	O	O
+How	O	O
+windy	B-condition_description	B-condition_description
+is	O	O
+it	O	O
+in	O	O
+Anderson	B-geographic_poi	B-city
+Lake	I-geographic_poi	I-city
+
+<BOS>	O	O
+How	O	O
+windy	B-condition_description	B-condition_description
+is	O	O
+it	O	O
+in	O	O
+Anderson	B-geographic_poi	B-city
+
+<BOS>	O	O
+Show	O	O
+me	O	O
+weather	O	O
+forecast	O	O
+in	O	O
+Clontarf	B-city	B-city
+,	O	O
+KY	B-state	B-state
+from	O	B-timeRange
+
+<BOS>	O	O
+Show	O	O
+me	O	O
+weather	O	O
+forecast	O	O
+in	O	O
+Clontarf	B-city	B-city
+,	O	O
+KY	B-state	B-state
+from	O	B-timeRange
+4	B-timeRange	I-timeRange
+
+<BOS>	O	O
+What's	O	O
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+weather	O	O
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+weather	O	O
+in	O	O
+New	B-city	B-state
+
+<BOS>	O	O
+what	O	O
+will	O	O
+the	O	O
+weather	O	O
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+snowstorm	B-condition_description	B-condition_description
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+snowstorm	B-condition_description	B-condition_description
+around	O	O
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+snowstorm	B-condition_description	B-condition_description
+around	O	B-spatial_relation
+eight	B-timeRange	B-timeRange
+
+<BOS>	O	O
+Will	O	O
+there	O	O
+be	O	O
+a	O	O
+snowstorm	B-condition_description	B-condition_description
+around	O	B-spatial_relation
+
+<BOS>	O	O
+Weather	O	O
+in	O	O
+Cairngorms-Nationalpark	B-geographic_poi	B-city
+close	B-spatial_relation	B-spatial_relation
+from	I-spatial_relation	O
+freezing	B-condition_temperature	B-condition_temperature
+
+<BOS>	O	O
+What's	O	O
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+weather	B-geographic_poi	B-city
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+weather	B-geographic_poi	B-city
+at	B-spatial_relation	B-spatial_relation
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+weather	B-geographic_poi	B-city
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+in	B-spatial_relation	O
+
+<BOS>	O	O
+I	O	O
+need	O	O
+a	O	O
+weather	O	O
+update	O	O
+now	B-timeRange	B-timeRange
+for	O	O
+
+<BOS>	O	O
+I	O	O
+need	O	O
+a	O	O
+weather	O	O
+update	O	O
+now	B-timeRange	B-timeRange
+for	O	O
+Manhattan	B-geographic_poi	B-city
+
+<BOS>	O	O
+What	O	O
+will	O	O
+the	O	O
+weather	O	O
+be	O	O
+like	O	O
+here	B-geographic_poi	B-geographic_poi
+on	I-geographic_poi	I-geographic_poi
+September	O	B-timeRange
+
+<BOS>	O	O
+What	O	O
+will	O	O
+the	O	O
+weather	O	O
+be	O	O
+like	O	O
+here	B-geographic_poi	B-city
+on	I-geographic_poi	I-city
+
+<BOS>	O	O
+What	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-timeRange
+Ithala	I-geographic_poi	I-timeRange
+in	O	O
+the	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-timeRange
+Ithala	I-geographic_poi	I-timeRange
+in	O	O
+the	O	O
+distant	B-spatial_relation	B-spatial_relation
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-city
+Ithala	I-geographic_poi	I-city
+in	O	O
+the	O	O
+distant	B-spatial_relation	B-spatial_relation
+future	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-city
+Ithala	I-geographic_poi	I-city
+in	O	O
+the	O	O
+distant	B-spatial_relation	B-spatial_relation
+future	O	O
+will	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-city
+Ithala	I-geographic_poi	I-city
+in	O	O
+the	O	O
+distant	B-spatial_relation	B-spatial_relation
+future	O	O
+will	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-city
+Ithala	I-geographic_poi	I-city
+in	O	O
+the	O	O
+distant	B-spatial_relation	B-spatial_relation
+future	O	O
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+forecast	O	O
+for	O	O
+the	O	O
+Wildreservaat	B-geographic_poi	B-city
+Ithala	I-geographic_poi	I-city
+in	O	O
+the	O	O
+distant	B-spatial_relation	B-spatial_relation
+
+<BOS>	O	O
+Tell	O	O
+me	O	O
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+weather	O	O
+going	O	O
+to	O	O
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+forecast	O	O
+for	B-condition_temperature	B-condition_temperature
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+forecast	O	O
+for	B-condition_temperature	B-condition_temperature
+Walker	O	O
+Bay	B-country	B-city
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+forecast	O	O
+for	O	O
+Walker	B-geographic_poi	B-city
+Bay	I-geographic_poi	I-city
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+forecast	O	O
+for	B-condition_temperature	B-condition_temperature
+Walker	O	O
+Bay	B-country	B-city
+
+<BOS>	O	O
+What's	O	O
+the	O	O
+forecast	O	O
+for	O	O
+Walker	B-geographic_poi	B-city
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+weather	O	O
+like	O	O
+in	O	O
+North	B-city	B-state
+
+<BOS>	O	O
+Will	O	O
+rainfall	B-condition_description	B-condition_description
+continue	O	I-geographic_poi
+
+<BOS>	O	O
+What	O	O
+is	O	O
+the	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	O
+need	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	O
+need	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	I-city
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	O
+need	O	O
+a	O	O
+reservation	O	O
+at	O	O
+Rimsky-Korsakoffee	B-restaurant_name	B-restaurant_name
+House	I-restaurant_name	I-restaurant_name
+on	O	O
+Aug.	B-timeRange	B-timeRange
+the	I-timeRange	I-timeRange
+3rd	I-timeRange	I-timeRange
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	O
+need	O	O
+a	O	O
+reservation	O	O
+at	O	O
+Rimsky-Korsakoffee	B-restaurant_name	B-restaurant_name
+House	I-restaurant_name	I-restaurant_name
+on	O	O
+Aug.	B-timeRange	B-timeRange
+the	I-timeRange	I-timeRange
+3rd	I-timeRange	I-timeRange
+.	O	O
+
+<BOS>	O	O
+I	O	O
+have	O	O
+a	O	O
+party	O	O
+of	O	O
+four	B-party_size_number	B-party_size_number
+in	O	O
+Japan	B-country	B-city
+and	O	O
+need	O	O
+a	O	O
+reservation	O	O
+at	O	O
+Rimsky-Korsakoffee	B-restaurant_name	B-restaurant_name
+House	I-restaurant_name	I-restaurant_name
+on	O	O
+Aug.	B-timeRange	B-timeRange
+the	I-timeRange	I-timeRange
+3rd	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Restaurant	B-restaurant_type	B-restaurant_type
+near	B-spatial_relation	B-spatial_relation
+
+<BOS>	O	O
+Restaurant	B-restaurant_type	B-restaurant_type
+near	B-spatial_relation	B-spatial_relation
+in	B-poi	B-poi
+town	I-poi	I-poi
+
+<BOS>	O	O
+Restaurant	O	O
+near	O	O
+in	O	O
+town	O	O
+uses	O	O
+
+<BOS>	O	O
+Restaurant	B-restaurant_type	B-restaurant_type
+near	B-spatial_relation	B-spatial_relation
+in	B-poi	B-poi
+town	I-poi	I-poi
+uses	O	I-poi
+in	B-timeRange	B-timeRange
+
+<BOS>	O	O
+Restaurant	O	O
+near	O	O
+in	O	O
+town	O	O
+uses	O	O
+in	B-restaurant_name	B-party_size_description
+
+<BOS>	O	O
+Book	B-restaurant_type	B-restaurant_type
+
+<BOS>	O	O
+Book	B-restaurant_type	B-restaurant_type
+me	B-spatial_relation	B-spatial_relation
+a	B-poi	O
+
+<BOS>	O	O
+me	O	O
+and	O	O
+imelda	O	O
+want	B-spatial_relation	B-spatial_relation
+a	I-spatial_relation	I-spatial_relation
+reservation	I-spatial_relation	I-spatial_relation
+in	I-spatial_relation	I-spatial_relation
+Missouri	O	O
+at	B-restaurant_name	B-poi
+seven	I-restaurant_name	I-poi
+am	I-restaurant_name	I-poi
+
+<BOS>	O	O
+me	O	O
+and	O	O
+imelda	O	O
+want	B-spatial_relation	B-spatial_relation
+a	I-spatial_relation	I-spatial_relation
+reservation	I-spatial_relation	I-spatial_relation
+in	I-spatial_relation	I-spatial_relation
+Missouri	O	O
+at	B-restaurant_name	B-poi
+seven	I-restaurant_name	I-poi
+am	I-restaurant_name	I-poi
+<EOS>	I-restaurant_name	I-poi
+
+<BOS>	O	O
+book	O	O
+
+<BOS>	O	O
+book	O	O
+a	O	O
+spot	O	O
+
+<BOS>	O	O
+book	O	O
+a	O	O
+spot	O	O
+in	B-spatial_relation	B-spatial_relation
+the	I-spatial_relation	I-spatial_relation
+
+<BOS>	O	O
+book	O	O
+a	O	O
+spot	O	O
+in	B-spatial_relation	B-spatial_relation
+the	I-spatial_relation	I-spatial_relation
+same	I-spatial_relation	I-spatial_relation
+
+<BOS>	O	O
+book	O	O
+a	O	O
+spot	O	O
+in	B-spatial_relation	O
+
+<BOS>	O	O
+book	O	O
+a	O	O
+spot	O	O
+in	B-spatial_relation	B-spatial_relation
+the	I-spatial_relation	I-spatial_relation
+same	I-spatial_relation	I-spatial_relation
+area	I-spatial_relation	I-spatial_relation
+as	O	O
+Yankee	B-restaurant_name	B-poi
+Doodle	I-restaurant_name	I-poi
+Coffee	I-restaurant_name	I-poi
+Shop	I-restaurant_name	I-poi
+in	O	O
+Madagascar	B-country	B-country
+<EOS>	O	O
+
+<BOS>	O	O
+I	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+
+<BOS>	O	O
+Schedule	O	O
+
+<BOS>	O	O
+Schedule	O	B-party_size_description
+
+<BOS>	O	O
+Schedule	O	O
+the	O	O
+food	B-restaurant_type	B-restaurant_type
+truck	I-restaurant_type	I-restaurant_type
+to	O	O
+be	O	O
+at	O	O
+
+<BOS>	O	O
+Schedule	O	O
+the	O	O
+food	B-restaurant_type	B-restaurant_type
+truck	I-restaurant_type	I-restaurant_type
+to	O	O
+be	O	O
+at	O	O
+your	B-poi	B-poi
+
+<BOS>	O	O
+Schedule	O	O
+the	O	O
+food	B-restaurant_type	B-restaurant_type
+truck	I-restaurant_type	I-restaurant_type
+to	O	O
+be	O	O
+at	O	O
+your	B-poi	B-poi
+place	I-poi	I-poi
+
+<BOS>	O	O
+Schedule	O	O
+the	O	O
+food	B-restaurant_type	B-restaurant_type
+truck	I-restaurant_type	I-restaurant_type
+to	O	O
+be	O	O
+at	O	O
+your	B-poi	B-poi
+place	I-poi	I-poi
+in	O	B-timeRange
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+tea	B-timeRange	B-restaurant_type
+place	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+tea	B-timeRange	B-restaurant_type
+place	O	O
+at	O	O
+
+<BOS>	O	O
+I'd	O	O
+
+<BOS>	O	O
+I'd	O	O
+like	O	O
+to	B-timeRange	B-restaurant_type
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+restaurant	B-restaurant_type	B-restaurant_type
+for	O	O
+august	B-timeRange	B-timeRange
+fourth	I-timeRange	I-timeRange
+not	B-spatial_relation	B-spatial_relation
+far	I-spatial_relation	I-spatial_relation
+from	O	O
+the	O	O
+Marshall	B-country	B-state
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+restaurant	B-restaurant_type	B-restaurant_type
+for	O	O
+august	B-timeRange	B-timeRange
+fourth	I-timeRange	I-timeRange
+not	B-spatial_relation	B-spatial_relation
+far	I-spatial_relation	I-spatial_relation
+from	O	O
+the	O	O
+Marshall	B-country	B-state
+Islands	I-country	I-state
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+restaurant	B-restaurant_type	B-restaurant_type
+for	O	O
+august	B-timeRange	B-timeRange
+fourth	I-timeRange	I-timeRange
+not	B-spatial_relation	B-spatial_relation
+far	I-spatial_relation	I-spatial_relation
+from	O	O
+the	O	O
+Marshall	B-country	B-state
+Islands	I-country	I-state
+
+<BOS>	O	O
+book	O	O
+a	O	O
+
+<BOS>	O	O
+I	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+book	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+book	O	O
+a	O	O
+
+<BOS>	O	O
+Please	O	O
+book	O	O
+a	O	O
+room	O	O
+to	O	O
+accommodate	O	O
+
+<BOS>	O	O
+Please	O	O
+book	O	O
+a	O	O
+room	O	O
+to	O	O
+accommodate	O	O
+one	B-party_size_number	B-party_size_number
+
+<BOS>	O	O
+I	B-restaurant_type	B-restaurant_type
+need	O	O
+to	B-city	B-city
+book	O	O
+a	B-timeRange	B-party_size_number
+
+<BOS>	O	O
+I	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+
+<BOS>	O	O
+I	O	O
+need	O	O
+a	O	O
+reservation	O	O
+for	O	O
+3	B-timeRange	B-party_size_number
+
+<BOS>	O	O
+Book	O	O
+reservations	O	O
+
+<BOS>	O	O
+Book	O	O
+reservations	O	O
+not	B-spatial_relation	B-spatial_relation
+
+<BOS>	O	O
+Book	O	O
+reservations	O	O
+not	B-spatial_relation	B-spatial_relation
+far	I-spatial_relation	I-spatial_relation
+
+<BOS>	O	O
+Book	O	O
+reservations	O	O
+not	B-spatial_relation	B-spatial_relation
+far	I-spatial_relation	I-spatial_relation
+from	O	O
+
+<BOS>	O	O
+Book	O	O
+reservations	O	O
+not	B-spatial_relation	B-spatial_relation
+far	I-spatial_relation	I-spatial_relation
+from	O	O
+our	O	B-poi
+
+<BOS>	O	O
+in	B-timeRange	B-spatial_relation
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+mamie	B-party_size_description	B-party_size_description
+and	I-party_size_description	I-party_size_description
+maria	I-party_size_description	I-party_size_description
+at	O	O
+a	O	O
+south	B-cuisine	B-cuisine
+tyrolean	I-cuisine	I-cuisine
+restaurant	B-restaurant_type	B-restaurant_type
+within	B-spatial_relation	B-spatial_relation
+walking	I-spatial_relation	I-spatial_relation
+distance	I-spatial_relation	I-spatial_relation
+from	O	O
+Fisk	B-poi	B-city
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+restaurant	B-restaurant_type	B-restaurant_type
+near	B-spatial_relation	B-spatial_relation
+the	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+tavern	O	O
+in	O	O
+Rhode	O	O
+Island	B-timeRange	B-timeRange
+that	I-timeRange	I-timeRange
+serves	I-timeRange	I-timeRange
+saucisse	I-timeRange	I-timeRange
+.	O	O
+
+<BOS>	O	O
+I	O	O
+need	O	O
+a	O	O
+reservation	O	O
+for	O	O
+four	B-timeRange	B-party_size_number
+
+<BOS>	O	O
+Book	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+four	B-party_size_number	B-party_size_number
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+four	B-party_size_number	B-party_size_number
+around	O	B-spatial_relation
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+four	B-party_size_number	B-party_size_number
+around	O	B-spatial_relation
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+four	B-party_size_number	B-party_size_number
+around	O	B-spatial_relation
+midnight	B-timeRange	B-timeRange
+in	O	O
+Saint	B-country	B-country
+Pierre	I-country	I-country
+and	I-country	I-country
+Miquelon	I-country	I-country
+.	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+four	B-party_size_number	B-party_size_number
+around	O	B-spatial_relation
+midnight	B-timeRange	B-timeRange
+in	O	O
+Saint	B-country	B-country
+Pierre	I-country	I-country
+and	I-country	I-country
+Miquelon	I-country	I-country
+.	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+eat	O	O
+a	O	O
+a	O	O
+brasserie	B-restaurant_type	B-restaurant_type
+that	O	O
+serves	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+eat	O	O
+a	O	O
+a	O	O
+brasserie	B-restaurant_type	B-restaurant_type
+that	O	O
+serves	O	O
+muffuletta	B-served_dish	B-served_dish
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+book	O	O
+a	O	O
+pizza	B-served_dish	B-served_dish
+restaurant	B-restaurant_type	B-restaurant_type
+close	B-spatial_relation	B-spatial_relation
+to	O	O
+Astor	B-poi	B-city
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+book	O	O
+a	O	O
+pizza	B-served_dish	B-served_dish
+restaurant	B-restaurant_type	B-restaurant_type
+close	B-spatial_relation	B-spatial_relation
+to	O	O
+Astor	B-poi	B-city
+Place	I-poi	I-city
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+book	O	O
+a	O	O
+pizza	B-served_dish	B-served_dish
+restaurant	B-restaurant_type	B-restaurant_type
+close	B-spatial_relation	B-spatial_relation
+to	O	O
+Astor	B-poi	B-city
+Place	I-poi	I-city
+for	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+book	O	O
+a	O	O
+pizza	B-served_dish	B-served_dish
+restaurant	B-restaurant_type	B-restaurant_type
+close	B-spatial_relation	B-spatial_relation
+to	O	O
+Astor	B-poi	B-city
+Place	I-poi	I-city
+for	O	O
+nine	B-party_size_number	B-party_size_number
+
+<BOS>	O	O
+Book	O	O
+me	O	O
+seats	O	O
+for	O	O
+6	B-party_size_number	B-party_size_number
+at	O	O
+the	O	O
+best	B-sort	B-sort
+brasserie	B-restaurant_type	B-restaurant_type
+
+<BOS>	O	O
+Book	O	O
+me	O	O
+seats	O	O
+for	O	O
+6	B-party_size_number	B-party_size_number
+at	O	O
+the	O	O
+best	B-sort	B-sort
+brasserie	B-restaurant_type	B-restaurant_type
+that	O	O
+
+<BOS>	O	O
+Book	O	O
+me	O	O
+seats	O	O
+for	O	O
+6	B-party_size_number	B-party_size_number
+at	O	O
+the	O	O
+best	B-sort	B-sort
+brasserie	B-restaurant_type	B-restaurant_type
+that	O	O
+serves	O	O
+
+<BOS>	O	O
+Book	O	O
+me	O	O
+seats	O	O
+for	O	O
+6	B-party_size_number	B-party_size_number
+at	O	O
+the	O	O
+best	B-sort	B-sort
+brasserie	B-restaurant_type	B-restaurant_type
+that	O	O
+serves	O	O
+marche	B-cuisine	B-served_dish
+
+<BOS>	O	O
+book	O	O
+in	O	O
+Southern	B-city	B-country
+
+<BOS>	O	O
+Book	O	O
+PM	O	O
+Park,	O	O
+Clear	O	O
+Lake,	O	O
+Iowa	B-timeRange	B-party_size_description
+at	O	O
+5	B-restaurant_name	B-restaurant_name
+
+<BOS>	O	O
+Book	O	O
+PM	O	O
+Park,	O	O
+Clear	O	O
+Lake,	O	O
+Iowa	B-timeRange	B-party_size_description
+at	O	O
+
+<BOS>	O	O
+I	O	O
+need	O	O
+
+<BOS>	O	O
+book	O	O
+
+<BOS>	O	O
+book	O	O
+a	O	O
+restaurant	O	O
+
+<BOS>	O	O
+book	O	O
+
+<BOS>	O	O
+book	O	O
+Bullfeathers	O	O
+
+<BOS>	O	O
+book	O	O
+Bullfeathers	O	O
+<EOS>	B-restaurant_name	B-restaurant_name
+
+<BOS>	O	O
+table	O	O
+at	B-restaurant_name	B-cuisine
+Nankin	O	O
+
+<BOS>	O	O
+Book	O	O
+an	O	O
+indoor	B-facility	B-facility
+restaurant	B-restaurant_type	B-restaurant_type
+near	B-spatial_relation	B-spatial_relation
+Wallington	B-poi	B-city
+for	O	O
+
+<BOS>	O	O
+Book	O	O
+an	O	O
+indoor	B-facility	B-facility
+restaurant	B-restaurant_type	B-restaurant_type
+near	B-spatial_relation	B-spatial_relation
+Wallington	B-poi	B-city
+for	O	O
+2	B-party_size_number	B-party_size_number
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+churrascaria	B-facility	B-facility
+restaurant	B-restaurant_type	B-restaurant_type
+
+<BOS>	O	O
+Book	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+nine	B-party_size_number	B-party_size_number
+
+<BOS>	O	O
+Book	O	O
+a	O	O
+table	O	O
+for	O	O
+nine	B-party_size_number	B-party_size_number
+at	O	O
+Canteen	B-restaurant_name	B-restaurant_name
+Lunch	I-restaurant_name	I-restaurant_name
+in	I-restaurant_name	O
+the	I-restaurant_name	O
+Alley	I-restaurant_name	B-city
+at	O	O
+Midnight	B-timeRange	B-timeRange
+<EOS>	O	O
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+Rachel	B-artist	B-genre
+
+<BOS>	O	O
+play	O	O
+a	B-service	B-service
+
+<BOS>	O	O
+play	O	O
+a	B-service	B-service
+chant	I-service	I-service
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+Play	O	O
+the	B-service	B-service
+newest	B-genre	I-service
+
+<BOS>	O	O
+Play	O	O
+Portsmouth	B-service	B-service
+by	B-genre	B-artist
+Paul	I-genre	I-artist
+
+<BOS>	O	O
+Play	O	O
+Portsmouth	B-service	B-service
+by	B-genre	B-artist
+Paul	I-genre	I-artist
+Smith	I-genre	B-album
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+movement	B-playlist	B-genre
+
+<BOS>	O	O
+Play	O	O
+music	O	O
+from	B-playlist	B-genre
+2011	O	O
+.	O	O
+
+<BOS>	O	O
+I	O	O
+need	O	O
+
+<BOS>	O	O
+Play	O	O
+the	O	O
+track	O	O
+R	B-genre	B-artist
+
+<BOS>	O	O
+Play	O	O
+a	O	O
+Mike	B-music_item	B-music_item
+Osborne	O	B-track
+song	B-year	B-year
+
+<BOS>	O	O
+Play	O	O
+a	O	O
+Mike	B-music_item	B-music_item
+Osborne	O	B-track
+song	B-year	B-year
+<EOS>	O	O
+
+<BOS>	O	O
+play	O	O
+
+<BOS>	O	O
+play	O	O
+Wait	O	O
+
+<BOS>	O	O
+play	O	O
+Wait	B-track	B-album
+Until	I-track	I-album
+Tomorrow	I-track	I-album
+<EOS>	O	O
+
+<BOS>	O	O
+Play	O	O
+a	O	O
+
+<BOS>	O	O
+Play	O	O
+a	B-track	B-artist
+movement	I-track	I-artist
+
+<BOS>	O	O
+Play	O	O
+a	O	O
+movement	B-music_item	B-music_item
+fromthe	O	B-track
+eighties	B-year	B-year
+by	O	O
+Nobuo	B-artist	B-artist
+Uematsu	I-artist	I-artist
+.	O	O
+<EOS>	O	O
+
+<BOS>	O	O
+Play	O	O
+Brotherhood	B-album	B-track
+by	O	O
+Ock	B-artist	B-artist
+Joo-hyun	I-artist	I-artist
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+Play	O	O
+Masashi	B-album	B-track
+Hamauzu	O	O
+
+<BOS>	O	O
+Play	O	O
+Masashi	B-artist	B-track
+Hamauzu	I-artist	I-track
+
+<BOS>	O	O
+Play	O	O
+Masashi	B-album	B-track
+Hamauzu	O	O
+
+<BOS>	O	O
+Play	O	O
+Masashi	B-artist	B-track
+
+<BOS>	O	O
+Play	O	O
+Masashi	B-album	B-track
+
+<BOS>	O	O
+Play	O	O
+me	O	O
+
+<BOS>	O	O
+Play	O	O
+me	O	O
+a	B-sort	B-sort
+song	B-music_item	B-music_item
+
+<BOS>	O	O
+Play	O	O
+me	O	O
+a	B-sort	B-sort
+song	B-music_item	B-music_item
+by	B-artist	B-track
+
+<BOS>	O	O
+Play	O	O
+the	O	O
+top-ten	B-sort	B-sort
+chant	B-music_item	B-music_item
+Doda	B-artist	O
+songs	O	O
+from	O	O
+the	O	O
+
+<BOS>	O	O
+Play	O	O
+the	O	O
+top-ten	B-sort	B-sort
+chant	B-music_item	B-music_item
+Doda	B-artist	O
+songs	O	O
+from	O	O
+the	O	O
+twenties	B-year	B-year
+
+<BOS>	O	O
+Play	O	O
+the	O	O
+top-ten	B-sort	B-sort
+chant	B-music_item	B-music_item
+Doda	B-artist	O
+songs	O	O
+from	O	O
+the	O	O
+twenties	B-year	B-year
+
+<BOS>	O	O
+Play	O	O
+the	O	O
+top-ten	B-sort	B-sort
+chant	B-music_item	B-music_item
+Doda	B-artist	O
+songs	O	O
+from	O	O
+the	O	O
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+Play	O	O
+Seaside	B-album	B-track
+
+<BOS>	O	O
+Play	O	O
+Seaside	B-album	B-track
+by	O	O
+Don	B-artist	B-artist
+
+<BOS>	O	O
+Play	O	O
+Seaside	B-album	B-track
+by	O	O
+Don	B-artist	B-artist
+
+<BOS>	O	O
+Play	O	O
+Seaside	B-artist	B-track
+by	I-artist	I-track
+
+<BOS>	O	O
+play	O	O
+
+<BOS>	O	O
+play	O	O
+Victoria	B-artist	B-track
+
+<BOS>	O	O
+play	O	O
+Victoria	B-album	B-track
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+Maynard	B-artist	B-artist
+James	I-artist	I-artist
+Keenan	I-artist	I-artist
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+Maynard	B-artist	B-artist
+James	I-artist	I-artist
+Keenan	I-artist	I-artist
+songs	O	O
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+Maynard	B-artist	B-artist
+James	I-artist	I-artist
+Keenan	I-artist	I-artist
+songs	O	O
+from	O	O
+Scenes	B-album	B-year
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+Maynard	B-artist	B-artist
+James	I-artist	I-artist
+Keenan	I-artist	I-artist
+songs	O	O
+from	O	O
+Scenes	B-album	B-artist
+From	I-album	I-artist
+
+<BOS>	O	O
+Play	O	O
+some	O	O
+Maynard	B-artist	B-artist
+James	I-artist	I-artist
+Keenan	I-artist	I-artist
+songs	O	O
+from	O	O
+Scenes	B-album	B-year
+
+<BOS>	O	O
+play	O	O
+Neutrons	B-album	B-track
+
+<BOS>	O	O
+play	O	O
+Neutrons	B-album	B-track
+by	O	O
+Seun	B-artist	B-artist
+
+<BOS>	O	O
+play	O	O
+Neutrons	B-album	B-track
+by	O	O
+Seun	B-artist	B-artist
+
+<BOS>	O	O
+play	O	O
+a	B-album	B-track
+
+<BOS>	O	O
+play	O	O
+a	B-album	B-track
+
+<BOS>	O	O
+play	O	O
+Asia	O	O
+Nitollano	B-track	B-playlist
+using	I-track	I-playlist
+
+<BOS>	O	O
+play	O	O
+Asia	B-artist	B-track
+Nitollano	I-artist	I-track
+using	O	O
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+Play	O	O
+the	B-artist	B-track
+
+<BOS>	O	O
+Play	O	O
+the	B-artist	B-track
+
+<BOS>	O	O
+Play	O	O
+a	B-artist	B-artist
+track	I-artist	I-artist
+by	O	B-music_item
+
+<BOS>	O	O
+Play	O	O
+a	B-artist	B-artist
+track	I-artist	I-artist
+by	O	I-artist
+
+<BOS>	O	O
+Play	O	B-party_size_description
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+play	O	O
+
+<BOS>	O	O
+play	O	O
+the	O	O
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+Could	I-album	I-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+Could	I-album	I-object_name
+Only	I-album	I-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+Could	I-album	I-object_name
+Only	I-album	I-object_name
+Happen	I-album	I-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+Could	I-album	I-object_name
+Only	I-album	I-object_name
+Happen	I-album	I-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+Could	I-album	I-object_name
+Only	I-album	I-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+Could	I-album	I-object_name
+
+<BOS>	O	O
+play	O	O
+the	O	O
+It	B-album	B-object_name
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+hear	O	O
+This	B-track	B-album
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+hear	O	O
+This	B-track	B-album
+Is	I-track	I-album
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+hear	O	O
+This	B-track	B-album
+Is	I-track	I-album
+The	I-track	I-album
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+hear	O	O
+This	B-track	B-album
+Is	I-track	I-album
+The	I-track	I-album
+Night	I-track	I-album
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+hear	O	O
+This	B-track	B-album
+Is	I-track	I-album
+The	I-track	I-album
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	O	O
+hear	O	O
+the	O	O
+new	B-sort	O
+
+<BOS>	O	O
+Please	O	O
+play	B-artist	B-track
+
+<BOS>	O	O
+play	O	O
+some	B-service	B-service
+popular	O	O
+bryan	O	O
+gregory	B-artist	B-playlist
+songs	I-artist	I-playlist
+<EOS>	I-artist	I-playlist
+
+<BOS>	O	O
+play	O	O
+
+<BOS>	O	O
+play	O	O
+Fereydoun	B-service	B-service
+
+<BOS>	O	O
+play	O	O
+Fereydoun	B-service	B-service
+Farrokhzad	O	O
+best	O	O
+
+<BOS>	O	O
+play	O	O
+Fereydoun	B-service	B-service
+Farrokhzad	O	O
+best	O	O
+track	B-artist	B-playlist
+
+<BOS>	O	O
+Open	O	O
+Lastfm	B-artist	B-track
+
+<BOS>	O	O
+Open	O	O
+Lastfm	B-service	B-service
+and	O	O
+play	O	O
+Hot	B-artist	B-playlist
+Lips	I-artist	I-playlist
+Page	I-artist	I-playlist
+from	O	O
+the	O	O
+sixties	B-year	B-year
+
+<BOS>	O	O
+Open	O	O
+Lastfm	B-service	B-service
+and	O	O
+play	O	O
+Hot	B-artist	B-playlist
+Lips	I-artist	I-playlist
+Page	I-artist	I-playlist
+from	O	O
+the	O	O
+sixties	B-year	B-year
+
+<BOS>	O	O
+Play	O	O
+some	B-album	B-track
+seventies	I-album	I-track
+
+<BOS>	O	O
+Play	O	O
+some	B-album	B-track
+seventies	I-album	I-track
+music	I-album	I-track
+
+<BOS>	O	O
+Play	O	O
+some	B-album	B-track
+seventies	I-album	I-track
+music	I-album	I-track
+on	I-album	I-track
+
+<BOS>	O	O
+Play	O	O
+some	B-album	B-track
+seventies	I-album	I-track
+music	I-album	I-track
+on	I-album	I-track
+Netflix	O	O
+.	O	O
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+Play	O	O
+Is	B-album	B-track
+This	I-album	I-track
+
+<BOS>	O	O
+Play	O	O
+Is	B-album	B-track
+This	I-album	I-track
+My	I-album	I-track
+
+<BOS>	O	O
+Play	O	O
+Is	B-album	B-track
+This	I-album	I-track
+
+<BOS>	O	O
+Play	O	O
+Is	B-album	B-track
+
+<BOS>	O	O
+Play	O	O
+best	O	O
+fourties	O	O
+
+<BOS>	O	O
+I	O	O
+wish	O	O
+to	O	O
+listen	O	O
+to	O	O
+some	O	O
+instrumental	B-playlist	B-genre
+music.	O	O
+
+<BOS>	O	O
+Play	O	O
+
+<BOS>	O	O
+I	O	O
+need	B-artist	B-entity_name
+another	I-artist	I-entity_name
+tune	I-artist	I-entity_name
+in	O	O
+my	B-playlist_owner	B-playlist
+
+<BOS>	O	O
+I	O	O
+need	B-artist	B-entity_name
+another	I-artist	I-entity_name
+tune	I-artist	I-entity_name
+in	O	O
+
+<BOS>	O	O
+I	O	O
+need	B-artist	B-entity_name
+another	I-artist	I-entity_name
+tune	I-artist	I-entity_name
+
+<BOS>	O	O
+Add	O	O
+ross	B-artist	B-entity_name
+
+<BOS>	O	O
+Add	O	O
+ross	B-artist	B-entity_name
+the	I-artist	I-entity_name
+boss	I-artist	I-entity_name
+to	O	O
+laurie's	B-playlist_owner	B-playlist_owner
+listas	B-playlist	B-playlist
+
+<BOS>	O	O
+Add	O	O
+ross	B-artist	B-entity_name
+the	I-artist	I-entity_name
+boss	I-artist	I-entity_name
+to	O	O
+laurie's	B-playlist_owner	B-playlist
+listas	B-playlist	I-playlist
+de	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+ross	B-artist	B-entity_name
+the	I-artist	I-entity_name
+boss	I-artist	I-entity_name
+to	O	O
+laurie's	B-playlist_owner	B-playlist_owner
+listas	B-playlist	B-playlist
+de	I-playlist	I-playlist
+éxitos	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+ross	B-entity_name	B-artist
+the	O	O
+boss	B-playlist_owner	B-playlist_owner
+to	B-playlist	B-playlist
+laurie's	I-playlist	I-playlist
+listas	O	O
+de	O	O
+
+<BOS>	O	O
+Add	O	O
+ross	B-artist	B-entity_name
+the	I-artist	I-entity_name
+boss	I-artist	I-entity_name
+to	O	O
+laurie's	B-playlist_owner	B-playlist_owner
+listas	B-playlist	B-playlist
+de	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+Firehouse	B-artist	B-entity_name
+
+<BOS>	O	O
+Add	O	O
+Firehouse	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+Firehouse	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+Firehouse	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+Firehouse	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+Nicole	B-entity_name	B-artist
+Mitchell	I-entity_name	I-artist
+to	I-entity_name	I-artist
+my	O	O
+Soul	O	O
+Revived	B-playlist	B-playlist
+
+<BOS>	O	O
+Add	O	O
+Nicole	B-entity_name	B-artist
+Mitchell	I-entity_name	I-artist
+to	I-entity_name	I-artist
+my	O	O
+Soul	O	O
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+M-CABI	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+M-CABI	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+add	O	O
+M-CABI	B-entity_name	B-artist
+to	O	O
+the	O	O
+
+<BOS>	O	O
+add	O	O
+M-CABI	B-entity_name	B-artist
+to	O	O
+the	O	O
+playlist	O	O
+named	O	O
+
+<BOS>	O	O
+add	O	O
+M-CABI	B-entity_name	B-artist
+to	O	O
+the	O	O
+playlist	O	O
+
+<BOS>	O	O
+add	O	O
+M-CABI	B-entity_name	B-artist
+to	O	O
+the	O	O
+
+<BOS>	O	O
+add	O	O
+Stephen	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+Stephen	B-entity_name	B-artist
+
+<BOS>	O	O
+insert	O	O
+Rock	B-artist	B-entity_name
+
+<BOS>	O	O
+insert	O	B-party_size_description
+
+<BOS>	O	O
+add	O	O
+rock	B-entity_name	B-artist
+&	O	O
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+Shangri-La	B-entity_name	B-artist
+to	I-entity_name	I-artist
+the	I-entity_name	I-artist
+African	O	O
+
+<BOS>	O	O
+Add	O	O
+Shangri-La	B-entity_name	B-artist
+to	O	O
+the	O	O
+African	B-playlist	B-playlist
+Heat	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+Shangri-La	B-entity_name	B-artist
+to	I-entity_name	I-artist
+the	I-entity_name	I-artist
+African	O	O
+Heat	B-playlist	B-playlist
+playlist.	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+Shangri-La	B-entity_name	B-artist
+to	O	O
+the	O	O
+African	B-playlist	B-playlist
+Heat	I-playlist	I-playlist
+playlist.	O	O
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+spanish	B-entity_name	B-artist
+castle	I-entity_name	I-artist
+
+<BOS>	O	O
+add	O	O
+spanish	B-entity_name	B-artist
+castle	I-entity_name	I-artist
+magic	I-entity_name	I-artist
+
+<BOS>	O	O
+add	O	O
+spanish	B-entity_name	B-artist
+castle	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+this	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+this	B-entity_name	B-artist
+jimmy	I-entity_name	I-artist
+london	O	O
+tune	O	O
+to	B-playlist	B-playlist
+The	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+this	B-entity_name	B-artist
+jimmy	I-entity_name	I-artist
+london	O	O
+tune	O	O
+to	B-playlist	B-playlist
+The	I-playlist	I-playlist
+New	O	O
+
+<BOS>	O	O
+Add	O	O
+this	B-entity_name	B-artist
+jimmy	I-entity_name	I-artist
+london	O	O
+tune	O	O
+to	B-playlist	B-playlist
+The	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+bill	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+bill	B-entity_name	B-artist
+evans	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+bill	B-entity_name	B-artist
+evans	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+bill	B-entity_name	B-artist
+evans	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+bill	B-entity_name	B-artist
+
+<BOS>	O	O
+Put	O	O
+this	B-entity_name	B-artist
+artist	I-entity_name	I-artist
+on	I-entity_name	I-artist
+my	I-entity_name	I-artist
+Folk	I-entity_name	O
+for	I-entity_name	O
+Kids	O	O
+playlist	O	O
+<EOS>	B-playlist	B-playlist
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+fire	I-entity_name	I-artist
+walk	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+fire	I-entity_name	I-artist
+walk	I-entity_name	I-artist
+with	I-entity_name	O
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+fire	I-entity_name	I-artist
+walk	I-entity_name	I-artist
+with	I-entity_name	O
+me	I-entity_name	O
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+fire	I-entity_name	I-artist
+walk	I-entity_name	I-artist
+with	I-entity_name	O
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+fire	I-entity_name	I-artist
+walk	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+fire	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+peaks	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+twin	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-artist
+song	I-entity_name	I-artist
+don't	I-entity_name	I-artist
+drink	I-entity_name	I-artist
+the	O	O
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-artist
+song	I-entity_name	I-artist
+don't	I-entity_name	I-artist
+drink	I-entity_name	I-artist
+
+<BOS>	O	O
+add	O	O
+farruko	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+farruko	B-entity_name	B-artist
+presenta	I-entity_name	I-artist
+
+<BOS>	O	O
+add	O	O
+farruko	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-entity_name
+man	I-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-entity_name
+man	I-entity_name	I-entity_name
+who	I-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-entity_name
+man	I-entity_name	I-entity_name
+who	I-entity_name	I-entity_name
+never	I-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-entity_name
+man	I-entity_name	I-entity_name
+who	I-entity_name	I-entity_name
+never	I-entity_name	I-entity_name
+lied	I-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	B-entity_name
+man	I-entity_name	I-entity_name
+who	I-entity_name	I-entity_name
+never	I-entity_name	I-entity_name
+lied	I-entity_name	I-entity_name
+to	O	O
+
+<BOS>	O	O
+add	O	O
+the	B-entity_name	O
+man	I-entity_name	B-entity_name
+who	I-entity_name	I-entity_name
+never	I-entity_name	I-entity_name
+lied	I-entity_name	I-entity_name
+
+<BOS>	O	O
+Add	O	O
+the	O	O
+tune	B-music_item	B-music_item
+by	O	O
+Cassie	B-artist	B-artist
+Ventura	I-artist	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+the	O	O
+tune	B-music_item	B-music_item
+by	O	O
+Cassie	B-artist	B-artist
+Ventura	I-artist	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+genre	B-playlist	O
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+maggie	B-entity_name	B-artist
+mcgill	I-entity_name	I-artist
+
+<BOS>	O	O
+add	O	O
+maggie	B-entity_name	B-artist
+mcgill	I-entity_name	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+add	O	O
+maggie	B-entity_name	B-artist
+mcgill	I-entity_name	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+tune	B-entity_name	B-artist
+to	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+tune	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+the	B-entity_name	B-artist
+artist	I-entity_name	I-artist
+Michael	O	O
+Schenker	B-playlist	B-playlist
+to	I-playlist	I-playlist
+ina's	O	O
+
+<BOS>	O	O
+Add	O	O
+the	B-entity_name	B-artist
+artist	I-entity_name	I-artist
+Michael	O	O
+Schenker	B-playlist	B-playlist
+to	I-playlist	I-playlist
+
+<BOS>	O	O
+add	O	O
+Deus	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+Deus	B-entity_name	B-artist
+Deceptor	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+add	O	O
+Deus	B-entity_name	B-artist
+Deceptor	I-entity_name	I-artist
+
+<BOS>	O	O
+add	O	O
+Deus	B-entity_name	B-artist
+
+<BOS>	O	O
+Put	O	O
+
+<BOS>	O	O
+Put	O	O
+an	O	O
+
+<BOS>	O	O
+Put	O	O
+an	O	O
+inyección	B-playlist	B-artist
+
+<BOS>	O	O
+Put	O	O
+an	O	O
+inyección	B-playlist	B-artist
+musical	I-playlist	I-artist
+
+<BOS>	O	O
+Put	O	O
+an	B-playlist	B-playlist
+inyección	I-playlist	I-playlist
+musical	O	O
+track	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Put	O	O
+an	O	O
+inyección	B-playlist	B-artist
+musical	I-playlist	I-artist
+track	B-music_item	B-music_item
+in	O	O
+
+<BOS>	O	O
+Put	O	O
+an	O	O
+inyección	B-playlist	B-artist
+musical	I-playlist	I-artist
+track	B-music_item	B-music_item
+
+<BOS>	O	O
+Put	O	O
+an	O	O
+inyección	B-playlist	B-artist
+musical	I-playlist	I-artist
+
+<BOS>	O	O
+add	O	O
+Novedades	O	O
+
+<BOS>	O	O
+add	O	O
+Novedades	B-playlist	B-artist
+
+<BOS>	O	O
+add	O	O
+this	B-playlist	B-playlist
+song	I-playlist	I-playlist
+by	O	O
+torch	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Put	O	O
+
+<BOS>	O	O
+Put	O	O
+Beside	B-entity_name	B-artist
+
+<BOS>	O	O
+Put	O	O
+Beside	B-entity_name	B-artist
+You	I-entity_name	I-artist
+
+<BOS>	O	O
+Put	O	O
+Beside	B-entity_name	B-artist
+You	I-entity_name	I-artist
+in	O	O
+
+<BOS>	O	O
+Put	O	O
+Beside	B-artist	B-playlist
+You	I-artist	I-playlist
+in	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Put	O	O
+Beside	B-entity_name	B-artist
+You	I-entity_name	I-artist
+in	O	O
+my	B-playlist_owner	B-playlist_owner
+spotify	B-playlist	B-playlist
+
+<BOS>	O	O
+Put	O	O
+Beside	B-artist	B-playlist
+You	I-artist	I-playlist
+in	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Put	O	O
+Beside	B-entity_name	B-artist
+You	I-entity_name	I-artist
+in	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Put	O	O
+Beside	B-artist	B-playlist
+You	I-artist	I-playlist
+in	O	O
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+post	B-artist	B-playlist
+
+<BOS>	O	O
+add	O	O
+post	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+post	B-artist	B-playlist
+mortem	I-artist	I-playlist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+timeless	B-playlist	B-entity_name
+love	I-playlist	I-entity_name
+
+<BOS>	O	O
+add	O	O
+post	B-artist	B-playlist
+mortem	I-artist	I-playlist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+timeless	B-playlist	B-entity_name
+love	I-playlist	I-entity_name
+songs	I-playlist	I-entity_name
+playlist	O	O
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+the	B-artist	B-playlist
+tune	I-artist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+harlow	B-entity_name	B-artist
+wilcox	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+harlow	B-entity_name	B-artist
+wilcox	I-entity_name	I-artist
+to	I-entity_name	I-artist
+hip	O	O
+
+<BOS>	O	O
+Add	O	O
+harlow	B-entity_name	B-artist
+wilcox	I-entity_name	I-artist
+to	I-entity_name	I-artist
+hip	O	O
+hop	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+harlow	B-entity_name	B-artist
+wilcox	I-entity_name	I-artist
+to	I-entity_name	I-artist
+hip	O	O
+
+<BOS>	O	O
+Add	O	O
+2012	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+2012	B-entity_name	B-artist
+Zwanzig	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+2012	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+2012	B-entity_name	B-artist
+Zwanzig	I-entity_name	I-artist
+Zwölf	I-entity_name	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+miami	B-playlist	B-playlist
+2017	I-playlist	I-playlist
+guest	I-playlist	I-playlist
+list	I-playlist	I-playlist
+<EOS>	O	O
+
+<BOS>	O	O
+add	O	O
+when	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+when	B-entity_name	B-artist
+ice	I-entity_name	I-artist
+met	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+lapponia	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+lapponia	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+lapponia	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+lapponia	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+flamenco	B-playlist	B-playlist
+
+<BOS>	O	O
+Add	O	O
+lapponia	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+this	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+List	O	O
+of	B-music_item	B-music_item
+Rush	O	O
+instrumentals	B-artist	B-artist
+to	I-artist	I-artist
+This	O	O
+Is	B-playlist_owner	B-playlist
+
+<BOS>	O	O
+I	O	O
+want	O	O
+these	B-entity_name	B-movie_name
+
+<BOS>	O	O
+I	O	O
+want	O	O
+these	B-entity_name	B-movie_name
+are	I-entity_name	I-movie_name
+
+<BOS>	O	O
+I	O	O
+want	O	O
+these	B-entity_name	B-movie_name
+are	I-entity_name	O
+the	I-entity_name	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+these	B-entity_name	B-movie_name
+are	I-entity_name	O
+the	I-entity_name	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+these	B-entity_name	B-movie_name
+are	I-entity_name	O
+
+<BOS>	O	O
+add	O	O
+rise	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+rise	B-playlist	B-entity_name
+of	I-playlist	I-entity_name
+the	I-playlist	I-entity_name
+infidels	O	I-entity_name
+to	B-entity_name	I-entity_name
+my	I-entity_name	I-entity_name
+bring	I-entity_name	I-entity_name
+back	I-entity_name	I-entity_name
+the	O	I-entity_name
+90s	B-playlist_owner	I-entity_name
+playlist	O	O
+<EOS>	O	O
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+by	O	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+by	O	I-entity_name
+Constructs	B-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+by	O	I-entity_name
+Constructs	B-entity_name	I-entity_name
+of	I-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+by	O	I-entity_name
+Constructs	B-entity_name	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+by	O	O
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+friends	I-playlist	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+with	I-playlist	I-entity_name
+
+<BOS>	O	O
+add	O	O
+party	B-playlist	B-entity_name
+
+<BOS>	O	O
+add	O	O
+Hot	B-playlist	B-playlist
+House	I-playlist	I-playlist
+to	O	O
+Have	B-entity_name	B-playlist_owner
+
+<BOS>	O	O
+Please	O	O
+add	B-artist	B-entity_name
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+Meditate	B-playlist	B-playlist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+Sherri	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+Don	B-entity_name	B-artist
+and	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+Sunday	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+Sunday	O	O
+Express	B-artist	B-entity_name
+Live	I-artist	I-entity_name
+to	O	O
+workout	B-playlist_owner	B-playlist_owner
+playlist	O	O
+
+<BOS>	O	O
+Add	O	O
+Sunday	O	O
+Express	B-artist	B-entity_name
+Live	I-artist	I-entity_name
+to	O	O
+workout	B-playlist_owner	B-playlist_owner
+playlist	O	O
+<EOS>	O	O
+
+<BOS>	O	O
+I	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+lance	B-artist	B-entity_name
+king	I-artist	I-entity_name
+
+<BOS>	O	O
+I	O	O
+want	O	O
+lance	B-artist	B-entity_name
+king	I-artist	I-entity_name
+in	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+I	O	O
+want	O	O
+lance	B-artist	B-entity_name
+king	I-artist	I-entity_name
+in	O	O
+
+<BOS>	O	O
+I	O	O
+want	O	O
+lance	B-artist	B-entity_name
+king	I-artist	I-entity_name
+
+<BOS>	O	O
+I	O	O
+want	B-entity_name	B-artist
+lance	I-entity_name	I-artist
+
+<BOS>	O	O
+I	O	O
+want	O	O
+lance	B-artist	B-entity_name
+
+<BOS>	O	O
+I	O	O
+want	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+Blue	B-entity_name	B-artist
+Feather	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+Blue	B-entity_name	B-artist
+Feather	I-entity_name	I-artist
+to	O	O
+the	O	O
+
+<BOS>	O	O
+Add	O	O
+Blue	B-entity_name	B-artist
+Feather	I-entity_name	I-artist
+to	O	O
+the	B-playlist_owner	B-playlist_owner
+Nature	B-playlist	B-playlist
+
+<BOS>	O	O
+Add	O	O
+Blue	B-entity_name	B-artist
+Feather	I-entity_name	I-artist
+to	O	O
+the	O	O
+Nature	B-playlist	B-playlist
+Noise	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+Blue	B-entity_name	B-artist
+Feather	I-entity_name	I-artist
+to	O	O
+the	B-playlist_owner	B-playlist_owner
+Nature	B-playlist	B-playlist
+Noise	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+Blue	B-entity_name	B-artist
+Feather	I-entity_name	I-artist
+to	O	O
+the	O	O
+Nature	B-playlist	B-playlist
+Noise	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+
+<BOS>	O	O
+Add	O	O
+big	B-entity_name	B-artist
+generator	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+big	B-entity_name	B-artist
+generator	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+big	B-entity_name	B-artist
+generator	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+big	B-entity_name	B-artist
+generator	I-entity_name	I-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+big	B-entity_name	B-artist
+generator	I-entity_name	I-artist
+
+<BOS>	O	O
+Add	O	O
+big	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+circus	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+circus	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+circus	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+Add	O	O
+circus	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+Post	B-playlist	B-playlist
+Garage	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+circus	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+Post	B-playlist	B-playlist
+Garage	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+circus	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+Post	B-playlist	B-playlist
+
+<BOS>	O	O
+Can	O	O
+you	B-entity_name	B-artist
+
+<BOS>	O	O
+Can	O	O
+you	B-entity_name	B-artist
+add	O	O
+
+<BOS>	O	O
+Can	O	O
+you	B-entity_name	B-artist
+
+<BOS>	O	O
+Add	O	O
+geminism	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+Add	O	O
+geminism	B-entity_name	B-artist
+to	O	O
+power	B-playlist	B-playlist
+workout	I-playlist	I-playlist
+
+<BOS>	O	O
+Add	O	O
+geminism	B-entity_name	B-artist
+to	O	O
+power	B-playlist	B-playlist
+workout	I-playlist	I-playlist
+
+<BOS>	O	O
+Put	O	O
+another	B-entity_name	B-artist
+
+<BOS>	O	O
+Put	O	O
+another	B-entity_name	B-artist
+tune	O	O
+
+<BOS>	O	O
+Put	O	O
+another	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+sam	B-artist	B-entity_name
+sparro	I-artist	I-entity_name
+to	I-artist	I-entity_name
+my	O	O
+
+<BOS>	O	O
+add	O	O
+Francesco	B-artist	B-entity_name
+De	I-artist	I-entity_name
+Gregori	I-artist	I-entity_name
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+add	O	O
+Francesco	B-artist	B-entity_name
+De	I-artist	I-entity_name
+Gregori	I-artist	I-entity_name
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+classical	B-playlist	B-playlist
+
+<BOS>	O	O
+add	O	O
+Francesco	B-artist	B-entity_name
+De	I-artist	I-entity_name
+Gregori	I-artist	I-entity_name
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+classical	B-playlist	B-playlist
+new	I-playlist	I-playlist
+
+<BOS>	O	O
+add	O	O
+Francesco	B-artist	B-entity_name
+De	I-artist	I-entity_name
+Gregori	I-artist	I-entity_name
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+classical	B-playlist	B-playlist
+new	I-playlist	I-playlist
+releases	I-playlist	I-playlist
+
+<BOS>	O	O
+add	O	O
+Francesco	B-artist	B-entity_name
+De	I-artist	I-entity_name
+Gregori	I-artist	I-entity_name
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+classical	B-playlist	B-playlist
+new	I-playlist	I-playlist
+releases	I-playlist	I-playlist
+
+<BOS>	O	O
+add	O	O
+Francesco	B-entity_name	B-artist
+De	O	O
+Gregori	B-playlist_owner	B-playlist_owner
+to	B-playlist	B-playlist
+my	I-playlist	I-playlist
+classical	O	O
+new	O	O
+
+<BOS>	O	O
+add	O	O
+Francesco	B-artist	B-entity_name
+De	I-artist	I-entity_name
+Gregori	I-artist	I-entity_name
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+classical	B-playlist	B-playlist
+new	I-playlist	I-playlist
+
+<BOS>	O	O
+add	O	O
+Francesco	B-entity_name	B-artist
+De	O	O
+Gregori	B-playlist_owner	B-playlist_owner
+to	B-playlist	B-playlist
+my	I-playlist	I-playlist
+classical	O	O
+
+<BOS>	O	O
+add	O	O
+
+<BOS>	O	O
+add	O	O
+Volver	B-entity_name	B-artist
+
+<BOS>	O	O
+add	O	O
+Volver	B-artist	B-entity_name
+to	I-artist	I-entity_name
+
+<BOS>	O	O
+add	O	O
+Volver	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+add	O	O
+Volver	B-entity_name	B-artist
+to	O	O
+my	B-playlist_owner	B-playlist_owner
+
+<BOS>	O	O
+add	O	O
+Volver	B-entity_name	B-artist
+to	O	O
+
+<BOS>	O	O
+add	O	O
+Volver	B-entity_name	B-artist
+
+<BOS>	O	O
+rate	O	O
+this	O	B-object_select
+book	B-object_type	B-object_type
+
+<BOS>	O	O
+rate	O	O
+this	O	B-object_select
+
+<BOS>	O	O
+Rate	O	O
+The	O	O
+Gorilla	O	O
+
+<BOS>	O	O
+Rate	O	O
+The	O	O
+Gorilla	O	O
+Hunters	B-object_select	O
+
+<BOS>	O	O
+Rate	O	O
+The	O	O
+Gorilla	O	O
+Hunters	B-object_select	O
+0	B-object_type	B-object_type
+
+<BOS>	O	O
+I	O	O
+am	O	O
+rating	O	O
+this	B-object_select	O
+
+<BOS>	O	O
+rate	O	O
+the	O	O
+book	B-object_type	B-object_type
+The	O	O
+Ninth	O	O
+Avatar	O	O
+3	B-best_rating	B-best_rating
+out	O	O
+of	O	O
+6	O	O
+stars	O	O
+<EOS>	B-object_select	B-object_select
+
+<BOS>	O	O
+For	O	O
+
+<BOS>	O	O
+For	O	O
+the	O	O
+
+<BOS>	O	O
+For	O	O
+the	O	O
+textbook	B-object_type	B-object_type
+,	O	O
+out	O	O
+of	O	O
+6	B-best_rating	B-best_rating
+possible	O	O
+I	O	O
+give	O	O
+the	O	O
+following	B-object_select	B-object_select
+one	O	B-rating_value
+a	O	O
+3	B-rating_value	B-rating_value
+.	O	O
+
+<BOS>	O	O
+For	O	O
+the	O	O
+textbook	B-object_type	B-object_type
+,	O	O
+out	O	O
+of	O	O
+6	B-best_rating	B-best_rating
+possible	O	O
+I	O	O
+give	O	O
+the	O	O
+following	B-object_select	B-object_select
+one	O	B-rating_value
+a	O	O
+3	B-rating_value	B-rating_value
+.	O	O
+
+<BOS>	O	O
+The	O	B-object_name
+
+<BOS>	O	O
+the	O	O
+previous	O	O
+novel	B-object_select	O
+is	B-object_part_of_series_type	B-music_item
+worth	O	O
+
+<BOS>	O	O
+the	O	O
+previous	O	O
+novel	B-object_select	O
+is	B-object_part_of_series_type	B-music_item
+
+<BOS>	O	O
+the	O	O
+previous	O	O
+novel	B-object_select	O
+
+<BOS>	O	O
+The	O	O
+current	O	O
+essay	B-object_select	O
+
+<BOS>	O	O
+The	O	O
+current	O	O
+essay	B-object_select	O
+is	B-object_part_of_series_type	B-music_item
+worthy	O	O
+
+<BOS>	O	O
+The	O	B-object_name
+
+<BOS>	O	O
+The	O	B-object_name
+
+<BOS>	O	O
+rate	O	O
+the	B-object_select	O
+book	O	O
+Joyful	B-rating_value	B-rating_value
+Noise:	O	O
+
+<BOS>	O	O
+give	O	O
+this	B-object_select	O
+a	O	O
+0	B-rating_value	B-rating_value
+for	O	O
+this	O	B-object_select
+book	B-object_type	B-object_type
+<EOS>	O	O
+
+<BOS>	O	O
+give	O	O
+The	B-object_select	O
+
+<BOS>	O	O
+give	O	O
+The	B-object_select	O
+God	O	O
+Machine	B-rating_value	B-rating_value
+
+<BOS>	O	O
+give	O	O
+this	O	B-object_select
+
+<BOS>	O	O
+out	B-object_name	B-artist
+of	I-object_name	I-artist
+
+<BOS>	O	O
+River	B-object_name	B-artist
+
+<BOS>	O	O
+River	B-object_name	B-artist
+Secrets	I-object_name	I-artist
+deserves	O	O
+a	O	O
+best	O	B-sort
+
+<BOS>	O	O
+Rate	B-object_name	B-artist
+The	I-object_name	I-artist
+
+<BOS>	O	O
+Rate	B-object_name	B-artist
+The	I-object_name	I-artist
+Warrior	O	O
+
+<BOS>	O	O
+Get	O	O
+me	B-object_name	B-object_name
+the	I-object_name	I-object_name
+soundtrack	I-object_name	I-object_name
+from	O	I-object_name
+Sensation	O	I-object_name
+Comics	O	O
+
+<BOS>	O	O
+Find	O	B-object_name
+Five	O	I-object_name
+
+<BOS>	O	O
+Find	O	O
+Five	B-object_name	B-object_name
+Came	I-object_name	I-object_name
+
+<BOS>	O	O
+Find	O	O
+Five	B-object_name	B-object_name
+Came	I-object_name	I-object_name
+Back	I-object_name	I-object_name
+for	O	I-object_name
+
+<BOS>	O	O
+Info	O	B-object_name
+on	O	I-object_name
+
+<BOS>	O	O
+Info	O	B-object_name
+
+<BOS>	O	O
+Please	O	B-object_name
+find	O	I-object_name
+
+<BOS>	O	O
+Listen	O	O
+to	O	O
+Dragon	B-object_name	B-playlist
+
+<BOS>	O	O
+Listen	O	O
+to	O	O
+Dragon	B-object_name	B-playlist
+Ball:	I-object_name	I-playlist
+Music	I-object_name	I-playlist
+
+<BOS>	O	O
+find	O	O
+
+<BOS>	O	O
+find	O	O
+Live	O	O
+at	B-object_name	B-playlist
+Memory	I-object_name	I-playlist
+
+<BOS>	O	O
+find	O	O
+
+<BOS>	O	O
+search	O	O
+for	B-object_name	B-playlist
+a	I-object_name	I-playlist
+photograph	I-object_name	I-playlist
+of	I-object_name	I-playlist
+
+<BOS>	O	O
+search	O	O
+for	B-object_name	B-playlist
+a	I-object_name	I-playlist
+photograph	I-object_name	I-playlist
+of	I-object_name	I-playlist
+
+<BOS>	O	O
+Read	O	O
+The	B-object_name	B-playlist
+
+<BOS>	O	O
+Read	O	O
+The	B-object_name	B-track
+Open	I-object_name	I-track
+
+<BOS>	O	O
+Find	O	O
+the	B-object_name	B-playlist
+
+<BOS>	O	O
+Find	O	B-object_name
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+Blood	O	O
+Red	O	O
+Sandman	B-object_name	B-movie_name
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+Blood	B-object_name	B-object_name
+Red	I-object_name	I-object_name
+Sandman	I-object_name	I-object_name
+<EOS>	O	I-object_name
+
+<BOS>	O	O
+Please	O	O
+
+<BOS>	O	O
+Please	O	O
+search	O	O
+
+<BOS>	O	O
+Please	O	O
+search	O	O
+Crossing	O	O
+Muddy	O	O
+
+<BOS>	O	O
+Look	O	B-party_size_description
+
+<BOS>	O	O
+show	O	O
+creativity	O	O
+Cum	B-object_name	B-object_name
+On	I-object_name	I-object_name
+Feel	I-object_name	I-object_name
+the	I-object_name	I-object_name
+
+<BOS>	O	O
+show	O	O
+creativity	O	O
+Cum	B-object_name	B-object_name
+On	I-object_name	I-object_name
+Feel	I-object_name	I-object_name
+the	I-object_name	I-object_name
+Noize	I-object_name	I-object_name
+the	O	I-object_name
+
+<BOS>	O	O
+show	O	O
+creativity	O	O
+Cum	B-object_name	B-object_name
+On	I-object_name	I-object_name
+Feel	I-object_name	I-object_name
+the	I-object_name	I-object_name
+Noize	I-object_name	I-object_name
+the	O	I-object_name
+video	B-object_type	B-object_type
+
+<BOS>	O	O
+Where	O	O
+
+<BOS>	O	O
+Look	O	O
+for	B-object_name	B-track
+
+<BOS>	O	O
+play	O	O
+The	O	O
+Catholic	O	O
+Sun	B-object_type	B-object_type
+album	B-object_name	B-movie_name
+
+<BOS>	O	O
+Go	O	O
+to	O	O
+
+<BOS>	O	O
+Show	O	O
+me	O	O
+the	O	O
+movie	B-object_type	B-object_type
+Purple	B-object_name	B-movie_name
+Heart	I-object_name	I-movie_name
+Diary	I-object_name	I-movie_name
+
+<BOS>	O	O
+Show	O	O
+me	O	O
+the	O	O
+movie	B-object_type	B-object_type
+Purple	B-object_name	B-movie_name
+Heart	I-object_name	I-movie_name
+Diary	I-object_name	I-movie_name
+.	O	O
+
+<BOS>	O	O
+find	O	O
+
+<BOS>	O	O
+find	O	O
+Carry	B-object_name	B-object_name
+me	I-object_name	O
+in	I-object_name	I-object_name
+your	I-object_name	I-object_name
+
+<BOS>	O	O
+find	O	O
+Carry	B-object_name	B-movie_name
+me	I-object_name	I-movie_name
+in	I-object_name	I-movie_name
+
+<BOS>	O	O
+Find	O	O
+the	B-object_name	B-movie_name
+
+<BOS>	O	O
+Find	O	O
+the	B-object_name	B-movie_name
+
+<BOS>	O	O
+Show	O	O
+the	B-object_name	B-album
+Whispering	I-object_name	I-album
+Willows	I-object_name	I-album
+
+<BOS>	O	O
+find	O	O
+the	B-object_name	B-album
+
+<BOS>	O	O
+find	O	O
+the	B-object_name	B-album
+
+<BOS>	O	O
+show	O	O
+me	B-object_name	B-album
+the	I-object_name	I-album
+picture	I-object_name	I-album
+Totally	O	O
+
+<BOS>	O	O
+where	O	O
+can	B-object_name	B-artist
+I	I-object_name	I-artist
+watch	I-object_name	I-artist
+the	O	O
+
+<BOS>	O	O
+play	O	O
+Myth	B-object_name	B-track
+
+<BOS>	O	O
+play	O	O
+Myth	B-object_name	B-track
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+
+<BOS>	O	O
+Find	O	O
+the	O	O
+Now	B-object_name	B-movie_name
+We	I-object_name	I-movie_name
+
+<BOS>	O	O
+find	O	O
+The	O	O
+Angry	B-object_name	B-movie_name
+Birds	I-object_name	I-movie_name
+
+<BOS>	O	O
+find	O	O
+The	O	O
+Angry	B-object_name	B-movie_name
+Birds	I-object_name	I-movie_name
+Movie	I-object_name	I-movie_name
+
+<BOS>	O	O
+find	O	O
+The	O	O
+Angry	B-object_name	B-movie_name
+Birds	I-object_name	I-movie_name
+Movie	I-object_name	I-movie_name
+<EOS>	I-object_name	I-movie_name
+
+<BOS>	O	O
+Where	O	O
+
+<BOS>	O	O
+Where	O	O
+is	B-object_name	B-movie_name
+
+<BOS>	O	O
+Where	O	O
+is	O	O
+Journal	B-object_name	B-movie_name
+
+<BOS>	O	O
+Where	O	O
+is	B-object_name	B-movie_name
+Journal	I-object_name	I-movie_name
+of	I-object_name	I-movie_name
+
+<BOS>	O	O
+Where	O	O
+is	B-object_name	B-movie_name
+Journal	I-object_name	I-movie_name
+of	I-object_name	I-movie_name
+
+<BOS>	O	O
+Where	O	O
+is	O	O
+Journal	B-object_name	B-movie_name
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+I	B-movie_name	B-movie_name
+Know	I-movie_name	I-movie_name
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+I	B-movie_name	B-movie_name
+Know	I-movie_name	I-movie_name
+That	I-movie_name	I-movie_name
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+I	B-movie_name	B-movie_name
+Know	I-movie_name	I-movie_name
+That	I-movie_name	I-movie_name
+You	I-movie_name	I-movie_name
+Know	I-movie_name	I-movie_name
+
+<BOS>	O	O
+What	O	O
+are	O	O
+the	O	O
+selections	O	B-movie_name
+of	O	I-movie_name
+
+<BOS>	O	O
+What	O	O
+are	O	O
+the	O	O
+selections	O	B-movie_name
+
+<BOS>	O	O
+What	O	O
+films	B-location_name	B-geographic_poi
+are	I-location_name	I-geographic_poi
+scheduled	O	O
+around	O	O
+
+<BOS>	O	O
+What	O	O
+films	B-location_name	B-geographic_poi
+are	I-location_name	I-geographic_poi
+scheduled	O	O
+around	O	O
+
+<BOS>	O	O
+At	O	O
+AMC	B-location_name	B-geographic_poi
+
+<BOS>	O	O
+Show	O	O
+me	B-movie_name	B-object_name
+when	I-movie_name	I-object_name
+and	I-movie_name	I-object_name
+
+<BOS>	O	O
+Show	O	O
+me	B-movie_name	B-object_name
+when	I-movie_name	I-object_name
+
+<BOS>	O	O
+find	O	O
+
+<BOS>	O	O
+Provide	O	O
+me	B-movie_name	B-object_name
+
+<BOS>	O	O
+Can	O	B-party_size_description
+
+<BOS>	O	O
+find	O	O
+a	O	O
+movie	B-object_location_type	B-object_type
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+The	O	B-movie_name
+Lottery	B-timeRange	I-movie_name
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+The	O	B-movie_name
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
+for	O	O
+Morgan	B-movie_name	B-movie_name
+–	I-movie_name	I-movie_name
+A	I-movie_name	I-movie_name
+Suitable	I-movie_name	I-movie_name
+Case	I-movie_name	I-movie_name
+for	I-movie_name	I-movie_name
+Treatment	I-movie_name	I-movie_name
+at	O	O
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
+for	O	O
+Morgan	B-movie_name	B-movie_name
+–	I-movie_name	I-movie_name
+A	I-movie_name	I-movie_name
+Suitable	I-movie_name	I-movie_name
+Case	I-movie_name	I-movie_name
+for	I-movie_name	I-movie_name
+Treatment	I-movie_name	I-movie_name
+at	O	O
+Santikos	B-location_name	B-location_name
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
+for	O	O
+Morgan	B-movie_name	B-movie_name
+–	I-movie_name	I-movie_name
+A	I-movie_name	I-movie_name
+Suitable	I-movie_name	I-movie_name
+Case	I-movie_name	I-movie_name
+for	I-movie_name	I-movie_name
+Treatment	I-movie_name	I-movie_name
+at	O	O
+Santikos	B-location_name	B-location_name
+
+<BOS>	O	O
+Is	O	O
+the	O	O
+start	O	O
+eim	O	B-movie_name
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
+for	O	O
+Morgan	B-movie_name	B-movie_name
+–	I-movie_name	I-movie_name
+A	I-movie_name	I-movie_name
+Suitable	I-movie_name	I-movie_name
+Case	I-movie_name	I-movie_name
+for	I-movie_name	I-movie_name
+Treatment	I-movie_name	I-movie_name
+at	O	O
+
+<BOS>	O	O
+show	O	O
+me	O	O
+the	O	O
+schedule	B-object_type	B-object_type
+
+<BOS>	O	O
+what	O	O
+movie	B-movie_name	B-artist
+house	I-movie_name	I-artist
+is	I-movie_name	I-geographic_poi
+the	I-movie_name	I-geographic_poi
+
+<BOS>	O	O
+what	O	O
+movie	B-movie_name	B-artist
+house	I-movie_name	I-artist
+is	I-movie_name	I-geographic_poi
+the	I-movie_name	I-geographic_poi
+closest	I-movie_name	I-geographic_poi
+
+<BOS>	O	O
+what	O	O
+movie	B-movie_name	B-geographic_poi
+house	I-movie_name	I-geographic_poi
+is	I-movie_name	I-geographic_poi
+the	I-movie_name	I-geographic_poi
+
+<BOS>	O	O
+will	O	O
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-artist
+Tracy	I-movie_name	I-artist
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-artist
+
+<BOS>	O	O
+will	O	O
+Dick	B-object_location_type	B-object_type
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-geographic_poi
+Tracy	I-movie_name	I-geographic_poi
+e	I-movie_name	I-geographic_poi
+il	I-movie_name	I-geographic_poi
+gas	I-movie_name	I-geographic_poi
+misterioso	I-movie_name	I-geographic_poi
+start	O	O
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-geographic_poi
+Tracy	I-movie_name	I-geographic_poi
+e	I-movie_name	I-geographic_poi
+il	I-movie_name	I-geographic_poi
+gas	I-movie_name	I-geographic_poi
+misterioso	I-movie_name	I-geographic_poi
+start	O	O
+twenty	B-timeRange	B-timeRange
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-geographic_poi
+Tracy	I-movie_name	I-geographic_poi
+e	I-movie_name	I-geographic_poi
+il	I-movie_name	I-geographic_poi
+gas	I-movie_name	I-geographic_poi
+misterioso	I-movie_name	I-geographic_poi
+start	O	O
+twenty	B-timeRange	B-timeRange
+one	I-timeRange	I-timeRange
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-geographic_poi
+Tracy	I-movie_name	I-geographic_poi
+e	I-movie_name	I-geographic_poi
+il	I-movie_name	I-geographic_poi
+gas	I-movie_name	I-geographic_poi
+misterioso	I-movie_name	I-geographic_poi
+start	O	O
+twenty	B-timeRange	B-timeRange
+one	I-timeRange	I-timeRange
+hours	I-timeRange	I-timeRange
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-geographic_poi
+Tracy	I-movie_name	I-geographic_poi
+e	I-movie_name	I-geographic_poi
+il	I-movie_name	I-geographic_poi
+gas	I-movie_name	I-geographic_poi
+misterioso	I-movie_name	I-geographic_poi
+start	O	O
+twenty	B-timeRange	B-timeRange
+one	I-timeRange	I-timeRange
+
+<BOS>	O	O
+will	O	O
+Dick	B-movie_name	B-geographic_poi
+Tracy	I-movie_name	I-geographic_poi
+e	I-movie_name	I-geographic_poi
+il	I-movie_name	I-geographic_poi
+gas	I-movie_name	I-geographic_poi
+misterioso	I-movie_name	I-geographic_poi
+start	O	O
+twenty	B-timeRange	B-timeRange
+
+<BOS>	O	O
+in	O	O
+the	B-movie_name	B-object_name
+neighbourhood	I-movie_name	I-object_name
+
+<BOS>	O	O
+in	O	O
+the	B-movie_name	B-object_name
+
+<BOS>	O	O
+Is	O	O
+Tomorrow	B-movie_name	B-object_name
+at	I-movie_name	I-object_name
+Seven	O	O
+
+<BOS>	O	O
+Is	O	O
+Tomorrow	B-movie_name	B-movie_name
+at	I-movie_name	I-movie_name
+Seven	O	O
+being	B-timeRange	O
+
+<BOS>	O	O
+Is	O	O
+Tomorrow	B-movie_name	B-object_name
+at	I-movie_name	I-object_name
+Seven	O	O
+
+<BOS>	O	O
+Is	O	O
+The	B-movie_name	B-movie_name
+
+<BOS>	O	O
+Is	O	O
+The	B-movie_name	B-movie_name
+Matinee	I-movie_name	I-movie_name
+Idol	I-movie_name	I-movie_name
+
+<BOS>	O	O
+Is	O	O
+The	B-movie_name	B-movie_name
+Matinee	I-movie_name	I-movie_name
+Idol	I-movie_name	I-movie_name
+06:30	B-timeRange	I-movie_name
+cinema	B-object_location_type	B-object_location_type
+
+<BOS>	O	O
+Is	O	O
+The	B-movie_name	B-movie_name
+Matinee	I-movie_name	I-movie_name
+Idol	I-movie_name	I-movie_name
+06:30	B-timeRange	I-movie_name
+cinema	B-object_location_type	B-object_location_type
+
+<BOS>	O	O
+Is	O	O
+
+<BOS>	O	O
+is	O	O
+Tarzan	B-movie_name	B-city
+
+<BOS>	O	O
+find	O	O
+the	B-movie_name	B-object_name
+
+<BOS>	O	O
+find	O	O
+the	B-movie_name	B-object_name
+closest	I-movie_name	I-object_name
+
+<BOS>	O	O
+find	O	O
+the	B-movie_name	B-object_name
+
+<BOS>	O	O
+Please	O	O
+give	O	O
+me	O	O
+information	O	O
+on	O	O
+when	O	O
+Prisoner	B-movie_name	B-movie_name
+of	I-movie_name	I-movie_name
+Zenda	I-movie_name	I-movie_name
+will	O	O
+
+<BOS>	O	O
+Please	O	O
+give	O	O
+me	O	O
+information	O	O
+on	O	O
+when	O	O
+Prisoner	B-movie_name	B-movie_name
+of	I-movie_name	I-movie_name
+Zenda	I-movie_name	I-movie_name
+will	O	O
+be	O	O
+
+<BOS>	O	O
+find	O	O
+
+<BOS>	O	O
+find	O	O
+Mysterious	B-movie_name	B-object_name
+
+<BOS>	O	O
+find	O	O
+Mysterious	O	O
+Castles	O	O
+
+<BOS>	O	O
+find	O	O
+Mysterious	B-movie_name	B-object_name
+Castles	I-movie_name	I-object_name
+of	I-movie_name	I-object_name
+
+<BOS>	O	O
+find	O	O
+Mysterious	B-movie_name	B-object_name
+Castles	I-movie_name	I-object_name
+of	I-movie_name	I-object_name
+
+<BOS>	O	O
+What	O	O
+time	B-movie_name	B-object_name
+
+<BOS>	O	O
+What	O	O
+time	B-movie_name	B-object_name
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+the	O	O
+closet	O	B-movie_name
+cinema	B-object_location_type	B-object_location_type
+playing	O	O
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+the	O	O
+closet	O	B-movie_name
+cinema	B-object_location_type	B-object_location_type
+playing	O	O
+movies	B-movie_type	B-movie_type
+the	O	O
+
+<BOS>	O	O
+What	O	O
+time	O	O
+is	O	O
+the	O	O
+closet	O	B-movie_name
+cinema	B-object_location_type	B-object_location_type
+playing	O	O
+movies	B-movie_type	B-movie_type
+the	O	O
+
+<BOS>	O	O
+Can	O	O
+you	O	O
+
+<BOS>	O	O
+Can	O	O
+you	O	O
+pull	O	O
+up	O	O
+
+<BOS>	O	O
+What	O	O
+movie	B-object_location_type	B-object_type
+
+<BOS>	O	O
+find	O	O
+a	O	O
+movie	O	O
+house	O	O
+closest	B-movie_name	B-object_name
+
+<BOS>	O	O
+I	O	O
+want	O	O
+to	B-object_location_type	B-object_type
+
