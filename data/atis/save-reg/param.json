@@ -1,11 +1,10 @@
 {
  "continue_training": true,
- "data_name": "atis",
+ "data_dir": "./data/atis",
  "save_base": "save",
  "mtype": "reg",
- "anticipation_size": 2,
  "random_state": 0,
- "num_epoch": 1,
+ "num_epoch": 2,
  "batch_size": 16,
  "l2_penalty": 1e-06,
  "learning_rate": 0.001,
@@ -21,6 +20,5 @@
  "intent_decoder_hidden_dim": 64,
  "attention_hidden_dim": 1024,
  "attention_output_dim": 128,
- "data_dir": "./data/atis",
  "save_dir": "./data/atis/save-reg"
 }
