@@ -1,61 +1,9 @@
 <BOS>	O	O
-Will	O	O
-it	O	O
-get	B-condition_description	B-condition_description
-warmer	O	O
-in	B-country	B-city
-
-<BOS>	O	O
 Is	O	O
-
-<BOS>	O	O
-Is	O	O
-there	O	O
-rain	B-condition_description	B-condition_temperature
-in	O	O
-Nauru	B-country	B-city
-at	O	O
-
-<BOS>	O	O
-How	O	O
-
-<BOS>	O	O
-How	O	O
-is	O	O
-the	B-condition_description	B-condition_description
 
 <BOS>	O	O
 What	O	O
 is	O	O
-the	O	O
-temperate	B-condition_temperature	B-condition_temperature
-in	O	O
-
-<BOS>	O	O
-What	O	O
-is	O	O
-the	O	O
-temperate	B-condition_temperature	B-condition_temperature
-in	O	O
-Uintah	B-city	B-city
-right	O	I-city
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-warm	B-condition_temperature	B-condition_temperature
-in	O	O
-Califon	B-city	B-city
-,	O	O
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-warm	B-condition_temperature	B-condition_temperature
-in	O	O
-Califon	B-city	B-city
-,	O	O
-Tunisia	B-country	B-state
 
 <BOS>	O	O
 Is	O	O
@@ -76,84 +24,11 @@ it	O	O
 cloudy	O	O
 
 <BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-freezing	O	O
-in	O	O
-the	B-condition_description	B-condition_description
-current	O	O
-position	B-city	B-city
-
-<BOS>	O	O
-She	O	O
-me	B-timeRange	B-timeRange
-the	I-timeRange	I-timeRange
-weather	I-timeRange	I-timeRange
-in	I-timeRange	I-timeRange
-the	O	O
-current	B-city	B-city
-place	I-city	I-city
-for	B-country	I-city
-nov.	O	O
-
-<BOS>	O	O
-Is	O	O
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forecast	O	O
-at	O	O
-three	B-timeRange	B-timeRange
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forecast	O	O
-at	O	O
-three	B-timeRange	B-timeRange
-am	I-timeRange	I-timeRange
-
-<BOS>	O	O
 Is	O	O
 it	O	O
-hot	O	O
-in	O	O
-Gold	O	O
-Beach	B-timeRange	B-timeRange
-,	I-timeRange	I-timeRange
-Bahrain	I-timeRange	I-timeRange
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-the	O	O
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-the	B-condition_temperature	B-condition_temperature
-weather	O	O
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-the	O	O
-weather	O	O
-forecast	O	O
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-the	B-condition_temperature	B-condition_temperature
-weather	O	O
-forecast	B-city	B-city
-in	I-city	I-city
+cloudy	O	O
+in	B-condition_temperature	B-condition_temperature
+Tingley	O	B-timeRange
 
 <BOS>	O	O
 Tell	O	O
@@ -162,31 +37,6 @@ the	O	O
 weather	O	O
 forecast	O	O
 in	B-timeRange	O
-4	I-timeRange	B-city
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-the	O	O
-weather	O	O
-forecast	O	O
-in	B-timeRange	O
-
-<BOS>	O	O
-Tell	O	O
-me	O	O
-the	O	O
-weather	O	O
-forecast	O	O
-in	B-timeRange	B-timeRange
-4	I-timeRange	I-timeRange
-years	I-timeRange	I-timeRange
-and	I-timeRange	I-timeRange
-a	I-timeRange	I-timeRange
-half	I-timeRange	I-timeRange
-in	O	O
-GA	B-state	B-city
-<EOS>	O	O
 
 <BOS>	O	O
 What's	O	O
@@ -233,151 +83,29 @@ am	I-timeRange	I-timeRange
 <EOS>	O	O
 
 <BOS>	O	O
-Check	O	O
-the	O	O
-
-<BOS>	O	O
-What	O	O
-does	O	O
-it	O	O
-feel	B-condition_temperature	B-condition_temperature
-like	B-timeRange	O
-in	I-timeRange	B-city
-Connecticut	I-timeRange	B-city
-<EOS>	O	O
-
-<BOS>	O	O
-Will	O	O
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-freezing	B-condition_temperature	B-condition_temperature
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-freezing	O	O
-in	O	O
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-freezing	B-condition_temperature	B-condition_temperature
-in	B-timeRange	O
-seven	I-timeRange	B-city
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-freezing	B-condition_temperature	B-condition_temperature
-in	B-timeRange	O
-seven	I-timeRange	B-city
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-freezing	B-condition_temperature	B-condition_temperature
-in	B-timeRange	O
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-get	B-condition_temperature	B-condition_temperature
-hotter	O	O
-in	B-city	B-city
-the	I-city	I-city
-city	B-state	B-country
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-get	B-condition_temperature	B-condition_temperature
-hotter	O	O
-in	B-city	B-city
-the	I-city	I-city
-city	B-state	B-country
-
-<BOS>	O	O
 Will	O	O
 it	O	O
 get	O	O
 hotter	B-condition_temperature	B-condition_temperature
-in	O	B-spatial_relation
-the	O	I-spatial_relation
-city	O	I-spatial_relation
-
-<BOS>	O	O
-Is	O	O
-
-<BOS>	O	O
-Is	O	O
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-cold	B-condition_temperature	B-condition_temperature
 in	O	O
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-cold	B-condition_temperature	B-condition_temperature
-in	O	O
-PW	B-state	B-city
-?	O	O
-
-<BOS>	O	O
-what	O	O
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-cold	B-condition_temperature	B-condition_temperature
-in	O	O
-
-<BOS>	O	O
-Is	O	O
-it	O	O
-cold	B-condition_temperature	B-condition_temperature
-in	O	O
-North	B-state	B-city
-
-<BOS>	O	O
-will	O	O
-
-<BOS>	O	O
-will	O	O
 the	O	O
+city	O	B-current_location
 
 <BOS>	O	O
-will	O	O
-the	O	O
-weather	O	O
+Is	O	O
 
 <BOS>	O	O
-will	O	O
-the	O	O
-weather	O	O
-be	O	O
+Is	O	O
+
+<BOS>	O	O
+Is	O	O
+it	O	O
+cold	B-condition_temperature	B-condition_temperature
+in	O	O
+
+<BOS>	O	O
+Is	O	O
+it	O	O
 
 <BOS>	O	O
 will	O	O
@@ -387,112 +115,11 @@ be	O	O
 colder	B-condition_temperature	B-condition_temperature
 
 <BOS>	O	O
-Will	O	O
-there	O	O
-be	O	O
-alot	O	B-condition_description
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forcast	O	O
-for	O	O
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forcast	O	O
-for	O	O
-MS	B-state	B-city
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forcast	O	O
-for	O	O
-MS	B-state	B-city
-on	O	O
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forcast	O	O
-for	O	O
-MS	B-state	B-city
-on	O	O
-jan.	B-timeRange	B-timeRange
-the	I-timeRange	I-timeRange
-
-<BOS>	O	O
-show	O	O
-weather	O	O
-forcast	O	O
-for	O	O
-MS	B-state	B-city
-on	O	O
-jan.	B-timeRange	B-timeRange
-
-<BOS>	O	O
-will	O	O
-
-<BOS>	O	O
-will	O	O
-it	O	O
-be	O	O
-
-<BOS>	O	O
 What	O	O
 
 <BOS>	O	O
 What	O	O
 is	O	O
-
-<BOS>	O	O
-What	O	O
-is	O	O
-the	O	O
-weather	O	O
-forecast	O	O
-for	B-timeRange	B-timeRange
-
-<BOS>	O	O
-What	O	O
-is	O	O
-the	O	O
-weather	O	O
-forecast	O	O
-for	B-timeRange	B-timeRange
-close-by	I-timeRange	I-timeRange
-
-<BOS>	O	O
-What	O	O
-
-<BOS>	O	O
-What	O	O
-will	O	O
-the	O	O
-
-<BOS>	O	O
-What	O	O
-will	O	O
-the	O	O
-weather	O	O
-be	O	O
-
-<BOS>	O	O
-What	O	O
-will	O	O
-the	O	O
-weather	O	O
-be	O	O
-one	B-timeRange	B-timeRange
-hour	I-timeRange	I-timeRange
-from	I-timeRange	I-timeRange
-now	I-timeRange	I-timeRange
-in	O	O
-AS	B-state	B-city
-?	O	O
-<EOS>	O	O
 
 <BOS>	O	O
 show	O	O
@@ -505,123 +132,33 @@ AS	B-state	B-city
 Will	O	O
 
 <BOS>	O	O
-when	O	O
-
-<BOS>	O	O
-when	O	O
-is	O	O
-sunrise	B-timeRange	B-timeRange
-
-<BOS>	O	O
-when	O	O
-is	O	O
-sunrise	B-timeRange	B-timeRange
-in	O	O
-AMerican	B-country	B-city
-
-<BOS>	O	O
-How	O	O
-cold	B-condition_temperature	B-condition_temperature
-will	O	O
+Will	O	O
 it	O	O
 be	O	O
-in	O	O
-Palau	B-state	B-city
+warm	O	O
+at	O	O
+Tembe	O	O
+Elephant	B-city	B-city
+Park	I-city	I-city
+on	I-city	B-country
+san	B-country	I-country
+jacinto	O	O
 
 <BOS>	O	O
-How	O	O
-cold	B-condition_temperature	B-condition_temperature
-will	O	O
+Will	O	O
 it	O	O
 be	O	O
-in	O	O
-Palau	B-state	B-city
-around	B-spatial_relation	I-city
-
-<BOS>	O	O
-How	O	O
-cold	B-condition_temperature	B-condition_temperature
-will	O	O
-it	O	O
-be	O	O
-in	O	O
-Palau	B-state	B-city
-around	B-spatial_relation	I-city
-fourteen	B-timeRange	B-country
-
-<BOS>	O	O
-How	O	O
-cold	B-condition_temperature	B-condition_temperature
-will	O	O
-it	O	O
-be	O	O
-in	O	O
-Palau	B-state	B-city
-around	B-spatial_relation	B-spatial_relation
-fourteen	B-timeRange	B-country
-
-<BOS>	O	O
-How	O	O
-cold	B-condition_temperature	B-condition_temperature
-will	O	O
-it	O	O
-be	O	O
-in	O	O
-Palau	B-state	B-city
-around	B-spatial_relation	B-spatial_relation
-
-<BOS>	O	O
-What's	O	O
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-forecast	O	O
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-forecast	O	O
-for	O	O
-East	B-city	B-geographic_poi
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-forecast	O	O
-for	O	O
-East	B-city	B-geographic_poi
-
-<BOS>	O	O
-Need	O	O
-weather	O	O
-forecast	B-city	B-city
-for	B-state	I-city
-
-<BOS>	O	O
-Can	O	O
-you	O	O
-tell	O	O
-me	O	O
-what	O	O
-the	O	O
-weather	O	O
-is	O	O
-doing	O	O
-in	O	O
-
-<BOS>	O	O
-Is	O	O
-
-<BOS>	O	O
-Is	O	O
-there	O	O
+warm	O	O
+at	O	O
+Tembe	O	O
+Elephant	B-city	B-city
+Park	I-city	I-city
+on	I-city	B-country
+san	B-country	I-country
 
 <BOS>	O	O
 what	O	O
-is	O	O
-the	B-condition_description	B-condition_description
-weather	B-timeRange	O
+will	O	O
 
 <BOS>	O	O
 Weather	O	O
@@ -635,198 +172,7 @@ Cairngorms-Nationalpark	O	O
 close	O	O
 
 <BOS>	O	O
-Weather	O	O
-in	O	O
-Cairngorms-Nationalpark	B-geographic_poi	B-city
-close	B-spatial_relation	B-spatial_relation
-from	I-spatial_relation	I-spatial_relation
-freezing	B-condition_temperature	B-country
-
-<BOS>	O	O
-What's	O	O
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-weather	B-geographic_poi	B-city
-at	B-spatial_relation	B-spatial_relation
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-weather	B-geographic_poi	B-city
-
-<BOS>	O	O
 What	O	O
-is	O	O
-the	O	O
-weather	O	O
-forecast	B-spatial_relation	B-spatial_relation
-here	I-spatial_relation	I-spatial_relation
-
-<BOS>	O	O
-What	O	O
-is	O	O
-the	O	O
-weather	O	O
-forecast	B-spatial_relation	B-spatial_relation
-here	I-spatial_relation	I-spatial_relation
-?	I-spatial_relation	I-spatial_relation
-
-<BOS>	O	O
-What	O	O
-is	O	O
-the	O	O
-forecast	O	O
-in	B-spatial_relation	O
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-warm	B-condition_temperature	B-condition_temperature
-in	O	O
-Powersville	B-city	B-city
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-warm	B-condition_temperature	B-condition_temperature
-in	O	O
-Powersville	B-city	B-city
-Guam	B-state	I-city
-23	B-timeRange	B-timeRange
-hours	I-timeRange	I-timeRange
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-warm	B-condition_temperature	B-condition_temperature
-in	O	O
-Powersville	B-city	B-city
-Guam	B-state	I-city
-23	B-timeRange	B-country
-
-<BOS>	O	O
-Will	O	O
-it	O	O
-be	O	O
-warm	B-condition_temperature	B-condition_temperature
-in	O	O
-Powersville	B-city	B-city
-Guam	B-state	I-city
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-forecast	O	O
-for	B-condition_temperature	B-condition_temperature
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-forecast	O	O
-for	B-condition_temperature	B-condition_temperature
-Walker	O	O
-Bay	B-country	B-city
-
-<BOS>	O	O
-What's	O	O
-the	O	O
-forecast	O	O
-for	B-condition_temperature	B-condition_temperature
-Walker	O	O
-Bay	B-country	B-city
-
-<BOS>	O	O
-What	O	O
-is	O	O
-the	O	O
-weather	O	O
-
-<BOS>	O	O
-Show	O	O
-me	O	O
-the	O	O
-forecast	O	O
-
-<BOS>	O	O
-Show	O	O
-me	O	O
-the	O	O
-forecast	O	O
-for	O	O
-
-<BOS>	O	O
-Show	O	O
-me	O	O
-the	O	O
-forecast	O	O
-for	O	O
-the	O	O
-distant	B-spatial_relation	B-spatial_relation
-area	I-spatial_relation	I-spatial_relation
-
-<BOS>	O	O
-What	O	O
-is	B-condition_description	B-condition_description
-the	O	O
-weather	B-current_location	B-current_location
-forecast	B-timeRange	I-current_location
-
-<BOS>	O	O
-What	O	O
-is	B-condition_description	B-condition_description
-the	O	O
-weather	B-current_location	B-current_location
-forecast	B-timeRange	I-current_location
-tomorrow	O	O
-
-<BOS>	O	O
-Book	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-bakery	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-book	O	O
-a	O	O
-spot	O	O
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-with	O	O
-wifi	B-facility	B-facility
-that	O	O
-is	O	O
-
-<BOS>	O	O
-book	O	O
-a	O	O
-spot	O	O
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-with	O	O
-wifi	B-facility	B-facility
-that	O	O
-is	O	O
-neighboring	B-spatial_relation	B-served_dish
-Suriname	B-country	I-served_dish
-
-<BOS>	O	O
-book	O	O
-
-<BOS>	O	O
-me	B-party_size_description	B-party_size_description
 
 <BOS>	O	O
 me	B-party_size_description	O
@@ -838,95 +184,6 @@ spot	O	O
 in	B-spatial_relation	O
 
 <BOS>	O	O
-Schedule	O	O
-the	O	O
-food	B-restaurant_type	B-restaurant_type
-truck	I-restaurant_type	I-restaurant_type
-to	O	O
-be	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-tea	B-timeRange	B-restaurant_type
-place	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-tea	B-timeRange	B-restaurant_type
-place	O	O
-at	O	O
-
-<BOS>	O	O
-I'd	O	O
-
-<BOS>	O	O
-I'd	O	O
-like	O	O
-to	B-timeRange	B-restaurant_type
-
-<BOS>	O	O
-I'd	O	O
-like	O	O
-to	O	O
-eat	O	O
-at	O	O
-a	O	O
-highly	B-sort	B-sort
-rated	I-sort	I-sort
-swiss	B-cuisine	B-cuisine
-restaurant	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-I	O	O
-need	O	O
-to	O	O
-book	O	O
-a	O	O
-table	O	O
-for	O	O
-claudia	B-party_size_description	B-party_size_description
-and	I-party_size_description	I-party_size_description
-imelda	I-party_size_description	I-party_size_description
-at	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-to	O	O
-book	O	O
-a	O	O
-table	O	O
-for	O	O
-claudia	B-party_size_description	B-party_size_description
-and	I-party_size_description	I-party_size_description
-imelda	I-party_size_description	I-party_size_description
-at	O	O
-a	O	O
-
-<BOS>	O	O
-book	O	O
-
-<BOS>	O	O
-book	O	O
-a	O	O
-
-<BOS>	O	O
-book	O	O
-a	O	O
-table	O	O
-
-<BOS>	O	O
-Lets	O	O
-get	O	O
-a	O	O
-
-<BOS>	O	O
 I	O	O
 
 <BOS>	O	O
@@ -950,57 +207,6 @@ want	O	O
 to	O	O
 book	O	O
 a	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-table	O	O
-for	O	O
-four	O	O
-at	B-party_size_number	B-party_size_number
-a	B-timeRange	O
-restaurant	I-timeRange	B-city
-in	I-timeRange	I-city
-AL	B-spatial_relation	B-country
-<EOS>	B-country	I-country
-
-<BOS>	O	O
-Please	O	O
-
-<BOS>	O	O
-Please	O	O
-book	O	O
-
-<BOS>	O	O
-Please	O	O
-book	O	O
-a	O	O
-room	O	O
-
-<BOS>	O	O
-Please	O	O
-book	O	O
-a	O	O
-room	O	O
-to	O	O
-
-<BOS>	O	O
-Please	O	O
-book	O	O
-a	O	O
-room	O	O
-to	O	O
-accommodate	O	O
-
-<BOS>	O	O
-Please	O	O
-book	O	O
-a	O	O
-room	O	O
-to	O	O
-accommodate	O	O
-one	B-party_size_number	B-party_size_number
 
 <BOS>	O	O
 I	B-restaurant_type	B-restaurant_type
@@ -1020,423 +226,12 @@ a	B-timeRange	B-party_size_number
 <BOS>	O	O
 I	O	O
 want	O	O
-a	O	O
-
-<BOS>	O	O
-Please	O	O
-find	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-
-<BOS>	O	O
-Please	O	O
-find	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-Sierraville	B-city	B-state
-
-<BOS>	O	O
-Please	O	O
-find	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-Sierraville	B-city	B-state
-Wyoming	B-state	I-state
-
-<BOS>	O	O
-Please	O	O
-find	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-Sierraville	B-city	B-city
-Wyoming	B-state	I-city
-that	O	O
-
-<BOS>	O	O
-Please	O	O
-find	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-Sierraville	B-city	B-city
-Wyoming	B-state	I-city
-
-<BOS>	O	O
-Find	O	O
-a	O	O
-reservation	O	O
-for	O	O
-mar.	B-timeRange	B-timeRange
-20th	I-timeRange	I-timeRange
-in	O	O
-Winnie	B-city	B-city
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-3	B-timeRange	B-timeRange
-
-<BOS>	O	O
-Book	O	O
-reservations	O	O
-not	B-spatial_relation	B-spatial_relation
-far	I-spatial_relation	I-spatial_relation
-from	O	O
-our	O	B-poi
-
-<BOS>	O	O
-Book	O	O
-
-<BOS>	O	O
-I'm	O	O
-looking	O	O
-to	O	O
-book	O	O
-
-<BOS>	O	O
-I'm	O	O
-looking	O	O
-to	O	O
-book	O	O
-a	O	O
-reservation	O	O
-
-<BOS>	O	O
-I'm	O	O
-looking	O	O
-to	O	O
-book	O	O
-a	O	O
-reservation	O	O
-in	O	O
-
-<BOS>	O	O
-book	O	O
-a	O	O
-spot	O	O
-for	O	O
-4	B-party_size_number	B-party_size_number
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-book	O	O
-a	O	O
-spot	O	O
-for	O	O
-4	B-party_size_number	B-party_size_number
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-Shambaugh	B-city	B-state
-
-<BOS>	O	O
-book	O	O
-a	O	O
-spot	O	O
-for	O	O
-4	B-party_size_number	B-party_size_number
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-Shambaugh	B-city	B-state
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-popular	O	O
-joint	O	O
-in	O	O
-Ocean	B-party_size_number	B-party_size_number
-Gate	O	O
-for	O	O
-seven	B-city	B-city
-people	B-timeRange	O
-at	I-timeRange	B-city
-elevenses	I-timeRange	I-city
-.	O	O
-
-<BOS>	O	O
-Find	O	O
 
 <BOS>	O	O
 Find	O	O
 me	O	O
 a	O	O
-
-<BOS>	O	O
-Find	O	O
-me	O	O
-a	O	O
-table	O	O
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-take	O	O
-four	B-party_size_number	B-party_size_number
-friends	O	O
-
-<BOS>	O	O
-book	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-table	O	O
-at	O	O
-the	O	O
-food	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-Table	O	O
-for	O	O
-one	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-Table	O	O
-for	O	O
-one	B-restaurant_type	B-restaurant_type
-somewhere	O	O
-
-<BOS>	O	O
-Table	O	O
-for	O	O
-one	B-restaurant_type	B-restaurant_type
-somewhere	O	O
-in	B-country	B-city
-
-<BOS>	O	O
-Table	O	O
-for	O	O
-one	B-restaurant_type	B-restaurant_type
-somewhere	O	O
-in	B-country	B-state
-Palco	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-
-<BOS>	O	O
-Book	O	O
-a	O	O
-restaurant	O	O
-for	O	O
-marcella,	O	O
-erma	B-restaurant_type	B-restaurant_type
-and	B-timeRange	B-spatial_relation
-
-<BOS>	O	O
-book	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-French	B-country	B-state
-Southern	I-country	I-state
-
-<BOS>	O	O
-book	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-French	B-country	B-state
-Southern	I-country	I-city
-Territories	I-country	B-country
-
-<BOS>	O	O
-book	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-French	B-country	B-state
-Southern	I-country	I-state
-
-<BOS>	O	O
-book	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-in	O	O
-French	B-country	B-state
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-party_size_description
-Grill	I-restaurant_name	I-party_size_description
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-party_size_description
-Grill	I-restaurant_name	I-party_size_description
-Collective	I-restaurant_name	I-party_size_description
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-party_size_description
-Grill	I-restaurant_name	I-party_size_description
-Collective	I-restaurant_name	I-party_size_description
-for	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-party_size_description
-Grill	I-restaurant_name	I-party_size_description
-Collective	I-restaurant_name	I-party_size_description
-for	O	O
-supper	B-timeRange	B-party_size_number
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-restaurant_name
-Grill	I-restaurant_name	I-restaurant_name
-Collective	I-restaurant_name	I-restaurant_name
-for	O	O
-supper	B-timeRange	B-party_size_number
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-party_size_description
-Grill	I-restaurant_name	I-party_size_description
-Collective	I-restaurant_name	I-party_size_description
-for	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-a	O	O
-reservation	O	O
-for	O	O
-Little	B-restaurant_name	B-party_size_description
-Grill	I-restaurant_name	I-party_size_description
-Collective	I-restaurant_name	I-party_size_description
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-eat	O	O
-a	O	O
-a	O	O
-brasserie	B-restaurant_type	B-restaurant_type
-that	O	O
-serves	O	O
-
-<BOS>	O	O
-get	O	O
-me	O	O
-a	O	O
-reservation	O	O
-at	O	O
-a	O	O
-brasserie	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-get	O	O
-me	O	O
-a	O	O
-reservation	O	O
-at	O	O
-a	O	O
-brasserie	B-restaurant_type	B-restaurant_type
-that	O	O
-
-<BOS>	O	O
-get	O	O
-me	O	O
-a	O	O
-reservation	O	O
-at	O	O
-a	O	O
-brasserie	B-restaurant_type	B-restaurant_type
-that	O	O
-serves	O	O
-
-<BOS>	O	O
-get	O	O
-me	O	O
-a	O	O
-reservation	O	O
-at	O	O
-a	O	O
-brasserie	B-restaurant_type	B-restaurant_type
-that	O	O
-serves	O	O
-jain	B-cuisine	B-served_dish
-
-<BOS>	O	O
-Find	O	O
-me	O	O
-a	O	O
-coffeehouse	B-restaurant_type	B-restaurant_type
-for	O	O
-nine	B-party_size_number	B-party_size_number
-in	O	O
-Indiana	B-state	B-state
-that	O	O
-has	O	O
-access	O	O
-to	O	O
-
-<BOS>	O	O
-Find	O	O
-me	O	O
-a	O	O
-coffeehouse	B-restaurant_type	B-restaurant_type
-for	O	O
-nine	B-party_size_number	B-party_size_number
-in	O	O
-Indiana	B-state	B-state
-that	O	O
-has	O	O
-access	O	O
-to	O	O
-a	O	O
+coffeehouse	B-restaurant_type	B-object_name
 
 <BOS>	O	O
 book	O	O
@@ -1444,48 +239,6 @@ book	O	O
 <BOS>	O	O
 book	O	O
 a	O	O
-
-<BOS>	O	O
-Book	O	O
-me	O	O
-a	O	O
-popular	B-sort	B-sort
-restaurant	B-restaurant_type	B-restaurant_type
-reservation	O	O
-at	O	O
-a	O	O
-brazilian	B-cuisine	B-sort
-
-<BOS>	O	O
-Book	O	O
-me	O	O
-a	O	O
-popular	B-sort	B-sort
-restaurant	B-restaurant_type	B-restaurant_type
-reservation	O	O
-at	O	O
-a	O	O
-brazilian	B-cuisine	B-sort
-delicatessen	B-restaurant_type	B-restaurant_type
-
-<BOS>	O	O
-Book	O	O
-me	O	O
-a	O	O
-popular	B-sort	B-sort
-restaurant	B-restaurant_type	B-restaurant_type
-reservation	O	O
-at	O	O
-a	O	O
-brazilian	B-cuisine	B-sort
-
-<BOS>	O	O
-table	O	O
-at	B-restaurant_name	B-sort
-Nankin	O	O
-
-<BOS>	O	O
-Book	O	O
 
 <BOS>	O	O
 Get	O	O
@@ -1498,43 +251,6 @@ a	O	O
 highly	B-sort	B-sort
 
 <BOS>	O	O
-need	O	O
-a	O	O
-table	O	O
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-serving	O	O
-foie	B-served_dish	B-served_dish
-gras	I-served_dish	I-served_dish
-on	O	O
-halloween	B-timeRange	B-timeRange
-for	O	O
-two	B-party_size_number	B-party_size_number
-at	O	O
-Northern	B-state	B-timeRange
-Mariana	I-state	I-restaurant_name
-
-<BOS>	O	O
-need	O	O
-a	O	O
-table	O	O
-at	O	O
-a	O	O
-restaurant	B-restaurant_type	B-restaurant_type
-serving	O	O
-foie	B-served_dish	B-served_dish
-gras	I-served_dish	I-served_dish
-on	O	O
-halloween	B-timeRange	B-timeRange
-for	O	O
-two	B-party_size_number	B-party_size_number
-at	O	O
-Northern	B-state	B-restaurant_name
-Mariana	I-state	I-restaurant_name
-Islands	I-state	I-restaurant_name
-
-<BOS>	O	O
 Book	O	O
 a	O	O
 table	O	O
@@ -1544,229 +260,10 @@ nine	B-party_size_number	B-party_size_number
 <BOS>	O	O
 Play	O	O
 ballad	B-music_item	B-sort
-music	O	O
-
-<BOS>	O	O
-Play	O	O
-ballad	B-music_item	B-sort
-
-<BOS>	O	O
-Can	O	O
-you	O	O
-
-<BOS>	O	O
-Can	O	O
-you	O	O
-play	O	O
-
-<BOS>	O	O
-Can	O	O
-you	O	O
-play	O	O
-a	O	O
-
-<BOS>	O	O
-Can	O	O
-you	O	O
-play	O	O
-a	O	O
-sound	B-music_item	B-music_item
-track	I-music_item	B-music_item
-
-<BOS>	O	O
-Can	O	O
-you	O	O
-play	O	O
-a	O	O
-sound	B-music_item	B-music_item
-track	I-music_item	B-music_item
-
-<BOS>	O	O
-Play	O	O
-me	O	O
-a	O	O
-seventies	B-year	B-artist
-
-<BOS>	O	O
-Play	O	O
-me	O	O
-a	O	O
-seventies	B-year	B-artist
-ep	B-music_item	I-artist
-
-<BOS>	O	O
-Play	O	O
-the	O	O
-newest	O	O
-
-<BOS>	O	O
-Play	O	O
-Portsmouth	B-service	B-service
-by	B-genre	B-genre
-Paul	I-genre	B-year
 
 <BOS>	O	O
 play	O	O
-music	B-music_item	B-track
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-movement	B-playlist	B-artist
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-dance	O	O
-music.	O	O
-<EOS>	O	O
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-Play	O	O
-music	O	O
-from	B-playlist	B-year
-2011	O	O
-.	O	O
-
-<BOS>	O	O
-I	O	O
-need	O	O
-
-<BOS>	O	O
-Play	O	O
-the	O	O
-
-<BOS>	O	O
-Play	O	O
-the	O	O
-track	O	O
-R	B-genre	B-year
-
-<BOS>	O	O
-Play	O	O
-the	O	O
-track	O	O
-R	B-genre	B-artist
-
-<BOS>	O	O
-play	O	O
-Wait	B-track	B-artist
-Until	I-track	I-artist
-Tomorrow	I-track	I-artist
-<EOS>	O	O
-
-<BOS>	O	O
-Play	O	O
-a	B-track	B-artist
-movement	I-track	I-artist
-
-<BOS>	O	O
-Play	O	O
-a	B-track	B-artist
-movement	I-track	I-artist
-
-<BOS>	O	O
-Play	O	O
-a	B-track	B-artist
-
-<BOS>	O	O
-Play	O	O
-Masashi	B-album	B-artist
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-Play	O	O
-Seaside	B-album	B-track
-
-<BOS>	O	O
-Play	O	O
-Seaside	B-album	B-track
-by	O	O
-Don	B-artist	B-artist
-
-<BOS>	O	O
-Play	O	O
-Seaside	B-album	B-track
-by	O	O
-Don	B-artist	B-artist
-
-<BOS>	O	O
-play	O	O
-
-<BOS>	O	O
-play	O	O
-Victoria	B-album	B-artist
-
-<BOS>	O	O
-play	O	O
-Victoria	O	O
-Banks	O	O
-'s	O	O
-album	O	O
-<EOS>	B-genre	O
-
-<BOS>	O	O
-I'd	O	O
-
-<BOS>	O	O
-I'd	O	O
-like	O	O
-
-<BOS>	O	O
-I'd	O	O
-like	O	O
-to	O	O
-
-<BOS>	O	O
-play	O	O
-deezer	B-service	B-track
-top	B-sort	I-track
-20	I-sort	I-track
-
-<BOS>	O	O
-play	O	O
-deezer	B-service	B-track
-top	B-sort	I-track
-20	I-sort	I-track
-by	O	O
-Natasja	B-artist	B-artist
-
-<BOS>	O	O
-play	O	O
-
-<BOS>	O	O
-play	O	O
-playlist	B-service	B-artist
-A	B-sort	I-artist
-
-<BOS>	O	O
-play	O	O
-playlist	B-service	B-artist
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-listen	O	O
-to	O	O
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-listen	O	O
-to	O	O
-nineties	B-album	B-track
+Victoria	B-album	B-track
 
 <BOS>	O	O
 Play	O	O
@@ -1774,71 +271,8 @@ sugar	O	O
 baby	B-year	B-artist
 
 <BOS>	O	O
-Play	O	O
-some	O	O
-Maynard	B-artist	B-artist
-James	I-artist	I-artist
-Keenan	I-artist	I-artist
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-Maynard	B-artist	B-artist
-James	I-artist	I-artist
-Keenan	I-artist	I-artist
-songs	O	O
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-Maynard	B-artist	B-artist
-James	I-artist	I-artist
-Keenan	I-artist	I-artist
-songs	O	O
-from	O	O
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-Maynard	B-artist	B-artist
-James	I-artist	I-artist
-Keenan	I-artist	I-artist
-songs	O	O
-from	O	O
-Scenes	B-album	B-year
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-Maynard	B-artist	B-artist
-James	I-artist	I-artist
-Keenan	I-artist	I-artist
-songs	O	O
-from	O	O
-Scenes	B-album	B-year
-From	I-album	B-music_item
-
-<BOS>	O	O
-Play	O	O
-some	O	O
-Maynard	B-artist	B-artist
-James	I-artist	I-artist
-Keenan	I-artist	I-artist
-songs	O	O
-from	O	O
-Scenes	B-album	B-year
-
-<BOS>	O	O
-I'd	O	O
-
-<BOS>	O	O
 I'd	O	O
 like	O	O
-
-<BOS>	O	O
-I'd	O	O
-like	O	O
-to	O	O
 
 <BOS>	O	O
 I'd	O	O
@@ -1847,115 +281,12 @@ to	O	O
 hear	O	O
 
 <BOS>	O	O
-I'd	O	O
-like	O	O
-to	O	O
-hear	O	O
-songs	O	O
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-hear	O	O
-some	O	O
-acid	B-genre	B-artist
-punk	I-genre	I-artist
-music	O	O
-<EOS>	O	O
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-Play	O	O
-some	B-service	B-artist
-
-<BOS>	O	O
-Play	O	O
-some	B-service	B-artist
-music	O	I-artist
-from	O	O
-
-<BOS>	O	O
-Play	O	O
-some	B-service	B-artist
-music	O	I-artist
-from	O	O
-Miss	B-year	B-year
-
-<BOS>	O	O
 play	O	O
-
-<BOS>	O	O
-play	O	O
-Netflix	B-service	B-artist
-tunes	O	I-artist
-
-<BOS>	O	O
-play	O	O
-Netflix	B-service	B-artist
-
-<BOS>	O	O
-play	O	O
-Netflix	B-service	B-artist
-tunes	O	I-artist
-from	O	O
-2003	B-year	B-year
-on	O	O
-an	O	O
-album	B-music_item	B-music_item
-<EOS>	O	O
-
-<BOS>	O	O
-Please	O	O
-play	O	O
-
-<BOS>	O	O
-Please	O	O
-play	O	O
-Jim	B-genre	B-year
-Martin	O	O
-
-<BOS>	O	O
-Please	O	O
-play	O	O
-Jim	B-genre	B-year
-Martin	O	O
-on	O	O
-
-<BOS>	O	O
-Please	O	O
-play	O	O
-Jim	B-genre	B-year
-Martin	O	O
+Netflix	B-service	B-object_name
 
 <BOS>	O	O
 Play	O	O
 some	O	O
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-Play	O	O
-a	B-year	B-artist
-
-<BOS>	O	O
-Play	O	O
-a	B-year	B-artist
-tune	B-music_item	I-artist
-by	O	O
-
-<BOS>	O	O
-Play	O	O
-a	B-year	B-artist
-tune	B-music_item	I-artist
-by	O	O
-Mc	O	O
-
-<BOS>	O	O
-play	O	O
 
 <BOS>	O	O
 play	O	O
@@ -1965,10 +296,6 @@ chant	B-music_item	I-artist
 <BOS>	O	O
 play	O	O
 1960	B-year	B-artist
-
-<BOS>	O	O
-play	O	O
-Neutrons	B-album	B-artist
 
 <BOS>	O	O
 play	O	O
@@ -1996,207 +323,6 @@ Gene	B-music_item	B-music_item
 De	I-music_item	B-music_item
 
 <BOS>	O	O
-Please	O	O
-play	O	O
-me	O	O
-a	O	O
-
-<BOS>	O	O
-Play	O	O
-a	B-artist	B-artist
-track	I-artist	I-artist
-by	O	I-artist
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-Play	O	O
-something	O	B-album
-
-<BOS>	O	O
-Play	O	O
-something	O	B-album
-by	O	O
-Holly	B-artist	B-artist
-
-<BOS>	O	O
-Play	O	O
-something	O	B-album
-by	O	O
-Holly	B-artist	B-artist
-Cole	I-artist	I-artist
-
-<BOS>	O	O
-Play	O	O
-something	O	B-album
-by	O	O
-Holly	B-artist	B-artist
-
-<BOS>	O	O
-Play	O	O
-Dj	O	B-album
-
-<BOS>	O	O
-Play	O	O
-Dj	O	B-artist
-
-<BOS>	O	O
-play	O	O
-the	O	O
-It	B-album	B-track
-Could	I-album	I-track
-
-<BOS>	O	O
-play	O	O
-the	O	O
-It	B-album	B-track
-Could	I-album	I-track
-Only	I-album	I-track
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-hear	O	O
-This	B-track	B-track
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-hear	O	O
-the	O	B-music_item
-new	B-artist	B-artist
-
-<BOS>	O	O
-I	O	O
-want	O	O
-to	O	O
-hear	O	O
-the	O	B-music_item
-
-<BOS>	O	O
-Play	O	O
-music	O	O
-from	O	O
-the	O	O
-artist	O	O
-Taktloss	B-artist	B-artist
-from	O	O
-the	O	O
-
-<BOS>	O	O
-Play	O	O
-music	O	O
-from	O	O
-the	O	O
-artist	O	O
-Taktloss	B-artist	B-artist
-from	O	O
-the	O	O
-record	B-music_item	B-year
-
-<BOS>	O	O
-Play	O	O
-music	O	O
-from	O	O
-the	O	O
-artist	O	O
-Taktloss	B-artist	B-artist
-from	O	O
-the	O	O
-record	B-music_item	B-year
-in	O	O
-
-<BOS>	O	O
-Play	O	O
-music	O	O
-from	O	O
-the	O	O
-artist	O	O
-Taktloss	B-artist	B-artist
-from	O	O
-the	O	O
-record	B-music_item	B-sort
-in	O	O
-
-<BOS>	O	O
-Play	O	O
-music	O	O
-off	O	O
-
-<BOS>	O	O
-Please	O	O
-play	B-year	B-artist
-anything	B-music_item	I-artist
-
-<BOS>	O	O
-Please	O	O
-play	B-year	B-artist
-anything	B-music_item	I-artist
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
-Play	O	O
-Geddy	B-artist	B-artist
-Lee	I-artist	I-artist
-music	O	O
-on	O	O
-
-<BOS>	O	O
-Play	O	O
-Geddy	B-artist	B-artist
-Lee	I-artist	I-artist
-music	O	O
-on	O	O
-Spotify	B-service	B-service
-
-<BOS>	O	O
-play	O	O
-Fereydoun	B-artist	B-artist
-Farrokhzad	I-artist	I-artist
-best	B-sort	B-music_item
-track	B-music_item	B-music_item
-
-<BOS>	O	O
-Open	O	O
-
-<BOS>	O	O
-Open	O	O
-Lastfm	B-artist	B-artist
-and	I-artist	I-artist
-
-<BOS>	O	O
-play	O	O
-the	O	O
-music	O	O
-track	B-service	B-year
-
-<BOS>	O	O
-Play	O	O
-Is	O	O
-This	B-year	B-artist
-
-<BOS>	O	O
-I	O	O
-wish	O	O
-to	O	O
-listen	O	O
-to	O	O
-some	O	O
-instrumental	B-playlist	B-playlist
-music.	O	I-playlist
-
-<BOS>	O	O
-Play	O	O
-
-<BOS>	O	O
 Add	O	O
 ross	B-entity_name	B-entity_name
 the	O	O
@@ -2213,58 +339,16 @@ Add	O	O
 Add	O	O
 Nicole	B-entity_name	B-entity_name
 Mitchell	I-entity_name	I-entity_name
-
-<BOS>	O	O
-Add	O	O
-Nicole	B-entity_name	B-entity_name
-Mitchell	I-entity_name	I-entity_name
 to	I-entity_name	I-entity_name
 my	O	O
 
 <BOS>	O	O
 add	O	O
-Stephen	B-artist	B-entity_name
-
-<BOS>	O	O
-add	O	O
-robyn	B-playlist	B-artist
-hitchcock	I-playlist	I-artist
-
-<BOS>	O	O
-add	O	O
-robyn	B-playlist	B-artist
-hitchcock	I-playlist	I-artist
-to	I-playlist	I-artist
-my	B-music_item	B-music_item
-
-<BOS>	O	O
-add	O	O
-robyn	B-playlist	B-playlist
-hitchcock	I-playlist	I-playlist
-to	I-playlist	I-playlist
-my	B-music_item	I-playlist
-
-<BOS>	O	O
-add	O	O
-rock	B-playlist	B-artist
-&	I-playlist	I-artist
-
-<BOS>	O	O
-add	O	O
-
-<BOS>	O	O
-add	O	O
-the	B-entity_name	B-entity_name
-man	I-entity_name	I-entity_name
-who	I-entity_name	I-entity_name
-never	I-entity_name	I-entity_name
-lied	I-entity_name	I-entity_name
-to	O	O
 
 <BOS>	O	O
 Add	O	O
 the	O	O
-current	O	B-entity_name
+current	O	B-object_select
 
 <BOS>	O	O
 add	O	O
@@ -2277,20 +361,6 @@ black	O	B-playlist
 sabbath	B-playlist	I-playlist
 the	I-playlist	I-playlist
 ozzy	O	O
-
-<BOS>	O	O
-put	O	O
-
-<BOS>	O	O
-put	O	O
-this	O	O
-album	B-music_item	B-music_item
-
-<BOS>	O	O
-put	O	O
-this	O	O
-album	B-music_item	B-music_item
-on	O	O
 
 <BOS>	O	O
 Add	O	O
@@ -2306,79 +376,12 @@ list	I-playlist	O
 <EOS>	O	O
 
 <BOS>	O	O
-add	O	O
-when	B-entity_name	B-entity_name
-
-<BOS>	O	O
-add	O	O
-Hot	B-playlist	B-artist
-House	I-playlist	I-artist
-to	O	O
-
-<BOS>	O	O
-Add	O	O
-this	O	B-entity_name
-track	B-music_item	I-entity_name
-to	O	O
-
-<BOS>	O	O
-Add	O	O
-this	O	B-entity_name
-track	B-music_item	I-entity_name
-to	O	O
-anochecer	O	O
-
-<BOS>	O	O
-Add	O	O
-this	O	B-entity_name
-track	B-music_item	I-entity_name
-to	O	O
-anochecer	O	O
-urbano	B-playlist	B-playlist
-
-<BOS>	O	O
-Add	O	O
-this	O	B-entity_name
-track	B-music_item	I-entity_name
-to	O	O
-anochecer	O	O
-urbano	B-playlist	B-playlist
-<EOS>	I-playlist	I-playlist
-
-<BOS>	O	O
-Add	O	O
-
-<BOS>	O	O
-Add	O	O
-another	O	B-entity_name
-artist	B-music_item	I-entity_name
-
-<BOS>	O	O
-Add	O	O
-another	O	B-entity_name
-artist	B-music_item	I-entity_name
-to	O	O
-the	O	O
-
-<BOS>	O	O
-Add	O	O
-another	O	B-entity_name
-artist	B-music_item	I-entity_name
-to	O	O
-
-<BOS>	O	O
-Add	O	O
-another	O	B-entity_name
-artist	B-music_item	I-entity_name
-
-<BOS>	O	O
 Add	O	O
 another	O	B-entity_name
 
 <BOS>	O	O
-I	O	O
-want	O	O
-lance	B-artist	B-entity_name
+Add	O	O
+Sunday	B-artist	B-entity_name
 
 <BOS>	O	O
 Rate	O	O
@@ -2415,66 +418,8 @@ rate	O	O
 this	O	B-object_select
 
 <BOS>	O	O
-rate	O	O
-the	O	O
-book	B-object_type	B-object_type
-The	O	O
-Ninth	O	O
-Avatar	O	O
-3	B-best_rating	B-best_rating
-out	O	O
-of	O	O
-6	O	O
-stars	O	O
-<EOS>	B-object_select	B-object_select
-
-<BOS>	O	O
-For	O	O
-
-<BOS>	O	O
 For	O	O
 the	O	O
-
-<BOS>	O	O
-For	O	O
-the	O	O
-textbook	B-object_type	B-object_type
-
-<BOS>	O	O
-For	O	O
-the	O	O
-textbook	B-object_type	B-object_type
-,	O	O
-out	O	O
-of	O	O
-6	B-best_rating	B-best_rating
-possible	O	O
-I	O	O
-give	O	O
-the	O	O
-following	B-object_select	B-object_select
-one	O	B-object_part_of_series_type
-a	O	O
-3	B-rating_value	B-rating_value
-.	O	O
-
-<BOS>	O	O
-For	O	O
-the	O	O
-textbook	B-object_type	B-object_type
-,	O	O
-out	O	O
-of	O	O
-6	B-best_rating	B-best_rating
-possible	O	O
-I	O	O
-give	O	O
-the	O	O
-following	B-object_select	B-object_select
-one	O	B-object_part_of_series_type
-a	O	O
-3	B-rating_value	B-rating_value
-.	O	O
 
 <BOS>	O	O
 Rate	O	O
@@ -2482,75 +427,16 @@ this	O	O
 novel	O	B-object_name
 
 <BOS>	O	O
-rate	B-rating_value	B-entity_name
-
-<BOS>	O	O
-rate	O	O
-Secrets	O	O
-and	B-object_name	B-object_select
-Lies	I-object_name	B-object_part_of_series_type
-2	B-object_part_of_series_type	B-object_part_of_series_type
-of	B-rating_value	B-rating_value
-6	B-rating_unit	B-rating_unit
-
-<BOS>	O	O
-Rate	O	O
-the	O	O
-
-<BOS>	O	O
-Rate	O	O
-the	O	O
-White	B-object_name	B-object_select
-Lies	I-object_name	B-object_part_of_series_type
-
-<BOS>	O	O
-Rate	O	O
-the	O	O
-White	B-object_name	B-object_select
-Lies	I-object_name	B-object_part_of_series_type
-
-<BOS>	O	O
-Rate	O	O
-the	O	O
-White	B-object_name	B-object_select
-
-<BOS>	O	O
 The	O	B-object_name
 
 <BOS>	O	O
 The	O	B-object_name
-
-<BOS>	O	O
-The	O	O
-current	B-object_select	B-object_select
-essay	B-object_type	B-object_type
-is	O	O
-worthy	O	O
-only	O	O
-of	O	O
-a	O	O
-0	B-rating_value	B-rating_value
-out	O	O
-6	B-best_rating	B-best_rating
-
-<BOS>	O	O
-Mars	B-object_name	O
-Probes	I-object_name	B-object_name
 
 <BOS>	O	O
 rate	B-object_name	O
 
 <BOS>	O	O
 The	O	B-object_name
-
-<BOS>	O	O
-Give	O	O
-the	O	O
-
-<BOS>	O	O
-Give	O	O
-the	O	O
-current	B-object_select	B-object_select
 
 <BOS>	O	O
 Give	O	O
@@ -2583,57 +469,20 @@ give	O	O
 this	O	B-object_select
 
 <BOS>	O	O
-Give	O	O
-this	O	B-object_select
-current	B-object_select	B-object_select
-textbook	B-object_type	B-object_type
-
-<BOS>	O	O
-I	O	O
-rate	O	O
-the	B-best_rating	B-best_rating
-book	B-object_name	B-object_name
-Rusty	I-object_name	I-object_name
-String	I-object_name	I-object_name
-Quartet	O	O
-a	B-rating_unit	B-rating_value
-
-<BOS>	O	O
-I	O	O
-rate	O	O
-the	B-best_rating	B-best_rating
-book	B-object_name	B-object_name
-Rusty	I-object_name	I-object_name
-String	I-object_name	I-object_name
-Quartet	O	O
-a	B-rating_unit	B-rating_value
-4	O	O
-
-<BOS>	O	O
-out	O	O
-
-<BOS>	O	O
-out	O	O
-of	O	O
-6	B-best_rating	B-best_rating
-
-<BOS>	O	O
-Show	O	O
-Minutes	B-object_name	B-object_name
-
-<BOS>	O	O
-Show	O	O
-Minutes	B-object_name	B-object_name
-to	I-object_name	I-object_name
-Midnight	I-object_name	I-object_name
-photograph	B-object_type	I-object_name
-
-<BOS>	O	O
 find	O	O
+Terminator	B-object_name	B-movie_name
 
 <BOS>	O	O
-find	O	O
-Back	B-object_name	B-movie_name
+Find	O	O
+the	O	O
+Blood	B-object_name	B-object_name
+Red	I-object_name	I-object_name
+Sandman	I-object_name	I-object_name
+<EOS>	O	I-object_name
+
+<BOS>	O	O
+Please	O	O
+search	O	O
 
 <BOS>	O	O
 What	O	O
@@ -2660,156 +509,91 @@ for	O	O
 the	O	B-object_name
 
 <BOS>	O	O
-Where	O	O
+Look	O	O
+for	O	O
+the	O	B-object_name
+Itv.com	B-object_name	I-object_name
+
+<BOS>	O	O
+show	O	O
+creativity	O	O
+Cum	B-object_name	B-object_name
+On	I-object_name	I-object_name
+Feel	I-object_name	I-object_name
+the	I-object_name	O
+
+<BOS>	O	O
+show	O	O
+creativity	O	O
+Cum	B-object_name	B-object_name
+On	I-object_name	I-object_name
+Feel	I-object_name	I-object_name
+the	I-object_name	O
+Noize	I-object_name	B-object_type
+the	O	O
+
+<BOS>	O	O
+show	O	O
+creativity	O	O
+Cum	B-object_name	B-object_name
+On	I-object_name	I-object_name
+Feel	I-object_name	I-object_name
+the	I-object_name	O
+Noize	I-object_name	B-object_type
+the	O	O
+video	B-object_type	B-object_type
+
+<BOS>	O	O
+Go	O	O
+to	O	O
 
 <BOS>	O	O
 play	O	O
-Myth	B-object_name	B-artist
+Myth	B-object_name	B-track
 
 <BOS>	O	O
 What	O	O
-time	B-timeRange	B-location_name
-is	O	O
-are	O	O
+are	B-location_name	B-movie_name
 
 <BOS>	O	O
-What	O	O
-time	O	O
-is	O	O
-are	O	B-movie_name
-
-<BOS>	O	O
-What	O	O
-time	B-timeRange	B-movie_name
-is	O	I-movie_name
-
-<BOS>	O	O
-find	O	O
-
-<BOS>	O	O
-Find	O	O
-the	B-timeRange	B-movie_name
-
-<BOS>	O	O
-Find	O	O
-the	B-timeRange	B-location_name
-schedule	O	O
-for	O	O
-
-<BOS>	O	O
-Find	O	O
-the	B-timeRange	B-location_name
-schedule	O	I-location_name
-for	O	O
-The	O	O
-Voice	B-movie_name	B-movie_name
-
-<BOS>	O	O
-Find	O	O
-the	B-timeRange	B-location_name
-schedule	O	I-location_name
-for	O	O
-The	O	O
-
-<BOS>	O	O
-What	O	O
-time	O	O
-is	O	O
-I	B-movie_name	B-movie_name
-Know	I-movie_name	I-movie_name
-
-<BOS>	O	O
-I'd	O	O
-like	O	O
-to	O	O
-see	O	O
+Is	O	O
 the	O	O
-showtimes	O	O
+start	O	O
+eim	O	O
+23	B-timeRange	B-timeRange
+hours	I-timeRange	I-timeRange
+twenty	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+minutes	I-timeRange	I-timeRange
+and	I-timeRange	I-timeRange
+one	I-timeRange	I-timeRange
+second	I-timeRange	I-timeRange
+from	I-timeRange	I-timeRange
+now	I-timeRange	I-timeRange
 for	O	O
-Silly	B-movie_name	B-movie_name
-Movie	I-movie_name	I-movie_name
-2.0	I-movie_name	I-movie_name
+Morgan	B-movie_name	B-movie_name
+–	I-movie_name	I-movie_name
+A	I-movie_name	I-movie_name
+Suitable	I-movie_name	I-movie_name
+Case	I-movie_name	I-movie_name
+for	I-movie_name	I-movie_name
+Treatment	I-movie_name	I-movie_name
+at	O	O
+Santikos	B-location_name	B-timeRange
 
 <BOS>	O	O
-find	O	O
-Plitt	B-location_name	B-movie_name
-Theatres	I-location_name	I-movie_name
-movie	B-object_type	B-object_location_type
-
-<BOS>	O	O
-find	O	O
-Plitt	B-location_name	B-movie_name
-Theatres	I-location_name	I-movie_name
-movie	B-object_type	B-object_location_type
-schedules	I-object_type	I-object_location_type
-
-<BOS>	O	O
-What	O	O
-are	B-location_name	B-movie_name
-
-<BOS>	O	O
-What	O	O
-are	B-location_name	B-movie_name
-the	I-location_name	I-movie_name
-
-<BOS>	O	O
-What	O	O
-are	B-location_name	B-movie_name
-
-<BOS>	O	O
-will	O	O
-Dick	B-object_location_type	B-object_type
+Is	O	O
+The	B-movie_name	B-movie_name
+Little	I-movie_name	I-movie_name
+Irish	I-movie_name	I-movie_name
+Girl	I-movie_name	B-timeRange
 
 <BOS>	O	O
 find	B-spatial_relation	B-timeRange
 
 <BOS>	O	O
-What	O	O
-movie	B-object_type	B-object_type
-
-<BOS>	O	O
-What	O	O
-movie	B-object_type	B-object_type
-schedules	I-object_type	I-object_type
-at	O	O
-
-<BOS>	O	O
-Is	O	O
-The	B-movie_name	B-movie_name
-
-<BOS>	O	O
-Is	O	O
-The	B-movie_name	B-movie_name
-Matinee	I-movie_name	I-movie_name
-Idol	I-movie_name	I-movie_name
-
-<BOS>	O	O
-Is	O	O
-The	B-movie_name	B-movie_name
-Matinee	I-movie_name	I-movie_name
-Idol	I-movie_name	I-movie_name
-06:30	B-timeRange	I-movie_name
-cinema	B-object_location_type	I-movie_name
-
-<BOS>	O	O
-Is	O	O
-The	B-movie_name	B-movie_name
-Matinee	I-movie_name	I-movie_name
-Idol	I-movie_name	I-movie_name
-06:30	B-timeRange	I-movie_name
-cinema	B-object_location_type	I-movie_name
-
-<BOS>	O	O
-Is	O	O
-
-<BOS>	O	O
 find	O	O
 the	B-movie_name	B-object_name
-
-<BOS>	O	O
-find	O	O
-the	O	O
-closest	B-spatial_relation	B-object_type
 
 <BOS>	O	O
 find	O	O
@@ -2821,14 +605,9 @@ find	O	O
 the	B-movie_name	B-object_name
 
 <BOS>	O	O
-What	O	O
-time	O	O
-is	O	O
-the	O	O
-closet	O	O
-cinema	B-object_type	B-object_type
-playing	I-object_type	I-object_type
-movies	O	O
+find	O	O
+Mysterious	O	O
+Castles	O	O
 
 <BOS>	O	O
 What	O	O
@@ -2839,15 +618,6 @@ closet	O	O
 cinema	B-object_type	B-object_type
 playing	I-object_type	I-object_type
 movies	O	O
-the	O	B-location_name
-
-<BOS>	O	O
-whats	O	O
-the	O	O
-movie	O	O
-schedule	O	O
-for	B-movie_name	B-object_name
-movies	I-movie_name	I-object_name
 
 <BOS>	O	O
 I'd	O	O
@@ -2855,31 +625,4 @@ I'd	O	O
 <BOS>	O	O
 What	O	O
 movie	B-object_location_type	B-object_type
-theatre	I-object_location_type	I-object_type
-
-<BOS>	O	O
-What	O	O
-movie	B-object_location_type	B-object_type
-
-<BOS>	O	O
-find	O	O
-animated	B-movie_type	B-movie_type
-movies	O	O
-at	B-spatial_relation	O
-
-<BOS>	O	O
-Which	O	O
-animated	B-movie_type	B-movie_type
-movies	I-movie_type	I-movie_type
-are	O	O
-playing	O	O
-
-<BOS>	O	O
-Which	O	O
-animated	B-movie_type	B-movie_type
-movies	I-movie_type	I-movie_type
-are	O	O
-playing	O	O
-at	O	O
-Megaplex	B-location_name	B-location_name
 
