@@ -73,16 +73,16 @@ with open(os.path.join(atis_out, "slot.vocab"), 'w') as f:
     f.write('\n'.join(list(slot_vocab['train'])))
 
 
-# preprocess FB TOPS semantic parsing data
-tops_dir = 'top-dataset-semantic-parsing'
-tops_out = os.path.join(cwd, 'data/tops')
+# preprocess FB TOP semantic parsing data
+top_dir = 'top-dataset-semantic-parsing'
+top_out = os.path.join(cwd, 'data/top')
 
 intent_vocab = defaultdict(set)
 slot_vocab = defaultdict(set)
 
 for file in data_file:
     data_points = []
-    with open(os.path.join(raw_data_dir, tops_dir, f"{file}.tsv"), 'r') as f:
+    with open(os.path.join(raw_data_dir, top_dir, f"{file}.tsv"), 'r') as f:
         i = 0
         for line in f:
             i += 1
@@ -137,17 +137,17 @@ for file in data_file:
 
                 if token_tag_pair[j].startswith("<EOS>"):
                     partial_id = id + "-full"
-                    cum_intent = '#'.join(intent_triggers[j - 2])
+                    cum_intent = '#'.join(intent_triggers[j - 1])
 
                 writable = '\n'.join([partial_id] + token_tag_pair[:j+1] + [cum_intent])
                 data_points.append(writable)
 
-        with open(os.path.join(tops_out, f"{file}.txt"), 'w') as f_out:
+        with open(os.path.join(top_out, f"{file}.txt"), 'w') as f_out:
             f_out.write('\n\n'.join(data_points))
 
-with open(os.path.join(tops_out, "intent.vocab"), 'w') as f:
+with open(os.path.join(top_out, "intent.vocab"), 'w') as f:
     f.write('\n'.join(list(intent_vocab['train'])))
-with open(os.path.join(tops_out, "slot.vocab"), 'w') as f:
+with open(os.path.join(top_out, "slot.vocab"), 'w') as f:
     f.write('\n'.join(list(slot_vocab['train'])))
 
 
