@@ -1,8 +1,9 @@
 {
  "continue_training": true,
- "data_dir": "./data/atis",
+ "data_name": "atis",
  "save_base": "save",
  "mtype": "ub",
+ "anticipation_size": 2,
  "random_state": 0,
  "num_epoch": 1,
  "batch_size": 16,
@@ -20,5 +21,6 @@
  "intent_decoder_hidden_dim": 64,
  "attention_hidden_dim": 1024,
  "attention_output_dim": 128,
+ "data_dir": "./data/atis",
  "save_dir": "./data/atis/save-ub"
 }
