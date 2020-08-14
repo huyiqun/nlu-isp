@@ -4,7 +4,7 @@
  "save_base": "save",
  "mtype": "ub",
  "random_state": 0,
- "num_epoch": 1,
+ "num_epoch": 2,
  "batch_size": 16,
  "l2_penalty": 1e-06,
  "learning_rate": 0.001,
