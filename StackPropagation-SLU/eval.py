@@ -33,10 +33,12 @@ parser = argparse.ArgumentParser()
 #  parser.add_argument('--data_dir', '-dd', type=str, default='./StackPropagation-SLU/data/atis')
 #  parser.add_argument('--save_dir', '-sd', type=str, default='./StackPropagation-SLU/data/atis/save')
 parser.add_argument('--continue_training', default=True)
-parser.add_argument('--data_dir', '-dd', type=str, default='./data/atis')
+parser.add_argument('--data_name', type=str, default='atis')
 parser.add_argument('--save_base', '-sd', type=str, default='save')
-parser.add_argument('--mtype', type=str, default="base")
+parser.add_argument('--mtype', type=str, default="reg")
 #  type = ["base", "reg", "ub"]
+parser.add_argument('--anticipation_size', "-as", type=int, default=2)
+
 parser.add_argument("--random_state", '-rs', type=int, default=0)
 parser.add_argument('--num_epoch', '-ne', type=int, default=1)
 parser.add_argument('--batch_size', '-bs', type=int, default=16)
@@ -58,7 +60,8 @@ parser.add_argument('--attention_hidden_dim', '-ahd', type=int, default=1024)
 parser.add_argument('--attention_output_dim', '-aod', type=int, default=128)
 
 if __name__ == "__main__":
-    args = parser.parse_args("")
+    args = parser.parse_args()
+    args.data_dir = os.path.join(project_root, "data", args.data_name)
     args.save_dir = os.path.join(args.data_dir, f"{args.save_base}-{args.mtype}")
 
     # Save training and model parameters.
@@ -68,6 +71,11 @@ if __name__ == "__main__":
     log_path = os.path.join(args.save_dir, "param.json")
     with open(log_path, "w") as fw:
         fw.write(json.dumps(args.__dict__, indent=True))
+
+    record_file = os.path.join(args.save_dir, "record.txt")
+    #  if os.path.exists(record_file):
+        #  with open (record_file, "a") as f:
+            #  f.write()
 
     # Fix the random seed of package random.
     random.seed(args.random_state)
@@ -86,6 +94,23 @@ if __name__ == "__main__":
     dataset = DatasetManager(args)
     dataset.quick_build()
     dataset.show_summary()
+
+    #  for j in range(4270):
+        #  aa = " ".join(dataset.text_word_data["train"][j])
+        #  if aa.startswith("<BOS> what is the"):
+            #  print("\n")
+            #  print(aa)
+            #  print(dataset.data_entries["train"][dataset.ids["train"][j]])
+        #  print(dataset.text_word_data["train"][j])
+        #  print(dataset.anticipation["train"][j])
+        #  print(dataset.entropy_vec["train"][j])
+    #  dataset.entropy_map["what is abc"]
+
+    #  for j in dataset.ids["test"][:20]:
+        #  print(dataset.data_entries["test"][j])
+    #  dataset.data_entries["test"][dataset.ids["test"][0]]
+    #  dataset.intent_dist
+    #  dataset.entropy_map["what is the cost"]
     #  dataset.ids["test"]
     #  torch.save(dataset, os.path.join(args.save_dir, "model/dataset.pkl"))
     #  dataset = torch.load(os.path.join(args.save_dir, "model/dataset.pkl"))
@@ -106,10 +131,10 @@ if __name__ == "__main__":
     process = Processor(dataset, model, args.batch_size)
     process.train()
 
-    res, pred = Processor.validate(os.path.join(args.save_dir, "model/model.pkl"), os.path.join(args.save_dir, "model/dataset.pkl"), args.batch_size)
+    #  res, pred = Processor.validate(os.path.join(args.save_dir, "model/model.pkl"), os.path.join(args.save_dir, "model/dataset.pkl"), args.batch_size)
 
-    print('\nAccepted performance: ' + str(res) + " at test dataset;\n")
-    torch.save(process, os.path.join(args.save_dir, "model/process.pkl"))
+    #  print('\nAccepted performance: ' + str(res) + " at test dataset;\n")
+    #  torch.save(process, os.path.join(args.save_dir, "model/process.pkl"))
 
 
     #  pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids = Processor.prediction(model, dataset, "test", 16)

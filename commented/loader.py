@@ -1,31 +1,54 @@
 """
-@Author		:           Lee, Qin
-@StartTime	:           2018/08/13
-@Filename	:           loader.py
-@Software	:           Pycharm
-@Framework  :           Pytorch
-@LastModify	:           2019/05/07
+Copyright 2020 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 """
 
 import os
-import numpy as np
+import sys
+import pathlib
+import argparse
+import collections
 from copy import deepcopy
 from collections import Counter, namedtuple, defaultdict
 from collections import OrderedDict
 from ordered_set import OrderedSet
 
+import numpy as np
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
+from collections import OrderedDict, defaultdict
+from typing import List, Tuple, Iterable, Union
+
+from ordered_set import OrderedSet
+from logging_util import ColoredLog
+
+project_root = pathlib.Path(__file__).parents[1]
 
 DP = namedtuple("DP", ["sent_id", "sub_id", "text", "intents", "slots", "anticipation", "entropy"], defaults=(None, None, ))
 
-class Alphabet(object):
+class Vocabulary(object):
     """
-    Storage and serialization a set of elements.
+    A vocabulary instance, for tokens, intents, and slots.
     """
 
     def __init__(self, name, if_use_pad, if_use_unk):
+        """ Initialization.
+
+        :name: name of the vocabulary
+        :speical_tokens: speical_tokens to be added to vocabulary
+        """
 
         self.__name = name
         self.__if_use_pad = if_use_pad

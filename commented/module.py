@@ -1,18 +1,3 @@
-"""
-Copyright 2020 Google LLC
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-"""
 
 import math
 
@@ -23,18 +8,10 @@ from torch.nn.utils.rnn import pack_padded_sequence
 from torch.nn.utils.rnn import pad_packed_sequence
 
 
-class Model(nn.Module):
-    """ High level model structure for the SP neural network. """
+class ModelManager(nn.Module):
 
     def __init__(self, args, num_word, num_slot, num_intent):
-        """ Initialization.
-
-        :args: model arguments
-        :num_word: vocabulary size
-        :num_slot: total number of slots
-        :num_intent: total number of intents
-        """
-        super(Model, self).__init__()
+        super(ModelManager, self).__init__()
 
         self.__num_word = num_word
         self.__num_slot = num_slot
@@ -69,14 +46,6 @@ class Model(nn.Module):
             self.__num_intent, self.__args.dropout_rate,
             embedding_dim=self.__args.intent_embedding_dim
         )
-
-        # Initialize an Decoder object for intent.
-        self.__anticipation_decoder = LSTMDecoder(
-            self.__args.encoder_hidden_dim + self.__args.attention_output_dim,
-            self.__args.intent_decoder_hidden_dim,
-            self.__num_word, self.__args.dropout_rate
-        )
-
         # Initialize an Decoder object for slot.
         self.__slot_decoder = LSTMDecoder(
             self.__args.encoder_hidden_dim + self.__args.attention_output_dim,
@@ -94,7 +63,9 @@ class Model(nn.Module):
         self.__intent_embedding.weight.requires_grad = False
 
     def show_summary(self):
-        """ Print model summary. """
+        """
+        print the abstract of the defined model.
+        """
 
         print('Model parameters are listed as follows:\n')
         print('\tnumber of word: {};'.format(self.__num_word))
@@ -143,37 +114,79 @@ class Model(nn.Module):
 
             return slot_index.cpu().data.numpy().tolist(), intent_index.cpu().data.numpy().tolist()
 
+    def golden_intent_predict_slot(self, text, seq_lens, golden_intent, n_predicts=1):
+        word_tensor, _ = self.__embedding(text)
+        embed_intent = self.__intent_embedding(golden_intent)
+
+        lstm_hiddens = self.__encoder(word_tensor, seq_lens)
+        attention_hiddens = self.__attention(word_tensor, seq_lens)
+        hiddens = torch.cat([attention_hiddens, lstm_hiddens], dim=1)
+
+        pred_slot = self.__slot_decoder(
+            hiddens, seq_lens, extra_input=embed_intent
+        )
+        _, slot_index = pred_slot.topk(n_predicts, dim=-1)
+
+        # Just predict single slot value.
+        return slot_index.cpu().data.numpy().tolist()
+
 
 class EmbeddingCollection(nn.Module):
-    """ Provide word vector and position vector encoding. """
+    """
+    Provide word vector and position vector encoding.
+    """
 
     def __init__(self, input_dim, embedding_dim, max_len=5000):
         super(EmbeddingCollection, self).__init__()
 
         self.__input_dim = input_dim
+        # Here embedding_dim must be an even embedding.
         self.__embedding_dim = embedding_dim
         self.__max_len = max_len
 
+        # Word vector encoder.
         self.__embedding_layer = nn.Embedding(
             self.__input_dim, self.__embedding_dim
         )
 
+        # Position vector encoder.
+        # self.__position_layer = torch.zeros(self.__max_len, self.__embedding_dim)
+        # position = torch.arange(0, self.__max_len).unsqueeze(1)
+        # div_term = torch.exp(torch.arange(0, self.__embedding_dim, 2) *
+        #                      (-math.log(10000.0) / self.__embedding_dim))
+
+        # Sine wave curve design.
+        # self.__position_layer[:, 0::2] = torch.sin(position * div_term)
+        # self.__position_layer[:, 1::2] = torch.cos(position * div_term)
+        #
+        # self.__position_layer = self.__position_layer.unsqueeze(0)
+        # self.register_buffer('pe', self.__position_layer)
+
     def forward(self, input_x):
+        # Get word vector encoding.
         embedding_x = self.__embedding_layer(input_x)
+
+        # Get position encoding.
+        # position_x = Variable(self.pe[:, :input_x.size(1)], requires_grad=False)
+
         # Board-casting principle.
         return embedding_x, embedding_x
 
 
 class LSTMEncoder(nn.Module):
-    """ Encoder for bidirectional LSTM. """
+    """
+    Encoder structure based on bidirectional LSTM.
+    """
 
     def __init__(self, embedding_dim, hidden_dim, dropout_rate):
         super(LSTMEncoder, self).__init__()
 
+        # Parameter recording.
         self.__embedding_dim = embedding_dim
         self.__hidden_dim = hidden_dim // 2
         self.__dropout_rate = dropout_rate
 
+        # Network attributes.
         self.__dropout_layer = nn.Dropout(self.__dropout_rate)
         self.__lstm_layer = nn.LSTM(
             input_size=self.__embedding_dim,
@@ -192,13 +205,15 @@ class LSTMEncoder(nn.Module):
         -> (batch_size, max_sent_len, hidden_dim)
         -> (total_word_num, hidden_dim)
 
-        :embedded_text: padded and embedded input text.
-        :seq_lens: is the length of original input text.
+        :param embedded_text: padded and embedded input text.
+        :param seq_lens: is the length of original input text.
         :return: is encoded word hidden vectors.
         """
 
+        # Padded_text should be instance of LongTensor.
         dropout_text = self.__dropout_layer(embedded_text)
 
+        # Pack and Pad process for input of variable length.
         packed_text = pack_padded_sequence(dropout_text, seq_lens, batch_first=True)
         lstm_hiddens, (h_last, c_last) = self.__lstm_layer(packed_text)
         padded_hiddens, _ = pad_packed_sequence(lstm_hiddens, batch_first=True)
@@ -207,17 +222,19 @@ class LSTMEncoder(nn.Module):
 
 
 class LSTMDecoder(nn.Module):
-    """ Decoder for unidirectional LSTM. """
+    """
+    Decoder structure based on unidirectional LSTM.
+    """
 
     def __init__(self, input_dim, hidden_dim, output_dim, dropout_rate, embedding_dim=None, extra_dim=None):
         """ Construction function for Decoder.
 
-        :input_dim: input dimension of Decoder. In fact, it's encoder hidden size.
-        :hidden_dim: hidden dimension of iterative LSTM.
-        :output_dim: output dimension of Decoder. In fact, it's total number of intent or slot.
-        :dropout_rate: dropout rate of network which is only useful for embedding.
-        :embedding_dim: if it's not None, the input and output are relevant.
-        :extra_dim: if it's not None, the decoder receives information tensors.
+        :param input_dim: input dimension of Decoder. In fact, it's encoder hidden size.
+        :param hidden_dim: hidden dimension of iterative LSTM.
+        :param output_dim: output dimension of Decoder. In fact, it's total number of intent or slot.
+        :param dropout_rate: dropout rate of network which is only useful for embedding.
+        :param embedding_dim: if it's not None, the input and output are relevant.
+        :param extra_dim: if it's not None, the decoder receives information tensors.
         """
 
         super(LSTMDecoder, self).__init__()
@@ -229,6 +246,8 @@ class LSTMDecoder(nn.Module):
         self.__embedding_dim = embedding_dim
         self.__extra_dim = extra_dim
 
+        # If embedding_dim is not None, the output and input
+        # of this structure is relevant.
         if self.__embedding_dim is not None:
             self.__embedding_layer = nn.Embedding(output_dim, embedding_dim)
             self.__init_tensor = nn.Parameter(
@@ -236,6 +255,7 @@ class LSTMDecoder(nn.Module):
                 requires_grad=True
             )
 
+        # Make sure the input dimension of iterative LSTM.
         if self.__extra_dim is not None and self.__embedding_dim is not None:
             lstm_input_dim = self.__input_dim + self.__extra_dim + self.__embedding_dim
         elif self.__extra_dim is not None:
@@ -245,6 +265,7 @@ class LSTMDecoder(nn.Module):
         else:
             lstm_input_dim = self.__input_dim
 
+        # Network parameter definition.
         self.__dropout_layer = nn.Dropout(self.__dropout_rate)
         self.__lstm_layer = nn.LSTM(
             input_size=lstm_input_dim,
@@ -262,13 +283,14 @@ class LSTMDecoder(nn.Module):
     def forward(self, encoded_hiddens, seq_lens, forced_input=None, extra_input=None):
         """ Forward process for decoder.
 
-        :encoded_hiddens: is encoded hidden tensors produced by encoder.
-        :seq_lens: is a list containing lengths of sentence.
-        :forced_input: is truth values of label, provided by teacher forcing.
-        :extra_input: comes from another decoder as information tensor.
+        :param encoded_hiddens: is encoded hidden tensors produced by encoder.
+        :param seq_lens: is a list containing lengths of sentence.
+        :param forced_input: is truth values of label, provided by teacher forcing.
+        :param extra_input: comes from another decoder as information tensor.
         :return: is distribution of prediction labels.
         """
 
+        # Concatenate information tensor if possible.
         if extra_input is not None:
             input_tensor = torch.cat([encoded_hiddens, extra_input], dim=1)
         else:
@@ -280,6 +302,7 @@ class LSTMDecoder(nn.Module):
             for sent_i in range(0, len(seq_lens)):
                 sent_end_pos = sent_start_pos + seq_lens[sent_i]
 
+                # Segment input hidden tensors.
                 seg_hiddens = input_tensor[sent_start_pos: sent_end_pos, :]
 
                 if self.__embedding_dim is not None and forced_input is not None:
@@ -290,6 +313,7 @@ class LSTMDecoder(nn.Module):
                     else:
                         seg_prev_tensor = self.__init_tensor
 
+                    # Concatenate forced target tensor.
                     combined_input = torch.cat([seg_hiddens, seg_prev_tensor], dim=1)
                 else:
                     combined_input = seg_hiddens
@@ -304,6 +328,8 @@ class LSTMDecoder(nn.Module):
             for sent_i in range(0, len(seq_lens)):
                 prev_tensor = self.__init_tensor
 
+                # It's necessary to remember h and c state
+                # when output prediction every single step.
                 last_h, last_c = None, None
 
                 sent_end_pos = sent_start_pos + seq_lens[sent_i]
@@ -328,11 +354,15 @@ class LSTMDecoder(nn.Module):
 
 
 class QKVAttention(nn.Module):
-    """ Attention mechanism based on Query-Key-Value architecture. """
+    """
+    Attention mechanism based on Query-Key-Value architecture. And
+    especially, when query == key == value, it's self-attention.
+    """
 
     def __init__(self, query_dim, key_dim, value_dim, hidden_dim, output_dim, dropout_rate):
         super(QKVAttention, self).__init__()
 
+        # Record hyper-parameters.
         self.__query_dim = query_dim
         self.__key_dim = key_dim
         self.__value_dim = value_dim
@@ -340,20 +370,25 @@ class QKVAttention(nn.Module):
         self.__output_dim = output_dim
         self.__dropout_rate = dropout_rate
 
+        # Declare network structures.
         self.__query_layer = nn.Linear(self.__query_dim, self.__hidden_dim)
         self.__key_layer = nn.Linear(self.__key_dim, self.__hidden_dim)
         self.__value_layer = nn.Linear(self.__value_dim, self.__output_dim)
         self.__dropout_layer = nn.Dropout(p=self.__dropout_rate)
 
     def forward(self, input_query, input_key, input_value):
-        """ The forward propagation of attention, require the first dimension of input key and value are equal.
+        """ The forward propagation of attention.
 
-        :input_query: is query tensor, (n, d_q)
-        :input_key:  is key tensor, (m, d_k)
-        :input_value:  is value tensor, (m, d_v)
+        Here we require the first dimension of input key
+        and value are equal.
+
+        :param input_query: is query tensor, (n, d_q)
+        :param input_key:  is key tensor, (m, d_k)
+        :param input_value:  is value tensor, (m, d_v)
         :return: attention based tensor, (n, d_h)
         """
 
+        # Linear transform to fine-tune dimension.
         linear_query = self.__query_layer(input_query)
         linear_key = self.__key_layer(input_key)
         linear_value = self.__value_layer(input_value)
@@ -369,16 +404,17 @@ class QKVAttention(nn.Module):
 
 
 class SelfAttention(nn.Module):
-    """ Essentially QKVAttention when query == key == value. """
 
     def __init__(self, input_dim, hidden_dim, output_dim, dropout_rate):
         super(SelfAttention, self).__init__()
 
+        # Record parameters.
         self.__input_dim = input_dim
         self.__hidden_dim = hidden_dim
         self.__output_dim = output_dim
         self.__dropout_rate = dropout_rate
 
+        # Record network parameters.
         self.__dropout_layer = nn.Dropout(self.__dropout_rate)
         self.__attention_layer = QKVAttention(
             self.__input_dim, self.__input_dim, self.__input_dim,

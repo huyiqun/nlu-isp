@@ -1,104 +1,115 @@
 """
-@Author		:           Lee, Qin
-@StartTime	:           2018/08/13
-@Filename	:           process.py
-@Software	:           Pycharm
-@Framework  :           Pytorch
-@LastModify	:           2019/05/07
+Copyright 2020 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 """
+import os
+import time
+import random
+import operator
+import numpy as np
+from tqdm import tqdm
+from collections import Counter, defaultdict
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.autograd import Variable
 
-import os
-import time
-import random
-import numpy as np
-from tqdm import tqdm
-from collections import Counter
 
-# Utils functions copied from Slot-gated model, origin url:
-# 	https://github.com/MiuLab/SlotGated-SLU/blob/master/utils.py
-from utils import miulab
+class Process(object):
+    """ A Process object handles the calculation of the Model object, including the process of training (loss function, optimizer), validation and inference. """
 
+    def __init__(self, model, proc_args):
+        """ Initialization.
 
-class Processor(object):
-
-    def __init__(self, dataset, model, batch_size):
-        self.__dataset = dataset
-        self.__model = model
-        self.__batch_size = batch_size
+        :model: model architecture (type: nn.Module)
+        :proc_args: additional process parameters
+        """
+        self._model = model
+        self._proc_args = proc_args
 
         if torch.cuda.is_available():
             time_start = time.time()
-            self.__model = self.__model.cuda()
+            self._model = self._model.cuda()
+            print(f"The model has been loaded into GPU and cost {time.time() - time_start} seconds.\n")
 
-            time_con = time.time() - time_start
-            print("The model has been loaded into GPU and cost {:.6f} seconds.\n".format(time_con))
-
-        self.__criterion = nn.NLLLoss()
-        #  self.__criterion = nn.NLLLoss()
-        #  self.__criterion = nn.NLLLoss()
-        self.__optimizer = optim.Adam(
-            self.__model.parameters(), lr=self.__dataset.learning_rate,
-            weight_decay=self.__dataset.l2_penalty
+        self._criterion = nn.NLLLoss()
+        self._optimizer = optim.Adam(
+            self._model.parameters(), lr=self._proc_args.learning_rate,
+            weight_decay=self._proc_args.l2_penalty
         )
 
-    def train(self):
-        best_dev_slot = 0.0
+    def train(self, dataset):
+        """ Train the model.
+
+        :dataset: the training set
+        """
+
         best_dev_intent = 0.0
         best_dev_sent = 0.0
 
-        dataloader = self.__dataset.batch_delivery('train')
-        for epoch in range(0, self.__dataset.num_epoch):
+        dataloader = dataset.batch_delivery(self._proc_args.batch_size)
+        for epoch in range(0, self._proc_args.num_epoch):
             total_slot_loss, total_intent_loss = 0.0, 0.0
 
             time_start = time.time()
-            self.__model.train()
+            self._model.train()
 
-            for text_batch, slot_batch, intent_batch, _ in tqdm(dataloader, ncols=50):
-                padded_text, [sorted_slot, sorted_intent], seq_lens, _ = self.__dataset.add_padding(
-                    text_batch, [(slot_batch, False), (intent_batch, False)]
+            for text_batch, slot_batch, intent_batch, anticipation_batch, _ in tqdm(dataloader, ncols=50):
+                padded_text, [sorted_slot, sorted_intent, sorted_anticipation], seq_lens, _ = dataset.add_padding(
+                    text_batch, [(slot_batch, False), (intent_batch, False), (anticipation_batch, False)]
                 )
                 sorted_intent = [item * num for item, num in zip(sorted_intent, seq_lens)]
-                sorted_intent = list(Evaluator.expand_list(sorted_intent))
+                sorted_intent = list(Process.expand_list(sorted_intent))
 
                 text_var = Variable(torch.LongTensor(padded_text))
-                slot_var = Variable(torch.LongTensor(list(Evaluator.expand_list(sorted_slot))))
-                intent_var = Variable(torch.LongTensor(sorted_intent))
+                slot_true = Variable(torch.LongTensor(list(Process.expand_list(sorted_slot))))
+                intent_true = Variable(torch.LongTensor(sorted_intent))
+                anticipation_true = Variable(torch.LongTensor(sorted_anticipation))
 
                 if torch.cuda.is_available():
                     text_var = text_var.cuda()
                     slot_var = slot_var.cuda()
                     intent_var = intent_var.cuda()
 
+                # teacher forcing
                 random_slot, random_intent = random.random(), random.random()
-                if random_slot < self.__dataset.slot_forcing_rate and \
-                        random_intent < self.__dataset.intent_forcing_rate:
-                    slot_out, intent_out = self.__model(
+                if random_slot < self._proc_args.slot_forcing_rate and \
+                        random_intent < self._proc_args.intent_forcing_rate:
+                    slot_out, intent_out, anticipation_out = self._model(
                         text_var, seq_lens, forced_slot=slot_var, forced_intent=intent_var
                     )
-                elif random_slot < self.__dataset.slot_forcing_rate:
-                    slot_out, intent_out = self.__model(
+                elif random_slot < self._proc_args.slot_forcing_rate:
+                    slot_out, intent_out, anticipation_out = self._model(
                         text_var, seq_lens, forced_slot=slot_var
                     )
-                elif random_intent < self.__dataset.intent_forcing_rate:
-                    slot_out, intent_out = self.__model(
+                elif random_intent < self._proc_args.intent_forcing_rate:
+                    slot_out, intent_out, anticipation_out = self._model(
                         text_var, seq_lens, forced_intent=intent_var
                     )
                 else:
-                    slot_out, intent_out = self.__model(text_var, seq_lens)
+                    slot_out, intent_out, anticipation_out = self._model(text_var, seq_lens)
 
-                slot_loss = self.__criterion(slot_out, slot_var)
-                intent_loss = self.__criterion(intent_out, intent_var)
-                #  anticipation_loss = self.__criterion(token_input, token_golden)
-                batch_loss = slot_loss + intent_loss# + anticipation_loss
+                # loss calculation
+                slot_loss = self._criterion(slot_out, slot_true)
+                intent_loss = self._criterion(intent_out, intent_true)
+                anticipation_loss = self._criterion(anticipation_out, anticipation_true)
+                batch_loss = slot_loss + intent_loss + self._proc_args.lmbda * anticipation_loss
 
-                self.__optimizer.zero_grad()
+                self._optimizer.zero_grad()
                 batch_loss.backward()
-                self.__optimizer.step()
+                self._optimizer.step()
 
                 try:
                     total_slot_loss += slot_loss.cpu().item()
@@ -108,70 +119,89 @@ class Processor(object):
                     total_intent_loss += intent_loss.cpu().data.numpy()[0]
 
             time_con = time.time() - time_start
-            print('[Epoch {:2d}]: The total slot loss on train data is {:2.6f}, intent data is {:2.6f}, cost ' \
-                  'about {:2.6} seconds.'.format(epoch, total_slot_loss, total_intent_loss, time_con))
+            print(f"[Epoch {epoch}]: The total slot loss on train data is {total_slot_loss:2.6f}, intent data is {total_intent_loss:2.6f}, cost about {time_con:2.6f} seconds.")
 
             change, time_start = False, time.time()
-            dev_f1_score, dev_acc, dev_sent_acc = self.estimate(if_dev=True, test_batch=self.__batch_size)
 
-            if dev_f1_score > best_dev_slot or dev_acc > best_dev_intent or dev_sent_acc > best_dev_sent:
-                test_f1, test_acc, test_sent_acc = self.estimate(if_dev=False, test_batch=self.__batch_size)
+            # evaluate on the dev set, if performance is better, save the model
+            pred_slot, real_slot, pred_intent, real_intent, _, _, _ = Process.predict(self._model, dataset, self._proc_args.batch_size)
+            dev_acc = Process.accuracy(pred_intent, real_intent)
+            dev_sent_acc = Process.semantic_acc(pred_slot, real_slot, pred_intent, real_intent)
 
-                if dev_f1_score > best_dev_slot:
-                    best_dev_slot = dev_f1_score
+            if dev_acc > best_dev_intent or dev_sent_acc > best_dev_sent:
                 if dev_acc > best_dev_intent:
                     best_dev_intent = dev_acc
                 if dev_sent_acc > best_dev_sent:
                     best_dev_sent = dev_sent_acc
 
-                print('\nTest result: slot f1 score: {:.6f}, intent acc score: {:.6f}, semantic '
-                      'accuracy score: {:.6f}.'.format(test_f1, test_acc, test_sent_acc))
-
-                model_save_dir = os.path.join(self.__dataset.save_dir, "model")
+                model_save_dir = os.path.join(self._proc_args.save_dir, "model")
                 if not os.path.exists(model_save_dir):
                     os.mkdir(model_save_dir)
 
-                torch.save(self.__model, os.path.join(model_save_dir, "model.pkl"))
-                torch.save(self.__dataset, os.path.join(model_save_dir, 'dataset.pkl'))
+                torch.save(self._model, os.path.join(model_save_dir, "model.pkl"))
 
                 time_con = time.time() - time_start
-                print('[Epoch {:2d}]: In validation process, the slot f1 score is {:2.6f}, ' \
-                      'the intent acc is {:2.6f}, the semantic acc is {:.2f}, cost about ' \
-                      '{:2.6f} seconds.\n'.format(epoch, dev_f1_score, dev_acc, dev_sent_acc, time_con))
-
-    def estimate(self, if_dev, test_batch=100):
-        """
-        Estimate the performance of model on dev or test dataset.
-        """
-
-        if if_dev:
-            pred_slot, real_slot, pred_intent, real_intent, _, _, _ = self.prediction(
-                self.__model, self.__dataset, "dev", test_batch
-            )
-        else:
-            pred_slot, real_slot, pred_intent, real_intent, _, _, _ = self.prediction(
-                self.__model, self.__dataset, "test", test_batch
-            )
-
-        slot_f1_socre = miulab.computeF1Score(pred_slot, real_slot)[0]
-        intent_acc = Evaluator.accuracy(pred_intent, real_intent)
-        sent_acc = Evaluator.semantic_acc(pred_slot, real_slot, pred_intent, real_intent)
-
-        return slot_f1_socre, intent_acc, sent_acc
+                print('[Epoch {:2d}]: In validation process, the intent acc is {:2.6f}, ' \
+                      'the semantic acc is {:.2f}, cost about {:2.6f} seconds.\n'.format(epoch, dev_acc, dev_sent_acc, time_con))
 
     @staticmethod
-    def validate(model_path, dataset_path, batch_size):
+    def predict(model, dataset, batch_size):
+        """ Generate prediction.
+
+        :model: a pytorch model
+        :dataset: a pytorch Dataset
+        :batch_size: batch size
         """
-        validation will write mistaken samples to files and make scores.
+        model.eval()
+
+        dataloader = dataset.batch_delivery(batch_size=batch_size)
+
+        pred_slot, real_slot = [], []
+        pred_intent, real_intent = [], []
+        sorted_intents = []
+        sorted_ids = []
+        text = []
+
+        for text_batch, slot_batch, intent_batch, ids_batch in tqdm(dataloader, ncols=50):
+            padded_text, [sorted_slot, sorted_intent], seq_lens, sorted_index = dataset.add_padding(
+                text_batch, [(slot_batch, False), (intent_batch, False)], digital=False
+            )
+            sorted_intents.extend(sorted_intent)
+            text.extend(padded_text)
+            sorted_ids.extend(list(np.array(ids_batch)[sorted_index]))
+
+            real_slot.extend(sorted_slot)
+            real_intent.extend(list(Process.expand_list(sorted_intent)))
+
+            digit_text = dataset.word_alphabet.get_index(padded_text)
+            var_text = Variable(torch.LongTensor(digit_text))
+
+            if torch.cuda.is_available():
+                var_text = var_text.cuda()
+
+            slot_idx, intent_idx = model(var_text, seq_lens, n_predicts=1)
+            nested_slot = Process.nested_list([list(Process.expand_list(slot_idx))], seq_lens)[0]
+            pred_slot.extend(dataset.slot_alphabet.get_instance(nested_slot))
+            nested_intent = Process.nested_list([list(Process.expand_list(intent_idx))], seq_lens)[0]
+            pred_intent.extend(dataset.intent_alphabet.get_instance(nested_intent))
+
+        exp_pred_intent = Process.max_freq_predict(pred_intent)
+        return pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids
+
+    @staticmethod
+    def save_test(model_path, dataset_path, batch_size):
+        """ Save the prediction results for the test set for further evaluation.
+
+        :model_path: path to the pytorch model
+        :dataset_path: path to the dataset
+        :batch_size: batch size to process test set
         """
 
         model = torch.load(model_path)
         dataset = torch.load(dataset_path)
 
-        # Get the sentence list in test dataset.
-        sent_list = dataset.test_sentence
-
-        pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids = Processor.prediction(
+        # generate prediction
+        pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids = Process.predict(
             model, dataset, "test", batch_size
         )
 
@@ -189,102 +219,19 @@ class Processor(object):
             os.mkdir(pred_res_dir)
         torch.save(pred, os.path.join(pred_res_dir, "test.pkl"))
 
-        # To make sure the directory for save error prediction.
-        mistake_dir = os.path.join(dataset.save_dir, "error")
-        if not os.path.exists(mistake_dir):
-            os.mkdir(mistake_dir)
+        intent_acc = Process.accuracy(exp_pred_intent, real_intent)
+        sent_acc = Process.semantic_acc(pred_slot, real_slot, exp_pred_intent, real_intent)
 
-        slot_file_path = os.path.join(mistake_dir, "slot.txt")
-        intent_file_path = os.path.join(mistake_dir, "intent.txt")
-        both_file_path = os.path.join(mistake_dir, "both.txt")
-
-        # Write those sample with mistaken slot prediction.
-        with open(slot_file_path, 'w') as fw:
-            for w_list, r_slot_list, p_slot_list in zip(sent_list, real_slot, pred_slot):
-                if r_slot_list != p_slot_list:
-                    for w, r, p in zip(w_list, r_slot_list, p_slot_list):
-                        fw.write(w + '\t' + r + '\t' + p + '\n')
-                    fw.write('\n')
-
-        # Write those sample with mistaken intent prediction.
-        with open(intent_file_path, 'w') as fw:
-            for w_list, p_intent_list, r_intent, p_intent in zip(sent_list, pred_intent, real_intent, exp_pred_intent):
-                if p_intent != r_intent:
-                    for w, p in zip(w_list, p_intent_list):
-                        fw.write(w + '\t' + p + '\n')
-                    fw.write(r_intent + '\t' + p_intent + '\n\n')
-
-        # Write those sample both have intent and slot errors.
-        with open(both_file_path, 'w') as fw:
-            for w_list, r_slot_list, p_slot_list, p_intent_list, r_intent, p_intent in \
-                    zip(sent_list, real_slot, pred_slot, pred_intent, real_intent, exp_pred_intent):
-
-                if r_slot_list != p_slot_list or r_intent != p_intent:
-                    for w, r_slot, p_slot, p_intent_ in zip(w_list, r_slot_list, p_slot_list, p_intent_list):
-                        fw.write(w + '\t' + r_slot + '\t' + p_slot + '\t' + p_intent_ + '\n')
-                    fw.write(r_intent + '\t' + p_intent + '\n\n')
-
-        slot_f1 = miulab.computeF1Score(pred_slot, real_slot)[0]
-        intent_acc = Evaluator.accuracy(exp_pred_intent, real_intent)
-        sent_acc = Evaluator.semantic_acc(pred_slot, real_slot, exp_pred_intent, real_intent)
-
-        return (slot_f1, intent_acc, sent_acc), (pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids)
-
-    @staticmethod
-    def prediction(model, dataset, mode, batch_size):
-        model.eval()
-
-        if mode == "dev":
-            dataloader = dataset.batch_delivery('dev', batch_size=batch_size, shuffle=False, is_digital=False)
-        elif mode == "test":
-            dataloader = dataset.batch_delivery('test', batch_size=batch_size, shuffle=False, is_digital=False)
-        else:
-            raise Exception("Argument error! mode belongs to {\"dev\", \"test\"}.")
-
-        pred_slot, real_slot = [], []
-        pred_intent, real_intent = [], []
-        sorted_intents = []
-        sorted_ids = []
-        text = []
-
-        for text_batch, slot_batch, intent_batch, ids_batch in tqdm(dataloader, ncols=50):
-            padded_text, [sorted_slot, sorted_intent], seq_lens, sorted_index = dataset.add_padding(
-                text_batch, [(slot_batch, False), (intent_batch, False)], digital=False
-            )
-            #  assert len(intent_batch) == len(sorted_intent)
-            #  for i, j in zip(intent_batch, sorted_intent):
-                #  assert i == j
-            #  sorted_intents[0].extend(intent_batch)
-            sorted_intents.extend(sorted_intent)
-            text.extend(padded_text)
-            sorted_ids.extend(list(np.array(ids_batch)[sorted_index]))
-
-            real_slot.extend(sorted_slot)
-            real_intent.extend(list(Evaluator.expand_list(sorted_intent)))
-
-            digit_text = dataset.word_alphabet.get_index(padded_text)
-            var_text = Variable(torch.LongTensor(digit_text))
-
-            if torch.cuda.is_available():
-                var_text = var_text.cuda()
-
-            slot_idx, intent_idx = model(var_text, seq_lens, n_predicts=1)
-            nested_slot = Evaluator.nested_list([list(Evaluator.expand_list(slot_idx))], seq_lens)[0]
-            pred_slot.extend(dataset.slot_alphabet.get_instance(nested_slot))
-            nested_intent = Evaluator.nested_list([list(Evaluator.expand_list(intent_idx))], seq_lens)[0]
-            pred_intent.extend(dataset.intent_alphabet.get_instance(nested_intent))
-
-        exp_pred_intent = Evaluator.max_freq_predict(pred_intent)
-        return pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids
-
-
-class Evaluator(object):
+        return (intent_acc, sent_acc), (pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids)
 
     @staticmethod
     def semantic_acc(pred_slot, real_slot, pred_intent, real_intent):
-        """
-        Compute the accuracy based on the whole predictions of
-        given sentence, including slot and intent.
+        """ Compute full query semantic accuracy.
+
+        :pred_slot: slot prediction
+        :real_slot: golden slot labels
+        :pred_intent: intent prediction
+        :real_intent: golden intent labels
         """
 
         total_count, correct_count = 0.0, 0.0
@@ -298,18 +245,22 @@ class Evaluator(object):
 
     @staticmethod
     def accuracy(pred_list, real_list):
-        """
-        Get accuracy measured by predictions and ground-trues.
+        """ Calculate accuracy if given two vectors
+
+        :pred_list: the predicted values
+        :real_list: the true labels
         """
 
-        pred_array = np.array(list(Evaluator.expand_list(pred_list)))
-        real_array = np.array(list(Evaluator.expand_list(real_list)))
+        pred_array = np.array(list(Process.expand_list(pred_list)))
+        real_array = np.array(list(Process.expand_list(real_list)))
         return (pred_array == real_array).sum() * 1.0 / len(pred_array)
 
     @staticmethod
     def f1_score(pred_list, real_list):
-        """
-        Get F1 score measured by predictions and ground-trues.
+        """ Calculate f1 score if given two vectors
+
+        :pred_list: the predicted values
+        :real_list: the true labels
         """
 
         tp, fp, fn = 0.0, 0.0, 0.0
@@ -357,40 +308,36 @@ class Evaluator(object):
         r = tp / (tp + fn) if tp + fn != 0 else 0
         return 2 * p * r / (p + r) if p + r != 0 else 0
 
-    """
-    Max frequency prediction. 
-    """
-
     @staticmethod
-    def max_freq_predict(sample):
-        predict = []
-        for items in sample:
-            predict.append(Counter(items).most_common(1)[0][0])
-        return predict
+    def max_freq_predict(sample, weights=None):
+        """ Get sentence-level intent prediction by majority voting
 
-    @staticmethod
-    def exp_decay_predict(sample, decay_rate=0.8):
+        :sample: votes from tokens
+        :weights: weight each token gets in determining sentence-level intent
+        """
         predict = []
-        for items in sample:
-            item_dict = {}
-            curr_weight = 1.0
-            for item in items[::-1]:
-                item_dict[item] = item_dict.get(item, 0) + curr_weight
-                curr_weight *= decay_rate
-            predict.append(sorted(item_dict.items(), key=lambda x_: x_[1])[-1][0])
+        for vote, weight in zip(sample, weights):
+            res = defaultdict(float)
+            for v, w in zip(vote, weight):
+                res[v] += weight
+            predict.append(max(res.iteritems(), key=operator.itemgetter(1))[-1])
         return predict
 
     @staticmethod
     def expand_list(nested_list):
+        """ Expand nested list. """
+
         for item in nested_list:
             if isinstance(item, (list, tuple)):
-                for sub_item in Evaluator.expand_list(item):
+                for sub_item in Process.expand_list(item):
                     yield sub_item
             else:
                 yield item
 
     @staticmethod
     def nested_list(items, seq_lens):
+        """ Segment a long list into nested list with size `seq_lens`. """
+
         num_items = len(items)
         trans_items = [[] for _ in range(0, num_items)]
 

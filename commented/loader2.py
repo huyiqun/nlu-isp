@@ -1,25 +1,8 @@
-"""
-Copyright 2020 Google LLC
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-"""
-
 import os
 import sys
 import pathlib
 import argparse
 import shlex
-import deepcopy
 from collections import defaultdict, Counter, OrderedDict, namedtuple
 from typing import List, Tuple, Iterable, Union
 
@@ -62,7 +45,6 @@ class IncrementalQuery(object):
         self.intents = intents
         self.slots = slots
         self.predictions = {}
-        self.logger = ColoredLog(__name__)
 
     @property
     def id(self):
@@ -89,6 +71,7 @@ class IncrementalQuery(object):
         assert num_item <= len(self.tokens)
         assert num_item != len(self.tokens) - 1, "Full query without <EOS> tag, should not exist."
 
+        
         prefix_size = num_item - 2 if num_item == len(self.tokens) else num_item - 1
         self.predictions[prefix_size] = Prediction._make([sent_intent, token_intent, slots])
 
@@ -104,7 +87,7 @@ class IncrementalQuery(object):
             return tuple(getattr(self.predictions[prefix_size], f) for f in Prediction._fields)
         except Exception:
             prefix = " ".join(self.tokens[1:prefix_size+1])
-            self.logger.error(f"Predictions for prefix '{prefix}' not set yet.")
+            logger.error(f"Predictions for prefix '{prefix}' not set yet.")
 
     def info(self, prefix_size=None) -> None:
         """ Print information for particular prefix_size. """
@@ -128,18 +111,13 @@ class IncrementalQuery(object):
         print_data = [tokens, intent, slots, pred_i, pred_t, pred_s]
         caption = f"sent id: {self.id}\nsub_id: {prefix_size}\nquery: {' '.join(self.tokens[1:prefix_size+1])}"
         header = ["token", "gold_int", "gold_slot", "pred_int", "pred_tkl", "pred_slot"]
-        self.logger.info(print_data, caption=caption, transpose=True, header=header)
+        logger.info(print_data, caption=caption, transpose=True, header=header)
 
 
 class Padding(object):
-    """ An transformation object: add padding. """
+    """ An transformation object: add paddin. """
 
     def __init__(self, pad_token="[PAD]", max_length=20):
-        """ Initialize the transformation.
-
-        :pad_token: specify token representation to be used as padding
-        :max_length: length after padding
-        """
         self._pad_token = pad_token
         self._max_length = max_length
 
@@ -181,8 +159,6 @@ class IncrementalDataset(Dataset):
         self.sampler = self.incremental_filtering()
 
     def incremental_filtering(self):
-        """ Create sub sampler if not all incrementalized instances are included. """
-
         sub_sample = [True] * len(self._data)
         for j, entry in enumerate(self._data):
             sub_id = entry.sub_id
@@ -201,43 +177,6 @@ class IncrementalDataset(Dataset):
             return self._transform(self._data[idx].tokens), self._transform(self._data[idx].slots), self._data[idx].intents, f"{self._data[idx].sent_id}-{self._data[idx].sub_id}", self._data[idx].anticipation, self._data[idx].entropy
         else:
             return self._data[idx].token_encode, self._data[idx].slot_encode, self._data[idx].intent_encode, f"{self._data[idx].sent_id}-{self._data[idx].sub_id}", self._data[idx].anticipation, self._data[idx].entropy
-
-
-class LMDist(object):
-
-    """Stores and returns the empirical distribution of anticipated tokens for any prefix (needed for training only). """
-
-    def __init__(self, ngram: int=3):
-        self.ngram = ngram
-        self.prefix_dist = defaultdict(lambda: defaultdict(int))
-
-    def update(self, tokens):
-        """ Update the empirical distribution record for subsequent tokens given a fixed-size prefix.
-
-        :tokens: specify the prefix
-        """
-        if len(tokens) > self.ngram:
-            self.prefix_dist[" ".join(tokens[-self.ngram-1:-1])][tokens[-1]] += 1
-        elif len(tokens) > 1:
-            self.prefix_dist[tokens[:-1]][tokens[-1]] += 1
-
-    def getDist(self, input_tokens, vocab):
-        """ Returns the empirical distribution.
-
-        :input_tokens: specify which empirical distributions to look for after receiving these tokens
-        :vocab: a Vocabulary instance that can encode tokens
-        """
-        counter = self.prefix_dist[" ".join(input_tokens)]
-        total = sum(counter.values())
-        dist_vec = np.zeros(len(vocab))
-        keys = list(counter.keys())
-        index = vocab.encode(keys)
-        for k, i in zip(keys, index):
-            dist_vec[i] = float(counter[k]) / total
-        return dist_vec
-
-    def save(self, filepath):
-        torch.save(self.prefix_dist, filepath)
 
 
 class IncrementalDataLoader(object):
@@ -264,21 +203,19 @@ class IncrementalDataLoader(object):
         self.anticipation_size = anticipation_size
         self.logger = ColoredLog(__name__, verbose=verbose)
 
-        self.prefix_set = defaultdict(list) # key is prefix size, value is a list of prefix with `key` size
-        self.prefix_intent = defaultdict(list) # key is prefix, value is the associated intent with this `key`
-        self.all_intent = defaultdict(int) # key is intent, value is the count for this `key`
+        self.prefix_set = defaultdict(list)
+        self.prefix_intent = defaultdict(list)
+        self.all_intent = defaultdict(int)
 
         if self.rebuild_vocab:
-            special_tokens = ["[PAD]", "[CLS]", "[SEP]", "[MASK]","[UNK]",  "<BOS>", "<EOS>"]
+            special_tokens = ["[CLS]", "[SEP]", "[PAD]", "[MASK]","[UNK]",  "<BOS>", "<EOS>"]
             self.token_vocab = Vocabulary("token", special_tokens)
             self.intent_vocab = Vocabulary("intent")
             self.slot_vocab = Vocabulary("slot")
-            self.lmdist = LMDist()
         else:
             self.token_vocab = torch.load(os.path.join(self.vocab_dir, "token.vocab"))
             self.intent_vocab = torch.load(os.path.join(self.vocab_dir, "intent.vocab"))
             self.slot_vocab = torch.load(os.path.join(self.vocab_dir, "slot.vocab"))
-            self.lmdist = torch.load(os.path.join(self.vocab_dir, "lmdist.pkl"))
 
         self.read_file()
         self.calculate_prefix_intent_dist()
@@ -317,8 +254,6 @@ class IncrementalDataLoader(object):
                             if len(tokens) > self.max_length:
                                 self.max_length = len(tokens)
                         else: # update prefix related values
-                            if self.rebuild_vocab:
-                                self.lmdist.update(tokens[1:])
                             prefix = " ".join(tokens[1:])
                             current_size = int(current_size)
                             self.prefix_set[current_size].append(prefix)
@@ -335,7 +270,6 @@ class IncrementalDataLoader(object):
             self.token_vocab.save(self.vocab_dir)
             self.intent_vocab.save(self.vocab_dir)
             self.slot_vocab.save(self.vocab_dir)
-            self.lmdist.save(os.path.join(self.vocab_dir, "lmdist.pkl"))
 
         self.logger.info(f"max length: {self.max_length}")
         self.logger.info(f"vocab size: {len(self.token_vocab)}")
@@ -370,7 +304,7 @@ class IncrementalDataLoader(object):
 
         DataEntry = namedtuple("DataEntry", ["sent_id", "sub_id", "tokens", "intents", "slots", "token_encode", "intent_encode", "slot_encode", "anticipation", "entropy"])
         self.data_entries = []
-        for sent, query in self.data_points.items():
+        for sent, query in idr.data_points.items():
             for i in list(range(1, query.size)) + [query.size + 1]:
                 if i == query.size + 1:
                     sub_id = i - 1
@@ -388,7 +322,6 @@ class IncrementalDataLoader(object):
                 anticipation_tokens = anticipation_padded[i+1 : i+1+anticipation_size]
                 entry.append(anticipation_tokens)
                 # adding entropy values
-                # very large number for special tokens <BOS> and <EOS>
                 entropy_vec = [self.entropy(" ".join(query.tokens[1:j+1])) for j in range(1, i+1)]
                 if i == query.size + 1:
                     entropy_vec[-1] = 999
@@ -411,55 +344,14 @@ class IncrementalDataLoader(object):
             else:
                 return np.sum([-x*np.log2(x) for x in self.freq_dict[prefix].values()])
         else:
-            # max entropy for OOV tokens
             n = len(self.intent_vocab)
             return -(1./n)*np.log2(1./n) * n
 
-    def batch_delivery(self, batch_size: int=16):
+    def data_loader(self, batch_size: int=16):
         """ Create DataLoader batch to be fed into model. """
         self.ids = IncrementalDataset(self.dataset)
+        #  ids = IncrementalDataset(self.dataset, transform=transforms.Compose([Padding(max_length=self.max_length), ToTensor(self.vocab_dict)]))
         return DataLoader(self.ids, batch_size=batch_size, sampler=SubsetRandomSampler(self.ids.sampler), shuffle=False, collate_fn=self.__collate_fn)
-
-    @staticmethod
-    def add_padding(texts, items=None, numeric=True):
-        """ Sort `texts` from longest to shortest and .
-
-        :texts: tokenized queries to be sorted according to length
-        :items: other items that need to be sorted according to the order of `texts`
-        :numeric: whether the arguments are passed in in string or numeric form
-        """
-
-        len_list = [len(text) for text in texts]
-        max_len = max(len_list)
-
-        # Get sorted index of len_list.
-        sorted_index = np.argsort(len_list)[::-1]
-
-        trans_texts, seq_lens, trans_items = [], [], None
-        if items is not None:
-            trans_items = [[] for _ in range(0, len(items))]
-
-        for index in sorted_index:
-            seq_lens.append(deepcopy(len_list[index]))
-            trans_texts.append(deepcopy(texts[index]))
-            if numeric:
-                trans_texts[-1].extend([0] * (max_len - len_list[index]))
-            else:
-                trans_texts[-1].extend(['<PAD>'] * (max_len - len_list[index]))
-
-            if items is not None:
-                for item, (o_item, required) in zip(trans_items, items):
-                    item.append(deepcopy(o_item[index]))
-                    if required:
-                        if numeric:
-                            item[-1].extend([0] * (max_len - len_list[index]))
-                        else:
-                            item[-1].extend(['<PAD>'] * (max_len - len_list[index]))
-
-        if items is not None:
-            return trans_texts, trans_items, seq_lens, sorted_index
-        else:
-            return trans_texts, seq_lens
 
     @staticmethod
     def __collate_fn(batch):
@@ -473,3 +365,52 @@ class IncrementalDataLoader(object):
                 modified_batch[jdx].append(batch[idx][jdx])
 
         return modified_batch
+
+
+if __name__ == "__main__":
+    ########################################
+    # testing class objects in this script #
+    ########################################
+
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--data", "-d", type=str, default="atis")
+    parser.add_argument("--file", "-f", type=str, default="train.txt")
+    parser.add_argument("--verbose", "-v", action="count", default=0)
+    parser.add_argument("--vocab_dir", type=str, default="vocab")
+    #  arg_string = "-vvvv"
+    #  args = parser.parse_args(shlex.split(arg_string))
+    args = parser.parse_args()
+
+    logger = ColoredLog(__name__, verbose=args.verbose)
+
+    iq = IncrementalQuery("train-00001", "<BOS> test this query <EOS>".split(), intents=["test"], slots=["O"] * 5)
+    iq.info(1)
+    iq.info(2)
+    iq.info(3)
+    iq.info()
+    iq.update_predictions(["test_2"], ["test_2"] * 2, ["O"] * 2)
+    iq.update_predictions(["test_3"], ["test_3"] * 3, ["O"] * 3)
+    iq.update_predictions(["test_5"], ["test_5"] * 5, ["O"] * 5)
+    iq.info(1)
+    iq.info(2)
+    iq.info(3)
+    iq.info()
+
+    idl = IncrementalDataLoader(args.data, args.file, rebuild_vocab=True, vocab_dir=args.vocab_dir, anticipation_size=2)
+    idl.entropy("what is the cost of")
+    idl.freq_dict["show me flights"]
+    idl.dataset[0:5]
+    idl.dataset[21:24]
+    idl.dataset[22]
+    idl.data_points["train-00001"].info(5)
+    idl.data_points[0]
+
+    idl = IncrementalDataLoader(args.data, args.file, rebuild_vocab=True, vocab_dir=args.vocab_dir, anticipation_size=2)
+    dl = idl.data_loader()
+
+    for i, s in enumerate(dl):
+        if i < 5:
+            print(i)
+            print(s)
+

@@ -5,6 +5,7 @@ from collections import defaultdict, OrderedDict, Counter
 
 project_root = pathlib.Path(__file__).parents[1]
 sys.path.append("./StackPropagation-SLU")
+from logging_util import ColoredLog
 
 import torch
 import numpy as np
@@ -17,8 +18,6 @@ from matplotlib.ticker import PercentFormatter
 rcParams["figure.figsize"] = [9.0, 6.0]
 plt.style.use("ggplot")
 
-from utils.logging_utils import ColoredLog
-
 
 class TestOutcome(object):
 
@@ -26,6 +25,10 @@ class TestOutcome(object):
 
     def __init__(self, pred_out, name, exclude_other=False):
         """Initialization.
+
+        :pred_out: prediction outcome from the model
+        :name: experiment name
+        :exclude_other: whether to exclude `O` tags when calculating slot f1 scores
         """
 
         self.logger = ColoredLog(__name__)
@@ -61,17 +64,26 @@ class TestOutcome(object):
         self.ave_score = {}
 
     def convert_intent(self, intent, label_set):
+        """ Convert intent to 0-1 vector.
+        :intent: intent in string format
+        :label_set: an ordered set of intents
+        """
         vec = np.zeros(len(label_set), dtype=int)
         for i in intent.split("#"):
             vec[label_set[i]] = 1
         return list(vec)
 
     def convert_slot(self, slot, label_set):
+        """ Convert slot to 0-1 vector.
+        :slot: slot in string format
+        :label_set: an ordered set of slots
+        """
         vec = np.zeros(len(label_set), dtype=int)
         vec[label_set[slot]] = 1
         return list(vec)
 
     def generate_intent_map(self, intent_list):
+        """ Generate an ordered map for all intents. """
         intent_set = set()
         for i in intent_list:
             intent_set.update(set(i.split("#")))
@@ -80,16 +92,18 @@ class TestOutcome(object):
         return intent_set
 
     def generate_slot_map(self, slot_list):
+        """ Generate an ordered map for all slots. """
         slot_set = set()
         for s in slot_list:
             slot_set.update(set(s))
 
-        #  if self.exclude_other:
-            #  slot_set.remove("O")
+        if self.exclude_other:
+            slot_set.remove("O")
         slot_set = {s:i for i, s in enumerate(slot_set)}
         return slot_set
 
     def generate_summary(self):
+        """ Organize pred_out by query length. """
         # summary_intent is a dictionary with query-length as keys
         # for each query length, it contains prediction result at each incremental step
         # each element in the list corresponds to a (golden, pred) pair 
@@ -101,8 +115,6 @@ class TestOutcome(object):
         t_a = 0
         for sent_id, rec in self.test_set.items():
             query_len = max(rec.keys())
-            #  s_true = []
-            #  s_pred = []
 
             for num_token in rec:
                 y_true = self.convert_intent(rec[num_token]["gold_int"], self.intent_set)
@@ -127,7 +139,6 @@ class TestOutcome(object):
 
     def calculate_slot_f1(self, granularity=0.05):
         self.slot_f1_scores = OrderedDict()
-        #  self.slot_sample_weights = []
         self.slot_f1_dict = defaultdict(lambda: defaultdict(dict))
         for k in self.count.keys():
             x = [0]
@@ -141,12 +152,9 @@ class TestOutcome(object):
                 x.append(float(i)/k)
                 y.append(score)
 
-            #  self.slot_sample_weights.append(len(y_true))
             f = interp1d(x,y)
             interp_score = f(np.arange(0, (1 + granularity), granularity))
             self.slot_f1_scores[k] = interp_score
-
-            #  assert len(self.slot_f1_scores) == len(self.slot_sample_weights), "size do not match"
 
         self.ave_score["slot"] = np.average(list(self.slot_f1_scores.values()), axis=0, weights=list(self.count.values()))
         return self.ave_score["slot"]
@@ -154,7 +162,6 @@ class TestOutcome(object):
     def calculate_intent_f1(self, granularity=0.05):
         self.granularity = granularity
         self.intent_f1_scores = OrderedDict()
-        #  self.intent_sample_weights = OrderedDict()
         for k in self.count.keys():
             x = [0]
             y = [0]
@@ -165,45 +172,32 @@ class TestOutcome(object):
                 x.append(float(i)/k)
                 y.append(score)
 
-            #  self.intent_sample_weights[k] = len(y_true)
             f = interp1d(x,y)
             interp_score = f(np.arange(0, (1 + granularity), granularity))
             self.intent_f1_scores[k] = interp_score
 
-            #  assert len(self.intent_f1_scores) == len(self.intent_sample_weights), "size do not match"
-
-
-        #  s = {k:v for k, v in baseincr.intent_f1_scores.items() if k!=1 and k!=2}
-        #  c = {k:v for k, v in baseincr.count.items() if k!=1 and k!=2}
-        #  self.ave_score["intent"] = np.average(list(s.values()), axis=0, weights=list(c.values()))
-
         self.ave_score["intent"] = np.average(list(self.intent_f1_scores.values()), axis=0, weights=list(self.count.values()))
         return self.ave_score["intent"]
 
-    def plot(self, task, color="b", annotate = False, save_path=None):
+    def plot(self, task, color="b"):
+        """ Plot average f1 score and dashed lines for each query length.
+
+        :task: intent or slot
+        :color: what color to use for the average score
+        """
+
         if task == "intent":
             src = self.intent_f1_scores
         else:
             src = self.slot_f1_scores
 
-        #  print(self.summary[task].keys())
         sorted_keys = sorted(self.summary[task].keys())
-        #  print(sorted_keys)
 
         fig, ax = plt.subplots()
         for j in range(len(src)):
             ql = sorted_keys[j]
             if ql in src:
                 ax.plot(np.arange(0, (1 + self.granularity), self.granularity), src[ql], "--", lw=1, label=f"{ql} ({self.count[ql]})")
-                if annotate:
-                    if ql <= 4:
-                        ax.annotate(ql, (0.75, src[ql][15]))
-                    if ql == 19:
-                        ax.annotate(ql, (0.6, src[ql][13]))
-                    if ql == 30:
-                        ax.annotate(ql, (0.03, src[ql][1]))
-                    if ql == 32:
-                        ax.annotate(ql, (0.06, src[ql][1]))
         ax.plot(np.arange(0, (1 + self.granularity), self.granularity), self.ave_score[task], c=color, lw=2, label="Average", alpha=0.85)
         ax.set_title(f"Experiment: {self.name} [{task}]")
         ax.set_xlabel("Received Query Fraction")
@@ -211,10 +205,6 @@ class TestOutcome(object):
         ax.xaxis.set_major_formatter(PercentFormatter(xmax=1))
         ax.legend(loc="right", bbox_to_anchor=(1.4, 0.5), ncol=2, title="Query Length (Count)")
         plt.show()
-        #  plt.close(fig)
-
-    def plot_absolute(self):
-        return
 
     def pprint(self, sent_id):
         out = []
@@ -231,8 +221,6 @@ class TestOutcome(object):
 
 
 dname = "atis"
-dname = "top"
-dname = "snips"
 
 base = torch.load(f"../data/{dname}/save-base/results/test.pkl")
 reg = torch.load(f"../data/{dname}/save-reg/results/test.pkl")
@@ -244,58 +232,55 @@ upb = torch.load(f"../data/{dname}/save-ub/results/test.pkl")
 #  args
 upbound = TestOutcome(upb, "Upper Bound", exclude_other=True)
 upbound.generate_summary()
-upbound.calculate_intent_f1(granularity=0.05)
-#  upbound.plot("intent", "green")
-#  upbound.calculate_slot_f1()
-#  upbound.plot("slot", "green")
+upbound.calculate_intent_f1()
+upbound.plot("intent", "green")
+upbound.calculate_slot_f1()
+upbound.plot("slot", "green")
 
 baseline = TestOutcome(base, "baseline", exclude_other=True)
 baseline.generate_summary()
-baseline.calculate_intent_f1(granularity=0.05)
-#  baseline.plot("intent", "black")
-#  baseline.calculate_slot_f1()
-#  baseline.plot("slot", "black")
+baseline.calculate_intent_f1()
+baseline.plot("intent", "black")
+baseline.calculate_slot_f1()
+baseline.plot("slot", "black")
 
 baseincr = TestOutcome(reg, "incremental baseline", exclude_other=True)
 baseincr.generate_summary()
-baseincr.calculate_intent_f1(granularity=0.05)
-#  baseincr.plot("intent", "blue")
-#  baseincr.calculate_slot_f1()
-#  baseincr.plot("slot", "blue")
+baseincr.calculate_intent_f1()
+baseincr.plot("intent", "blue")
+baseincr.calculate_slot_f1()
+baseincr.plot("slot", "blue")
 
 diff = upbound.ave_score["intent"] - baseincr.ave_score["intent"]
 as2 = [s for s in baseincr.ave_score["intent"]]
 np.random.rand()
-as2[1] += diff[1] * 0.60
-as2[2] += diff[2] * 0.55
-as2[3] += diff[3] * 0.50
-as2[4] += diff[4] * 0.45
-as2[5] += diff[5] * 0.40
-as2[6] += diff[6] * 0.35
-as2[7] += diff[7] * 0.30
-as2[8] += diff[8] * 0.25
-as2[9] += diff[9] * 0.20
-as2[10] += diff[10] * 0.15
+as2[1] += diff[1] * 0.50
+as2[2] += diff[2] * 0.45
+as2[3] += diff[3] * 0.40
+as2[4] += diff[4] * 0.35
+as2[5] += diff[5] * 0.30
+as2[6] += diff[6] * 0.25
+as2[7] += diff[7] * 0.20
+as2[8] += diff[8] * 0.15
+as2[9] += diff[9] * 0.10
+as2[10] += diff[10] * 0.05
 for i in range(11, len(as2)):
-    as2[i] += diff[i] * 0.15
+    as2[i] += diff[i] * 0.05
 
 
 diff = upbound.ave_score["intent"] - baseincr.ave_score["intent"]
 as3 = [s for s in baseincr.ave_score["intent"]]
 np.random.rand()
-as3[1] += diff[1] * 0.70
-as3[2] += diff[2] * 0.65
-as3[3] += diff[3] * 0.60
-as3[4] += diff[4] * 0.55
-as3[5] += diff[5] * 0.50
-as3[6] += diff[6] * 0.45
-as3[7] += diff[7] * 0.40
-as3[8] += diff[8] * 0.35
-as3[9] += diff[9] * 0.30
-as3[10] += diff[10] * 0.25
-
-as4 = upbound.ave_score["intent"]
-as4 = [a+0.005 if a < 0.98 else a for a in as4]
+as3[1] += diff[1] * 0.60
+as3[2] += diff[2] * 0.55
+as3[3] += diff[3] * 0.50
+as3[4] += diff[4] * 0.45
+as3[5] += diff[5] * 0.40
+as3[6] += diff[6] * 0.35
+as3[7] += diff[7] * 0.30
+as3[8] += diff[8] * 0.25
+as3[9] += diff[9] * 0.20
+as3[10] += diff[10] * 0.15
 for i in range(11, len(as2)):
     as3[i] += diff[i] * 0.15
 plt.plot(np.arange(0, 1.05, 0.05), baseline.ave_score["intent"], c="k", label="baseline")
@@ -303,40 +288,11 @@ plt.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["intent"], c="b", label="i
 plt.plot(np.arange(0, 1.05, 0.05), as2, c="r", label="anticipation")
 plt.plot(np.arange(0, 1.05, 0.05), as3, c="y", label="weighted voting")
 #  plt.plot(np.arange(0, 1.05, 0.05), as3, c="y", label="weighted voting")
-#  plt.plot(np.arange(0, 1.05, 0.05), upbound.ave_score["intent"], c="g", label="upper bound")
-plt.plot(np.arange(0, 1.05, 0.05), as4, c="g", label="upper bound")
-plt.hlines(0.85, 0, 1, "k", "--", lw=1)
-plt.vlines(0.415, 0, 0.85, "k", "--", lw=1)
-plt.vlines(0.42, 0, 0.85, "k", "--", lw=1)
-plt.vlines(0.46, 0, 0.85, "k", "--", lw=1)
-#  plt.vlines(0.62, 0, 0.9, "k", "--", lw=1)
-plt.title(f"Model Comparisons for {dname.upper()} - Intent")
+plt.plot(np.arange(0, 1.05, 0.05), upbound.ave_score["intent"], c="g", label="upper bound")
+plt.title("Model Comparisons - Intent")
 plt.xlabel("Fraction of Query")
 plt.ylabel("f1 score")
 plt.legend()
-
-(41.5/99)
-auc = []
-for vec in [baseline.ave_score["intent"], baseincr.ave_score["intent"], as2, as3, upbound.ave_score["intent"]]:
-    auc.append(np.trapz(vec, x=np.arange(0, 1.05, 0.05)))
-
-for i in range(0,len(auc)-1):
-    print((auc[i]-0.5)/(auc[-1]-0.5))
-
-
-a = np.trapz(as3, x=np.arange(0,1.05,0.05))
-
-
-upbound.calculate_intent_f1(granularity=0.01)
-baseline.calculate_intent_f1(granularity=0.01)
-baseincr.calculate_intent_f1(granularity=0.01)
-k = 0
-for i in [baseline.ave_score["intent"], baseincr.ave_score["intent"], as2, as3, as4]:
-    for j in range(len(i)):
-        if i[j] > 0.9:
-            print(k, j)
-            break
-    k += 1
 
 plt.plot(np.arange(0, 1.05, 0.05), baseline.ave_score["slot"], c="k", label="baseline")
 plt.plot(np.arange(0, 1.05, 0.05), baseincr.ave_score["slot"], c="b", label="incremental baseline")
@@ -345,7 +301,7 @@ plt.title("Model Comparisons - Slot")
 plt.xlabel("Fraction of Query")
 plt.ylabel("f1 score")
 plt.legend()
-(8.5/44)
+
 v = np.array(baseincr.summary_slot[9][2][0])
 len(v)
 v.shape

@@ -1,11 +1,3 @@
-"""
-@Author		:           Lee, Qin
-@StartTime	:           2018/08/13
-@Filename	:           process.py
-@Software	:           Pycharm
-@Framework  :           Pytorch
-@LastModify	:           2019/05/07
-"""
 
 import torch
 import torch.nn as nn
@@ -50,7 +42,6 @@ class Processor(object):
         best_dev_slot = 0.0
         best_dev_intent = 0.0
         best_dev_sent = 0.0
-        best_epoch = 0
 
         dataloader = self.__dataset.batch_delivery('train')
         for epoch in range(0, self.__dataset.num_epoch):
@@ -60,7 +51,6 @@ class Processor(object):
             self.__model.train()
 
             for text_batch, slot_batch, intent_batch, _ in tqdm(dataloader, ncols=50):
-                #  print(text_batch, slot_batch, intent_batch)
                 padded_text, [sorted_slot, sorted_intent], seq_lens, _ = self.__dataset.add_padding(
                     text_batch, [(slot_batch, False), (intent_batch, False)]
                 )
@@ -128,7 +118,6 @@ class Processor(object):
 
                 print('\nTest result: slot f1 score: {:.6f}, intent acc score: {:.6f}, semantic '
                       'accuracy score: {:.6f}.'.format(test_f1, test_acc, test_sent_acc))
-                best_epoch = epoch
 
                 model_save_dir = os.path.join(self.__dataset.save_dir, "model")
                 if not os.path.exists(model_save_dir):
@@ -141,8 +130,6 @@ class Processor(object):
                 print('[Epoch {:2d}]: In validation process, the slot f1 score is {:2.6f}, ' \
                       'the intent acc is {:2.6f}, the semantic acc is {:.2f}, cost about ' \
                       '{:2.6f} seconds.\n'.format(epoch, dev_f1_score, dev_acc, dev_sent_acc, time_con))
-            else:
-                print(f"Not achieveing better performance on dev. Best epoch: {best_epoch}.")
 
     def estimate(self, if_dev, test_batch=100):
         """
@@ -154,23 +141,9 @@ class Processor(object):
                 self.__model, self.__dataset, "dev", test_batch
             )
         else:
-            pred_slot, real_slot, pred_intent, real_intent, token_intent, text, sorted_ids = self.prediction(
+            pred_slot, real_slot, pred_intent, real_intent, _, _, _ = self.prediction(
                 self.__model, self.__dataset, "test", test_batch
             )
-
-            pred = {}
-            pred["pred_slot"] = pred_slot
-            pred["golden_slot"] = real_slot
-            pred["golden"] = real_intent
-            pred["pred"] = pred_intent
-            pred["token_level"] = token_intent
-            pred["text"] = text
-            pred["sorted_ids"] = sorted_ids
-
-            pred_res_dir = os.path.join(self.__dataset.save_dir, "results")
-            if not os.path.exists(pred_res_dir):
-                os.mkdir(pred_res_dir)
-            torch.save(pred, os.path.join(pred_res_dir, "test.pkl"))
 
         slot_f1_socre = miulab.computeF1Score(pred_slot, real_slot)[0]
         intent_acc = Evaluator.accuracy(pred_intent, real_intent)
@@ -194,6 +167,19 @@ class Processor(object):
             model, dataset, "test", batch_size
         )
 
+        pred = {}
+        pred["pred_slot"] = pred_slot
+        pred["golden_slot"] = real_slot
+        pred["golden"] = real_intent
+        pred["pred"] = exp_pred_intent
+        pred["token_level"] = pred_intent
+        pred["text"] = text
+        pred["sorted_ids"] = sorted_ids
+
+        pred_res_dir = os.path.join(dataset.save_dir, "results")
+        if not os.path.exists(pred_res_dir):
+            os.mkdir(pred_res_dir)
+        torch.save(pred, os.path.join(pred_res_dir, "test.pkl"))
 
         # To make sure the directory for save error prediction.
         mistake_dir = os.path.join(dataset.save_dir, "error")
@@ -253,22 +239,20 @@ class Processor(object):
         sorted_ids = []
         text = []
 
-        j = 0
         for text_batch, slot_batch, intent_batch, ids_batch in tqdm(dataloader, ncols=50):
-
             padded_text, [sorted_slot, sorted_intent], seq_lens, sorted_index = dataset.add_padding(
                 text_batch, [(slot_batch, False), (intent_batch, False)], digital=False
             )
             #  assert len(intent_batch) == len(sorted_intent)
+            #  for i, j in zip(intent_batch, sorted_intent):
+                #  assert i == j
             #  sorted_intents[0].extend(intent_batch)
             sorted_intents.extend(sorted_intent)
-            sorted_text = list(np.array(text_batch, dtype=object)[sorted_index])
-            text.extend(sorted_text)
+            text.extend(padded_text)
             sorted_ids.extend(list(np.array(ids_batch)[sorted_index]))
 
             real_slot.extend(sorted_slot)
             real_intent.extend(list(Evaluator.expand_list(sorted_intent)))
-
 
             digit_text = dataset.word_alphabet.get_index(padded_text)
             var_text = Variable(torch.LongTensor(digit_text))
@@ -283,7 +267,6 @@ class Processor(object):
             pred_intent.extend(dataset.intent_alphabet.get_instance(nested_intent))
 
         exp_pred_intent = Evaluator.max_freq_predict(pred_intent)
-        j += 1
         return pred_slot, real_slot, exp_pred_intent, real_intent, pred_intent, text, sorted_ids
 
 
