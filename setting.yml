@@ -1,0 +1,6 @@
+data: atis
+type: base
+save: save
+params:
+    a: 1
+    b: 2
