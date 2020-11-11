@@ -8,28 +8,37 @@ from tabulate import tabulate
 import coloredlogs
 
 
+class DotDict(dict):
+    """dot.notation access to dictionary attributes"""
+    __getattr__ = dict.get
+    __setattr__ = dict.__setitem__
+    __delattr__ = dict.__delitem__
+
+
 class ColoredLog(object):
 
-    """Docstring for ColoredLog. """
+    """Colored logging"""
 
     def __init__(self, logger_name, verbose=0, file_handler=None):
         self._name = logger_name
         self._verbose = verbose
-        self._level = self.log_level()
+        self.level = self.set_log_level()
         self.file_handler = file_handler
         self.logger = self.construct_logger(logger_name)
 
-    def log_level(self):
+    def set_log_level(self):
         if self._verbose == 0:
-            self.level = 50
+            level = 50
         elif self._verbose == 1:
-            self.level = 40
+            level = 40
         elif self._verbose == 2:
-            self.level = 30
+            level = 30
         elif self._verbose == 3:
-            self.level = 20
+            level = 20
         else:
-            self.level = 10
+            level = 10
+
+        return level
 
     def construct_logger(self, logger_name):
         logger = logging.getLogger(logger_name)
@@ -52,7 +61,7 @@ class ColoredLog(object):
             ch.setFormatter(
                 logging.Formatter(
                     "%(asctime)s - %(name)s - %(levelname)s\n%(message)s\n",
-                    datafmt="%H:%M:%S",
+                    datefmt="%H:%M:%S",
                 )
             )
             logger.addHandler(ch)
@@ -116,4 +125,3 @@ if __name__ == "__main__":
     logger.debug([1,2,3], as_str=True)
     dat = [["1", "2", "3"], [4, 5, 6], [7, 8]]
     logger.info(dat, header=["a", "b", "c"], index=[1, 2, 3], caption="Test")
-    #  printt(dat, caption="a table", header=["a", "b", "c"], index=[9, 8, 7])

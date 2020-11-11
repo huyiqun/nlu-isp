@@ -1,6 +1,24 @@
-data: atis
+project_root: $HOME/intern/isp
+data_name: atis
+save_base: save
 type: base
-save: save
-params:
-    a: 1
-    b: 2
+continue_training: True
+
+random_state: 0
+num_epoch: 1
+batch_size: 32
+l2_penalty: 1.e-6
+learning_rate: 1.e-3
+dropout_rate: 0.4
+differentiable: False
+intent_forcing_rate: 0.9
+slot_forcing_rate: 0.9
+
+word_embedding_dim: 64
+encoder_hidden_dim: 256
+intent_embedding_dim: 8
+intent_decoder_hidden_dim: 64
+slot_embedding_dim: 32
+slot_decoder_hidden_dim: 64
+attention_hidden_dim: 1024
+attention_output_dim: 128
